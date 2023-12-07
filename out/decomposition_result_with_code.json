@@ -1,0 +1,34 @@
+[
+    {
+        "id": 0,
+        "question": "Four years ago, Kody was only half as old as Mohamed. If Mohamed is currently twice as 30 years old, how old is Kody now?",
+        "sub_questions": [
+            "How old is Mohamed?",
+            "How old was Mohamed four years ago?",
+            "How old was Kody four years ago?",
+            "Now we can answer the question: How old is Kody now?"
+        ],
+        "code": "def q3():\n    \"\"\"Four years ago, Kody was only half as old as Mohamed. If Mohamed is currently twice as 30 years old, how old is Kody now?\"\"\"\n    # Q.1: How old is Mohamed?\n    mohamed_age = 30 * 2\n    # Q.2: How old was Mohamed four years ago?\n    mohamed_age_four_years_ago = mohamed_age - 4\n    # Q.3: How old was Kody four years ago?\n    kody_age_four_years_ago = mohamed_age_four_years_ago / 2\n    # Q.4: Now we can answer the question: How old is Kody now?\n    kody_current_age = mohamed_age + (mohamed_age - kody_age_four_years_ago)\n    return kody_current_age\n\n"
+    },
+    {
+        "id": 1,
+        "question": "On a moonless night, three fireflies danced in the evening breeze. They were joined by four less than a dozen more fireflies before two of the fireflies flew away. How many fireflies remained?",
+        "sub_questions": [
+            "How many fireflies joined?",
+            "Now we can answer the question: How many fireflies remained?"
+        ],
+        "code": "def q3():\n    \"\"\"On a moonless night, three fireflies danced in the evening breeze. They were joined by four less than a dozen more fireflies before two of the fireflies flew away. How many fireflies remained?\"\"\"\n    # Q.1: How many fireflies joined?\n    joined_fireflies = 4 + 12\n    # Q.2: Now we can answer the question: How many fireflies remained?\n    total_fireflies = 3 + joined_fireflies - 2\n    return total_fireflies\n\n"
+    },
+    {
+        "id": 2,
+        "question": "Ali has four $10 bills and six $20 bills that he saved after working for Mr. James on his farm. Ali gives her sister half of the total money he has and uses 3/5 of the remaining amount of money to buy dinner. Calculate the amount of money he has after buying the dinner.",
+        "sub_questions": [
+            "How much money does Ali have in total?",
+            "How much money does Ali give to his sister?",
+            "How much money does Ali have after giving his sister the money?",
+            "How much money does Ali use to buy dinner?",
+            "Now we can answer the question: How much money does Ali have after buying the dinner?"
+        ],
+        "code": "def q3():\n    \"\"\"Ali has four $10 bills and six $20 bills that he saved after working for Mr. James on his farm. Ali gives her sister half of the total money he has and uses 3/5 of the remaining amount of money to buy dinner. Calculate the amount of money he has after buying the dinner.\"\"\"\n    # Q.1: How much money does Ali have in total?\n    ten_bill = 4\n    twenty_bill = 6\n    total_money = ten_bill*10 + twenty_bill*20\n    # Q.2: How much money does Ali give to his sister?\n    sister_money = total_money / 2\n    # Q.3: How much money does Ali have after giving his sister the money?\n    alis_money = total_money - sister_money\n    # Q.4: How much money does Ali use to buy dinner?\n    used_for_dinner = alis_money * 3 / 5\n    # Q.5: Now we can answer the question: How much money does Ali have after buying the dinner?\n    money_after_buy_dinner = alis_money - used_for_dinner\n    return money_after_buy_dinner\n\n"
+    }
+]
