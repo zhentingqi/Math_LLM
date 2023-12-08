@@ -60,18 +60,14 @@ def decompose(question: str, model, max_tokens, temperature, top_k, top_p, repet
 
 def _test():
     from main import args
-    # output_text = decompose(
-    #     question="Kylar went to the store to buy glasses for his new apartment. One glass costs $5, but every second glass costs only 60% of the price. Kylar wants to buy 16 glasses. How much does he need to pay for them?",
-    #     model="togethercomputer/llama-2-13b-chat",
-    #     max_tokens=args.max_tokens,
-    #     temperature=args.temperature,
-    #     top_k=args.top_k,
-    #     top_p=args.top_p,
-    #     repetition_penalty=args.repetition_penalty,
-    #     stop=args.stop,
-    # )
 
-    with open("./data/multiarith/test_with_ids.json", "r") as input_file, open("./tmp_result.json", "w") as output_file:
+    model = "togethercomputer/llama-2-13b-chat"
+    dataset = "multiarith"
+
+    src = f"./data/{dataset}/test_with_ids.json"
+    tgt = f"./{model}_{dataset}_decomp.json"
+
+    with open(src, "r") as input_file, open(tgt, "w") as output_file:
         multiarith_test = json.load(input_file)
         all_items = []
         for qa_pair in tqdm(multiarith_test):
@@ -79,7 +75,7 @@ def _test():
 
             subquestions = decompose(
                 question=question,
-                model="togethercomputer/llama-2-13b-chat",
+                model=model,
                 max_tokens=args.max_tokens,
                 temperature=args.temperature,
                 top_k=args.top_k,
