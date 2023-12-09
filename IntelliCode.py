@@ -27,7 +27,7 @@ def generate(filename: Path = 'decomposition_result.json'):
     input: quesitons with decomposed sub-questions
     output: generated Python code for all the quesitons
     """
-    model = "togethercomputer/CodeLlama-34b-Python"
+    model = "togethercomputer/CodeLlama-13b-Python"
 
     # read data
     data = read_json(filename)
@@ -59,6 +59,35 @@ def generate(filename: Path = 'decomposition_result.json'):
         generated_data.append(code)
     return generated_data
     
+def generate_no_decomp(filename: Path = 'decomposition_result.json'):
+    """
+    generate code for each question using IntelliCode approach
+    input: quesitons
+    output: generated Python code for all the quesitons
+    """
+    model = "togethercomputer/CodeLlama-13b-Python"
+
+    # read data
+    data = read_json(filename)
+    generated_data = []
+    # load prompt template
+    prompt_template = load_prompt_template('./prompts/code_no_decomp.txt')
+    max_tokens = 256
+    temperature = 0.2
+    # generate
+    for question in tqdm(data):
+        # print("Generating code for question: ", question['id'])
+        prompt = prompt_template.format(question=question['question'])
+        stop = ['</s>', 'def']
+        
+        output_text = call_no_interrupt(prompt, model, max_tokens, temperature, args.top_k, args.top_p, args.repetition_penalty, stop)
+        processed_output_text = post_process(output_text, stop)
+        prompt += processed_output_text
+        code = prompt[prompt.index('def q3():'):]
+
+        # save to file
+        generated_data.append(code)
+    return generated_data
 
 def execute(filename: Path = 'decomposition_result_with_code.json'):
     data = read_json(filename)
@@ -132,5 +161,5 @@ def majority_vote(filename: Path, num_votes = 10):
     
 if __name__ == "__main__":
     root = Path("./out")
-    one_off(filename=root/'llama-2-13b-chat_gsm8k_decomp.json')
+    one_off(filename=root/'llama-2-7b-chat_gsm8k_decomp.json')
     # majority_vote()

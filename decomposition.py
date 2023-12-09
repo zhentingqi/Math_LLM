@@ -91,4 +91,4 @@ def decompose_all(model, dataset):
 
 
 if __name__ == "__main__":
-    decompose_all(model="togethercomputer/llama-2-7b-chat", dataset="multiarith")
+    decompose_all(model="togethercomputer/llama-2-7b-chat", dataset="gsm8k")

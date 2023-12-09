@@ -1,0 +1,13 @@
+def q1():
+    """Kylar went to the store to buy glasses for his new apartment. One glass costs $5, but every second glass costs only 60% of the price. Kylar wants to buy 16 glasses. How much does he need to pay for them?"""
+    # BEGIN SOLUTION
+    return 5*16*(1-.6**2)
+
+def q2():
+    """Ned had to wash 9 short sleeve shirts and 21 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash?"""
+    # BEGIN SOLUTION
+    return 9+21-29
+
+def q3():
+    """{question}"""
+    # BEGIN SOLUTION

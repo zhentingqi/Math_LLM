@@ -1,4 +1,4 @@
-src = "out/one_off_llama-2-13b-chat_code34B_gsm8k_decomp_with_code_and_answer.json"
+src = "out/one_off_code13B_gsm8k_no_decomp_with_code_and_answer.json"
 
 import json
 
@@ -13,7 +13,7 @@ with open(src, "r") as f:
         if "gsm8k" in src:
             gt = gt.split("#### ")[-1]
         try:
-            if float(gt) == float(out):
+            if abs(float(gt) - float(out)) <= 1e-5:
                 num_correct += 1
         except:
             num_correct += 0
