@@ -12,7 +12,30 @@ def calibrate(output_text: str):
     """
     use regex to extract the mathematic equation and use python to correct answer 
     """
-    pass
+    equation_regex = r"([\d\.\%\/\*\+\-\$\s]+) = ([\d\.\$\s]+)"
+
+    def evaluate_expression(expression):
+        cleaned_expression = expression.replace('%', '/100').replace('$', '').replace(' ', '')
+        try:
+            return eval(cleaned_expression, {}, {})
+        except Exception:
+            return None
+        
+    def handle_units(match):
+        expression, current_answer = match.groups()
+        current_answer = current_answer.strip()
+        unit = re.findall(r"[\$\$\$]", current_answer)
+        unit = unit[0] if unit else ''
+        correct_answer = evaluate_expression(expression)
+        if '.' in current_answer or correct_answer % 1 != 0:
+            correct_answer = f"{correct_answer:.6f}"
+        else:
+            correct_answer = int(correct_answer)
+        return f"{expression} = {unit}{correct_answer}" if correct_answer is not None else match.group(0)
+
+    calibrated_text = re.sub(equation_regex, handle_units, output_text)
+
+    return calibrated_text
 
     
 def generate(model: str, dataset: Path):
@@ -53,10 +76,12 @@ def extract(sub_questions_answers: str):
     input: quesitons with decomposed sub-questions
     output: generated subquestions with answers for each question 
     """
-    answer_with_symbol = sub_questions_answers.split("The answer is: ")[-1]
-    pattern = r"^([0-9]*\.?[0-9]+)"
-    match = re.match(pattern, answer_with_symbol)
-    return float(match.group(1)) if match else None
+    match = re.search(r"The answer is\s*\$?(\d+(\.\d+)?)", sub_questions_answers)
+    
+    if match:
+        return float(match.group(1))
+    else:
+        return None
     
     
 
