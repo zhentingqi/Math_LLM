@@ -1,4 +1,4 @@
-src = "../one_off_decomposition_result_with_code_and_answer.json"
+src = "out/one_off_llama-2-13b-chat_code34B_gsm8k_decomp_with_code_and_answer.json"
 
 import json
 
@@ -10,8 +10,13 @@ with open(src, "r") as f:
         gt = item["final_ans"]
         out = item["answer"]
     
-        if out is not None and float(gt) == float(out):
-            num_correct += 1
+        if "gsm8k" in src:
+            gt = gt.split("#### ")[-1]
+        try:
+            if float(gt) == float(out):
+                num_correct += 1
+        except:
+            num_correct += 0
         
         num_tot += 1
 

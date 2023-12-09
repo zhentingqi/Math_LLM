@@ -12,7 +12,7 @@ Question 1: Four years ago, Kody was only half as old as Mohamed. If Mohamed is 
 Question 1.1: How old is Mohamed?
 Question 1.2: How old was Mohamed four years ago?
 Question 1.3: How old was Kody four years ago?
-Question 1.4: Now we can answer the question: How old is Kody?
+Question 1.4: Now we can answer the question: How old is Kody? 
 
 Question 2: On a moonless night, three fireflies danced in the evening breeze. They were joined by four less than a dozen more fireflies before two of the fireflies flew away. How many fireflies remained?
 Question 2.1: How many fireflies joined?
@@ -58,19 +58,17 @@ def decompose(question: str, model, max_tokens, temperature, top_k, top_p, repet
     return subquestions
 
 
-def _test():
+def decompose_all(model, dataset):
     from main import args
-
-    model = "togethercomputer/llama-2-13b-chat"
-    dataset = "multiarith"
+    model_name = model.split("/")[-1]   # e.g. model: togethercomputer/llama-2-70b-chat
 
     src = f"./data/{dataset}/test_with_ids.json"
-    tgt = f"./{model}_{dataset}_decomp.json"
+    tgt = f"./out/{model_name}_{dataset}_decomp.json"
 
     with open(src, "r") as input_file, open(tgt, "w") as output_file:
-        multiarith_test = json.load(input_file)
+        test_data = json.load(input_file)
         all_items = []
-        for qa_pair in tqdm(multiarith_test):
+        for qa_pair in tqdm(test_data):
             question = qa_pair["question"]
 
             subquestions = decompose(
@@ -91,5 +89,6 @@ def _test():
         json.dump(all_items, output_file)
 
 
+
 if __name__ == "__main__":
-    _test()
+    decompose_all(model="togethercomputer/llama-2-7b-chat", dataset="multiarith")

@@ -1,0 +1,2162 @@
+[
+    {
+        "question": " Paige had 11 songs on her mp3 player. If she deleted 9 old songs from it and then added 8 new songs, how many songs does she have on her mp3 player? ",
+        "final_ans": "10",
+        "id": 0,
+        "sub_questions": [
+            "How many songs did Paige have on her mp3 player initially?",
+            "How many songs did Paige delete?",
+            "How many songs did Paige add?",
+            "Now we can answer the question: How many songs does Paige have on her mp3 player?"
+        ],
+        "code": "def q3():\n    \"\"\" Paige had 11 songs on her mp3 player. If she deleted 9 old songs from it and then added 8 new songs, how many songs does she have on her mp3 player? \"\"\"\n    # Q.1: How many songs did Paige have on her mp3 player initially?\n    initial_songs = 11\n    # Q.2: How many songs did Paige delete?\n    deleted_songs = 9\n    # Q.3: How many songs did Paige add?\n    added_songs = 8\n    # Q.4: Now we can answer the question: How many songs does Paige have on her mp3 player?\n    current_songs = initial_songs - deleted_songs + added_songs\n    return current_songs\n\n",
+        "answer": 10
+    },
+    {
+        "question": " There were 39 girls and 4 boys trying out for the schools basketball team. If only 26 of them got called back, how many students didn't make the cut? ",
+        "final_ans": "17",
+        "id": 1,
+        "sub_questions": [
+            "How many girls made the cut?",
+            "How many boys made the cut?",
+            "Now we can answer the question: How many students didn't make the cut?"
+        ],
+        "code": "def q3():\n    \"\"\" There were 39 girls and 4 boys trying out for the schools basketball team. If only 26 of them got called back, how many students didn't make the cut? \"\"\"\n    # Q.1: How many girls made the cut?\n    girls = 39\n    # Q.2: How many boys made the cut?\n    boys = 4\n    # Q.3: Now we can answer the question: How many students didn't make the cut?\n    total_students = girls + boys\n    total_called_back = 26\n    total_not_called_back = total_students - total_called_back\n    return total_not_called_back\n\n",
+        "answer": 17
+    },
+    {
+        "question": " Faye had 34 coloring books. If she gave away 3 of them, but then bought 48 more, how many would she have total? ",
+        "final_ans": "79",
+        "id": 2,
+        "sub_questions": [
+            "How many coloring books did Faye have after she gave 3 away?",
+            "How many coloring books did Faye buy?",
+            "Now we can answer the question: How many coloring books does Faye have total?"
+        ],
+        "code": "def q3():\n    \"\"\" Faye had 34 coloring books. If she gave away 3 of them, but then bought 48 more, how many would she have total? \"\"\"\n    # Q.1: How many coloring books did Faye have after she gave 3 away?\n    total_coloring_books = 34\n    less_coloring_books = 3\n    total_coloring_books -= less_coloring_books\n    # Q.2: How many coloring books did Faye buy?\n    bought_coloring_books = 48\n    # Q.3: Now we can answer the question: How many coloring books does Faye have total?\n    total_coloring_books += bought_coloring_books\n    return total_coloring_books\n\n",
+        "answer": 79
+    },
+    {
+        "question": " The school cafeteria had 23 apples. If they used 20 to make lunch for the students and then bought 6 more, how many apples would they have? ",
+        "final_ans": "9",
+        "id": 3,
+        "sub_questions": [
+            "How many apples did they use to make lunch?",
+            "Now we can answer the question: How many apples would they have?"
+        ],
+        "code": "def q3():\n    \"\"\" The school cafeteria had 23 apples. If they used 20 to make lunch for the students and then bought 6 more, how many apples would they have? \"\"\"\n    # Q.1: How many apples did they use to make lunch?\n    used_apples = 20\n    # Q.2: Now we can answer the question: How many apples would they have?\n    total_apples = 23 + 6\n    remaining_apples = total_apples - used_apples\n    return remaining_apples\n\n",
+        "answer": 9
+    },
+    {
+        "question": " In a video game, each enemy defeated gives you 9 points. If a level has 11 enemies total and you destroy all but 3 of them, how many points would you earn? ",
+        "final_ans": "72",
+        "id": 4,
+        "sub_questions": [
+            "How many enemies do you have to defeat to get all 9 points?",
+            "Now we can answer the question: How many points would you earn?"
+        ],
+        "code": "def q3():\n    \"\"\" In a video game, each enemy defeated gives you 9 points. If a level has 11 enemies total and you destroy all but 3 of them, how many points would you earn? \"\"\"\n    # Q.1: How many enemies do you have to defeat to get all 9 points?\n    total_enemies = 11\n    needed_points = 9\n    # Q.2: Now we can answer the question: How many points would you earn?\n    remaining_enemies = total_enemies - needed_points\n    return remaining_enemies\n\n",
+        "answer": 2
+    },
+    {
+        "question": " Megan earned 8 points for each bag of cans she recycled. If she had 14 bags, but didn't recycle 5 of them, how many points would she have earned? ",
+        "final_ans": "72",
+        "id": 5,
+        "sub_questions": [
+            "How many points did Megan earn for each bag of cans?",
+            "How many bags of cans did Megan recycle?",
+            "How many points did Megan earn in total?",
+            "Now we can answer the question: How many points would Megan have earned?"
+        ],
+        "code": "def q3():\n    \"\"\" Megan earned 8 points for each bag of cans she recycled. If she had 14 bags, but didn't recycle 5 of them, how many points would she have earned? \"\"\"\n    # Q.1: How many points did Megan earn for each bag of cans?\n    points_per_bag = 8\n    # Q.2: How many bags of cans did Megan recycle?\n    total_bags = 14\n    recycled_bags = total_bags - 5\n    # Q.3: How many points did Megan earn in total?\n    total_points = recycled_bags * points_per_bag\n    return total_points\n\n",
+        "answer": 72
+    },
+    {
+        "question": " April's discount flowers was having a sale where each rose was 4 dollars. If April started with 13 roses and had 4 roses left, how much money did she earn? ",
+        "final_ans": "36",
+        "id": 6,
+        "sub_questions": [
+            "How many roses did April start with?",
+            "How many roses did April have left?",
+            "What was the price of each rose?",
+            "Now we can answer the question:  How much money did April earn?"
+        ],
+        "code": "def q3():\n    \"\"\" April's discount flowers was having a sale where each rose was 4 dollars. If April started with 13 roses and had 4 roses left, how much money did she earn? \"\"\"\n    # Q.1: How many roses did April start with?\n    roses_start = 13\n    # Q.2: How many roses did April have left?\n    roses_left = 4\n    # Q.3: What was the price of each rose?\n    rose_price = 4\n    # Q.4: Now we can answer the question:  How much money did April earn?\n    roses_sold = roses_start - roses_left\n    total_money = roses_sold * rose_price\n    return total_money\n\n",
+        "answer": 36
+    },
+    {
+        "question": " Ned had to wash 9 short sleeve shirts and 21 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+        "final_ans": "1",
+        "id": 7,
+        "sub_questions": [
+            "How many short sleeves did he not wash?",
+            "How many long sleeves did he not wash?",
+            "Now we can answer the question: How many did he not wash?"
+        ],
+        "code": "def q3():\n    \"\"\" Ned had to wash 9 short sleeve shirts and 21 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? \"\"\"\n    # Q.1: How many short sleeves did he not wash?\n    short_sleeve_shirts = 9\n    # Q.2: How many long sleeves did he not wash?\n    long_sleeve_shirts = 21\n    # Q.3: Now we can answer the question: How many did he not wash?\n    total_not_washed_shirts = short_sleeve_shirts + long_sleeve_shirts\n    return total_not_washed_shirts\n\n",
+        "answer": 30
+    },
+    {
+        "question": " A company invited 47 people to a luncheon, but 7 of them didn't show up. If the tables they had held 5 people each, how many tables do they need? ",
+        "final_ans": "8",
+        "id": 8,
+        "sub_questions": [
+            "How many people showed up?",
+            "How many tables do they need?"
+        ],
+        "code": "def q3():\n    \"\"\" A company invited 47 people to a luncheon, but 7 of them didn't show up. If the tables they had held 5 people each, how many tables do they need? \"\"\"\n    # Q.1: How many people showed up?\n    people_showed_up = 47 - 7\n    # Q.2: How many tables do they need?\n    table_capacity = 5\n    num_tables = people_showed_up / table_capacity\n    return num_tables\n\n",
+        "answer": 8.0
+    },
+    {
+        "question": " Tom had 5 books. If he sold 4 of them and used the money he earned to buy 38 new books, how many books would Tom have? ",
+        "final_ans": "39",
+        "id": 9,
+        "sub_questions": [
+            "How many books did Tom sell?",
+            "How much money did Tom earn from selling the books?",
+            "How many new books did Tom buy?",
+            "Now we can answer the question: How many books will Tom have?"
+        ],
+        "code": "def q3():\n    \"\"\" Tom had 5 books. If he sold 4 of them and used the money he earned to buy 38 new books, how many books would Tom have? \"\"\"\n    # Q.1: How many books did Tom sell?\n    sold_books = 4\n    # Q.2: How much money did Tom earn from selling the books?\n    book_price = 10\n    earned_money = sold_books * book_price\n    # Q.3: How many new books did Tom buy?\n    bought_books = 38\n    # Q.4: Now we can answer the question: How many books will Tom have?\n    total_books = 5 + bought_books - sold_books\n    return total_books\n\n",
+        "answer": 39
+    },
+    {
+        "question": " For a birthday party Jerry bought 41 regular sodas and 22 diet sodas. If his fridge would only hold 9 on each shelf, how many shelves would he fill up? ",
+        "final_ans": "7",
+        "id": 10,
+        "sub_questions": [
+            "How many shelves does Jerry's fridge have?",
+            "How many regular sodas can Jerry fit on each shelf?",
+            "How many diet sodas can Jerry fit on each shelf?",
+            "How many shelves will Jerry fill up with regular sodas?",
+            "How many shelves will Jerry fill up with diet sodas?",
+            "Now we can answer the question: How many shelves will Jerry fill up in total?"
+        ],
+        "code": "def q3():\n    \"\"\" For a birthday party Jerry bought 41 regular sodas and 22 diet sodas. If his fridge would only hold 9 on each shelf, how many shelves would he fill up? \"\"\"\n    # Q.1: How many shelves does Jerry's fridge have?\n    shelves_per_row = 9\n    # Q.2: How many regular sodas can Jerry fit on each shelf?\n    soda_per_shelf = 8\n    # Q.3: How many diet sodas can Jerry fit on each shelf?\n    diet_soda_per_shelf = 7\n    # Q.4: How many shelves will Jerry fill up with regular sodas?\n    regular_sodas_per_row = 41 // soda_per_shelf\n    # Q.5: How many shelves will Jerry fill up with diet sodas?\n    diet_sodas_per_row = 22 // diet_soda_per_shelf\n    # Q.6: Now we can answer the question: How many shelves will Jerry fill up in total?\n    total_shelves = regular_sodas_per_row + diet_sodas_per_row\n    return total_shelves\n\n",
+        "answer": 8
+    },
+    {
+        "question": " For Halloween Debby and her sister combined the candy they received. Debby had 32 pieces of candy while her sister had 42. If they ate 35 pieces the first night, how many pieces do they have left? ",
+        "final_ans": "39",
+        "id": 11,
+        "sub_questions": [
+            "How many pieces of candy did Debby have?",
+            "How many pieces of candy did Debby's sister have?",
+            "How many pieces of candy did they eat the first night?",
+            "Now we can answer the question: How many pieces of candy do they have left?"
+        ],
+        "code": "def q3():\n    \"\"\" For Halloween Debby and her sister combined the candy they received. Debby had 32 pieces of candy while her sister had 42. If they ate 35 pieces the first night, how many pieces do they have left? \"\"\"\n    # Q.1: How many pieces of candy did Debby have?\n    debby_candy = 32\n    # Q.2: How many pieces of candy did Debby's sister have?\n    sister_candy = 42\n    # Q.3: How many pieces of candy did they eat the first night?\n    eaten_candy = 35\n    # Q.4: Now we can answer the question: How many pieces of candy do they have left?\n    total_candy = debby_candy + sister_candy\n    remaining_candy = total_candy - eaten_candy\n    return remaining_candy\n\n",
+        "answer": 39
+    },
+    {
+        "question": " Emily was planting vegetables in her garden. She started with 41 seeds and planted 29 of them in the big garden and in each of her small gardens put 4 seeds each. How many small gardens did Emily have? ",
+        "final_ans": "3",
+        "id": 12,
+        "sub_questions": [
+            "How many seeds did she plant in the big garden?",
+            "How many seeds did she have left over?",
+            "How many small gardens did she have?",
+            "Now we can answer the question: How many small gardens did Emily have?"
+        ],
+        "code": "def q3():\n    \"\"\" Emily was planting vegetables in her garden. She started with 41 seeds and planted 29 of them in the big garden and in each of her small gardens put 4 seeds each. How many small gardens did Emily have? \"\"\"\n    # Q.1: How many seeds did she plant in the big garden?\n    big_garden_seeds = 29\n    # Q.2: How many seeds did she have left over?\n    total_seeds = 41\n    seeds_left = total_seeds - big_garden_seeds\n    # Q.3: How many small gardens did she have?\n    small_gardens = seeds_left // 4\n    return small_gardens\n\n",
+        "answer": 3
+    },
+    {
+        "question": " For Halloween Emily received 5 pieces of candy from neighbors and 13 pieces from her older sister. If she only ate 9 pieces a day, how long would the candy last her? ",
+        "final_ans": "2",
+        "id": 13,
+        "sub_questions": [
+            "How many pieces of candy did Emily receive in total?",
+            "How many pieces of candy did Emily receive from her older sister?",
+            "How many pieces of candy does Emily have left?",
+            "Now we can answer the question: How long would the candy last Emily?"
+        ],
+        "code": "def q3():\n    \"\"\" For Halloween Emily received 5 pieces of candy from neighbors and 13 pieces from her older sister. If she only ate 9 pieces a day, how long would the candy last her? \"\"\"\n    # Q.1: How many pieces of candy did Emily receive in total?\n    total_candy = 5 + 13\n    # Q.2: How many pieces of candy did Emily receive from her older sister?\n    older_sister_candy = 13\n    # Q.3: How many pieces of candy does Emily have left?\n    eaten_candy = 9\n    remaining_candy = total_candy - eaten_candy\n    # Q.4: Now we can answer the question: How long would the candy last Emily?\n    days = remaining_candy / eaten_candy\n    return days\n\n",
+        "answer": 1.0
+    },
+    {
+        "question": " Mike is at the library helping put away books. There are 82 book to put away total but a librarian takes 10 of them and leaves Mike with the rest. If he can fit 9 books on a shelf, how many shelves will he need? ",
+        "final_ans": "8",
+        "id": 14,
+        "sub_questions": [
+            "How many books does the librarian take?",
+            "How many books does Mike need to put away?",
+            "Now we can answer the question: How many shelves will he need?"
+        ],
+        "code": "def q3():\n    \"\"\" Mike is at the library helping put away books. There are 82 book to put away total but a librarian takes 10 of them and leaves Mike with the rest. If he can fit 9 books on a shelf, how many shelves will he need? \"\"\"\n    # Q.1: How many books does the librarian take?\n    taken_books = 10\n    # Q.2: How many books does Mike need to put away?\n    left_books = 82 - taken_books\n    # Q.3: Now we can answer the question: How many shelves will he need?\n    num_books_per_shelf = 9\n    num_shelves = left_books // num_books_per_shelf\n    return num_shelves\n\n",
+        "answer": 8
+    },
+    {
+        "question": " While on vacation, Nancy took 49 pictures at the zoo and 8 at the museum. If she later deleted 38 of the pictures, how many pictures from her vacation did she still have? ",
+        "final_ans": "19",
+        "id": 15,
+        "sub_questions": [
+            "How many pictures did Nancy take at the zoo?",
+            "How many pictures did Nancy take at the museum?",
+            "How many pictures did Nancy delete?",
+            "Now we can answer the question: How many pictures did Nancy still have?"
+        ],
+        "code": "def q3():\n    \"\"\" While on vacation, Nancy took 49 pictures at the zoo and 8 at the museum. If she later deleted 38 of the pictures, how many pictures from her vacation did she still have? \"\"\"\n    # Q.1: How many pictures did Nancy take at the zoo?\n    zoo_pictures = 49\n    # Q.2: How many pictures did Nancy take at the museum?\n    museum_pictures = 8\n    # Q.3: How many pictures did Nancy delete?\n    deleted_pictures = 38\n    # Q.4: Now we can answer the question: How many pictures did Nancy still have?\n    remaining_pictures = zoo_pictures + museum_pictures - deleted_pictures\n    return remaining_pictures\n\n",
+        "answer": 19
+    },
+    {
+        "question": " A new building needed 14 windows. The builder had already installed 8 of them. If it takes 8 hours to install each window, how long will it take him to install the rest? ",
+        "final_ans": "48",
+        "id": 16,
+        "sub_questions": [
+            "How many windows are left to be installed?",
+            "Now we can answer the question: How long will it take him to install the rest?"
+        ],
+        "code": "def q3():\n    \"\"\" A new building needed 14 windows. The builder had already installed 8 of them. If it takes 8 hours to install each window, how long will it take him to install the rest? \"\"\"\n    # Q.1: How many windows are left to be installed?\n    windows_left = 14 - 8\n    # Q.2: Now we can answer the question: How long will it take him to install the rest?\n    hours_per_window = 8\n    total_time = windows_left * hours_per_window\n    return total_time\n\n",
+        "answer": 48
+    },
+    {
+        "question": " A store had 40 oranges in a bin. If they threw away 25 of the old ones and put 21 new ones in the bin how many would be in the bin? ",
+        "final_ans": "36",
+        "id": 17,
+        "sub_questions": [
+            "How many oranges did the store throw away?",
+            "How many new oranges did the store put in the bin?",
+            "Now we can answer the question: How many oranges are in the bin?"
+        ],
+        "code": "def q3():\n    \"\"\" A store had 40 oranges in a bin. If they threw away 25 of the old ones and put 21 new ones in the bin how many would be in the bin? \"\"\"\n    # Q.1: How many oranges did the store throw away?\n    thrown_away_oranges = 25\n    # Q.2: How many new oranges did the store put in the bin?\n    new_oranges = 21\n    # Q.3: Now we can answer the question: How many oranges are in the bin?\n    total_oranges = 40\n    current_oranges = total_oranges - thrown_away_oranges + new_oranges\n    return current_oranges\n\n",
+        "answer": 36
+    },
+    {
+        "question": " At lunch a waiter had 7 customers and 5 of them didn't leave a tip. If he got $3 each from the ones who did tip, how much money did he earn? ",
+        "final_ans": "6",
+        "id": 18,
+        "sub_questions": [
+            "How much money did the waiter earn from the 2 customers who tipped him?",
+            "Now we can answer the question: How much money did the waiter earn?"
+        ],
+        "code": "def q3():\n    \"\"\" At lunch a waiter had 7 customers and 5 of them didn't leave a tip. If he got $3 each from the ones who did tip, how much money did he earn? \"\"\"\n    # Q.1: How much money did the waiter earn from the 2 customers who tipped him?\n    tipped_customers = 5\n    tip_per_customer = 3\n    tips_earned = tipped_customers * tip_per_customer\n    # Q.2: Now we can answer the question: How much money did the waiter earn?\n    return tips_earned\n\n",
+        "answer": 15
+    },
+    {
+        "question": " For Halloween Faye scored 47 pieces of candy. She ate 25 pieces the first night and then her sister gave her 40 more pieces. How many pieces of candy does Faye have now? ",
+        "final_ans": "62",
+        "id": 19,
+        "sub_questions": [
+            "How many pieces of candy does Faye have the first night?",
+            "Now we can answer the question: How many pieces of candy does Faye have now?"
+        ],
+        "code": "def q3():\n    \"\"\" For Halloween Faye scored 47 pieces of candy. She ate 25 pieces the first night and then her sister gave her 40 more pieces. How many pieces of candy does Faye have now? \"\"\"\n    # Q.1: How many pieces of candy does Faye have the first night?\n    first_night_candy = 25\n    # Q.2: Now we can answer the question: How many pieces of candy does Faye have now?\n    second_night_candy = 40\n    total_candy = first_night_candy + second_night_candy\n    return total_candy\n\n",
+        "answer": 65
+    },
+    {
+        "question": " A group of 4 friends went into a restaurant. The chef already had 9 chicken wings cooked but cooked 7 more for the group. If they each got the same amount how many would each person get? ",
+        "final_ans": "4",
+        "id": 20,
+        "sub_questions": [
+            "How many chicken wings did the chef already have ready?",
+            "Now we can answer the question: How many chicken wings would each person get?"
+        ],
+        "code": "def q3():\n    \"\"\" A group of 4 friends went into a restaurant. The chef already had 9 chicken wings cooked but cooked 7 more for the group. If they each got the same amount how many would each person get? \"\"\"\n    # Q.1: How many chicken wings did the chef already have ready?\n    ready_chicken_wings = 9\n    # Q.2: Now we can answer the question: How many chicken wings would each person get?\n    total_chicken_wings = ready_chicken_wings + 7\n    num_friends = 4\n    chicken_wings_per_person = total_chicken_wings / num_friends\n    return chicken_wings_per_person\n\n",
+        "answer": 4.0
+    },
+    {
+        "question": " John earned 8 dollars for each lawn he mowed. If he had 15 lawns to mow, but forgot to mow 7 of them, how much money did he actually earn? ",
+        "final_ans": "64",
+        "id": 21,
+        "sub_questions": [
+            "How many lawns did John forget to mow?",
+            "How much money did John earn if he had mowed all 15 lawns?",
+            "Now we can answer the question: How much money did John actually earn?"
+        ],
+        "code": "def q3():\n    \"\"\" John earned 8 dollars for each lawn he mowed. If he had 15 lawns to mow, but forgot to mow 7 of them, how much money did he actually earn? \"\"\"\n    # Q.1: How many lawns did John forget to mow?\n    forgotten_lawns = 7\n    # Q.2: How much money did John earn if he had mowed all 15 lawns?\n    total_lawns = 15\n    total_earnings = total_lawns * 8\n    # Q.3: Now we can answer the question: How much money did John actually earn?\n    actual_earnings = total_earnings - (forgotten_lawns * 8)\n    return actual_earnings\n\n",
+        "answer": 64
+    },
+    {
+        "question": " A pet shelter had 5 puppies when another 35 were brought in. If 8 puppies a day are adopted, how long would it take for all of them to be adopted? ",
+        "final_ans": "5",
+        "id": 22,
+        "sub_questions": [
+            "How many puppies does the shelter have now?",
+            "How many puppies are adopted each day?",
+            "Now we can answer the question: How long would it take for all of them to be adopted?"
+        ],
+        "code": "def q3():\n    \"\"\" A pet shelter had 5 puppies when another 35 were brought in. If 8 puppies a day are adopted, how long would it take for all of them to be adopted? \"\"\"\n    # Q.1: How many puppies does the shelter have now?\n    current_puppies = 5 + 35\n    # Q.2: How many puppies are adopted each day?\n    daily_adopted_puppies = 8\n    # Q.3: Now we can answer the question: How long would it take for all of them to be adopted?\n    days = current_puppies / daily_adopted_puppies\n    return days\n\n",
+        "answer": 5.0
+    },
+    {
+        "question": " A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+        "final_ans": "18",
+        "id": 23,
+        "sub_questions": [
+            "How many windows are left to be installed?",
+            "Now we can answer the question:  How long will it take him to install the rest?"
+        ],
+        "code": "def q3():\n    \"\"\" A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? \"\"\"\n    # Q.1: How many windows are left to be installed?\n    windows_left = 9 - 6\n    # Q.2: Now we can answer the question:  How long will it take him to install the rest?\n    hours_per_window = 6\n    total_time = windows_left * hours_per_window\n    return total_time\n\n",
+        "answer": 18
+    },
+    {
+        "question": " A teacher had 34 worksheets to grade. If she graded 7, but then another 36 were turned in, how many worksheets would she have to grade? ",
+        "final_ans": "63",
+        "id": 24,
+        "sub_questions": [
+            "How many worksheets did she grade?",
+            "How many worksheets were turned in?",
+            "Now we can answer the question: How many worksheets would she have to grade?"
+        ],
+        "code": "def q3():\n    \"\"\" A teacher had 34 worksheets to grade. If she graded 7, but then another 36 were turned in, how many worksheets would she have to grade? \"\"\"\n    # Q.1: How many worksheets did she grade?\n    graded_worksheets = 7\n    # Q.2: How many worksheets were turned in?\n    turned_in_worksheets = 36\n    # Q.3: Now we can answer the question: How many worksheets would she have to grade?\n    total_worksheets = graded_worksheets + turned_in_worksheets\n    return total_worksheets\n\n",
+        "answer": 43
+    },
+    {
+        "question": " While playing at the arcade, Frank won 33 tickets playing 'whack a mole' and 9 tickets playing 'skee ball'. If he was trying to buy candy that cost 6 tickets a piece, how many could he buy? ",
+        "final_ans": "7",
+        "id": 25,
+        "sub_questions": [
+            "How many tickets does Frank have in total?",
+            "How many tickets does Frank have left?",
+            "Now we can answer the question: How many pieces of candy can Frank buy?"
+        ],
+        "code": "def q3():\n    \"\"\" While playing at the arcade, Frank won 33 tickets playing 'whack a mole' and 9 tickets playing 'skee ball'. If he was trying to buy candy that cost 6 tickets a piece, how many could he buy? \"\"\"\n    # Q.1: How many tickets does Frank have in total?\n    total_tickets = 33 + 9\n    # Q.2: How many tickets does Frank have left?\n    candy_ticket_cost = 6\n    total_candies = total_tickets // candy_ticket_cost\n    return total_candies\n\n",
+        "answer": 7
+    },
+    {
+        "question": " At a restaurant each adult meal costs $7 and kids eat free. If a group of 13 people came in and 9 were kids, how much would it cost for the group to eat? ",
+        "final_ans": "28",
+        "id": 26,
+        "sub_questions": [
+            "How much does it cost per person for an adult meal?",
+            "How many kids are there in the group?",
+            "Now we can answer the question: How much would it cost for the group to eat?"
+        ],
+        "code": "def q3():\n    \"\"\" At a restaurant each adult meal costs $7 and kids eat free. If a group of 13 people came in and 9 were kids, how much would it cost for the group to eat? \"\"\"\n    # Q.1: How much does it cost per person for an adult meal?\n    adult_meal_price = 7\n    # Q.2: How many kids are there in the group?\n    num_kids = 9\n    # Q.3: Now we can answer the question: How much would it cost for the group to eat?\n    total_adults = 13 - num_kids\n    total_cost = total_adults * adult_meal_price\n    return total_cost\n\n",
+        "answer": 28
+    },
+    {
+        "question": " Paige had 43 math problems and 12 science problems for homework. If she finished 44 of the problems at school, how many problems did she have to do for homework? ",
+        "final_ans": "11",
+        "id": 27,
+        "sub_questions": [
+            "How many math problems did Paige have to finish for homework?",
+            "How many science problems did Paige have to finish for homework?",
+            "Now we can answer the question: How many problems did Paige have to do for homework?"
+        ],
+        "code": "def q3():\n    \"\"\" Paige had 43 math problems and 12 science problems for homework. If she finished 44 of the problems at school, how many problems did she have to do for homework? \"\"\"\n    # Q.1: How many math problems did Paige have to finish for homework?\n    math_problems = 43\n    # Q.2: How many science problems did Paige have to finish for homework?\n    science_problems = 12\n    # Q.3: Now we can answer the question: How many problems did Paige have to do for homework?\n    total_problems = math_problems + science_problems\n    done_problems = 44\n    remaining_problems = total_problems - done_problems\n    return remaining_problems\n\n",
+        "answer": 11
+    },
+    {
+        "question": " Rachel was playing a video game where she scores 9 points for each treasure she finds. If she found 5 treasures on the first level and 2 on the second, what would her score be? ",
+        "final_ans": "63",
+        "id": 28,
+        "sub_questions": [
+            "How many treasures did Rachel find on the first level?",
+            "Now we can answer the question: What would Rachel's score be?"
+        ],
+        "code": "def q3():\n    \"\"\" Rachel was playing a video game where she scores 9 points for each treasure she finds. If she found 5 treasures on the first level and 2 on the second, what would her score be? \"\"\"\n    # Q.1: How many treasures did Rachel find on the first level?\n    first_level_treasures = 5\n    # Q.2: Now we can answer the question: What would Rachel's score be?\n    first_level_score = first_level_treasures * 9\n    second_level_treasures = 2\n    second_level_score = second_level_treasures * 9\n    total_score = first_level_score + second_level_score\n    return total_score\n\n",
+        "answer": 63
+    },
+    {
+        "question": " A waiter at 'The Greasy Spoon' restaurant had 26 customers to wait on. During the lunch rush he added another 27 customers. If 27 of the customers didn't leave him a tip, how many customers did leave a tip? ",
+        "final_ans": "26",
+        "id": 29,
+        "sub_questions": [
+            "How many customers did he add during the lunch rush?",
+            "Now we can answer the question: How many customers left a tip?"
+        ],
+        "code": "def q3():\n    \"\"\" A waiter at 'The Greasy Spoon' restaurant had 26 customers to wait on. During the lunch rush he added another 27 customers. If 27 of the customers didn't leave him a tip, how many customers did leave a tip? \"\"\"\n    # Q.1: How many customers did he add during the lunch rush?\n    lunch_rush_customers = 27\n    # Q.2: Now we can answer the question: How many customers left a tip?\n    total_customers = 26 + lunch_rush_customers\n    customers_without_tip = 27\n    customers_with_tip = total_customers - customers_without_tip\n    return customers_with_tip\n\n",
+        "answer": 26
+    },
+    {
+        "question": " A toy store had 17 giant stuffed bears in stock when they got another shipment with 10 bears in it. The put the bears onto shelves with 9 on each shelf. How many shelves did they use? ",
+        "final_ans": "3",
+        "id": 30,
+        "sub_questions": [
+            "How many bears are there in total?",
+            "How many bears do they have on each shelf?",
+            "Now we can answer the question: How many shelves did they use?"
+        ],
+        "code": "def q3():\n    \"\"\" A toy store had 17 giant stuffed bears in stock when they got another shipment with 10 bears in it. The put the bears onto shelves with 9 on each shelf. How many shelves did they use? \"\"\"\n    # Q.1: How many bears are there in total?\n    total_bears = 17 + 10\n    # Q.2: How many bears do they have on each shelf?\n    bears_per_shelf = 9\n    # Q.3: Now we can answer the question: How many shelves did they use?\n    num_shelves = total_bears / bears_per_shelf\n    return num_shelves\n\n",
+        "answer": 3.0
+    },
+    {
+        "question": " Gwen was organizing her book case making sure each of the shelves had exactly 4 books on it. If she had 5 shelves of mystery books and 3 shelves of picture books, how many books did she have total? ",
+        "final_ans": "32",
+        "id": 31,
+        "sub_questions": [
+            "How many shelves of mystery books did she have?",
+            "How many shelves of picture books did she have?",
+            "How many books did she have total?"
+        ],
+        "code": "def q3():\n    \"\"\" Gwen was organizing her book case making sure each of the shelves had exactly 4 books on it. If she had 5 shelves of mystery books and 3 shelves of picture books, how many books did she have total? \"\"\"\n    # Q.1: How many shelves of mystery books did she have?\n    shelves_mystery = 5\n    # Q.2: How many shelves of picture books did she have?\n    shelves_picture = 3\n    # Q.3: How many books did she have total?\n    num_books_per_shelf = 4\n    total_books = num_books_per_shelf * shelves_mystery + num_books_per_shelf * shelves_picture\n    return total_books\n\n",
+        "answer": 32
+    },
+    {
+        "question": " Wendy uploaded 79 pictures to Facebook. She put 44 pics into one album and put the rest into 5 different albums. How many pictures were in each album? ",
+        "final_ans": "7",
+        "id": 32,
+        "sub_questions": [
+            "How many albums did Wendy create?",
+            "How many pictures were in each album?",
+            "Now we can answer the question: How many pictures were in each album?"
+        ],
+        "code": "def q3():\n    \"\"\" Wendy uploaded 79 pictures to Facebook. She put 44 pics into one album and put the rest into 5 different albums. How many pictures were in each album? \"\"\"\n    # Q.1: How many albums did Wendy create?\n    num_albums = 5 + 1\n    # Q.2: How many pictures were in each album?\n    total_pictures = 79\n    pictures_in_each_album = total_pictures / num_albums\n    return pictures_in_each_album\n\n",
+        "answer": 13.166666666666666
+    },
+    {
+        "question": " The schools debate team had 5 boys and 40 girls on it. If they were split into groups of 9 how many groups could they make? ",
+        "final_ans": "5",
+        "id": 33,
+        "sub_questions": [
+            "How many boys are there in total?",
+            "How many girls are there in total?",
+            "How many groups of 9 can they make if each group has 9 members?",
+            "Now we can answer the question: How many groups could they make?"
+        ],
+        "code": "def q3():\n    \"\"\" The schools debate team had 5 boys and 40 girls on it. If they were split into groups of 9 how many groups could they make? \"\"\"\n    # Q.1: How many boys are there in total?\n    num_boys = 5\n    # Q.2: How many girls are there in total?\n    num_girls = 40\n    # Q.3: How many groups of 9 can they make if each group has 9 members?\n    total_members = num_boys + num_girls\n    num_groups = total_members // 9\n    return num_groups\n\n",
+        "answer": 5
+    },
+    {
+        "question": " April's discount flowers was having a sale where each rose was 7 dollars. If April started with 9 roses and had 4 roses left, how much money did she earn? ",
+        "final_ans": "35",
+        "id": 34,
+        "sub_questions": [
+            "How many roses did April have in total?",
+            "Now we can answer the question: How much money did April earn?"
+        ],
+        "code": "def q3():\n    \"\"\" April's discount flowers was having a sale where each rose was 7 dollars. If April started with 9 roses and had 4 roses left, how much money did she earn? \"\"\"\n    # Q.1: How many roses did April have in total?\n    total_roses = 9 + 4\n    # Q.2: Now we can answer the question: How much money did April earn?\n    rose_price = 7\n    total_money = total_roses * rose_price\n    return total_money\n\n",
+        "answer": 91
+    },
+    {
+        "question": " A trivia team had 11 members total, but during a game 6 members didn't show up. If each member that did show up scored 9 points, how many points were scored total? ",
+        "final_ans": "45",
+        "id": 35,
+        "sub_questions": [
+            "How many members showed up?",
+            "How many points did each member score?",
+            "Now we can answer the question: How many points were scored total?"
+        ],
+        "code": "def q3():\n    \"\"\" A trivia team had 11 members total, but during a game 6 members didn't show up. If each member that did show up scored 9 points, how many points were scored total? \"\"\"\n    # Q.1: How many members showed up?\n    members_showed_up = 11 - 6\n    # Q.2: How many points did each member score?\n    points_per_member = 9\n    # Q.3: Now we can answer the question: How many points were scored total?\n    total_points = members_showed_up * points_per_member\n    return total_points\n\n",
+        "answer": 45
+    },
+    {
+        "question": " A pet store had 13 siamese cats and 5 house cats. During a sale they sold 10 cats. How many cats do they have left? ",
+        "final_ans": "8",
+        "id": 36,
+        "sub_questions": [
+            "How many cats did they sell during the sale?",
+            "Now we can answer the question: How many cats do they have left?"
+        ],
+        "code": "def q3():\n    \"\"\" A pet store had 13 siamese cats and 5 house cats. During a sale they sold 10 cats. How many cats do they have left? \"\"\"\n    # Q.1: How many cats did they sell during the sale?\n    sold_cats = 10\n    # Q.2: Now we can answer the question: How many cats do they have left?\n    total_cats = 13 + 5\n    remaining_cats = total_cats - sold_cats\n    return remaining_cats\n\n",
+        "answer": 8
+    },
+    {
+        "question": " Victor was working as a sacker at a grocery store where he made 6 dollars an hour. On Monday he worked 5 hours and on Tuesday he worked 5 hours. How much money did Victor make in those two days? ",
+        "final_ans": "60",
+        "id": 37,
+        "sub_questions": [
+            "How much money did Victor make on Monday?",
+            "How much money did Victor make on Tuesday?",
+            "Now we can answer the question: How much money did Victor make in those two days?"
+        ],
+        "code": "def q3():\n    \"\"\" Victor was working as a sacker at a grocery store where he made 6 dollars an hour. On Monday he worked 5 hours and on Tuesday he worked 5 hours. How much money did Victor make in those two days? \"\"\"\n    # Q.1: How much money did Victor make on Monday?\n    monday_hours = 5\n    monday_pay = monday_hours * 6\n    # Q.2: How much money did Victor make on Tuesday?\n    tuesday_hours = 5\n    tuesday_pay = tuesday_hours * 6\n    # Q.3: Now we can answer the question: How much money did Victor make in those two days?\n    total_pay = monday_pay + tuesday_pay\n    return total_pay\n\n",
+        "answer": 60
+    },
+    {
+        "question": " Megan baked 71 cupcakes for her school's bake sale. If her brother, Todd, ate 43 of them how many packages could she make if she put 7 cupcake in each package? ",
+        "final_ans": "4",
+        "id": 38,
+        "sub_questions": [
+            "How many cupcakes did Todd eat?",
+            "Now we can answer the question: How many packages could she make if she put 7 cupcakes in each package?"
+        ],
+        "code": "def q3():\n    \"\"\" Megan baked 71 cupcakes for her school's bake sale. If her brother, Todd, ate 43 of them how many packages could she make if she put 7 cupcake in each package? \"\"\"\n    # Q.1: How many cupcakes did Todd eat?\n    todd_cupcakes = 43\n    # Q.2: Now we can answer the question: How many packages could she make if she put 7 cupcakes in each package?\n    total_cupcakes = 71\n    remaining_cupcakes = total_cupcakes - todd_cupcakes\n    packages = remaining_cupcakes // 7\n    return packages\n\n",
+        "answer": 4
+    },
+    {
+        "question": " There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+        "final_ans": "24",
+        "id": 39,
+        "sub_questions": [
+            "How many lives did each player have?",
+            "Now we can answer the question: How many lives did they have total?"
+        ],
+        "code": "def q3():\n    \"\"\" There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? \"\"\"\n    # Q.1: How many lives did each player have?\n    lives_per_player = 6\n    # Q.2: Now we can answer the question: How many lives did they have total?\n    num_players = 4\n    total_lives = num_players * lives_per_player\n    return total_lives\n\n",
+        "answer": 24
+    },
+    {
+        "question": " Sam had 10 socks. If he threw away 3 old ones that didn't fit and bought 36 new ones, how many socks would he have? ",
+        "final_ans": "43",
+        "id": 40,
+        "sub_questions": [
+            "How many socks did Sam throw away?",
+            "How many new socks did Sam buy?",
+            "Now we can answer the question: How many socks would Sam have?"
+        ],
+        "code": "def q3():\n    \"\"\" Sam had 10 socks. If he threw away 3 old ones that didn't fit and bought 36 new ones, how many socks would he have? \"\"\"\n    # Q.1: How many socks did Sam throw away?\n    thrown_away_socks = 3\n    # Q.2: How many new socks did Sam buy?\n    new_bought_socks = 36\n    # Q.3: Now we can answer the question: How many socks would Sam have?\n    total_socks = 10 + new_bought_socks - thrown_away_socks\n    return total_socks\n\n",
+        "answer": 43
+    },
+    {
+        "question": " Wendy picked 103 flowers for her friend\u2019s wedding. She was making bouquets with 8 flowers in each one. If 47 of the flowers wilted before the wedding, how many bouquets could she still make? ",
+        "final_ans": "7",
+        "id": 41,
+        "sub_questions": [
+            "How many bouquets could Wendy make with all the flowers?",
+            "Now we can answer the question: How many bouquets could Wendy still make?"
+        ],
+        "code": "def q3():\n    \"\"\" Wendy picked 103 flowers for her friend\u2019s wedding. She was making bouquets with 8 flowers in each one. If 47 of the flowers wilted before the wedding, how many bouquets could she still make? \"\"\"\n    # Q.1: How many bouquets could Wendy make with all the flowers?\n    all_flowers = 103\n    flowers_per_bouquet = 8\n    bouquets = all_flowers / flowers_per_bouquet\n    # Q.2: Now we can answer the question: How many bouquets could Wendy still make?\n    wilted_flowers = 47\n    remaining_flowers = all_flowers - wilted_flowers\n    remaining_bouquets = remaining_flowers / flowers_per_bouquet\n    return remaining_bouquets\n\n",
+        "answer": 7.0
+    },
+    {
+        "question": " Adam had 48 books. If he sold 19 of them and used the money he earned to buy 38 new books, how many books would Adam have? ",
+        "final_ans": "67",
+        "id": 42,
+        "sub_questions": [
+            "How many books did Adam sell?",
+            "How much money did Adam earn from selling the books?",
+            "How many books did Adam buy using the money he earned?",
+            "Now we can answer the question: How many books would Adam have?"
+        ],
+        "code": "def q3():\n    \"\"\" Adam had 48 books. If he sold 19 of them and used the money he earned to buy 38 new books, how many books would Adam have? \"\"\"\n    # Q.1: How many books did Adam sell?\n    sold_books = 19\n    # Q.2: How much money did Adam earn from selling the books?\n    book_price = 10\n    earned_money = sold_books * book_price\n    # Q.3: How many books did Adam buy using the money he earned?\n    bought_books = 38\n    # Q.4: Now we can answer the question: How many books would Adam have?\n    total_books = 48 + bought_books - sold_books\n    return total_books\n\n",
+        "answer": 67
+    },
+    {
+        "question": " Nancy's class is going on a field trip to the zoo. If each van can hold 5 people and there are 12 students and 3 adults going, how many vans will they need? ",
+        "final_ans": "3",
+        "id": 43,
+        "sub_questions": [
+            "How many students are going on the field trip?",
+            "How many adults are going on the field trip?",
+            "Now we can answer the question: How many vans will they need?"
+        ],
+        "code": "def q3():\n    \"\"\" Nancy's class is going on a field trip to the zoo. If each van can hold 5 people and there are 12 students and 3 adults going, how many vans will they need? \"\"\"\n    # Q.1: How many students are going on the field trip?\n    num_students = 12\n    # Q.2: How many adults are going on the field trip?\n    num_adults = 3\n    # Q.3: Now we can answer the question: How many vans will they need?\n    total_people = num_students + num_adults\n    num_vans = total_people // 5\n    return num_vans\n\n",
+        "answer": 3
+    },
+    {
+        "question": " For a birthday party Tom bought 4 regular sodas and 52 diet sodas. If his fridge would only hold 7 on each shelf, how many shelves would he fill up? ",
+        "final_ans": "8",
+        "id": 44,
+        "sub_questions": [
+            "How many bottles of soda are there in total?",
+            "How many regular sodas are there in total?",
+            "How many diet sodas are there in total?",
+            "Now we can answer the question: How many shelves would he fill up?"
+        ],
+        "code": "def q3():\n    \"\"\" For a birthday party Tom bought 4 regular sodas and 52 diet sodas. If his fridge would only hold 7 on each shelf, how many shelves would he fill up? \"\"\"\n    # Q.1: How many bottles of soda are there in total?\n    total_sodas = 4 + 52\n    # Q.2: How many regular sodas are there in total?\n    total_regular_sodas = 4\n    # Q.3: How many diet sodas are there in total?\n    total_diet_sodas = 52\n    # Q.4: Now we can answer the question: How many shelves would he fill up?\n    shelves_per_case = 7\n    total_cases = math.ceil(total_sodas / shelves_per_case)\n    return total_cases\n\n",
+        "answer": 0
+    },
+    {
+        "question": " The school cafeteria had 38 apples. If they used 20 to make lunch for the students and then bought 28 more, how many apples would they have? ",
+        "final_ans": "46",
+        "id": 45,
+        "sub_questions": [
+            "How many apples did they use to make lunch?",
+            "How many apples did they have left after using them to make lunch?",
+            "Now we can answer the question: How many apples did they have in total?"
+        ],
+        "code": "def q3():\n    \"\"\" The school cafeteria had 38 apples. If they used 20 to make lunch for the students and then bought 28 more, how many apples would they have? \"\"\"\n    # Q.1: How many apples did they use to make lunch?\n    used_apples = 20\n    # Q.2: How many apples did they have left after using them to make lunch?\n    leftover_apples = 38 - used_apples\n    # Q.3: Now we can answer the question: How many apples did they have in total?\n    total_apples = leftover_apples + 28\n    return total_apples\n\n",
+        "answer": 46
+    },
+    {
+        "question": " Luke was helping the cafeteria workers pick up lunch trays, but he could only carry 4 trays at a time. If he had to pick up 20 trays from one table and 16 trays from another, how many trips will he make? ",
+        "final_ans": "9",
+        "id": 46,
+        "sub_questions": [
+            "How many trays are there in total?",
+            "Now we can answer the question: How many trips will Luke make?"
+        ],
+        "code": "def q3():\n    \"\"\" Luke was helping the cafeteria workers pick up lunch trays, but he could only carry 4 trays at a time. If he had to pick up 20 trays from one table and 16 trays from another, how many trips will he make? \"\"\"\n    # Q.1: How many trays are there in total?\n    total_trays = 20 + 16\n    # Q.2: Now we can answer the question: How many trips will Luke make?\n    max_trays_per_trip = 4\n    num_of_trips = total_trays // max_trays_per_trip\n    if total_trays % max_trays_per_trip != 0:\n        num_of_trips += 1\n    return num_of_trips\n\n",
+        "answer": 9
+    },
+    {
+        "question": " The cafeteria had 96 apples. For lunch they handed out 42 to students and decided to use the rest to make pies. If each pie takes 6 apples, how many pies could they make? ",
+        "final_ans": "9",
+        "id": 47,
+        "sub_questions": [
+            "How many apples did they hand out for lunch?",
+            "How many apples are left?",
+            "Now we can answer the question: How many pies could they make?"
+        ],
+        "code": "def q3():\n    \"\"\" The cafeteria had 96 apples. For lunch they handed out 42 to students and decided to use the rest to make pies. If each pie takes 6 apples, how many pies could they make? \"\"\"\n    # Q.1: How many apples did they hand out for lunch?\n    lunch_apples = 42\n    # Q.2: How many apples are left?\n    total_apples = 96\n    remaining_apples = total_apples - lunch_apples\n    # Q.3: Now we can answer the question: How many pies could they make?\n    num_pies = remaining_apples / 6\n    return num_pies\n\n",
+        "answer": 9.0
+    },
+    {
+        "question": " Henry had 3 action figures, but needed 8 total for a complete collection. If each one costs $6, how much money would he need to finish his collection? ",
+        "final_ans": "30",
+        "id": 48,
+        "sub_questions": [
+            "How much money does Henry have?",
+            "Now we can answer the question:  How much money does Henry need to finish his collection?"
+        ],
+        "code": "def q3():\n    \"\"\" Henry had 3 action figures, but needed 8 total for a complete collection. If each one costs $6, how much money would he need to finish his collection? \"\"\"\n    # Q.1: How much money does Henry have?\n    num_figures = 3\n    figure_price = 6\n    current_money = num_figures * figure_price\n    # Q.2: Now we can answer the question:  How much money does Henry need to finish his collection?\n    total_figures = 8\n    total_price = total_figures * figure_price\n    money_needed = total_price - current_money\n    return money_needed\n\n",
+        "answer": 30
+    },
+    {
+        "question": " Frank had saved up 3 dollars. If he received another 37 dollars for his allowance, how many 8 dollar toys could he buy? ",
+        "final_ans": "5",
+        "id": 49,
+        "sub_questions": [
+            "How much money does Frank have now?",
+            "What is the total amount of money Frank has now?",
+            "Now we can answer the question:  How many 8 dollar toys could he buy?"
+        ],
+        "code": "def q3():\n    \"\"\" Frank had saved up 3 dollars. If he received another 37 dollars for his allowance, how many 8 dollar toys could he buy? \"\"\"\n    # Q.1: How much money does Frank have now?\n    current_money = 3 + 37\n    # Q.2: What is the total amount of money Frank has now?\n    # Q.3: Now we can answer the question:  How many 8 dollar toys could he buy?\n    toy_price = 8\n    num_toys = current_money // toy_price\n    return num_toys\n\n",
+        "answer": 5
+    },
+    {
+        "question": " Vanessa and her mom were picking carrots from their garden. Vanessa picked 17 and her mother picked 14. If only 24 of the carrots were good, how many bad carrots did they have? ",
+        "final_ans": "7",
+        "id": 50,
+        "sub_questions": [
+            "How many carrots did they pick in total?",
+            "What percentage of the carrots were bad?",
+            "Now we can answer the question: How many bad carrots did they have?"
+        ],
+        "code": "def q3():\n    \"\"\" Vanessa and her mom were picking carrots from their garden. Vanessa picked 17 and her mother picked 14. If only 24 of the carrots were good, how many bad carrots did they have? \"\"\"\n    # Q.1: How many carrots did they pick in total?\n    picked_carrots = 17 + 14\n    # Q.2: What percentage of the carrots were bad?\n    bad_carrots_percentage = 24 / picked_carrots\n    # Q.3: Now we can answer the question: How many bad carrots did they have?\n    bad_carrots = picked_carrots * bad_carrots_percentage\n    return bad_carrots\n\n",
+        "answer": 24.0
+    },
+    {
+        "question": " At a company picnic 23 managers and 7 employees decided to start a game of volleyball. If they split into 6 teams how many people would be on each team? ",
+        "final_ans": "5",
+        "id": 51,
+        "sub_questions": [
+            "How many people are there in total?",
+            "How many managers are there?",
+            "How many employees are there?",
+            "How many teams can be formed with this many people?",
+            "Now we can answer the question:  How many people would be on each team?"
+        ],
+        "code": "def q3():\n    \"\"\" At a company picnic 23 managers and 7 employees decided to start a game of volleyball. If they split into 6 teams how many people would be on each team? \"\"\"\n    # Q.1: How many people are there in total?\n    total_people = 23 + 7\n    # Q.2: How many managers are there?\n    num_managers = 23\n    # Q.3: How many employees are there?\n    num_employees = 7\n    # Q.4: How many teams can be formed with this many people?\n    num_teams = (num_managers + num_employees) // 6\n    # Q.5: Now we can answer the question:  How many people would be on each team?\n    people_per_team = (num_managers + num_employees) / num_teams\n    return people_per_team\n\n",
+        "answer": 6.0
+    },
+    {
+        "question": " Tiffany baked 8 brownies, but needed 17 total for her party. If she used 8 cups of flour on each one, how much cups of flour does she still need? ",
+        "final_ans": "72",
+        "id": 52,
+        "sub_questions": [
+            "What number of cups of flour does Tiffany use per brownie?",
+            "How many cups of flour does Tiffany have left?",
+            "Now we can answer the question: How much flour does Tiffany still need?"
+        ],
+        "code": "def q3():\n    \"\"\" Tiffany baked 8 brownies, but needed 17 total for her party. If she used 8 cups of flour on each one, how much cups of flour does she still need? \"\"\"\n    # Q.1: What number of cups of flour does Tiffany use per brownie?\n    cups_per_brownie = 8\n    # Q.2: How many cups of flour does Tiffany have left?\n    total_brownies = 8\n    total_cups = total_brownies * cups_per_brownie\n    cups_left = total_cups - 17\n    return cups_left\n\n",
+        "answer": 47
+    },
+    {
+        "question": " Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+        "final_ans": "7",
+        "id": 53,
+        "sub_questions": [
+            "How many good carrots did Carol pick?",
+            "How many good carrots did her mother pick?",
+            "Now we can answer the question: How many bad carrots did they have?"
+        ],
+        "code": "def q3():\n    \"\"\" Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? \"\"\"\n    # Q.1: How many good carrots did Carol pick?\n    good_carrots_carol = 29\n    # Q.2: How many good carrots did her mother pick?\n    good_carrots_mom = 16\n    # Q.3: Now we can answer the question: How many bad carrots did they have?\n    total_good_carrots = good_carrots_carol + good_carrots_mom\n    total_bad_carrots = 38 - total_good_carrots\n    return total_bad_carrots\n\n",
+        "answer": -7
+    },
+    {
+        "question": " A worksheet had 7 problems on it. If a teacher had 17 worksheets to grade and had already graded 8 of them, how many more problems does she have to grade? ",
+        "final_ans": "63",
+        "id": 54,
+        "sub_questions": [
+            "How many problems are on each worksheet?",
+            "Now we can answer the question: How many more problems does she have to grade?"
+        ],
+        "code": "def q3():\n    \"\"\" A worksheet had 7 problems on it. If a teacher had 17 worksheets to grade and had already graded 8 of them, how many more problems does she have to grade? \"\"\"\n    # Q.1: How many problems are on each worksheet?\n    problems_per_sheet = 7\n    # Q.2: Now we can answer the question: How many more problems does she have to grade?\n    total_sheets = 17\n    sheets_graded = 8\n    total_problems = total_sheets * problems_per_sheet\n    problems_graded = sheets_graded * problems_per_sheet\n    problems_to_grade = total_problems - problems_graded\n    return problems_to_grade\n\n",
+        "answer": 63
+    },
+    {
+        "question": " There were 8 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+        "final_ans": "60",
+        "id": 55,
+        "sub_questions": [
+            "How many players were there in total?",
+            "Now we can answer the question: How many lives did they have total?"
+        ],
+        "code": "def q3():\n    \"\"\" There were 8 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? \"\"\"\n    # Q.1: How many players were there in total?\n    total_players = 8 + 2\n    # Q.2: Now we can answer the question: How many lives did they have total?\n    total_lives = total_players * 6\n    return total_lives\n\n",
+        "answer": 60
+    },
+    {
+        "question": " At the arcade Cody won 49 tickets. If he spent 25 tickets on a beanie and later won 6 more tickets, how many would he have? ",
+        "final_ans": "30",
+        "id": 56,
+        "sub_questions": [
+            "How many tickets did Cody win?",
+            "How many tickets did Cody spend on a beanie?",
+            "How many tickets does Cody have left?",
+            "Now we can answer the question: How many tickets does Cody have?"
+        ],
+        "code": "def q3():\n    \"\"\" At the arcade Cody won 49 tickets. If he spent 25 tickets on a beanie and later won 6 more tickets, how many would he have? \"\"\"\n    # Q.1: How many tickets did Cody win?\n    won_tickets = 49\n    # Q.2: How many tickets did Cody spend on a beanie?\n    spent_tickets = 25\n    # Q.3: How many tickets does Cody have left?\n    remaining_tickets = won_tickets - spent_tickets\n    # Q.4: Now we can answer the question: How many tickets does Cody have?\n    won_tickets += 6\n    return won_tickets\n\n",
+        "answer": 55
+    },
+    {
+        "question": " For Halloween Bianca received 78 pieces of candy. She ate 30 pieces then placed the rest into piles with 8 in each pile. How many piles could she make? ",
+        "final_ans": "6",
+        "id": 57,
+        "sub_questions": [
+            "How many pieces of candy did Bianca eat?",
+            "How many pieces of candy are left?",
+            "Now we can answer the question: How many piles could she make?"
+        ],
+        "code": "def q3():\n    \"\"\" For Halloween Bianca received 78 pieces of candy. She ate 30 pieces then placed the rest into piles with 8 in each pile. How many piles could she make? \"\"\"\n    # Q.1: How many pieces of candy did Bianca eat?\n    eaten_candy = 30\n    # Q.2: How many pieces of candy are left?\n    remaining_candy = 78 - 30\n    # Q.3: Now we can answer the question: How many piles could she make?\n    pieces_per_pile = 8\n    num_of_piles = remaining_candy // pieces_per_pile\n    return num_of_piles\n\n",
+        "answer": 6
+    },
+    {
+        "question": " There were 5 friends playing a video game online when 2 more players joined the game. If each player had 8 lives, how many lives did they have total? ",
+        "final_ans": "56",
+        "id": 58,
+        "sub_questions": [
+            "How many players were there in total?",
+            "How many lives did each player have?",
+            "Now we can answer the question: How many lives did they have total?"
+        ],
+        "code": "def q3():\n    \"\"\" There were 5 friends playing a video game online when 2 more players joined the game. If each player had 8 lives, how many lives did they have total? \"\"\"\n    # Q.1: How many players were there in total?\n    total_players = 7\n    # Q.2: How many lives did each player have?\n    lives_per_player = 8\n    # Q.3: Now we can answer the question: How many lives did they have total?\n    total_lives = total_players * lives_per_player\n    return total_lives\n\n",
+        "answer": 56
+    },
+    {
+        "question": " At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+        "final_ans": "72",
+        "id": 59,
+        "sub_questions": [
+            "How much does it cost for each adult meal?",
+            "How many adults are in the group?",
+            "How many kids are in the group?",
+            "Now we can answer the question:  How much would it cost for the group to eat?"
+        ],
+        "code": "def q3():\n    \"\"\" At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? \"\"\"\n    # Q.1: How much does it cost for each adult meal?\n    adult_meal_cost = 8\n    # Q.2: How many adults are in the group?\n    adults = 11 - 2\n    # Q.3: How many kids are in the group?\n    kids = 2\n    # Q.4: Now we can answer the question:  How much would it cost for the group to eat?\n    total_cost = adult_meal_cost * adults\n    return total_cost\n\n",
+        "answer": 72
+    },
+    {
+        "question": " Roger had 25 books. If he sold 21 of them and used the money he earned to buy 30 new books, how many books would Roger have? ",
+        "final_ans": "34",
+        "id": 60,
+        "sub_questions": [
+            "How many books did Roger sell?",
+            "How much money did Roger earn from selling the books?",
+            "How many new books did Roger buy?",
+            "Now we can answer the question:  How many books would Roger have?"
+        ],
+        "code": "def q3():\n    \"\"\" Roger had 25 books. If he sold 21 of them and used the money he earned to buy 30 new books, how many books would Roger have? \"\"\"\n    # Q.1: How many books did Roger sell?\n    sold_books = 21\n    # Q.2: How much money did Roger earn from selling the books?\n    book_price = 4\n    earned_money = sold_books * book_price\n    # Q.3: How many new books did Roger buy?\n    bought_books = 30\n    # Q.4: Now we can answer the question:  How many books would Roger have?\n    total_books = 25 + bought_books - sold_books\n    return total_books\n\n",
+        "answer": 34
+    },
+    {
+        "question": " Wendy was playing a video game and had 10 lives. In a hard part of the game she lost 6 lives. If she got 37 more lives in the next level, how many lives would she have? ",
+        "final_ans": "41",
+        "id": 61,
+        "sub_questions": [
+            "How many lives did Wendy have at the start?",
+            "How many lives did Wendy lose?",
+            "How many lives did Wendy get in the next level?",
+            "Now we can answer the question: How many lives does Wendy have?"
+        ],
+        "code": "def q3():\n    \"\"\" Wendy was playing a video game and had 10 lives. In a hard part of the game she lost 6 lives. If she got 37 more lives in the next level, how many lives would she have? \"\"\"\n    # Q.1: How many lives did Wendy have at the start?\n    start_lives = 10\n    # Q.2: How many lives did Wendy lose?\n    lost_lives = 6\n    # Q.3: How many lives did Wendy get in the next level?\n    next_level_lives = 37\n    # Q.4: Now we can answer the question: How many lives does Wendy have?\n    total_lives = start_lives - lost_lives + next_level_lives\n    return total_lives\n\n",
+        "answer": 41
+    },
+    {
+        "question": " Frank made 19 dollars mowing lawns over the summer. If he spent 11 dollars buying new mower blades, how many 2 dollar games could he buy with the money he had left? ",
+        "final_ans": "4",
+        "id": 62,
+        "sub_questions": [
+            "How much money did Frank spend on new mower blades?",
+            "Now we can answer the question: How many 2 dollar games could he buy with the money he had left?"
+        ],
+        "code": "def q3():\n    \"\"\" Frank made 19 dollars mowing lawns over the summer. If he spent 11 dollars buying new mower blades, how many 2 dollar games could he buy with the money he had left? \"\"\"\n    # Q.1: How much money did Frank spend on new mower blades?\n    mower_blades_cost = 11\n    # Q.2: Now we can answer the question: How many 2 dollar games could he buy with the money he had left?\n    frank_money_left = 19 - mower_blades_cost\n    num_games = frank_money_left // 2\n    return num_games\n\n",
+        "answer": 4
+    },
+    {
+        "question": " There school's baseball team had 48 new players and 6 returning players. If the coach put them into groups with 6 players in each group, how many groups would there be? ",
+        "final_ans": "9",
+        "id": 63,
+        "sub_questions": [
+            "How many players are there in total?",
+            "How many groups can be formed with 6 players in each group?",
+            "Now we can answer the question: How many groups would there be?"
+        ],
+        "code": "def q3():\n    \"\"\" There school's baseball team had 48 new players and 6 returning players. If the coach put them into groups with 6 players in each group, how many groups would there be? \"\"\"\n    # Q.1: How many players are there in total?\n    total_players = 48 + 6\n    # Q.2: How many groups can be formed with 6 players in each group?\n    num_groups = total_players // 6\n    return num_groups\n\n",
+        "answer": 9
+    },
+    {
+        "question": " Nancy had 80 files on her computer. She deleted 31 of them and put the rest into folders with 7 files in each one. How many folders did Nancy end up with? ",
+        "final_ans": "7",
+        "id": 64,
+        "sub_questions": [
+            "How many files did Nancy have after deleting 31?",
+            "What is the number of files in each folder?",
+            "Now we can answer the question: How many folders did Nancy end up with?"
+        ],
+        "code": "def q3():\n    \"\"\" Nancy had 80 files on her computer. She deleted 31 of them and put the rest into folders with 7 files in each one. How many folders did Nancy end up with? \"\"\"\n    # Q.1: How many files did Nancy have after deleting 31?\n    total_files = 80\n    deleted_files = 31\n    remaining_files = total_files - deleted_files\n    # Q.2: What is the number of files in each folder?\n    files_per_folder = 7\n    # Q.3: Now we can answer the question: How many folders did Nancy end up with?\n    num_folders = remaining_files // files_per_folder\n    return num_folders\n\n",
+        "answer": 7
+    },
+    {
+        "question": " Luke was selling his old games. He started out with 39 but sold 19 of them. He packed the rest up putting 4 games into each box. How many boxes did he have to use? ",
+        "final_ans": "5",
+        "id": 65,
+        "sub_questions": [
+            "How many games did Luke have left?",
+            "Now we can answer the question: How many boxes did he have to use?"
+        ],
+        "code": "def q3():\n    \"\"\" Luke was selling his old games. He started out with 39 but sold 19 of them. He packed the rest up putting 4 games into each box. How many boxes did he have to use? \"\"\"\n    # Q.1: How many games did Luke have left?\n    left_games = 39 - 19\n    # Q.2: Now we can answer the question: How many boxes did he have to use?\n    num_boxes = left_games / 4\n    return num_boxes\n\n",
+        "answer": 5.0
+    },
+    {
+        "question": " There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+        "final_ans": "6",
+        "id": 66,
+        "sub_questions": [
+            "How many students were not picked for the team?",
+            "How many students were put into groups?",
+            "Now we can answer the question: How many students would be in each group?"
+        ],
+        "code": "def q3():\n    \"\"\" There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? \"\"\"\n    # Q.1: How many students were not picked for the team?\n    not_picked_students = 17\n    # Q.2: How many students were put into groups?\n    total_students = 65\n    picked_students = total_students - not_picked_students\n    # Q.3: Now we can answer the question: How many students would be in each group?\n    num_groups = 8\n    students_per_group = picked_students / num_groups\n    return students_per_group\n\n",
+        "answer": 6.0
+    },
+    {
+        "question": " Isabel uploaded 25 pictures to Facebook. She put 10 pics into one album and put the rest into 5 different albums. How many pictures were in each album? ",
+        "final_ans": "3",
+        "id": 67,
+        "sub_questions": [
+            "How many pictures are in each album?",
+            "Now we can answer the question: How many pictures were in each album?"
+        ],
+        "code": "def q3():\n    \"\"\" Isabel uploaded 25 pictures to Facebook. She put 10 pics into one album and put the rest into 5 different albums. How many pictures were in each album? \"\"\"\n    # Q.1: How many pictures are in each album?\n    num_pictures = 25\n    # Q.2: Now we can answer the question: How many pictures were in each album?\n    total_albums = 10 + 5\n    pictures_per_album = num_pictures / total_albums\n    return pictures_per_album\n\n",
+        "answer": 1.6666666666666667
+    },
+    {
+        "question": " Mike made 14 dollars mowing lawns and 26 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+        "final_ans": "8",
+        "id": 68,
+        "sub_questions": [
+            "How much money did Mike make in total?",
+            "How much money did Mike spend in a week?",
+            "Now we can answer the question:  How long would the money last Mike?"
+        ],
+        "code": "def q3():\n    \"\"\" Mike made 14 dollars mowing lawns and 26 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? \"\"\"\n    # Q.1: How much money did Mike make in total?\n    total_money = 14 + 26\n    # Q.2: How much money did Mike spend in a week?\n    money_spent_per_week = 5\n    # Q.3: Now we can answer the question:  How long would the money last Mike?\n    weeks = total_money / money_spent_per_week\n    return weeks\n\n",
+        "answer": 8.0
+    },
+    {
+        "question": " Vanessa had 16 music files and 48 video files on her flash drive. If she deleted 30 of the files, how many files were still on her flash drive? ",
+        "final_ans": "34",
+        "id": 69,
+        "sub_questions": [
+            "How many music files did Vanessa have on her flash drive?",
+            "How many video files did Vanessa have on her flash drive?",
+            "How many files did Vanessa delete?",
+            "Now we can answer the question: How many files were still on her flash drive?"
+        ],
+        "code": "def q3():\n    \"\"\" Vanessa had 16 music files and 48 video files on her flash drive. If she deleted 30 of the files, how many files were still on her flash drive? \"\"\"\n    # Q.1: How many music files did Vanessa have on her flash drive?\n    music_files = 16\n    # Q.2: How many video files did Vanessa have on her flash drive?\n    video_files = 48\n    # Q.3: How many files did Vanessa delete?\n    deleted_files = 30\n    # Q.4: Now we can answer the question: How many files were still on her flash drive?\n    remaining_files = music_files + video_files - deleted_files\n    return remaining_files\n\n",
+        "answer": 34
+    },
+    {
+        "question": " Dave had to wash 9 short sleeve shirts and 27 long sleeve shirts before school. If he had only washed 20 of them by the time school started, how many did he not wash? ",
+        "final_ans": "16",
+        "id": 70,
+        "sub_questions": [
+            "How many short sleeve shirts did Dave not wash?",
+            "Now we can answer the question: How many long sleeve shirts did Dave not wash?"
+        ],
+        "code": "def q3():\n    \"\"\" Dave had to wash 9 short sleeve shirts and 27 long sleeve shirts before school. If he had only washed 20 of them by the time school started, how many did he not wash? \"\"\"\n    # Q.1: How many short sleeve shirts did Dave not wash?\n    washed_shortsleeve_shirts = 20\n    total_shortsleeve_shirts = 9\n    not_washed_shortsleeve_shirts = total_shortsleeve_shirts - washed_shortsleeve_shirts\n    # Q.2: Now we can answer the question: How many long sleeve shirts did Dave not wash?\n    washed_longsleeve_shirts = 20 - not_washed_shortsleeve_shirts\n    total_longsleeve_shirts = 27\n    not_washed_longsleeve_shirts = total_longsleeve_shirts - washed_longsleeve_shirts\n    return not_washed_longsleeve_shirts\n\n",
+        "answer": -4
+    },
+    {
+        "question": " A chef needs to cook 9 potatoes. He has already cooked 7. If each potato takes 3 minutes to cook, how long will it take him to cook the rest? ",
+        "final_ans": "6",
+        "id": 71,
+        "sub_questions": [
+            "How long will it take him to cook 2 more potatoes?",
+            "Now we can answer the question: How long will it take him to cook the rest?"
+        ],
+        "code": "def q3():\n    \"\"\" A chef needs to cook 9 potatoes. He has already cooked 7. If each potato takes 3 minutes to cook, how long will it take him to cook the rest? \"\"\"\n    # Q.1: How long will it take him to cook 2 more potatoes?\n    potatoes_to_cook = 2\n    time_per_potato = 3\n    time_to_cook_rest = potatoes_to_cook * time_per_potato\n    return time_to_cook_rest\n\n",
+        "answer": 6
+    },
+    {
+        "question": " While on vacation, Gwen took 41 pictures at the zoo and 29 at the museum. If she later deleted 15 of the pictures, how many pictures from her vacation did she still have? ",
+        "final_ans": "55",
+        "id": 72,
+        "sub_questions": [
+            "How many pictures did Gwen take in total?",
+            "Now we can answer the question: How many pictures did Gwen still have?"
+        ],
+        "code": "def q3():\n    \"\"\" While on vacation, Gwen took 41 pictures at the zoo and 29 at the museum. If she later deleted 15 of the pictures, how many pictures from her vacation did she still have? \"\"\"\n    # Q.1: How many pictures did Gwen take in total?\n    total_pictures = 41 + 29\n    # Q.2: Now we can answer the question: How many pictures did Gwen still have?\n    deleted_pictures = 15\n    remaining_pictures = total_pictures - deleted_pictures\n    return remaining_pictures\n\n",
+        "answer": 55
+    },
+    {
+        "question": " A pet shelter had 2 puppies when another 34 were brought in. If 4 puppies a day are adopted, how long would it take for all of them to be adopted? ",
+        "final_ans": "9",
+        "id": 73,
+        "sub_questions": [
+            "How many puppies were there initially?",
+            "How many puppies are adopted each day?",
+            "What is the total number of puppies?",
+            "Now we can answer the question: How long will it take for all of them to be adopted?"
+        ],
+        "code": "def q3():\n    \"\"\" A pet shelter had 2 puppies when another 34 were brought in. If 4 puppies a day are adopted, how long would it take for all of them to be adopted? \"\"\"\n    # Q.1: How many puppies were there initially?\n    initial_puppies = 2\n    # Q.2: How many puppies are adopted each day?\n    daily_adopted_puppies = 4\n    # Q.3: What is the total number of puppies?\n    total_puppies = initial_puppies + 34\n    # Q.4: Now we can answer the question: How long will it take for all of them to be adopted?\n    days = total_puppies / daily_adopted_puppies\n    return days\n\n",
+        "answer": 9.0
+    },
+    {
+        "question": " Will had 59 pieces of clothing to wash. He put 32 of them in one load, but decided to split the rest into 9 equal loads. How many pieces of clothing could go in each of the small loads? ",
+        "final_ans": "3",
+        "id": 74,
+        "sub_questions": [
+            "How many pieces of clothing went in the first load?",
+            "How many pieces of clothing are left?",
+            "Now we can answer the question:  How many pieces of clothing could go in each of the small loads?"
+        ],
+        "code": "def q3():\n    \"\"\" Will had 59 pieces of clothing to wash. He put 32 of them in one load, but decided to split the rest into 9 equal loads. How many pieces of clothing could go in each of the small loads? \"\"\"\n    # Q.1: How many pieces of clothing went in the first load?\n    first_load = 32\n    # Q.2: How many pieces of clothing are left?\n    remaining_clothes = 59 - first_load\n    # Q.3: Now we can answer the question:  How many pieces of clothing could go in each of the small loads?\n    small_loads = 9\n    clothes_per_small_load = remaining_clothes / small_loads\n    return clothes_per_small_load\n\n",
+        "answer": 3.0
+    },
+    {
+        "question": " Adam bought 2 boxes of chocolate candy and 5 boxes of caramel candy. If each box has 4 pieces inside it, how much candy did he have total? ",
+        "final_ans": "28",
+        "id": 75,
+        "sub_questions": [
+            "How many pieces of candy are in each box?",
+            "How many boxes of candy did Adam buy?",
+            "Now we can answer the question: How much candy did Adam have total?"
+        ],
+        "code": "def q3():\n    \"\"\" Adam bought 2 boxes of chocolate candy and 5 boxes of caramel candy. If each box has 4 pieces inside it, how much candy did he have total? \"\"\"\n    # Q.1: How many pieces of candy are in each box?\n    num_pieces_per_box = 4\n    # Q.2: How many boxes of candy did Adam buy?\n    num_chocolate_boxes = 2\n    num_caramel_boxes = 5\n    # Q.3: Now we can answer the question: How much candy did Adam have total?\n    total_candy = num_pieces_per_box * (num_chocolate_boxes + num_caramel_boxes)\n    return total_candy\n\n",
+        "answer": 28
+    },
+    {
+        "question": " April's discount flowers was having a sale where each flower was 6 dollars. If Katie bought 5 roses and 5 daisies, how much did she spend? ",
+        "final_ans": "60",
+        "id": 76,
+        "sub_questions": [
+            "How much did each rose cost?",
+            "How much did each daisy cost?",
+            "How much did Katie spend on all the roses?",
+            "How much did Katie spend on all the daisies?",
+            "Now we can answer the question: How much did Katie spend in total?"
+        ],
+        "code": "def q3():\n    \"\"\" April's discount flowers was having a sale where each flower was 6 dollars. If Katie bought 5 roses and 5 daisies, how much did she spend? \"\"\"\n    # Q.1: How much did each rose cost?\n    rose_price = 6\n    # Q.2: How much did each daisy cost?\n    daisy_price = 6\n    # Q.3: How much did Katie spend on all the roses?\n    num_roses = 5\n    total_rose_cost = num_roses * rose_price\n    # Q.4: How much did Katie spend on all the daisies?\n    num_daisies = 5\n    total_daisy_cost = num_daisies * daisy_price\n    # Q.5: Now we can answer the question: How much did Katie spend in total?\n    total_cost = total_rose_cost + total_daisy_cost\n    return total_cost\n\n",
+        "answer": 60
+    },
+    {
+        "question": " At the schools book fair Victor bought 32 adventure books and 37 mystery books. If 16 of the books were used, how many new books did he buy? ",
+        "final_ans": "53",
+        "id": 77,
+        "sub_questions": [
+            "How many books did he use?",
+            "Now we can answer the question: How many new books did he buy?"
+        ],
+        "code": "def q3():\n    \"\"\" At the schools book fair Victor bought 32 adventure books and 37 mystery books. If 16 of the books were used, how many new books did he buy? \"\"\"\n    # Q.1: How many books did he use?\n    used_books = 16\n    # Q.2: Now we can answer the question: How many new books did he buy?\n    adventure_books = 32\n    mystery_books = 37\n    total_books = adventure_books + mystery_books\n    new_bought_books = total_books - used_books\n    return new_bought_books\n\n",
+        "answer": 53
+    },
+    {
+        "question": " Maria picked 48 carrots from her garden. If she threw out 11 of them and then picked 15 more the next day, how many carrots would she have total? ",
+        "final_ans": "52",
+        "id": 78,
+        "sub_questions": [
+            "How many carrots did Maria pick the first day?",
+            "How many carrots did Maria pick the second day?",
+            "Now we can answer the question: How many carrots does Maria have total?"
+        ],
+        "code": "def q3():\n    \"\"\" Maria picked 48 carrots from her garden. If she threw out 11 of them and then picked 15 more the next day, how many carrots would she have total? \"\"\"\n    # Q.1: How many carrots did Maria pick the first day?\n    first_day_carrots = 48\n    # Q.2: How many carrots did Maria pick the second day?\n    second_day_carrots = 15\n    # Q.3: Now we can answer the question: How many carrots does Maria have total?\n    total_carrots = first_day_carrots + second_day_carrots\n    return total_carrots\n\n",
+        "answer": 63
+    },
+    {
+        "question": " A florist had 50 roses. If she sold 15 of them and then later picked 21 more, how many roses would she have? ",
+        "final_ans": "56",
+        "id": 79,
+        "sub_questions": [
+            "How many roses did the florist sell?",
+            "How many roses did the florist pick?",
+            "Now we can answer the question: How many roses would she have?"
+        ],
+        "code": "def q3():\n    \"\"\" A florist had 50 roses. If she sold 15 of them and then later picked 21 more, how many roses would she have? \"\"\"\n    # Q.1: How many roses did the florist sell?\n    sold_roses = 15\n    # Q.2: How many roses did the florist pick?\n    picked_roses = 21\n    # Q.3: Now we can answer the question: How many roses would she have?\n    total_roses = 50 + picked_roses - sold_roses\n    return total_roses\n\n",
+        "answer": 56
+    },
+    {
+        "question": " Isabel had 2 pages of math homework and 4 pages of reading homework. If each page had 5 problems on it, how many problems did she have to complete total? ",
+        "final_ans": "30",
+        "id": 80,
+        "sub_questions": [
+            "How many pages of math homework did Isabel have?",
+            "Now we can answer the question: How many problems did Isabel have to complete total?"
+        ],
+        "code": "def q3():\n    \"\"\" Isabel had 2 pages of math homework and 4 pages of reading homework. If each page had 5 problems on it, how many problems did she have to complete total? \"\"\"\n    # Q.1: How many pages of math homework did Isabel have?\n    math_pages = 2\n    # Q.2: Now we can answer the question: How many problems did Isabel have to complete total?\n    math_problems = math_pages * 5",
+        "answer": null
+    },
+    {
+        "question": " There were 4 friends playing a video game online when 5 more players joined the game. If each player had 3 lives, how many lives did they have total? ",
+        "final_ans": "27",
+        "id": 81,
+        "sub_questions": [
+            "How many players did they have total?",
+            "Now we can answer the question: How many lives did they have total?"
+        ],
+        "code": "def q3():\n    \"\"\" There were 4 friends playing a video game online when 5 more players joined the game. If each player had 3 lives, how many lives did they have total? \"\"\"\n    # Q.1: How many players did they have total?\n    total_players = 9\n    # Q.2: Now we can answer the question: How many lives did they have total?\n    lives_per_player = 3\n    total_lives = total_players * lives_per_player\n    return total_lives\n\n",
+        "answer": 27
+    },
+    {
+        "question": " Kaleb had 12 dollars. If he spent 8 bucks on a new game, how many 2 dollar toys could he buy with the money he had left? ",
+        "final_ans": "2",
+        "id": 82,
+        "sub_questions": [
+            "How much money does Kaleb have now?",
+            "Now we can answer the question: How many 2 dollar toys could he buy with the money he had left?"
+        ],
+        "code": "def q3():\n    \"\"\" Kaleb had 12 dollars. If he spent 8 bucks on a new game, how many 2 dollar toys could he buy with the money he had left? \"\"\"\n    # Q.1: How much money does Kaleb have now?\n    current_money = 12 - 8\n    # Q.2: Now we can answer the question: How many 2 dollar toys could he buy with the money he had left?\n    toy_price = 2\n    num_toys = current_money / toy_price\n    return int(num_toys)\n\n",
+        "answer": 2
+    },
+    {
+        "question": " Katie had 7 pages of math homework and 3 pages of reading homework. If each page had 9 problems on it, how many problems did she have to complete total? ",
+        "final_ans": "90",
+        "id": 83,
+        "sub_questions": [
+            "How many pages of math homework did Katie have?",
+            "How many pages of reading homework did Katie have?",
+            "Now we can answer the question: How many problems did Katie have to complete total?"
+        ],
+        "code": "def q3():\n    \"\"\" Katie had 7 pages of math homework and 3 pages of reading homework. If each page had 9 problems on it, how many problems did she have to complete total? \"\"\"\n    # Q.1: How many pages of math homework did Katie have?\n    math_pages = 7\n    # Q.2: How many pages of reading homework did Katie have?\n    reading_pages = 3\n    # Q.3: Now we can answer the question: How many problems did Katie have to complete total?\n    total_problems = (math_pages + reading_pages) * 9\n    return total_problems\n\n",
+        "answer": 90
+    },
+    {
+        "question": " While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+        "final_ans": "72",
+        "id": 84,
+        "sub_questions": [
+            "How many country albums did Janet buy?",
+            "How many pop albums did Janet buy?",
+            "Now we can answer the question: How many songs did Janet buy total?"
+        ],
+        "code": "def q3():\n    \"\"\" While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? \"\"\"\n    # Q.1: How many country albums did Janet buy?\n    country_albums = 6\n    # Q.2: How many pop albums did Janet buy?\n    pop_albums = 2\n    # Q.3: Now we can answer the question: How many songs did Janet buy total?\n    country_songs = country_albums * 9\n    pop_songs = pop_albums * 9\n    total_songs = country_songs + pop_songs\n    return total_songs\n\n",
+        "answer": 72
+    },
+    {
+        "question": " Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+        "final_ans": "9",
+        "id": 85,
+        "sub_questions": [
+            "How much money does Jerry have in total?",
+            "Now we can answer the question: How long would the money last him?"
+        ],
+        "code": "def q3():\n    \"\"\" Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? \"\"\"\n    # Q.1: How much money does Jerry have in total?\n    total_money = 14 + 31\n    # Q.2: Now we can answer the question: How long would the money last him?\n    weeks = total_money / 5\n    return weeks\n\n",
+        "answer": 9.0
+    },
+    {
+        "question": " Adam had 33 books. If he sold 11 of them and used the money he earned to buy 23 new books, how many books would Adam have? ",
+        "final_ans": "45",
+        "id": 86,
+        "sub_questions": [
+            "How many books does Adam have now?",
+            "Now we can answer the question: How many books does Adam have?"
+        ],
+        "code": "def q3():\n    \"\"\" Adam had 33 books. If he sold 11 of them and used the money he earned to buy 23 new books, how many books would Adam have? \"\"\"\n    # Q.1: How many books does Adam have now?\n    old_books = 33\n    new_books = 23\n    sold_books = 11\n    total_books = old_books + new_books - sold_books\n    return total_books\n\n",
+        "answer": 45
+    },
+    {
+        "question": " Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+        "final_ans": "40",
+        "id": 87,
+        "sub_questions": [
+            "How many bags did Kaleb fill up on Saturday?",
+            "How many bags did Kaleb fill up on Sunday?",
+            "What is the total number of cans in all the bags Kaleb collected?",
+            "Now we can answer the question: How many cans did Kaleb pick up total?"
+        ],
+        "code": "def q3():\n    \"\"\" Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? \"\"\"\n    # Q.1: How many bags did Kaleb fill up on Saturday?\n    saturday_bags = 5\n    # Q.2: How many bags did Kaleb fill up on Sunday?\n    sunday_bags = 5\n    # Q.3: What is the total number of cans in all the bags Kaleb collected?\n    cans_per_bag = 4\n    total_cans = saturday_bags * cans_per_bag + sunday_bags * cans_per_bag\n    return total_cans\n\n",
+        "answer": 40
+    },
+    {
+        "question": " Nancy was organizing her book case making sure each of the shelves had exactly 6 books on it. If she had 2 shelves of mystery books and 6 shelves of picture books, how many books did she have total? ",
+        "final_ans": "48",
+        "id": 88,
+        "sub_questions": [
+            "How many shelves of mystery books does Nancy have?",
+            "How many shelves of picture books does Nancy have?",
+            "Now we can answer the question: How many books does Nancy have total?"
+        ],
+        "code": "def q3():\n    \"\"\" Nancy was organizing her book case making sure each of the shelves had exactly 6 books on it. If she had 2 shelves of mystery books and 6 shelves of picture books, how many books did she have total? \"\"\"\n    # Q.1: How many shelves of mystery books does Nancy have?\n    mystery_books_shelf = 2\n    # Q.2: How many shelves of picture books does Nancy have?\n    picture_books_shelf = 6\n    # Q.3: Now we can answer the question: How many books does Nancy have total?\n    total_books = mystery_books_shelf * 6 + picture_books_shelf * 6\n    return total_books\n\n",
+        "answer": 48
+    },
+    {
+        "question": " Paul had saved up 3 dollars. If he received another 7 dollars for his allowance, how many 5 dollar toys could he buy? ",
+        "final_ans": "2",
+        "id": 89,
+        "sub_questions": [
+            "How much money does Paul have now?",
+            "How many 5 dollar toys could he buy with his allowance if he spent all of his allowance?",
+            "Now we can answer the question: How many 5 dollar toys could he buy?"
+        ],
+        "code": "def q3():\n    \"\"\" Paul had saved up 3 dollars. If he received another 7 dollars for his allowance, how many 5 dollar toys could he buy? \"\"\"\n    # Q.1: How much money does Paul have now?\n    current_money = 3 + 7\n    # Q.2: How many 5 dollar toys could he buy with his allowance if he spent all of his allowance?\n    toy_price = 5\n    num_toys = current_money // toy_price\n    return num_toys\n\n",
+        "answer": 2
+    },
+    {
+        "question": " Wendy was playing a video game and had 43 lives. In a hard part of the game she lost 8 lives. If she got 39 more lives in the next level, how many lives would she have? ",
+        "final_ans": "74",
+        "id": 90,
+        "sub_questions": [
+            "How many lives did Wendy have before the hard part of the game?",
+            "How many lives did Wendy lose in the hard part of the game?",
+            "How many lives did Wendy get in the next level?",
+            "Now we can answer the question: How many lives does Wendy have now?"
+        ],
+        "code": "def q3():\n    \"\"\" Wendy was playing a video game and had 43 lives. In a hard part of the game she lost 8 lives. If she got 39 more lives in the next level, how many lives would she have? \"\"\"\n    # Q.1: How many lives did Wendy have before the hard part of the game?\n    initial_lives = 43\n    # Q.2: How many lives did Wendy lose in the hard part of the game?\n    lost_lives = 8\n    # Q.3: How many lives did Wendy get in the next level?\n    gained_lives = 39\n    # Q.4: Now we can answer the question: How many lives does Wendy have now?\n    current_lives = initial_lives - lost_lives + gained_lives\n    return current_lives\n\n",
+        "answer": 74
+    },
+    {
+        "question": " Katie had 85 files on her computer. She deleted 40 of them and put the rest into folders with 5 files in each one. How many folders did Katie end up with? ",
+        "final_ans": "9",
+        "id": 91,
+        "sub_questions": [
+            "How many files did she delete?",
+            "How many files are in each folder?",
+            "How many folders did she end up with?"
+        ],
+        "code": "def q3():\n    \"\"\" Katie had 85 files on her computer. She deleted 40 of them and put the rest into folders with 5 files in each one. How many folders did Katie end up with? \"\"\"\n    # Q.1: How many files did she delete?\n    deleted_files = 40\n    # Q.2: How many files are in each folder?\n    files_per_folder = 5\n    # Q.3: How many folders did she end up with?\n    total_files = 85\n    remaining_files = total_files - deleted_files\n    num_folders = remaining_files // files_per_folder\n    return num_folders\n\n",
+        "answer": 9
+    },
+    {
+        "question": " Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+        "final_ans": "80",
+        "id": 92,
+        "sub_questions": [
+            "How much money did Will make on Monday?",
+            "How much money did Will make on Tuesday?",
+            "Now we can answer the question: How much money did Will make in those two days?"
+        ],
+        "code": "def q3():\n    \"\"\" Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? \"\"\"\n    # Q.1: How much money did Will make on Monday?\n    mon_hours = 8\n    mon_pay = 8 * mon_hours\n    # Q.2: How much money did Will make on Tuesday?\n    tue_hours = 2\n    tue_pay = 8 * tue_hours\n    # Q.3: Now we can answer the question: How much money did Will make in those two days?\n    total_pay = mon_pay + tue_pay\n    return total_pay\n\n",
+        "answer": 80
+    },
+    {
+        "question": " For the school bake sale Carol made 19 cupcakes. If she sold 6 of them and then made 27 more, how many cupcakes would she have? ",
+        "final_ans": "40",
+        "id": 93,
+        "sub_questions": [
+            "How many cupcakes did Carol make?",
+            "How many cupcakes did Carol sell?",
+            "Now we can answer the question: How many cupcakes would Carol have?"
+        ],
+        "code": "def q3():\n    \"\"\" For the school bake sale Carol made 19 cupcakes. If she sold 6 of them and then made 27 more, how many cupcakes would she have? \"\"\"\n    # Q.1: How many cupcakes did Carol make?\n    total_cupcakes = 19 + 27\n    # Q.2: How many cupcakes did Carol sell?\n    sold_cupcakes = 6\n    # Q.3: Now we can answer the question: How many cupcakes would Carol have?\n    remaining_cupcakes = total_cupcakes - sold_cupcakes\n    return remaining_cupcakes\n\n",
+        "answer": 40
+    },
+    {
+        "question": " A trivia team had 14 members total, but during a game 7 members didn't show up. If each member that did show up scored 5 points, how many points were scored total? ",
+        "final_ans": "35",
+        "id": 94,
+        "sub_questions": [
+            "How many members showed up?",
+            "What is the total score?",
+            "Now we can answer the question: How many points were scored total?"
+        ],
+        "code": "def q3():\n    \"\"\" A trivia team had 14 members total, but during a game 7 members didn't show up. If each member that did show up scored 5 points, how many points were scored total? \"\"\"\n    # Q.1: How many members showed up?\n    members_showed_up = 14 - 7\n    # Q.2: What is the total score?\n    total_score = members_showed_up * 5\n    return total_score\n\n",
+        "answer": 35
+    },
+    {
+        "question": " A trivia team had 5 members total, but during a game 2 members didn't show up. If each member that did show up scored 6 points, how many points were scored total? ",
+        "final_ans": "18",
+        "id": 95,
+        "sub_questions": [
+            "How many members showed up?",
+            "How many points did each member score?",
+            "Now we can answer the question: How many points were scored total?"
+        ],
+        "code": "def q3():\n    \"\"\" A trivia team had 5 members total, but during a game 2 members didn't show up. If each member that did show up scored 6 points, how many points were scored total? \"\"\"\n    # Q.1: How many members showed up?\n    members_showed_up = 5 - 2\n    # Q.2: How many points did each member score?\n    points_per_member = 6\n    # Q.3: Now we can answer the question: How many points were scored total?\n    total_points = members_showed_up * points_per_member\n    return total_points\n\n",
+        "answer": 18
+    },
+    {
+        "question": " Oliver is at the library helping put away books. There are 46 book to put away total but a librarian takes 10 of them and leaves Oliver with the rest. If he can fit 4 books on a shelf, how many shelves will he need? ",
+        "final_ans": "9",
+        "id": 96,
+        "sub_questions": [
+            "How many books does Oliver have left?",
+            "How many shelves will he need?"
+        ],
+        "code": "def q3():\n    \"\"\" Oliver is at the library helping put away books. There are 46 book to put away total but a librarian takes 10 of them and leaves Oliver with the rest. If he can fit 4 books on a shelf, how many shelves will he need? \"\"\"\n    # Q.1: How many books does Oliver have left?\n    oliver_books = 36\n    # Q.2: How many shelves will he need?\n    books_per_shelf = 4\n    num_shelves = oliver_books / books_per_shelf\n    return num_shelves\n\n",
+        "answer": 9.0
+    },
+    {
+        "question": " Luke was putting his spare change into piles. He had 5 piles of quarters and 5 piles of dimes. If each pile had 3 coins in it, how many coins did he have total? ",
+        "final_ans": "30",
+        "id": 97,
+        "sub_questions": [
+            "How many piles of quarters does Luke have?",
+            "How many piles of dimes does Luke have?",
+            "Now we can answer the question: How many coins does Luke have total?"
+        ],
+        "code": "def q3():\n    \"\"\" Luke was putting his spare change into piles. He had 5 piles of quarters and 5 piles of dimes. If each pile had 3 coins in it, how many coins did he have total? \"\"\"\n    # Q.1: How many piles of quarters does Luke have?\n    quarter_piles = 5\n    # Q.2: How many piles of dimes does Luke have?\n    dime_piles = 5\n    # Q.3: Now we can answer the question: How many coins does Luke have total?\n    coins_per_pile = 3\n    total_coins = quarter_piles * coins_per_pile + dime_piles * coins_per_pile\n    return total_coins\n\n",
+        "answer": 30
+    },
+    {
+        "question": " Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+        "final_ans": "6",
+        "id": 98,
+        "sub_questions": [
+            "How many points did Gwen earn?",
+            "How many points did the friends earn?",
+            "Now we can answer the question: How many points did they earn?"
+        ],
+        "code": "def q3():\n    \"\"\" Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? \"\"\"\n    # Q.1: How many points did Gwen earn?\n    gwen_pounds = 5\n    gwen_points = gwen_pounds // 3\n    # Q.2: How many points did the friends earn?\n    friend_pounds = 13\n    friend_points = friend_pounds // 3\n    # Q.3: Now we can answer the question: How many points did they earn?\n    total_points = gwen_points + friend_points\n    return total_points\n\n",
+        "answer": 5
+    },
+    {
+        "question": " Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+        "final_ans": "32",
+        "id": 99,
+        "sub_questions": [
+            "How many tickets did Haley buy for herself and her friends?",
+            "How much did each ticket cost?",
+            "Now we can answer the question:  How much did Haley spend?"
+        ],
+        "code": "def q3():\n    \"\"\" Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? \"\"\"\n    # Q.1: How many tickets did Haley buy for herself and her friends?\n    friend_tickets = 3\n    # Q.2: How much did each ticket cost?\n    ticket_price = 4\n    # Q.3: Now we can answer the question:  How much did Haley spend?\n    total_spent = friend_tickets * ticket_price\n    return total_spent\n\n",
+        "answer": 12
+    },
+    {
+        "question": " George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+        "final_ans": "8",
+        "id": 100,
+        "sub_questions": [
+            "How much money does George have now?",
+            "Now we can answer the question: How much money does George have now?"
+        ],
+        "code": "def q3():\n    \"\"\" George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? \"\"\"\n    # Q.1: How much money does George have now?\n    initial_money = 30\n    birthday_money = 16\n    game_money = -38\n    final_money = initial_money + birthday_money + game_money\n    return final_money\n\n",
+        "answer": 8
+    },
+    {
+        "question": " A pet store has 4 bird cages. If each cage has 8 parrots and 2 parakeets in it, how many birds does the pet store have total? ",
+        "final_ans": "40",
+        "id": 101,
+        "sub_questions": [
+            "How many cages do they have?",
+            "Now we can answer the question: How many birds does the pet store have total?"
+        ],
+        "code": "def q3():\n    \"\"\" A pet store has 4 bird cages. If each cage has 8 parrots and 2 parakeets in it, how many birds does the pet store have total? \"\"\"\n    # Q.1: How many cages do they have?\n    num_cages = 4\n    # Q.2: Now we can answer the question: How many birds does the pet store have total?\n    total_birds = num_cages * (8 + 2)\n    return total_birds\n\n",
+        "answer": 40
+    },
+    {
+        "question": " Kaleb bought 14 boxes of chocolate candy and gave 5 to his little brother. If each box has 6 pieces inside it, how many pieces did Kaleb still have? ",
+        "final_ans": "54",
+        "id": 102,
+        "sub_questions": [
+            "How many pieces of chocolate are in each box?",
+            "How many pieces of chocolate did Kaleb give to his little brother?",
+            "Now we can answer the question: How many pieces of chocolate did Kaleb still have?"
+        ],
+        "code": "def q3():\n    \"\"\" Kaleb bought 14 boxes of chocolate candy and gave 5 to his little brother. If each box has 6 pieces inside it, how many pieces did Kaleb still have? \"\"\"\n    # Q.1: How many pieces of chocolate are in each box?\n    pieces_per_box = 6\n    # Q.2: How many pieces of chocolate did Kaleb give to his little brother?\n    given_pieces = 5 * pieces_per_box\n    # Q.3: Now we can answer the question: How many pieces of chocolate did Kaleb still have?\n    remaining_pieces = 14 * pieces_per_box - given_pieces\n    return remaining_pieces\n\n",
+        "answer": 54
+    },
+    {
+        "question": " Robin uploaded 31 pictures from her phone and 5 from her camera to facebook. If she sorted the pics into 9 different albums with the same amount of pics in each album, how many pictures were in each of the albums? ",
+        "final_ans": "4",
+        "id": 103,
+        "sub_questions": [
+            "How many pictures did Robin upload in total?",
+            "Now we can answer the question: How many pictures were in each of the albums?"
+        ],
+        "code": "def q3():\n    \"\"\" Robin uploaded 31 pictures from her phone and 5 from her camera to facebook. If she sorted the pics into 9 different albums with the same amount of pics in each album, how many pictures were in each of the albums? \"\"\"\n    # Q.1: How many pictures did Robin upload in total?\n    total_pictures = 31 + 5\n    # Q.2: Now we can answer the question: How many pictures were in each of the albums?\n    num_albums = 9\n    pictures_per_album = total_pictures // num_albums\n    return pictures_per_album\n\n",
+        "answer": 4
+    },
+    {
+        "question": " Mike made 69 dollars mowing lawns over the summer. If he spent 24 dollars buying new mower blades, how many 5 dollar games could he buy with the money he had left? ",
+        "final_ans": "9",
+        "id": 104,
+        "sub_questions": [
+            "How much money did Mike spend on new mower blades?",
+            "How much money did Mike have left?",
+            "Now we can answer the question: How many 5 dollar games could he buy with the money he had left?"
+        ],
+        "code": "def q3():\n    \"\"\" Mike made 69 dollars mowing lawns over the summer. If he spent 24 dollars buying new mower blades, how many 5 dollar games could he buy with the money he had left? \"\"\"\n    # Q.1: How much money did Mike spend on new mower blades?\n    mower_blades = 24\n    # Q.2: How much money did Mike have left?\n    total_money = 69\n    money_left = total_money - mower_blades\n    # Q.3: Now we can answer the question: How many 5 dollar games could he buy with the money he had left?\n    five_dollar_games = money_left / 5\n    return five_dollar_games\n\n",
+        "answer": 9.0
+    },
+    {
+        "question": " Maria bought 2 new chairs and 2 new tables for her house. If she spent 8 minutes on each piece furniture putting it together, how many minutes did it take her to finish? ",
+        "final_ans": "32",
+        "id": 105,
+        "sub_questions": [
+            "How long did it take Maria to assemble each chair?",
+            "How long did it take Maria to assemble each table?",
+            "Now we can answer the question: How many minutes did it take Maria to finish assembling all the furniture?"
+        ],
+        "code": "def q3():\n    \"\"\" Maria bought 2 new chairs and 2 new tables for her house. If she spent 8 minutes on each piece furniture putting it together, how many minutes did it take her to finish? \"\"\"\n    # Q.1: How long did it take Maria to assemble each chair?\n    chair_time = 8\n    # Q.2: How long did it take Maria to assemble each table?\n    table_time = 8\n    # Q.3: Now we can answer the question: How many minutes did it take Maria to finish assembling all the furniture?\n    total_chairs = 2\n    total_tables = 2\n    total_minutes = total_chairs * chair_time + total_tables * table_time\n    return total_minutes\n\n",
+        "answer": 32
+    },
+    {
+        "question": " While on vacation, Rachel took 6 pictures at the zoo and 9 at the museum. If she later deleted 11 of the pictures, how many pictures from her vacation did she still have? ",
+        "final_ans": "4",
+        "id": 106,
+        "sub_questions": [
+            "How many pictures did Rachel take in all?",
+            "How many pictures did Rachel delete?",
+            "Now we can answer the question: How many pictures from her vacation did she still have?"
+        ],
+        "code": "def q3():\n    \"\"\" While on vacation, Rachel took 6 pictures at the zoo and 9 at the museum. If she later deleted 11 of the pictures, how many pictures from her vacation did she still have? \"\"\"\n    # Q.1: How many pictures did Rachel take in all?\n    total_pictures = 6 + 9\n    # Q.2: How many pictures did Rachel delete?\n    deleted_pictures = 11\n    # Q.3: Now we can answer the question: How many pictures from her vacation did she still have?\n    remaining_pictures = total_pictures - deleted_pictures\n    return remaining_pictures\n\n",
+        "answer": 4
+    },
+    {
+        "question": " Maria was making baggies of cookies with 8 cookies in each bag. If she had 5 chocolate chip cookies and 19 oatmeal cookies, how many baggies could she make? ",
+        "final_ans": "3",
+        "id": 107,
+        "sub_questions": [
+            "How many chocolate chip cookies does Maria have?",
+            "How many oatmeal cookies does Maria have?",
+            "How many baggies can Maria make if she uses all the chocolate chip cookies?",
+            "Now we can answer the question: How many baggies can Maria make if she uses all the oatmeal cookies?"
+        ],
+        "code": "def q3():\n    \"\"\" Maria was making baggies of cookies with 8 cookies in each bag. If she had 5 chocolate chip cookies and 19 oatmeal cookies, how many baggies could she make? \"\"\"\n    # Q.1: How many chocolate chip cookies does Maria have?\n    choc_cookies = 5\n    # Q.2: How many oatmeal cookies does Maria have?\n    oat_cookies = 19\n    # Q.3: How many baggies can Maria make if she uses all the chocolate chip cookies?\n    choc_baggies = choc_cookies // 8\n    # Q.4: Now we can answer the question: How many baggies can Maria make if she uses all the oatmeal cookies?\n    oat_baggies = oat_cookies // 8",
+        "answer": null
+    },
+    {
+        "question": " April's discount flowers was having a sale where each flower was 3 dollars. If Zoe bought 8 roses and 2 daisies, how much did she spend? ",
+        "final_ans": "30",
+        "id": 108,
+        "sub_questions": [
+            "How much did each rose cost?",
+            "How much did Zoe pay for the roses?",
+            "How much did Zoe pay for the daisies?",
+            "Now we can answer the question:  How much did Zoe spend?"
+        ],
+        "code": "def q3():\n    \"\"\" April's discount flowers was having a sale where each flower was 3 dollars. If Zoe bought 8 roses and 2 daisies, how much did she spend? \"\"\"\n    # Q.1: How much did each rose cost?\n    rose_price = 3\n    # Q.2: How much did Zoe pay for the roses?\n    num_roses = 8\n    total_rose_cost = num_roses * rose_price\n    # Q.3: How much did Zoe pay for the daisies?\n    daisy_price = 3 / 2\n    num_daisies = 2\n    total_daisy_cost = num_daisies * daisy_price\n    # Q.4: Now we can answer the question:  How much did Zoe spend?\n    total_cost = total_rose_cost + total_daisy_cost\n    return total_cost\n\n",
+        "answer": 27.0
+    },
+    {
+        "question": " Bianca was organizing her book case making sure each of the shelves had exactly 8 books on it. If she had 5 shelves of mystery books and 4 shelves of picture books, how many books did she have total? ",
+        "final_ans": "72",
+        "id": 109,
+        "sub_questions": [
+            "How many shelves of mystery books does Bianca have?",
+            "How many shelves of picture books does Bianca have?",
+            "Now we can answer the question: How many books does Bianca have total?"
+        ],
+        "code": "def q3():\n    \"\"\" Bianca was organizing her book case making sure each of the shelves had exactly 8 books on it. If she had 5 shelves of mystery books and 4 shelves of picture books, how many books did she have total? \"\"\"\n    # Q.1: How many shelves of mystery books does Bianca have?\n    shelves_mystery = 5\n    # Q.2: How many shelves of picture books does Bianca have?\n    shelves_picture = 4\n    # Q.3: Now we can answer the question: How many books does Bianca have total?\n    books_per_shelf = 8\n    total_books = shelves_mystery * books_per_shelf + shelves_picture * books_per_shelf\n    return total_books\n\n",
+        "answer": 72
+    },
+    {
+        "question": " John was organizing his baseball cards in a binder with 3 on each page. If he had 8 new cards and 16 old cards to put in the binder, how many pages would he use? ",
+        "final_ans": "8",
+        "id": 110,
+        "sub_questions": [
+            "How many pages will he use if he has 8 new cards?",
+            "How many pages will he use if he has 16 old cards?",
+            "Now we can answer the question: How many pages will he use if he has both new and old cards?"
+        ],
+        "code": "def q3():\n    \"\"\" John was organizing his baseball cards in a binder with 3 on each page. If he had 8 new cards and 16 old cards to put in the binder, how many pages would he use? \"\"\"\n    # Q.1: How many pages will he use if he has 8 new cards?\n    new_cards = 8\n    new_pages = new_cards / 3\n    # Q.2: How many pages will he use if he has 16 old cards?\n    old_cards = 16\n    old_pages = old_cards / 3\n    # Q.3: Now we can answer the question: How many pages will he use if he has both new and old cards?\n    total_cards = new_cards + old_cards\n    total_pages = total_cards / 3\n    return total_pages\n\n",
+        "answer": 8.0
+    },
+    {
+        "question": " Isabel baked 3 brownies, but needed 5 total for her party. If she used 5 cups of flour on each one, how much cups of flour does she still need? ",
+        "final_ans": "10",
+        "id": 111,
+        "sub_questions": [
+            "How many brownies did Isabel bake?",
+            "How many cups of flour does Isabel need?",
+            "Now we can answer the question: How much cups of flour does Isabel still need?"
+        ],
+        "code": "def q3():\n    \"\"\" Isabel baked 3 brownies, but needed 5 total for her party. If she used 5 cups of flour on each one, how much cups of flour does she still need? \"\"\"\n    # Q.1: How many brownies did Isabel bake?\n    baked_brownies = 3\n    # Q.2: How many cups of flour does Isabel need?\n    total_cups_flour = 5 * 5\n    cups_flour = total_cups_flour - baked_brownies * 5\n    return cups_flour\n\n",
+        "answer": 10
+    },
+    {
+        "question": " For the school bake sale Maria made 19 cupcakes. If she sold 5 of them and then made 10 more, how many cupcakes would she have? ",
+        "final_ans": "24",
+        "id": 112,
+        "sub_questions": [
+            "How many cupcakes did Maria make?",
+            "How many cupcakes did Maria sell?",
+            "Now we can answer the question: How many cupcakes would Maria have if she made 10 more?"
+        ],
+        "code": "def q3():\n    \"\"\" For the school bake sale Maria made 19 cupcakes. If she sold 5 of them and then made 10 more, how many cupcakes would she have? \"\"\"\n    # Q.1: How many cupcakes did Maria make?\n    total_cupcakes = 19 + 10\n    # Q.2: How many cupcakes did Maria sell?\n    sold_cupcakes = 5\n    # Q.3: Now we can answer the question: How many cupcakes would Maria have if she made 10 more?\n    remaining_cupcakes = total_cupcakes - sold_cupcakes\n    return remaining_cupcakes\n\n",
+        "answer": 24
+    },
+    {
+        "question": " Tom bought 40 tickets at the state fair. He spent 28 tickets at the 'dunk a clown' booth and decided to use the rest on rides. If each ride cost 4 tickets, how many rides could he go on? ",
+        "final_ans": "3",
+        "id": 113,
+        "sub_questions": [
+            "How many tickets did Tom have left?",
+            "Now we can answer the question: How many rides could he go on?"
+        ],
+        "code": "def q3():\n    \"\"\" Tom bought 40 tickets at the state fair. He spent 28 tickets at the 'dunk a clown' booth and decided to use the rest on rides. If each ride cost 4 tickets, how many rides could he go on? \"\"\"\n    # Q.1: How many tickets did Tom have left?\n    tickets_left = 40 - 28\n    # Q.2: Now we can answer the question: How many rides could he go on?\n    num_rides = tickets_left / 4\n    return num_rides\n\n",
+        "answer": 3.0
+    },
+    {
+        "question": " In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+        "final_ans": "37",
+        "id": 114,
+        "sub_questions": [
+            "How many students left?",
+            "How many new students came?",
+            "Now we can answer the question: How many students were in fourth grade at the end?"
+        ],
+        "code": "def q3():\n    \"\"\" In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? \"\"\"\n    # Q.1: How many students left?\n    left_students = 5\n    # Q.2: How many new students came?\n    new_students = 11\n    # Q.3: Now we can answer the question: How many students were in fourth grade at the end?\n    total_students = 31\n    final_students = total_students - left_students + new_students\n    return final_students\n\n",
+        "answer": 37
+    },
+    {
+        "question": " While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+        "final_ans": "22",
+        "id": 115,
+        "sub_questions": [
+            "How many towels did Maria give to her mother?",
+            "Now we can answer the question: How many towels did Maria end up with?"
+        ],
+        "code": "def q3():\n    \"\"\" While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? \"\"\"\n    # Q.1: How many towels did Maria give to her mother?\n    towels_given = 34\n    # Q.2: Now we can answer the question: How many towels did Maria end up with?\n    total_towels = 35 + 21\n    remaining_towels = total_towels - towels_given\n    return remaining_towels\n\n",
+        "answer": 22
+    },
+    {
+        "question": " While playing a trivia game, Adam answered 8 questions correct in the first half and 2 questions correct in the second half. If each question was worth 8 points, what was his final score? ",
+        "final_ans": "80",
+        "id": 116,
+        "sub_questions": [
+            "How many questions did Adam answer correctly in the first half?",
+            "How many questions did Adam answer correctly in the second half?",
+            "What was Adam's total score for the first half?",
+            "What was Adam's total score for the second half?",
+            "Now we can answer the question: What was Adam's final score?"
+        ],
+        "code": "def q3():\n    \"\"\" While playing a trivia game, Adam answered 8 questions correct in the first half and 2 questions correct in the second half. If each question was worth 8 points, what was his final score? \"\"\"\n    # Q.1: How many questions did Adam answer correctly in the first half?\n    first_half_correct = 8\n    # Q.2: How many questions did Adam answer correctly in the second half?\n    second_half_correct = 2\n    # Q.3: What was Adam's total score for the first half?\n    first_half_score = first_half_correct * 8\n    # Q.4: What was Adam's total score for the second half?\n    second_half_score = second_half_correct * 8\n    # Q.5: Now we can answer the question: What was Adam's final score?\n    total_score = first_half_score + second_half_score\n    return total_score\n\n",
+        "answer": 80
+    },
+    {
+        "question": " Paul was collecting cans for recycling. On Saturday he filled 6 bags up and on Sunday he filled 3 more bags. If each bag had 8 cans in it, how many cans did he pick up total? ",
+        "final_ans": "72",
+        "id": 117,
+        "sub_questions": [
+            "How many bags did Paul fill on Saturday?",
+            "How many cans were in each bag on Saturday?",
+            "How many bags did Paul fill on Sunday?",
+            "How many cans were in each bag on Sunday?",
+            "Now we can answer the question: How many cans did Paul pick up total?"
+        ],
+        "code": "def q3():\n    \"\"\" Paul was collecting cans for recycling. On Saturday he filled 6 bags up and on Sunday he filled 3 more bags. If each bag had 8 cans in it, how many cans did he pick up total? \"\"\"\n    # Q.1: How many bags did Paul fill on Saturday?\n    saturday_bags = 6\n    # Q.2: How many cans were in each bag on Saturday?\n    saturday_cans = 8\n    # Q.3: How many bags did Paul fill on Sunday?\n    sunday_bags = 3\n    # Q.4: How many cans were in each bag on Sunday?\n    sunday_cans = 8\n    # Q.5: Now we can answer the question: How many cans did Paul pick up total?\n    total_cans = saturday_bags * saturday_cans + sunday_bags * sunday_cans\n    return total_cans\n\n",
+        "answer": 72
+    },
+    {
+        "question": " Bianca and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Bianca recycled 24 pounds and her friends recycled 3 pounds, how many points did they earn? ",
+        "final_ans": "9",
+        "id": 118,
+        "sub_questions": [
+            "How many pounds did Bianca recycle?",
+            "How many points did Bianca earn?",
+            "Now we can answer the question: How many points did they earn?"
+        ],
+        "code": "def q3():\n    \"\"\" Bianca and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Bianca recycled 24 pounds and her friends recycled 3 pounds, how many points did they earn? \"\"\"\n    # Q.1: How many pounds did Bianca recycle?\n    bianca_pounds = 24\n    # Q.2: How many points did Bianca earn?\n    bianca_points = bianca_pounds // 3\n    # Q.3: Now we can answer the question: How many points did they earn?\n    total_pounds = bianca_pounds + 3\n    total_points = total_pounds // 3\n    return total_points\n\n",
+        "answer": 9
+    },
+    {
+        "question": " A group of 3 friends went into a restaurant. The chef already had 8 chicken wings cooked but cooked 10 more for the group. If they each got the same amount how many would each person get? ",
+        "final_ans": "6",
+        "id": 119,
+        "sub_questions": [
+            "How many chicken wings did the chef already cook?",
+            "How many chicken wings did the chef cook for the group?",
+            "Now we can answer the question: How many chicken wings will each person get?"
+        ],
+        "code": "def q3():\n    \"\"\" A group of 3 friends went into a restaurant. The chef already had 8 chicken wings cooked but cooked 10 more for the group. If they each got the same amount how many would each person get? \"\"\"\n    # Q.1: How many chicken wings did the chef already cook?\n    already_cooked = 8\n    # Q.2: How many chicken wings did the chef cook for the group?\n    cooked_for_group = 10\n    # Q.3: Now we can answer the question: How many chicken wings will each person get?\n    total_chicken_wings = already_cooked + cooked_for_group\n    num_friends = 3\n    chicken_wings_per_person = total_chicken_wings / num_friends\n    return chicken_wings_per_person\n\n",
+        "answer": 6.0
+    },
+    {
+        "question": " John had 33 socks. If he threw away 19 old ones that didn't fit and bought 13 new ones, how many socks would he have? ",
+        "final_ans": "27",
+        "id": 120,
+        "sub_questions": [
+            "How many socks did John throw away?",
+            "How many socks did John buy?",
+            "Now we can answer the question: How many socks does John have now?"
+        ],
+        "code": "def q3():\n    \"\"\" John had 33 socks. If he threw away 19 old ones that didn't fit and bought 13 new ones, how many socks would he have? \"\"\"\n    # Q.1: How many socks did John throw away?\n    thrown_away_socks = 19\n    # Q.2: How many socks did John buy?\n    bought_socks = 13\n    # Q.3: Now we can answer the question: How many socks does John have now?\n    total_socks = 33\n    remaining_socks = total_socks - thrown_away_socks + bought_socks\n    return remaining_socks\n\n",
+        "answer": 27
+    },
+    {
+        "question": " There school's baseball team had 2 new players and 6 returning players. If the coach put them into groups with 4 players in each group, how many groups would there be? ",
+        "final_ans": "2",
+        "id": 121,
+        "sub_questions": [
+            "How many players are in each group?",
+            "How many groups will there be?"
+        ],
+        "code": "def q3():\n    \"\"\" There school's baseball team had 2 new players and 6 returning players. If the coach put them into groups with 4 players in each group, how many groups would there be? \"\"\"\n    # Q.1: How many players are in each group?\n    players_per_group = 4\n    # Q.2: How many groups will there be?\n    total_players = 8\n    num_groups = total_players / players_per_group\n    return num_groups\n\n",
+        "answer": 2.0
+    },
+    {
+        "question": " A painter needed to paint 6 rooms in a building. Each room takes 5 hours to paint. If he already painted 2 rooms, how much longer will he take to paint the rest? ",
+        "final_ans": "20",
+        "id": 122,
+        "sub_questions": [
+            "How many rooms are left to be painted?",
+            "Now we can answer the question: How much longer will he take to paint the rest?"
+        ],
+        "code": "def q3():\n    \"\"\" A painter needed to paint 6 rooms in a building. Each room takes 5 hours to paint. If he already painted 2 rooms, how much longer will he take to paint the rest? \"\"\"\n    # Q.1: How many rooms are left to be painted?\n    total_rooms = 6\n    painted_rooms = 2\n    rooms_left = total_rooms - painted_rooms\n    # Q.2: Now we can answer the question: How much longer will he take to paint the rest?\n    time_per_room = 5\n    total_time = time_per_room * total_rooms\n    remaining_time = time_per_room * rooms_left\n    return total_time - remaining_time\n\n",
+        "answer": 10
+    },
+    {
+        "question": " A waiter had 22 customers in his section. If 14 of them left and the rest of his tables had 4 people at each table, how many tables did he have? ",
+        "final_ans": "2",
+        "id": 123,
+        "sub_questions": [
+            "How many customers left?",
+            "How many tables are left?",
+            "Now we can answer the question: How many tables did he have?"
+        ],
+        "code": "def q3():\n    \"\"\" A waiter had 22 customers in his section. If 14 of them left and the rest of his tables had 4 people at each table, how many tables did he have? \"\"\"\n    # Q.1: How many customers left?\n    left_customers = 14\n    # Q.2: How many tables are left?\n    total_tables = 22\n    tables_left = total_tables - left_customers\n    # Q.3: Now we can answer the question: How many tables did he have?\n    tables_at_each_table = 4\n    num_of_tables = tables_left / tables_at_each_table\n    return num_of_tables\n\n",
+        "answer": 2.0
+    },
+    {
+        "question": " Roger had 120 pieces of clothing to wash. He put 48 of them in one load, but decided to split the rest into 9 equal loads. How many pieces of clothing could go in each of the small loads? ",
+        "final_ans": "8",
+        "id": 124,
+        "sub_questions": [
+            "How many pieces of clothing did Roger put in one load?",
+            "Now we can answer the question: How many pieces of clothing could go in each of the small loads?"
+        ],
+        "code": "def q3():\n    \"\"\" Roger had 120 pieces of clothing to wash. He put 48 of them in one load, but decided to split the rest into 9 equal loads. How many pieces of clothing could go in each of the small loads? \"\"\"\n    # Q.1: How many pieces of clothing did Roger put in one load?\n    big_load = 48\n    # Q.2: Now we can answer the question: How many pieces of clothing could go in each of the small loads?\n    small_loads = 9\n    small_load = (120 - big_load) / small_loads\n    return small_load\n\n",
+        "answer": 8.0
+    },
+    {
+        "question": " In fourth grade there were 10 students at the start of the year. During the year 4 students left and 42 new students came to school. How many students were in fourth grade at the end? ",
+        "final_ans": "48",
+        "id": 125,
+        "sub_questions": [
+            "How many students left?",
+            "How many new students came?",
+            "Now we can answer the question: How many students were in fourth grade at the end?"
+        ],
+        "code": "def q3():\n    \"\"\" In fourth grade there were 10 students at the start of the year. During the year 4 students left and 42 new students came to school. How many students were in fourth grade at the end? \"\"\"\n    # Q.1: How many students left?\n    left_students = 4\n    # Q.2: How many new students came?\n    new_students = 42\n    # Q.3: Now we can answer the question: How many students were in fourth grade at the end?\n    total_students = 10 + new_students - left_students\n    return total_students\n\n",
+        "answer": 48
+    },
+    {
+        "question": " Roger is at the library helping put away books. There are 14 book to put away total but a librarian takes 2 of them and leaves Roger with the rest. If he can fit 3 books on a shelf, how many shelves will he need? ",
+        "final_ans": "4",
+        "id": 126,
+        "sub_questions": [
+            "How many books does Roger have left?",
+            "Now we can answer the question:  How many shelves will he need?"
+        ],
+        "code": "def q3():\n    \"\"\" Roger is at the library helping put away books. There are 14 book to put away total but a librarian takes 2 of them and leaves Roger with the rest. If he can fit 3 books on a shelf, how many shelves will he need? \"\"\"\n    # Q.1: How many books does Roger have left?\n    roger_books = 14 - 2\n    # Q.2: Now we can answer the question:  How many shelves will he need?\n    shelves_needed = roger_books // 3\n    return shelves_needed\n\n",
+        "answer": 4
+    },
+    {
+        "question": " Bianca picked 39 tulips and 49 roses to make flower bouquets. If she only used 81 of the flowers though, how many extra flowers did Bianca pick? ",
+        "final_ans": "7",
+        "id": 127,
+        "sub_questions": [
+            "How many tulips did Bianca pick?",
+            "How many roses did Bianca pick?",
+            "How many extra tulips did Bianca pick?",
+            "How many extra roses did Bianca pick?",
+            "Now we can answer the question:  How many extra flowers did Bianca pick?"
+        ],
+        "code": "def q3():\n    \"\"\" Bianca picked 39 tulips and 49 roses to make flower bouquets. If she only used 81 of the flowers though, how many extra flowers did Bianca pick? \"\"\"\n    # Q.1: How many tulips did Bianca pick?\n    tulip_flowers = 39\n    # Q.2: How many roses did Bianca pick?\n    rose_flowers = 49\n    # Q.3: How many extra tulips did Bianca pick?\n    total_flowers = 39 + 49\n    extra_tulips = total_flowers - 81\n    return extra_tulips\n\n",
+        "answer": 7
+    },
+    {
+        "question": " Emily bought 4 new chairs and 2 new tables for her house. If she spent 8 minutes on each piece furniture putting it together, how many minutes did it take her to finish? ",
+        "final_ans": "48",
+        "id": 128,
+        "sub_questions": [
+            "How many pieces of furniture did Emily buy?",
+            "How long did it take her to assemble each chair?",
+            "How long did it take her to assemble each table?",
+            "Now we can answer the question: How many minutes did it take her to finish?"
+        ],
+        "code": "def q3():\n    \"\"\" Emily bought 4 new chairs and 2 new tables for her house. If she spent 8 minutes on each piece furniture putting it together, how many minutes did it take her to finish? \"\"\"\n    # Q.1: How many pieces of furniture did Emily buy?\n    num_furniture = 4 + 2\n    # Q.2: How long did it take her to assemble each chair?\n    chair_time = 8\n    # Q.3: How long did it take her to assemble each table?\n    table_time = 8\n    # Q.4: Now we can answer the question: How many minutes did it take her to finish?\n    total_minutes = num_furniture * chair_time + num_furniture * table_time\n    return total_minutes\n\n",
+        "answer": 96
+    },
+    {
+        "question": " A pet store has 6 bird cages. If each cage has 2 parrots and 7 parakeets in it, how many birds does the pet store have total? ",
+        "final_ans": "54",
+        "id": 129,
+        "sub_questions": [
+            "How many cages do the pet store have?",
+            "Now we can answer the question: How many birds does the pet store have total?"
+        ],
+        "code": "def q3():\n    \"\"\" A pet store has 6 bird cages. If each cage has 2 parrots and 7 parakeets in it, how many birds does the pet store have total? \"\"\"\n    # Q.1: How many cages do the pet store have?\n    num_cages = 6\n    # Q.2: Now we can answer the question: How many birds does the pet store have total?\n    num_parrots = 2 * num_cages\n    num_parakeets = 7 * num_cages\n    total_birds = num_parrots + num_parakeets\n    return total_birds\n\n",
+        "answer": 54
+    },
+    {
+        "question": " Dave had to wash 9 short sleeve shirts and 27 long sleeve shirts before school. If he had only washed 20 of them by the time school started, how many did he not wash? ",
+        "final_ans": "16",
+        "id": 130,
+        "sub_questions": [
+            "How many short sleeve shirts did Dave wash?",
+            "How many long sleeve shirts did Dave wash?",
+            "Now we can answer the question: How many did he not wash?"
+        ],
+        "code": "def q3():\n    \"\"\" Dave had to wash 9 short sleeve shirts and 27 long sleeve shirts before school. If he had only washed 20 of them by the time school started, how many did he not wash? \"\"\"\n    # Q.1: How many short sleeve shirts did Dave wash?\n    washed_short_sleeve_shirts = 20\n    # Q.2: How many long sleeve shirts did Dave wash?\n    washed_long_sleeve_shirts = 20 - 9\n    # Q.3: Now we can answer the question: How many did he not wash?\n    total_shirts = 9 + 27\n    not_washed_shirts = total_shirts - washed_short_sleeve_shirts - washed_long_sleeve_shirts\n    return not_washed_shirts\n\n",
+        "answer": 5
+    },
+    {
+        "question": " While on vacation, Haley took 50 pictures at the zoo and 8 at the museum. If she later deleted 38 of the pictures, how many pictures from her vacation did she still have? ",
+        "final_ans": "20",
+        "id": 131,
+        "sub_questions": [
+            "How many pictures did Haley take in total?",
+            "How many pictures did Haley delete?",
+            "Now we can answer the question: How many pictures from her vacation did she still have?"
+        ],
+        "code": "def q3():\n    \"\"\" While on vacation, Haley took 50 pictures at the zoo and 8 at the museum. If she later deleted 38 of the pictures, how many pictures from her vacation did she still have? \"\"\"\n    # Q.1: How many pictures did Haley take in total?\n    total_pictures = 50 + 8\n    # Q.2: How many pictures did Haley delete?\n    deleted_pictures = 38\n    # Q.3: Now we can answer the question: How many pictures from her vacation did she still have?\n    remaining_pictures = total_pictures - deleted_pictures\n    return remaining_pictures\n\n",
+        "answer": 20
+    },
+    {
+        "question": " A florist had 5 roses. If she sold 3 of them and then later picked 34 more, how many roses would she have? ",
+        "final_ans": "36",
+        "id": 132,
+        "sub_questions": [
+            "How many roses did she have initially?",
+            "How many roses did she sell?",
+            "Now we can answer the question: How many roses does she have now?"
+        ],
+        "code": "def q3():\n    \"\"\" A florist had 5 roses. If she sold 3 of them and then later picked 34 more, how many roses would she have? \"\"\"\n    # Q.1: How many roses did she have initially?\n    initial_roses = 5\n    # Q.2: How many roses did she sell?\n    sold_roses = 3\n    # Q.3: Now we can answer the question: How many roses does she have now?\n    total_roses = initial_roses + 34\n    return total_roses\n\n",
+        "answer": 39
+    },
+    {
+        "question": " For a birthday party Cody bought 4 regular sodas and 44 diet sodas. If his fridge would only hold 6 on each shelf, how many shelves would he fill up? ",
+        "final_ans": "8",
+        "id": 133,
+        "sub_questions": [
+            "How many regular sodas are there in total?",
+            "How many diet sodas are there in total?",
+            "How many sodas does Cody buy in total?",
+            "How many shelves will Cody fill up?",
+            "Now we can answer the question: How many shelves will Cody fill up?"
+        ],
+        "code": "def q3():\n    \"\"\" For a birthday party Cody bought 4 regular sodas and 44 diet sodas. If his fridge would only hold 6 on each shelf, how many shelves would he fill up? \"\"\"\n    # Q.1: How many regular sodas are there in total?\n    total_regular_sodas = 4\n    # Q.2: How many diet sodas are there in total?\n    total_diet_sodas = 44\n    # Q.3: How many sodas does Cody buy in total?\n    total_sodas = total_regular_sodas + total_diet_sodas\n    # Q.4: How many shelves will Cody fill up?\n    shelves_per_row = 6\n    total_shelves = total_sodas / shelves_per_row\n    return total_shelves\n\n",
+        "answer": 8.0
+    },
+    {
+        "question": " The schools debate team had 26 boys and 46 girls on it. If they were split into groups of 9 how many groups could they make? ",
+        "final_ans": "8",
+        "id": 134,
+        "sub_questions": [
+            "How many boys are there in total?",
+            "How many girls are there in total?",
+            "How many groups of 9 can be made with the boys?",
+            "Now we can answer the question: How many groups of 9 can be made with all the students?"
+        ],
+        "code": "def q3():\n    \"\"\" The schools debate team had 26 boys and 46 girls on it. If they were split into groups of 9 how many groups could they make? \"\"\"\n    # Q.1: How many boys are there in total?\n    num_boys = 26\n    # Q.2: How many girls are there in total?\n    num_girls = 46\n    # Q.3: How many groups of 9 can be made with the boys?\n    boy_groups = num_boys // 9\n    # Q.4: Now we can answer the question: How many groups of 9 can be made with all the students?\n    total_students = num_boys + num_girls\n    total_groups = total_students // 9\n    return total_groups\n\n",
+        "answer": 8
+    },
+    {
+        "question": " The school cafeteria ordered 6 red apples and 15 green apples for students lunches. But, if only 5 students wanted fruit, how many extra did the cafeteria end up with? ",
+        "final_ans": "16",
+        "id": 135,
+        "sub_questions": [
+            "How many apples were ordered in total?",
+            "How many red apples were ordered?",
+            "How many green apples were ordered?",
+            "How many apples did the cafeteria end up with after 5 students chose fruit?",
+            "Now we can answer the question: How many extra apples did the cafeteria end up with?"
+        ],
+        "code": "def q3():\n    \"\"\" The school cafeteria ordered 6 red apples and 15 green apples for students lunches. But, if only 5 students wanted fruit, how many extra did the cafeteria end up with? \"\"\"\n    # Q.1: How many apples were ordered in total?\n    ordered_apples = 6 + 15\n    # Q.2: How many red apples were ordered?\n    red_apples = 6\n    # Q.3: How many green apples were ordered?\n    green_apples = 15\n    # Q.4: How many apples did the cafeteria end up with after 5 students chose fruit?\n    chosen_apples = 5\n    remaining_apples = ordered_apples - chosen_apples\n    return remaining_apples\n\n",
+        "answer": 16
+    },
+    {
+        "question": " At a company picnic 9 managers and 15 employees decided to start a game of volleyball. If they split into 8 teams how many people would be on each team? ",
+        "final_ans": "3",
+        "id": 136,
+        "sub_questions": [
+            "How many teams can be formed with 9 managers and 15 employees?",
+            "Now we can answer the question: How many people would be on each team?"
+        ],
+        "code": "def q3():\n    \"\"\" At a company picnic 9 managers and 15 employees decided to start a game of volleyball. If they split into 8 teams how many people would be on each team? \"\"\"\n    # Q.1: How many teams can be formed with 9 managers and 15 employees?\n    manager_count = 9\n    employee_count = 15\n    total_people = manager_count + employee_count\n    possible_teams = total_people / 4\n    # Q.2: Now we can answer the question: How many people would be on each team?\n    people_per_team = total_people / possible_teams\n    return people_per_team\n\n",
+        "answer": 4.0
+    },
+    {
+        "question": " A book store had 4 books in the bargin bin. If they sold 3 books, but then put 10 more in the bin, how many books would be in the bin? ",
+        "final_ans": "11",
+        "id": 137,
+        "sub_questions": [
+            "How many books were in the bin to start?",
+            "How many books did they sell?",
+            "How many books are in the bin now?",
+            "Now we can answer the question: How many books would be in the bin?"
+        ],
+        "code": "def q3():\n    \"\"\" A book store had 4 books in the bargin bin. If they sold 3 books, but then put 10 more in the bin, how many books would be in the bin? \"\"\"\n    # Q.1: How many books were in the bin to start?\n    start_books = 4\n    # Q.2: How many books did they sell?\n    sold_books = 3\n    # Q.3: How many books are in the bin now?\n    end_books = start_books + 10 - sold_books\n    return end_books\n\n",
+        "answer": 11
+    },
+    {
+        "question": " Mike made 42 dollars mowing lawns over the summer. If he spent 10 dollars buying new mower blades, how many 8 dollar games could he buy with the money he had left? ",
+        "final_ans": "4",
+        "id": 138,
+        "sub_questions": [
+            "How much money did Mike spend on new mower blades?",
+            "How much money did Mike have left?",
+            "Now we can answer the question:  How many 8 dollar games could he buy with the money he had left?"
+        ],
+        "code": "def q3():\n    \"\"\" Mike made 42 dollars mowing lawns over the summer. If he spent 10 dollars buying new mower blades, how many 8 dollar games could he buy with the money he had left? \"\"\"\n    # Q.1: How much money did Mike spend on new mower blades?\n    mower_blades = 10\n    # Q.2: How much money did Mike have left?\n    total_money = 42\n    money_left = total_money - mower_blades\n    # Q.3: Now we can answer the question:  How many 8 dollar games could he buy with the money he had left?\n    game_price = 8\n    num_games = money_left / game_price\n    return num_games\n\n",
+        "answer": 4.0
+    },
+    {
+        "question": " A chef needs to cook 13 potatoes. He has already cooked 5. If each potato takes 6 minutes to cook, how long will it take him to cook the rest? ",
+        "final_ans": "48",
+        "id": 139,
+        "sub_questions": [
+            "How long will it take him to cook 13 potatoes in total?",
+            "Now we can answer the question: How long will it take him to cook the rest?"
+        ],
+        "code": "def q3():\n    \"\"\" A chef needs to cook 13 potatoes. He has already cooked 5. If each potato takes 6 minutes to cook, how long will it take him to cook the rest? \"\"\"\n    # Q.1: How long will it take him to cook 13 potatoes in total?\n    num_potatos = 13\n    time_per_potato = 6\n    total_time = num_potatos * time_per_potato\n    # Q.2: Now we can answer the question: How long will it take him to cook the rest?\n    already_cooked_potatos = 5\n    remaining_potatos = num_potatos - already_cooked_potatos\n    remaining_time = remaining_potatos * time_per_potato\n    return remaining_time\n\n",
+        "answer": 48
+    },
+    {
+        "question": " Paige had 43 math problems and 12 science problems for homework. If she finished 44 of the problems at school, how many problems did she have to do for homework? ",
+        "final_ans": "11",
+        "id": 140,
+        "sub_questions": [
+            "How many math problems did Paige finish at school?",
+            "How many science problems did Paige finish at school?",
+            "How many math problems did Paige have to do for homework?",
+            "Now we can answer the question: How many problems did Paige have to do for homework?"
+        ],
+        "code": "def q3():\n    \"\"\" Paige had 43 math problems and 12 science problems for homework. If she finished 44 of the problems at school, how many problems did she have to do for homework? \"\"\"\n    # Q.1: How many math problems did Paige finish at school?\n    math_problems_at_school = 44\n    # Q.2: How many science problems did Paige finish at school?\n    science_problems_at_school = 44\n    # Q.3: How many math problems did Paige have to do for homework?\n    math_problems_for_homework = 43 - math_problems_at_school\n    # Q.4: Now we can answer the question: How many problems did Paige have to do for homework?\n    total_problems_for_homework = math_problems_for_homework + (12 - science_problems_at_school)\n    return total_problems_for_homework\n\n",
+        "answer": -33
+    },
+    {
+        "question": " April's discount flowers was having a sale where each flower was 8 dollars. If Vanessa bought 3 roses and 3 daisies, how much did she spend? ",
+        "final_ans": "48",
+        "id": 141,
+        "sub_questions": [
+            "How much did each rose cost?",
+            "How much did each daisy cost?",
+            "Now we can answer the question: How much did Vanessa spend?"
+        ],
+        "code": "def q3():\n    \"\"\" April's discount flowers was having a sale where each flower was 8 dollars. If Vanessa bought 3 roses and 3 daisies, how much did she spend? \"\"\"\n    # Q.1: How much did each rose cost?\n    rose_price = 8\n    # Q.2: How much did each daisy cost?\n    daisy_price = 8\n    # Q.3: Now we can answer the question: How much did Vanessa spend?\n    total_roses = 3\n    total_daisies = 3\n    total_flowers = total_roses + total_daisies\n    total_cost = total_flowers * 8\n    return total_cost\n\n",
+        "answer": 48
+    },
+    {
+        "question": " Olivia uploaded 5 pictures from her phone and 35 from her camera to facebook. If she sorted the pics into 8 different albums with the same amount of pics in each album, how many pictures were in each of the albums? ",
+        "final_ans": "5",
+        "id": 142,
+        "sub_questions": [
+            "How many pictures did Olivia upload in total?",
+            "How many albums did Olivia create?",
+            "Now we can answer the question: How many pictures were in each of the albums?"
+        ],
+        "code": "def q3():\n    \"\"\" Olivia uploaded 5 pictures from her phone and 35 from her camera to facebook. If she sorted the pics into 8 different albums with the same amount of pics in each album, how many pictures were in each of the albums? \"\"\"\n    # Q.1: How many pictures did Olivia upload in total?\n    total_pictures = 40\n    # Q.2: How many albums did Olivia create?\n    num_albums = 8\n    # Q.3: Now we can answer the question: How many pictures were in each of the albums?\n    pictures_per_album = total_pictures / num_albums\n    return pictures_per_album\n\n",
+        "answer": 5.0
+    },
+    {
+        "question": " Robin was making baggies of cookies with 6 cookies in each bag. If she had 23 chocolate chip cookies and 25 oatmeal cookies, how many baggies could she make? ",
+        "final_ans": "8",
+        "id": 143,
+        "sub_questions": [
+            "What is the total number of cookies she has?",
+            "How many bags can she make with the chocolate chip cookies?",
+            "How many bags can she make with the oatmeal cookies?",
+            "Now we can answer the question: How many baggies can she make?"
+        ],
+        "code": "def q3():\n    \"\"\" Robin was making baggies of cookies with 6 cookies in each bag. If she had 23 chocolate chip cookies and 25 oatmeal cookies, how many baggies could she make? \"\"\"\n    # Q.1: What is the total number of cookies she has?\n    choc_cookies = 23\n    oat_cookies = 25\n    total_cookies = choc_cookies + oat_cookies\n    # Q.2: How many bags can she make with the chocolate chip cookies?\n    choc_bags = choc_cookies // 6\n    # Q.3: How many bags can she make with the oatmeal cookies?\n    oat_bags = oat_cookies // 6\n    # Q.4: Now we can answer the question: How many baggies can she make?\n    total_bags = choc_bags + oat_bags\n    return total_bags\n\n",
+        "answer": 7
+    },
+    {
+        "question": " Cody had 45 dollars. For his birthday he got 9 more dollars but spent 19 on a new game. How much money does he have now? ",
+        "final_ans": "35",
+        "id": 144,
+        "sub_questions": [
+            "How much money did Cody get for his birthday?",
+            "How much money did Cody spend on a new game?",
+            "Now we can answer the question: How much money does Cody have now?"
+        ],
+        "code": "def q3():\n    \"\"\" Cody had 45 dollars. For his birthday he got 9 more dollars but spent 19 on a new game. How much money does he have now? \"\"\"\n    # Q.1: How much money did Cody get for his birthday?\n    birthday_money = 9\n    # Q.2: How much money did Cody spend on a new game?\n    game_money = 19\n    # Q.3: Now we can answer the question: How much money does Cody have now?\n    total_money = 45 + birthday_money - game_money\n    return total_money\n\n",
+        "answer": 35
+    },
+    {
+        "question": " Wendy uploaded 22 pictures from her phone and 2 from her camera to facebook. If she sorted the pics into 4 different albums with the same amount of pics in each album, how many pictures were in each of the albums? ",
+        "final_ans": "6",
+        "id": 145,
+        "sub_questions": [
+            "How many pictures did Wendy upload in total?",
+            "How many albums did Wendy create?",
+            "Now we can answer the question: How many pictures were in each of the albums?"
+        ],
+        "code": "def q3():\n    \"\"\" Wendy uploaded 22 pictures from her phone and 2 from her camera to facebook. If she sorted the pics into 4 different albums with the same amount of pics in each album, how many pictures were in each of the albums? \"\"\"\n    # Q.1: How many pictures did Wendy upload in total?\n    total_pictures = 22 + 2\n    # Q.2: How many albums did Wendy create?\n    num_albums = 4\n    # Q.3: Now we can answer the question: How many pictures were in each of the albums?\n    pictures_per_album = total_pictures / num_albums\n    return pictures_per_album\n\n",
+        "answer": 6.0
+    },
+    {
+        "question": " For Halloween Katie and her sister combined the candy they received. Katie had 8 pieces of candy while her sister had 23. If they ate 8 pieces the first night, how many pieces do they have left? ",
+        "final_ans": "23",
+        "id": 146,
+        "sub_questions": [
+            "How many pieces of candy did Katie have?",
+            "How many pieces of candy did her sister have?",
+            "How many pieces of candy did they have in total?",
+            "How many pieces of candy did they eat the first night?",
+            "Now we can answer the question: How many pieces of candy do they have left?"
+        ],
+        "code": "def q3():\n    \"\"\" For Halloween Katie and her sister combined the candy they received. Katie had 8 pieces of candy while her sister had 23. If they ate 8 pieces the first night, how many pieces do they have left? \"\"\"\n    # Q.1: How many pieces of candy did Katie have?\n    katie_candy = 8\n    # Q.2: How many pieces of candy did her sister have?\n    sis_candy = 23\n    # Q.3: How many pieces of candy did they have in total?\n    total_candy = katie_candy + sis_candy\n    # Q.4: How many pieces of candy did they eat the first night?\n    eaten_candy = 8\n    # Q.5: Now we can answer the question: How many pieces of candy do they have left?\n    remaining_candy = total_candy - eaten_candy\n    return remaining_candy\n\n",
+        "answer": 23
+    },
+    {
+        "question": " A pet store had 88 puppies. In one day they sold 34 of them and put the rest into cages with 6 in each cage. How many cages did they use? ",
+        "final_ans": "9",
+        "id": 147,
+        "sub_questions": [
+            "How many cages would they need if they had sold all 88 puppies?",
+            "Now we can answer the question: How many cages did they use?"
+        ],
+        "code": "def q3():\n    \"\"\" A pet store had 88 puppies. In one day they sold 34 of them and put the rest into cages with 6 in each cage. How many cages did they use? \"\"\"\n    # Q.1: How many cages would they need if they had sold all 88 puppies?\n    sold_puppies = 34\n    puppies_left = 88 - sold_puppies\n    # Q.2: Now we can answer the question: How many cages did they use?\n    puppies_per_cage = 6\n    num_of_cages = math.ceil(puppies_left / puppies_per_cage)\n    return num_of_cages\n\n",
+        "answer": 0
+    },
+    {
+        "question": " Jerry was helping the cafeteria workers pick up lunch trays, but he could only carry 8 trays at a time. If he had to pick up 9 trays from one table and 7 trays from another, how many trips will he make? ",
+        "final_ans": "2",
+        "id": 148,
+        "sub_questions": [
+            "How many trays are there in total?",
+            "How many trays can Jerry carry at once?",
+            "Now we can answer the question: How many trips will Jerry make?"
+        ],
+        "code": "def q3():\n    \"\"\" Jerry was helping the cafeteria workers pick up lunch trays, but he could only carry 8 trays at a time. If he had to pick up 9 trays from one table and 7 trays from another, how many trips will he make? \"\"\"\n    # Q.1: How many trays are there in total?\n    total_trays = 9 + 7\n    # Q.2: How many trays can Jerry carry at once?\n    max_trays = 8\n    # Q.3: Now we can answer the question: How many trips will Jerry make?\n    num_trips = total_trays / max_trays\n    return num_trips\n\n",
+        "answer": 2.0
+    },
+    {
+        "question": " Faye was playing a video game where she scores 7 points for each treasure she finds. If she found 2 treasures on the first level and 6 on the second, what would her score be? ",
+        "final_ans": "56",
+        "id": 149,
+        "sub_questions": [
+            "How many treasures did Faye find on the first level?",
+            "How many treasures did Faye find on the second level?",
+            "Now we can answer the question: What would Faye's score be?"
+        ],
+        "code": "def q3():\n    \"\"\" Faye was playing a video game where she scores 7 points for each treasure she finds. If she found 2 treasures on the first level and 6 on the second, what would her score be? \"\"\"\n    # Q.1: How many treasures did Faye find on the first level?\n    first_level_treasures = 2\n    # Q.2: How many treasures did Faye find on the second level?\n    second_level_treasures = 6\n    # Q.3: Now we can answer the question: What would Faye's score be?\n    total_treasures = first_level_treasures + second_level_treasures\n    total_score = total_treasures * 7\n    return total_score\n\n",
+        "answer": 56
+    },
+    {
+        "question": " Megan picked 19 carrots from her garden. If she threw out 4 of them and then picked 46 more the next day, how many carrots would she have total? ",
+        "final_ans": "61",
+        "id": 150,
+        "sub_questions": [
+            "How many carrots did Megan pick from her garden?",
+            "Now we can answer the question: How many carrots does Megan have total?"
+        ],
+        "code": "def q3():\n    \"\"\" Megan picked 19 carrots from her garden. If she threw out 4 of them and then picked 46 more the next day, how many carrots would she have total? \"\"\"\n    # Q.1: How many carrots did Megan pick from her garden?\n    first_day_carrots = 19\n    # Q.2: Now we can answer the question: How many carrots does Megan have total?\n    thrown_out_carrots = 4\n    second_day_carrots = 46\n    total_carrots = first_day_carrots + second_day_carrots - thrown_out_carrots\n    return total_carrots\n\n",
+        "answer": 61
+    },
+    {
+        "question": " Wendy had 82 files on her computer. She deleted 37 of them and put the rest into folders with 5 files in each one. How many folders did Wendy end up with? ",
+        "final_ans": "9",
+        "id": 151,
+        "sub_questions": [
+            "How many folders does Wendy have if she puts all the files into folders with 5 files in each folder?",
+            "Now we can answer the question: How many folders did Wendy end up with?"
+        ],
+        "code": "def q3():\n    \"\"\" Wendy had 82 files on her computer. She deleted 37 of them and put the rest into folders with 5 files in each one. How many folders did Wendy end up with? \"\"\"\n    # Q.1: How many folders does Wendy have if she puts all the files into folders with 5 files in each folder?\n    total_files = 45\n    num_folders = total_files // 5\n    return num_folders\n\n",
+        "answer": 9
+    },
+    {
+        "question": " There school's baseball team had 12 new players and 44 returning players. If the coach put them into groups with 8 players in each group, how many groups would there be? ",
+        "final_ans": "7",
+        "id": 152,
+        "sub_questions": [
+            "How many players are there in total?",
+            "How many groups can the coach make?",
+            "Now we can answer the question: How many groups will there be?"
+        ],
+        "code": "def q3():\n    \"\"\" There school's baseball team had 12 new players and 44 returning players. If the coach put them into groups with 8 players in each group, how many groups would there be? \"\"\"\n    # Q.1: How many players are there in total?\n    num_players = 12 + 44\n    # Q.2: How many groups can the coach make?\n    num_groups = num_players // 8\n    return num_groups\n\n",
+        "answer": 7
+    },
+    {
+        "question": " Will made 104 dollars mowing lawns over the summer. If he spent 41 dollars buying new mower blades, how many 9 dollar games could he buy with the money he had left? ",
+        "final_ans": "7",
+        "id": 153,
+        "sub_questions": [
+            "How much money did Will spend on mower blades?",
+            "Now we can answer the question: How many 9 dollar games could Will buy with the money he had left?"
+        ],
+        "code": "def q3():\n    \"\"\" Will made 104 dollars mowing lawns over the summer. If he spent 41 dollars buying new mower blades, how many 9 dollar games could he buy with the money he had left? \"\"\"\n    # Q.1: How much money did Will spend on mower blades?\n    mower_blades = 41\n    # Q.2: Now we can answer the question: How many 9 dollar games could Will buy with the money he had left?\n    will_money = 104\n    total_games = (will_money - mower_blades) / 9\n    return int(total_games)\n\n",
+        "answer": 7
+    },
+    {
+        "question": " Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+        "final_ans": "31",
+        "id": 154,
+        "sub_questions": [
+            "How many carrots did Nancy pick the first day?",
+            "How many carrots did Nancy pick the second day?",
+            "Now we can answer the question: How many carrots does Nancy have total?"
+        ],
+        "code": "def q3():\n    \"\"\" Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? \"\"\"\n    # Q.1: How many carrots did Nancy pick the first day?\n    first_day_carrots = 12\n    # Q.2: How many carrots did Nancy pick the second day?\n    second_day_carrots = 21\n    # Q.3: Now we can answer the question: How many carrots does Nancy have total?\n    total_carrots = first_day_carrots + second_day_carrots\n    return total_carrots\n\n",
+        "answer": 33
+    },
+    {
+        "question": " Roger had 16 dollars. For his birthday he got 28 more dollars but spent 25 on a new game. How much money does he have now? ",
+        "final_ans": "19",
+        "id": 155,
+        "sub_questions": [
+            "How much money did Roger get for his birthday?",
+            "How much money did Roger spend on the new game?",
+            "Now we can answer the question: How much money does Roger have now?"
+        ],
+        "code": "def q3():\n    \"\"\" Roger had 16 dollars. For his birthday he got 28 more dollars but spent 25 on a new game. How much money does he have now? \"\"\"\n    # Q.1: How much money did Roger get for his birthday?\n    birthday_money = 28\n    # Q.2: How much money did Roger spend on the new game?\n    game_money = 25\n    # Q.3: Now we can answer the question: How much money does Roger have now?\n    total_money = 16 + birthday_money - game_money\n    return total_money\n\n",
+        "answer": 19
+    },
+    {
+        "question": " Sam was collecting cans for recycling. On Saturday he filled 3 bags up and on Sunday he filled 4 more bags. If each bag had 9 cans in it, how many cans did he pick up total? ",
+        "final_ans": "63",
+        "id": 156,
+        "sub_questions": [
+            "How many bags did Sam fill on Saturday?",
+            "How many bags did Sam fill on Sunday?",
+            "Now we can answer the question: How many cans did he pick up total?"
+        ],
+        "code": "def q3():\n    \"\"\" Sam was collecting cans for recycling. On Saturday he filled 3 bags up and on Sunday he filled 4 more bags. If each bag had 9 cans in it, how many cans did he pick up total? \"\"\"\n    # Q.1: How many bags did Sam fill on Saturday?\n    saturday_bags = 3\n    # Q.2: How many bags did Sam fill on Sunday?\n    sunday_bags = 4\n    # Q.3: Now we can answer the question: How many cans did he pick up total?\n    cans_per_bag = 9\n    total_cans = saturday_bags * cans_per_bag + sunday_bags * cans_per_bag\n    return total_cans\n\n",
+        "answer": 63
+    },
+    {
+        "question": " A worksheet had 4 problems on it. If a teacher had 16 worksheets to grade and had already graded 8 of them, how many more problems does she have to grade? ",
+        "final_ans": "32",
+        "id": 157,
+        "sub_questions": [
+            "How many problems does each worksheet have?",
+            "How many problems has the teacher graded?",
+            "How many more worksheets does the teacher have to grade?"
+        ],
+        "code": "def q3():\n    \"\"\" A worksheet had 4 problems on it. If a teacher had 16 worksheets to grade and had already graded 8 of them, how many more problems does she have to grade? \"\"\"\n    # Q.1: How many problems does each worksheet have?\n    problems_per_sheet = 4\n    # Q.2: How many problems has the teacher graded?\n    graded_problems = 8 * problems_per_sheet\n    # Q.3: How many more worksheets does the teacher have to grade?\n    remaining_sheets = 16 - 8",
+        "answer": null
+    },
+    {
+        "question": " Paige was unboxing some of her old winter clothes. She found 6 boxes of clothing and inside each box there were 5 scarves and 5 mittens. How many pieces of winter clothing did Paige have total? ",
+        "final_ans": "60",
+        "id": 158,
+        "sub_questions": [
+            "How many boxes of clothing did Paige have?",
+            "How many scarves and mittens did each box contain?",
+            "Now we can answer the question: How many pieces of winter clothing did Paige have total?"
+        ],
+        "code": "def q3():\n    \"\"\" Paige was unboxing some of her old winter clothes. She found 6 boxes of clothing and inside each box there were 5 scarves and 5 mittens. How many pieces of winter clothing did Paige have total? \"\"\"\n    # Q.1: How many boxes of clothing did Paige have?\n    boxes = 6\n    # Q.2: How many scarves and mittens did each box contain?\n    items_per_box = 5 + 5\n    # Q.3: Now we can answer the question: How many pieces of winter clothing did Paige have total?\n    total_items = boxes * items_per_box\n    return total_items\n\n",
+        "answer": 60
+    },
+    {
+        "question": " A chef needs to cook 12 potatoes. He has already cooked 6. If each potato takes 6 minutes to cook, how long will it take him to cook the rest? ",
+        "final_ans": "36",
+        "id": 159,
+        "sub_questions": [
+            "How long does it take to cook each potato?",
+            "How many potatoes are left to cook?",
+            "Now we can answer the question: How long will it take him to cook the rest?"
+        ],
+        "code": "def q3():\n    \"\"\" A chef needs to cook 12 potatoes. He has already cooked 6. If each potato takes 6 minutes to cook, how long will it take him to cook the rest? \"\"\"\n    # Q.1: How long does it take to cook each potato?\n    time_per_potato = 6\n    # Q.2: How many potatoes are left to cook?\n    remaining_potatos = 12 - 6\n    # Q.3: Now we can answer the question: How long will it take him to cook the rest?\n    total_time = remaining_potatos * time_per_potato\n    return total_time\n\n",
+        "answer": 36
+    },
+    {
+        "question": " Luke was selling his old games. He started out with 57 but sold 39 of them. He packed the rest up putting 2 games into each box. How many boxes did he have to use? ",
+        "final_ans": "9",
+        "id": 160,
+        "sub_questions": [
+            "How many games did Luke have left?",
+            "How many boxes does he need if he puts 2 games in each box?",
+            "Now we can answer the question: How many boxes did he have to use?"
+        ],
+        "code": "def q3():\n    \"\"\" Luke was selling his old games. He started out with 57 but sold 39 of them. He packed the rest up putting 2 games into each box. How many boxes did he have to use? \"\"\"\n    # Q.1: How many games did Luke have left?\n    left_games = 57 - 39\n    # Q.2: How many boxes does he need if he puts 2 games in each box?\n    num_boxes = left_games / 2\n    return num_boxes\n\n",
+        "answer": 9.0
+    },
+    {
+        "question": " April's discount flowers was having a sale where each flower was 3 dollars. If Emily bought 2 roses and 2 daisies, how much did she spend? ",
+        "final_ans": "12",
+        "id": 161,
+        "sub_questions": [
+            "What was the price per rose?",
+            "How many roses did Emily buy?",
+            "How many daisies did Emily buy?",
+            "How much did Emily pay for all of the flowers?",
+            "Now we can answer the question:  How much did Emily spend?"
+        ],
+        "code": "def q3():\n    \"\"\" April's discount flowers was having a sale where each flower was 3 dollars. If Emily bought 2 roses and 2 daisies, how much did she spend? \"\"\"\n    # Q.1: What was the price per rose?\n    rose_price = 3\n    # Q.2: How many roses did Emily buy?\n    num_roses = 2\n    # Q.3: How many daisies did Emily buy?\n    num_daisies = 2\n    # Q.4: How much did Emily pay for all of the flowers?\n    total_flower_cost = (rose_price * num_roses) + (rose_price * num_daisies)\n    return total_flower_cost\n\n",
+        "answer": 12
+    },
+    {
+        "question": " A pet store had 13 puppies. In one day they sold 7 of them and put the rest into cages with 2 in each cage. How many cages did they use? ",
+        "final_ans": "3",
+        "id": 162,
+        "sub_questions": [
+            "How many cages can hold 2 puppies?",
+            "How many puppies did they sell?",
+            "How many puppies are left?",
+            "Now we can answer the question: How many cages did they use?"
+        ],
+        "code": "def q3():\n    \"\"\" A pet store had 13 puppies. In one day they sold 7 of them and put the rest into cages with 2 in each cage. How many cages did they use? \"\"\"\n    # Q.1: How many cages can hold 2 puppies?\n    num_cages_with_two = 7 // 2\n    # Q.2: How many puppies did they sell?\n    sold_puppies = 7\n    # Q.3: How many puppies are left?\n    unsold_puppies = 13 - sold_puppies\n    # Q.4: Now we can answer the question: How many cages did they use?\n    total_cages = num_cages_with_two + unsold_puppies // 2\n    return total_cages\n\n",
+        "answer": 6
+    },
+    {
+        "question": " Faye and her mom were picking carrots from their garden. Faye picked 23 and her mother picked 5. If only 12 of the carrots were good, how many bad carrots did they have? ",
+        "final_ans": "16",
+        "id": 163,
+        "sub_questions": [
+            "How many carrots did Faye pick?",
+            "How many carrots did her mother pick?",
+            "How many good carrots did they have?",
+            "Now we can answer the question: How many bad carrots did they have?"
+        ],
+        "code": "def q3():\n    \"\"\" Faye and her mom were picking carrots from their garden. Faye picked 23 and her mother picked 5. If only 12 of the carrots were good, how many bad carrots did they have? \"\"\"\n    # Q.1: How many carrots did Faye pick?\n    fayes_carrots = 23\n    # Q.2: How many carrots did her mother pick?\n    moms_carrots = 5\n    # Q.3: How many good carrots did they have?\n    good_carrots = 12\n    # Q.4: Now we can answer the question: How many bad carrots did they have?\n    all_carrots = fayes_carrots + moms_carrots\n    bad_carrots = all_carrots - good_carrots\n    return bad_carrots\n\n",
+        "answer": 16
+    },
+    {
+        "question": " Isabel picked 66 flowers for her friend\u2019s wedding. She was making bouquets with 8 flowers in each one. If 10 of the flowers wilted before the wedding, how many bouquets could she still make? ",
+        "final_ans": "7",
+        "id": 164,
+        "sub_questions": [
+            "How many bouquets can Isabel make if none of the flowers wilted?",
+            "Now we can answer the question: How many bouquets could she still make?"
+        ],
+        "code": "def q3():\n    \"\"\" Isabel picked 66 flowers for her friend\u2019s wedding. She was making bouquets with 8 flowers in each one. If 10 of the flowers wilted before the wedding, how many bouquets could she still make? \"\"\"\n    # Q.1: How many bouquets can Isabel make if none of the flowers wilted?\n    perfect_bouquets = 66 // 8\n    # Q.2: Now we can answer the question: How many bouquets could she still make?\n    wilted_flowers = 10\n    usable_flowers = 66 - wilted_flowers\n    usable_bouquets = usable_flowers // 8\n    total_usable_bouquets = perfect_bouquets + usable_bouquets\n    return total_usable_bouquets\n\n",
+        "answer": 15
+    },
+    {
+        "question": " At the town carnival Oliver rode the ferris wheel 5 times and the bumper cars 4 times. If each ride cost 7 tickets, how many tickets did he use? ",
+        "final_ans": "63",
+        "id": 165,
+        "sub_questions": [
+            "How many rides did Oliver take on the ferris wheel?",
+            "How many rides did Oliver take on the bumper cars?",
+            "Now we can answer the question: How many tickets did Oliver use?"
+        ],
+        "code": "def q3():\n    \"\"\" At the town carnival Oliver rode the ferris wheel 5 times and the bumper cars 4 times. If each ride cost 7 tickets, how many tickets did he use? \"\"\"\n    # Q.1: How many rides did Oliver take on the ferris wheel?\n    ferris_wheel_rides = 5\n    # Q.2: How many rides did Oliver take on the bumper cars?\n    bumper_cars_rides = 4\n    # Q.3: Now we can answer the question: How many tickets did Oliver use?\n    total_tickets = ferris_wheel_rides * 7 + bumper_cars_rides * 7\n    return total_tickets\n\n",
+        "answer": 63
+    },
+    {
+        "question": " Wendy bought 4 new chairs and 4 new tables for her house. If she spent 6 minutes on each piece furniture putting it together, how many minutes did it take her to finish? ",
+        "final_ans": "48",
+        "id": 166,
+        "sub_questions": [
+            "How many pieces of furniture did Wendy buy?",
+            "Now we can answer the question: How long did it take Wendy to finish?"
+        ],
+        "code": "def q3():\n    \"\"\" Wendy bought 4 new chairs and 4 new tables for her house. If she spent 6 minutes on each piece furniture putting it together, how many minutes did it take her to finish? \"\"\"\n    # Q.1: How many pieces of furniture did Wendy buy?\n    furnitures = 4 + 4\n    # Q.2: Now we can answer the question: How long did it take Wendy to finish?\n    total_minutes = furnitures * 6\n    return total_minutes\n\n",
+        "answer": 48
+    },
+    {
+        "question": " Ned was trying to expand his game collection. He bought 50 games from a friend and bought 27 more at a garage sale. If 74 of the games didn't work, how many good games did he end up with? ",
+        "final_ans": "3",
+        "id": 167,
+        "sub_questions": [
+            "How many games did Ned buy from his friend?",
+            "How many games did Ned buy at the garage sale?",
+            "Now we can answer the question: How many good games did Ned end up with?"
+        ],
+        "code": "def q3():\n    \"\"\" Ned was trying to expand his game collection. He bought 50 games from a friend and bought 27 more at a garage sale. If 74 of the games didn't work, how many good games did he end up with? \"\"\"\n    # Q.1: How many games did Ned buy from his friend?\n    friend_games = 50\n    # Q.2: How many games did Ned buy at the garage sale?\n    garage_sale_games = 27\n    # Q.3: Now we can answer the question: How many good games did Ned end up with?\n    total_games = friend_games + garage_sale_games\n    bad_games = 74\n    good_games = total_games - bad_games\n    return good_games\n\n",
+        "answer": 3
+    },
+    {
+        "question": " A pet store had 38 siamese cats and 25 house cats. During a sale they sold 45 cats. How many cats do they have left? ",
+        "final_ans": "18",
+        "id": 168,
+        "sub_questions": [
+            "What is the total number of cats the pet store had?",
+            "How many cats did they sell?",
+            "Now we can answer the question: How many cats do they have left?"
+        ],
+        "code": "def q3():\n    \"\"\" A pet store had 38 siamese cats and 25 house cats. During a sale they sold 45 cats. How many cats do they have left? \"\"\"\n    # Q.1: What is the total number of cats the pet store had?\n    total_cats = 38 + 25\n    # Q.2: How many cats did they sell?\n    sold_cats = 45\n    # Q.3: Now we can answer the question: How many cats do they have left?\n    remaining_cats = total_cats - sold_cats\n    return remaining_cats\n\n",
+        "answer": 18
+    },
+    {
+        "question": " Carol was playing a trivia game. In the first round she scored 17 points and in the second round she scored 6 points. In the last round she lost 16 points. How many points did she have at the end of the game? ",
+        "final_ans": "7",
+        "id": 169,
+        "sub_questions": [
+            "How many points did Carol score in the first round?",
+            "How many points did Carol score in the second round?",
+            "How many points did Carol lose in the last round?",
+            "Now we can answer the question: How many points did Carol have at the end of the game?"
+        ],
+        "code": "def q3():\n    \"\"\" Carol was playing a trivia game. In the first round she scored 17 points and in the second round she scored 6 points. In the last round she lost 16 points. How many points did she have at the end of the game? \"\"\"\n    # Q.1: How many points did Carol score in the first round?\n    first_round_points = 17\n    # Q.2: How many points did Carol score in the second round?\n    second_round_points = 6\n    # Q.3: How many points did Carol lose in the last round?\n    last_round_points = 16\n    # Q.4: Now we can answer the question: How many points did Carol have at the end of the game?\n    total_points = first_round_points + second_round_points - last_round_points\n    return total_points\n\n",
+        "answer": 7
+    },
+    {
+        "question": " Dave bought 12 boxes of chocolate candy and gave 5 to his little brother. If each box has 3 pieces inside it, how many pieces did Dave still have? ",
+        "final_ans": "21",
+        "id": 170,
+        "sub_questions": [
+            "How many boxes did Dave have left?",
+            "Now we can answer the question: How many pieces did Dave still have?"
+        ],
+        "code": "def q3():\n    \"\"\" Dave bought 12 boxes of chocolate candy and gave 5 to his little brother. If each box has 3 pieces inside it, how many pieces did Dave still have? \"\"\"\n    # Q.1: How many boxes did Dave have left?\n    total_boxes = 12\n    given_boxes = 5\n    left_boxes = total_boxes - given_boxes\n    # Q.2: Now we can answer the question: How many pieces did Dave still have?\n    total_pieces = left_boxes * 3\n    return total_pieces\n\n",
+        "answer": 21
+    },
+    {
+        "question": " A waiter at 'The Greasy Spoon' restaurant had 39 customers to wait on. During the lunch rush he added another 12 customers. If 49 of the customers didn't leave him a tip, how many customers did leave a tip? ",
+        "final_ans": "2",
+        "id": 171,
+        "sub_questions": [
+            "How many customers did the waiter have in total?",
+            "How many customers did the waiter have during the lunch rush?",
+            "How many customers didn't leave a tip?",
+            "Now we can answer the question: How many customers did leave a tip?"
+        ],
+        "code": "def q3():\n    \"\"\" A waiter at 'The Greasy Spoon' restaurant had 39 customers to wait on. During the lunch rush he added another 12 customers. If 49 of the customers didn't leave him a tip, how many customers did leave a tip? \"\"\"\n    # Q.1: How many customers did the waiter have in total?\n    total_customers = 39 + 12\n    # Q.2: How many customers did the waiter have during the lunch rush?\n    lunch_rush_customers = 12\n    # Q.3: How many customers didn't leave a tip?\n    no_tip_customers = 49\n    # Q.4: Now we can answer the question: How many customers did leave a tip?\n    tipped_customers = total_customers - no_tip_customers\n    return tipped_customers\n\n",
+        "answer": 2
+    },
+    {
+        "question": " The cafeteria had 50 apples. For lunch they handed out 5 to students and decided to use the rest to make pies. If each pie takes 5 apples, how many pies could they make? ",
+        "final_ans": "9",
+        "id": 172,
+        "sub_questions": [
+            "How many apples did they have left?",
+            "Now we can answer the question: How many pies could they make?"
+        ],
+        "code": "def q3():\n    \"\"\" The cafeteria had 50 apples. For lunch they handed out 5 to students and decided to use the rest to make pies. If each pie takes 5 apples, how many pies could they make? \"\"\"\n    # Q.1: How many apples did they have left?\n    apples_left = 50 - 5*50\n    # Q.2: Now we can answer the question: How many pies could they make?\n    pies = apples_left / 5\n    return pies\n\n",
+        "answer": -40.0
+    },
+    {
+        "question": " Oliver had 33 dollars in January. By March he had spent 4 dollars. If he got another 32 dollars from his mom, how much money would he have? ",
+        "final_ans": "61",
+        "id": 173,
+        "sub_questions": [
+            "What was Oliver's total amount of money in January?",
+            "Now we can answer the question: How much money will Oliver have if he gets 32 dollars from his mom?"
+        ],
+        "code": "def q3():\n    \"\"\" Oliver had 33 dollars in January. By March he had spent 4 dollars. If he got another 32 dollars from his mom, how much money would he have? \"\"\"\n    # Q.1: What was Oliver's total amount of money in January?\n    january_money = 33\n    # Q.2: Now we can answer the question: How much money will Oliver have if he gets 32 dollars from his mom?\n    march_spend = 4\n    mothers_gift = 32\n    total_money = january_money - march_spend + mothers_gift\n    return total_money\n\n",
+        "answer": 61
+    },
+    {
+        "question": " The school cafeteria had 14 apples. If they used 13 to make lunch for the students and then bought 49 more, how many apples would they have? ",
+        "final_ans": "50",
+        "id": 174,
+        "sub_questions": [
+            "How many apples did they use to make lunch?",
+            "How many apples did they buy?",
+            "Now we can answer the question: How many apples would they have?"
+        ],
+        "code": "def q3():\n    \"\"\" The school cafeteria had 14 apples. If they used 13 to make lunch for the students and then bought 49 more, how many apples would they have? \"\"\"\n    # Q.1: How many apples did they use to make lunch?\n    used_apples = 13\n    # Q.2: How many apples did they buy?\n    bought_apples = 49\n    # Q.3: Now we can answer the question: How many apples would they have?\n    total_apples = 14 + bought_apples - used_apples\n    return total_apples\n\n",
+        "answer": 50
+    },
+    {
+        "question": " While playing a trivia game, Frank answered 3 questions correct in the first half and 2 questions correct in the second half. If each question was worth 3 points, what was his final score? ",
+        "final_ans": "15",
+        "id": 175,
+        "sub_questions": [
+            "How many questions were there in total?",
+            "How many questions did Frank answer correctly in the first half?",
+            "How many questions did Frank answer correctly in the second half?",
+            "What was Frank's final score?"
+        ],
+        "code": "def q3():\n    \"\"\" While playing a trivia game, Frank answered 3 questions correct in the first half and 2 questions correct in the second half. If each question was worth 3 points, what was his final score? \"\"\"\n    # Q.1: How many questions were there in total?\n    total_questions = 5\n    # Q.2: How many questions did Frank answer correctly in the first half?\n    first_half_correct = 3\n    # Q.3: How many questions did Frank answer correctly in the second half?\n    second_half_correct = 2\n    # Q.4: What was Frank's final score?\n    total_score = first_half_correct * 3 + second_half_correct * 3\n    return total_score\n\n",
+        "answer": 15
+    },
+    {
+        "question": " Zoe was unboxing some of her old winter clothes. She found 8 boxes of clothing and inside each box there were 4 scarves and 6 mittens. How many pieces of winter clothing did Zoe have total? ",
+        "final_ans": "80",
+        "id": 176,
+        "sub_questions": [
+            "How many boxes of clothing did Zoe find?",
+            "How many scarves did each box contain?",
+            "How many mittens did each box contain?",
+            "Now we can answer the question: How many pieces of winter clothing did Zoe have total?"
+        ],
+        "code": "def q3():\n    \"\"\" Zoe was unboxing some of her old winter clothes. She found 8 boxes of clothing and inside each box there were 4 scarves and 6 mittens. How many pieces of winter clothing did Zoe have total? \"\"\"\n    # Q.1: How many boxes of clothing did Zoe find?\n    boxes = 8\n    # Q.2: How many scarves did each box contain?\n    scarves = 4\n    # Q.3: How many mittens did each box contain?\n    mittens = 6\n    # Q.4: Now we can answer the question: How many pieces of winter clothing did Zoe have total?\n    total_scarves = boxes * scarves\n    total_mittens = boxes * mittens\n    total_pieces = total_scarves + total_mittens\n    return total_pieces\n\n",
+        "answer": 80
+    },
+    {
+        "question": " Frank and his friend were buying trick decks from the magic shop for 7 dollars each. How much did they spend if Frank bought 3 decks and his friend bought 2 decks? ",
+        "final_ans": "35",
+        "id": 177,
+        "sub_questions": [
+            "How much did each deck cost?",
+            "How many decks did Frank buy?",
+            "How many decks did Frank's friend buy?",
+            "Now we can answer the question: How much did they spend?"
+        ],
+        "code": "def q3():\n    \"\"\" Frank and his friend were buying trick decks from the magic shop for 7 dollars each. How much did they spend if Frank bought 3 decks and his friend bought 2 decks? \"\"\"\n    # Q.1: How much did each deck cost?\n    deck_price = 7\n    # Q.2: How many decks did Frank buy?\n    frank_decks = 3\n    # Q.3: How many decks did Frank's friend buy?\n    friend_decks = 2\n    # Q.4: Now we can answer the question: How much did they spend?\n    total_spent = frank_decks * deck_price + friend_decks * deck_price\n    return total_spent\n\n",
+        "answer": 35
+    },
+    {
+        "question": " Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+        "final_ans": "34",
+        "id": 178,
+        "sub_questions": [
+            "How many short sleeve shirts did Sam wash?",
+            "Now we can answer the question: How many short sleeve shirts did Sam not wash?"
+        ],
+        "code": "def q3():\n    \"\"\" Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? \"\"\"\n    # Q.1: How many short sleeve shirts did Sam wash?\n    short_sleeve_shirts = 40\n    # Q.2: Now we can answer the question: How many short sleeve shirts did Sam not wash?\n    total_short_sleeve_shirts = 40\n    not_washed_short_sleeve_shirts = total_short_sleeve_shirts - short_sleeve_shirts\n    return not_washed_short_sleeve_shirts\n\n",
+        "answer": 0
+    },
+    {
+        "question": " A waiter had 47 customers to wait on. If 41 customers left and he got another 20 customers, how many customers would he have? ",
+        "final_ans": "26",
+        "id": 179,
+        "sub_questions": [
+            "How many customers left?",
+            "How many new customers came?",
+            "Now we can answer the question:  How many customers would he have?"
+        ],
+        "code": "def q3():\n    \"\"\" A waiter had 47 customers to wait on. If 41 customers left and he got another 20 customers, how many customers would he have? \"\"\"\n    # Q.1: How many customers left?\n    left_customers = 41\n    # Q.2: How many new customers came?\n    new_customers = 20\n    # Q.3: Now we can answer the question:  How many customers would he have?\n    total_customers = 47\n    final_customers = total_customers - left_customers + new_customers\n    return final_customers\n\n",
+        "answer": 26
+    }
+]
