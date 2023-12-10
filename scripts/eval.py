@@ -1,25 +1,40 @@
 # src = "out/result_llama-2-7b-chat_multiarith_decomp_llama-2-7b-chat_direct.json"
 # src = "out/result_llama-2-7b-chat_gsm8k_decomp_llama-2-7b-chat_direct.json"
-sources = ["out/result_llama-2-7b-chat_gsm8k_decomp_llama-2-7b-chat_mathreg.json",
-           "out/result_llama-2-7b-chat_multiarith_decomp_llama-2-7b-chat_mathreg.json",
-           "out/result_llama-2-7b-chat_gsm8k_decomp_llama-2-13b-chat_mathreg.json",
-           "out/result_llama-2-7b-chat_multiarith_decomp_llama-2-13b-chat_mathreg.json",
-           "out/result_llama-2-13b-chat_gsm8k_decomp_llama-2-7b-chat_mathreg.json",
-           "out/result_llama-2-13b-chat_multiarith_decomp_llama-2-7b-chat_mathreg.json",
-           "out/result_llama-2-13b-chat_gsm8k_decomp_llama-2-13b-chat_mathreg.json",
-           "out/result_llama-2-13b-chat_multiarith_decomp_llama-2-13b-chat_mathreg.json"]
+# sources = ["out/result_llama-2-7b-chat_gsm8k_decomp_llama-2-7b-chat_mathreg.json",
+#            "out/result_llama-2-7b-chat_multiarith_decomp_llama-2-7b-chat_mathreg.json",
+#            "out/result_llama-2-7b-chat_gsm8k_decomp_llama-2-13b-chat_mathreg.json",
+#            "out/result_llama-2-7b-chat_multiarith_decomp_llama-2-13b-chat_mathreg.json",
+#            "out/result_llama-2-13b-chat_gsm8k_decomp_llama-2-7b-chat_mathreg.json",
+#            "out/result_llama-2-13b-chat_multiarith_decomp_llama-2-7b-chat_mathreg.json",
+#            "out/result_llama-2-13b-chat_gsm8k_decomp_llama-2-13b-chat_mathreg.json",
+#            "out/result_llama-2-13b-chat_multiarith_decomp_llama-2-13b-chat_mathreg.json"]
+sources = ["out/result_test_llama-2-7b-chat_fewshot.json"]
 import json
 
+eval_mode = True
 for src in sources:
+    if 'shot' in src:
+        # eval mode for the baseline methods
+        eval_mode = False
     num_correct = 0
     num_tot = 0
     with open(src, "r") as f:
         res = json.load(f)
         for item in res:
-            gt = item["final_ans"]
-            out = item["answer"]
-        
-            if "gsm8k" in src:
+            if eval_mode:
+                gt = item["final_ans"]
+                out = item["answer"]
+            elif eval_mode == False:
+                # gsm8k
+                if src == 'out/result_test_with_ids_llama-2-7b-chat_fewshot.json':
+                    gt = item['answer']
+                    out = item['model_answer']
+                # multiarith
+                elif src == 'out/result_test_llama-2-7b-chat_fewshot.json':
+                    gt = item['final_ans']
+                    out = item['model_answer']
+    
+            if "gsm8k" in src or src == 'out/result_test_with_ids_llama-2-7b-chat_fewshot.json':
                 gt = gt.split("#### ")[-1]
             try:
                 if abs(float(gt) - float(out)) <= 1e-5:
