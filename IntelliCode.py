@@ -44,7 +44,7 @@ def generate(filename: Path = 'decomposition_result.json'):
         for i, sub in enumerate(question['sub_questions']):
             prompt += f"\n    # Q.{i+1}: " + sub
             output_text = call_no_interrupt(prompt, model, max_tokens, temperature, args.top_k, args.top_p, args.repetition_penalty, stop)
-            
+            breakpoint()
             # post-process output text for each step
             processed_output_text = post_process(output_text, stop)
             prompt += processed_output_text
