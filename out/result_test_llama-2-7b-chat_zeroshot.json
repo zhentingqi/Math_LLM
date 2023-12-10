@@ -1,0 +1,1082 @@
+[
+    {
+        "question": " Paige had 11 songs on her mp3 player. If she deleted 9 old songs from it and then added 8 new songs, how many songs does she have on her mp3 player? ",
+        "final_ans": "10",
+        "model_response": "Question:  Paige had 11 songs on her mp3 player. If she deleted 9 old songs from it and then added 8 new songs, how many songs does she have on her mp3 player? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Paige had 11 songs on her mp3 player initially. She deleted 9 old songs from it, which means she now has 2 songs left. Then, she added 8 new songs to her player, so the total number of songs on her player now is 2 + 8 = 10 songs. The answer is 10 songs are on Paige's mp3 player.",
+        "model_answer": 10.0
+    },
+    {
+        "question": " There were 39 girls and 4 boys trying out for the schools basketball team. If only 26 of them got called back, how many students didn't make the cut? ",
+        "final_ans": "17",
+        "model_response": "Question:  There were 39 girls and 4 boys trying out for the schools basketball team. If only 26 of them got called back, how many students didn't make the cut? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: To find out how many students didn't make the cut, we need to subtract the number of students who got called back (26) from the total number of students trying out (43). So, the answer is: 43 - 26 = 17 students did not make the cut. The answer is 17.",
+        "model_answer": 17.0
+    },
+    {
+        "question": " Faye had 34 coloring books. If she gave away 3 of them, but then bought 48 more, how many would she have total? ",
+        "final_ans": "79",
+        "model_response": "Question:  Faye had 34 coloring books. If she gave away 3 of them, but then bought 48 more, how many would she have total? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Faye had 34 coloring books to start with. If she gave away 3 of them, she would have 34 - 3 = 31 coloring books left. Then, if she bought 48 more, she would have 31 + 48 = 79 coloring books total. The answer is 79 coloring books.",
+        "model_answer": 79.0
+    },
+    {
+        "question": " The school cafeteria had 23 apples. If they used 20 to make lunch for the students and then bought 6 more, how many apples would they have? ",
+        "final_ans": "9",
+        "model_response": "Question:  The school cafeteria had 23 apples. If they used 20 to make lunch for the students and then bought 6 more, how many apples would they have? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The school cafeteria had 23 apples. They used 20 of them to make lunch for the students, so they had 3 apples left. Then, they bought 6 more apples, so they now have 9 apples in total. The answer is 9 apples.",
+        "model_answer": 9.0
+    },
+    {
+        "question": " In a video game, each enemy defeated gives you 9 points. If a level has 11 enemies total and you destroy all but 3 of them, how many points would you earn? ",
+        "final_ans": "72",
+        "model_response": "Question:  In a video game, each enemy defeated gives you 9 points. If a level has 11 enemies total and you destroy all but 3 of them, how many points would you earn? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: To calculate the number of points you would earn from defeating the enemies in the level, we need to know the number of enemies you defeated. In this case, there are 11 enemies in the level, and you defeated 9 of them, which means you earned 9 points. The answer is 9 points.",
+        "model_answer": 9.0
+    },
+    {
+        "question": " Megan earned 8 points for each bag of cans she recycled. If she had 14 bags, but didn't recycle 5 of them, how many points would she have earned? ",
+        "final_ans": "72",
+        "model_response": "Question:  Megan earned 8 points for each bag of cans she recycled. If she had 14 bags, but didn't recycle 5 of them, how many points would she have earned? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Megan earned 8 points for each bag of cans she recycled. If she had 14 bags, but didn't recycle 5 of them, she would have earned 8 x 14 = 112 points. The answer is 112 points.",
+        "model_answer": 112.0
+    },
+    {
+        "question": " April's discount flowers was having a sale where each rose was 4 dollars. If April started with 13 roses and had 4 roses left, how much money did she earn? ",
+        "final_ans": "36",
+        "model_response": "Question:  April's discount flowers was having a sale where each rose was 4 dollars. If April started with 13 roses and had 4 roses left, how much money did she earn? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: April started with 13 roses and sold 4 of them, so she had 9 roses left. If each rose cost 4 dollars, then the total amount of money April earned from selling the roses is 9 x 4 = 36 dollars. The answer is: April earned 36 dollars.",
+        "model_answer": null
+    },
+    {
+        "question": " Ned had to wash 9 short sleeve shirts and 21 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+        "final_ans": "1",
+        "model_response": "Question:  Ned had to wash 9 short sleeve shirts and 21 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Ned had to wash 9 short sleeve shirts and 21 long sleeve shirts before school. If he had only washed 29 of them by the time school started, then he did not wash 3 short sleeve shirts and 4 long sleeve shirts. The answer is: Ned did not wash 7 shirts in total.",
+        "model_answer": null
+    },
+    {
+        "question": " A company invited 47 people to a luncheon, but 7 of them didn't show up. If the tables they had held 5 people each, how many tables do they need? ",
+        "final_ans": "8",
+        "model_response": "Question:  A company invited 47 people to a luncheon, but 7 of them didn't show up. If the tables they had held 5 people each, how many tables do they need? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The company invited 47 people to a luncheon, but 7 of them didn't show up. If the tables they had held 5 people each, then the number of tables needed to accommodate all the guests who did show up is 47 / 5 = 9 tables. The answer is 9 tables.",
+        "model_answer": 9.0
+    },
+    {
+        "question": " Tom had 5 books. If he sold 4 of them and used the money he earned to buy 38 new books, how many books would Tom have? ",
+        "final_ans": "39",
+        "model_response": "Question:  Tom had 5 books. If he sold 4 of them and used the money he earned to buy 38 new books, how many books would Tom have? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Tom had 5 books to start with, so if he sold 4 of them, he would have 5 - 4 = 1 book left. Then, if he used the money he earned from selling the books to buy 38 new ones, he would have 1 + 38 = 39 books in total. The answer is 39 books.",
+        "model_answer": 39.0
+    },
+    {
+        "question": " For a birthday party Jerry bought 41 regular sodas and 22 diet sodas. If his fridge would only hold 9 on each shelf, how many shelves would he fill up? ",
+        "final_ans": "7",
+        "model_response": "Question:  For a birthday party Jerry bought 41 regular sodas and 22 diet sodas. If his fridge would only hold 9 on each shelf, how many shelves would he fill up? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: To determine how many shelves Jerry would fill up, we need to first calculate the total number of sodas he bought. Jerry bought 41 regular sodas and 22 diet sodas, for a total of 63 sodas. The number of shelves Jerry can fill depends on the size of each shelf, which is 9 sodas per shelf. Since Jerry has 63 sodas and can only fit 9 on each shelf, he will fill up 7 shelves. The answer is 7 shelves.",
+        "model_answer": 7.0
+    },
+    {
+        "question": " For Halloween Debby and her sister combined the candy they received. Debby had 32 pieces of candy while her sister had 42. If they ate 35 pieces the first night, how many pieces do they have left? ",
+        "final_ans": "39",
+        "model_response": "Question:  For Halloween Debby and her sister combined the candy they received. Debby had 32 pieces of candy while her sister had 42. If they ate 35 pieces the first night, how many pieces do they have left? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: To find out how many pieces of candy are left, we need to subtract the number of pieces they ate the first night from the total amount of candy they had combined. So, if Debby had 32 pieces of candy and her sister had 42 pieces, and they ate 35 pieces on the first night, then they have 32 + 42 - 35 = 19 pieces of candy left. The answer is: 19 pieces of candy are left.",
+        "model_answer": null
+    },
+    {
+        "question": " Emily was planting vegetables in her garden. She started with 41 seeds and planted 29 of them in the big garden and in each of her small gardens put 4 seeds each. How many small gardens did Emily have? ",
+        "final_ans": "3",
+        "model_response": "Question:  Emily was planting vegetables in her garden. She started with 41 seeds and planted 29 of them in the big garden and in each of her small gardens put 4 seeds each. How many small gardens did Emily have? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Emily had 7 small gardens, so the answer is: The answer is 7.",
+        "model_answer": 7.0
+    },
+    {
+        "question": " For Halloween Emily received 5 pieces of candy from neighbors and 13 pieces from her older sister. If she only ate 9 pieces a day, how long would the candy last her? ",
+        "final_ans": "2",
+        "model_response": "Question:  For Halloween Emily received 5 pieces of candy from neighbors and 13 pieces from her older sister. If she only ate 9 pieces a day, how long would the candy last her? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: To find out how long the candy will last Emily, we need to divide the total number of pieces of candy she received by the number of days she can eat them. So, if Emily received 5 pieces of candy from neighbors and 13 pieces from her older sister, the total number of pieces of candy she received is 5 + 13 = 18. If she only eats 9 pieces a day, the answer is that the candy will last her for 18 days. The answer is: 18 days.",
+        "model_answer": null
+    },
+    {
+        "question": " Mike is at the library helping put away books. There are 82 book to put away total but a librarian takes 10 of them and leaves Mike with the rest. If he can fit 9 books on a shelf, how many shelves will he need? ",
+        "final_ans": "8",
+        "model_response": "Question:  Mike is at the library helping put away books. There are 82 book to put away total but a librarian takes 10 of them and leaves Mike with the rest. If he can fit 9 books on a shelf, how many shelves will he need? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Mike needs 9 shelves to put away all the remaining 72 books. The answer is 9 shelves.",
+        "model_answer": 9.0
+    },
+    {
+        "question": " While on vacation, Nancy took 49 pictures at the zoo and 8 at the museum. If she later deleted 38 of the pictures, how many pictures from her vacation did she still have? ",
+        "final_ans": "19",
+        "model_response": "Question:  While on vacation, Nancy took 49 pictures at the zoo and 8 at the museum. If she later deleted 38 of the pictures, how many pictures from her vacation did she still have? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: While on vacation, Nancy took 49 pictures at the zoo and 8 at the museum. If she later deleted 38 of the pictures, she still has 11 pictures from her vacation. The answer is 11.",
+        "model_answer": 11.0
+    },
+    {
+        "question": " A new building needed 14 windows. The builder had already installed 8 of them. If it takes 8 hours to install each window, how long will it take him to install the rest? ",
+        "final_ans": "48",
+        "model_response": "Question:  A new building needed 14 windows. The builder had already installed 8 of them. If it takes 8 hours to install each window, how long will it take him to install the rest? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The builder had already installed 8 windows, so he has 6 windows left to install. If it takes 8 hours to install each window, then the total time it will take him to install the remaining 6 windows is 6 x 8 = 48 hours. The answer is 48 hours.",
+        "model_answer": 48.0
+    },
+    {
+        "question": " A store had 40 oranges in a bin. If they threw away 25 of the old ones and put 21 new ones in the bin how many would be in the bin? ",
+        "final_ans": "36",
+        "model_response": "Question:  A store had 40 oranges in a bin. If they threw away 25 of the old ones and put 21 new ones in the bin how many would be in the bin? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The store had 40 oranges in the bin to start with, then they threw away 25 of the old ones, so the number of oranges in the bin after this was 40 - 25 = 15. Then they put 21 new oranges in the bin, so the number of oranges in the bin now is 15 + 21 = 36. The answer is 36 oranges in the bin.",
+        "model_answer": 36.0
+    },
+    {
+        "question": " At lunch a waiter had 7 customers and 5 of them didn't leave a tip. If he got $3 each from the ones who did tip, how much money did he earn? ",
+        "final_ans": "6",
+        "model_response": "Question:  At lunch a waiter had 7 customers and 5 of them didn't leave a tip. If he got $3 each from the ones who did tip, how much money did he earn? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The waiter earned $21 from the 2 customers who left tips, so if 5 out of 7 customers did not leave a tip, then the total amount of money the waiter earned is $21 + $3 x 5 = $28. The answer is $28.",
+        "model_answer": 28.0
+    },
+    {
+        "question": " For Halloween Faye scored 47 pieces of candy. She ate 25 pieces the first night and then her sister gave her 40 more pieces. How many pieces of candy does Faye have now? ",
+        "final_ans": "62",
+        "model_response": "Question:  For Halloween Faye scored 47 pieces of candy. She ate 25 pieces the first night and then her sister gave her 40 more pieces. How many pieces of candy does Faye have now? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Faye had 47 pieces of candy to start with, and she ate 25 pieces on the first night, so she had 47 - 25 = 22 pieces of candy left. Then, her sister gave her 40 more pieces of candy, so she now has 22 + 40 = 62 pieces of candy. The answer is 62 pieces of candy.",
+        "model_answer": 62.0
+    },
+    {
+        "question": " A group of 4 friends went into a restaurant. The chef already had 9 chicken wings cooked but cooked 7 more for the group. If they each got the same amount how many would each person get? ",
+        "final_ans": "4",
+        "model_response": "Question:  A group of 4 friends went into a restaurant. The chef already had 9 chicken wings cooked but cooked 7 more for the group. If they each got the same amount how many would each person get? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The chef had 9 chicken wings cooked already, so if he cooked 7 more for the group, then the total number of chicken wings the group will get is 9 + 7 = 16. Since the group has 4 members, each person will get 16 / 4 = 4 chicken wings. The answer is: 4 chicken wings each.",
+        "model_answer": null
+    },
+    {
+        "question": " John earned 8 dollars for each lawn he mowed. If he had 15 lawns to mow, but forgot to mow 7 of them, how much money did he actually earn? ",
+        "final_ans": "64",
+        "model_response": "Question:  John earned 8 dollars for each lawn he mowed. If he had 15 lawns to mow, but forgot to mow 7 of them, how much money did he actually earn? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: John earned $8 per lawn, so if he had 15 lawns to mow, he would have earned $120. However, since he forgot to mow 7 of the lawns, he actually only mowed 8 lawns, so he earned $64. The answer is $120 - $64 = $56.",
+        "model_answer": 120.0
+    },
+    {
+        "question": " A pet shelter had 5 puppies when another 35 were brought in. If 8 puppies a day are adopted, how long would it take for all of them to be adopted? ",
+        "final_ans": "5",
+        "model_response": "Question:  A pet shelter had 5 puppies when another 35 were brought in. If 8 puppies a day are adopted, how long would it take for all of them to be adopted? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The number of puppies that the shelter has at any given time can be found by subtracting the number of puppies that have been adopted from the total number of puppies that were initially at the shelter. So, if there were 5 puppies at the shelter initially and 8 puppies are adopted each day, then the number of puppies at the shelter after one day is 5 - 8 = -3. This means that it would take 3 days for all of the puppies to be adopted if 8 are adopted each day. The answer is 3 days.",
+        "model_answer": 3.0
+    },
+    {
+        "question": " A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? ",
+        "final_ans": "18",
+        "model_response": "Question:  A new building needed 9 windows. The builder had already installed 6 of them. If it takes 6 hours to install each window, how long will it take him to install the rest? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The builder has already installed 6 windows, which means he has 9 windows left to install. If it takes 6 hours to install each window, then the total time it will take him to install the remaining 9 windows is 9 x 6 = 54 hours. The answer is 54 hours.",
+        "model_answer": 54.0
+    },
+    {
+        "question": " A teacher had 34 worksheets to grade. If she graded 7, but then another 36 were turned in, how many worksheets would she have to grade? ",
+        "final_ans": "63",
+        "model_response": "Question:  A teacher had 34 worksheets to grade. If she graded 7, but then another 36 were turned in, how many worksheets would she have to grade? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The teacher had 34 worksheets to grade initially, and 7 were already graded, so the remaining worksheets to be graded are 34 - 7 = 27. When another 36 worksheets were turned in, the total number of worksheets to be graded now is 27 + 36 = 63. The answer is 63 worksheets the teacher has to grade.",
+        "model_answer": 63.0
+    },
+    {
+        "question": " While playing at the arcade, Frank won 33 tickets playing 'whack a mole' and 9 tickets playing 'skee ball'. If he was trying to buy candy that cost 6 tickets a piece, how many could he buy? ",
+        "final_ans": "7",
+        "model_response": "Question:  While playing at the arcade, Frank won 33 tickets playing 'whack a mole' and 9 tickets playing 'skee ball'. If he was trying to buy candy that cost 6 tickets a piece, how many could he buy? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: While Frank won a total of 42 tickets (33 from 'whack a mole' and 9 from 'skee ball'), he needs 6 tickets to buy one piece of candy. Therefore, he can buy 42/6 = 7 pieces of candy. The answer is 7.",
+        "model_answer": 7.0
+    },
+    {
+        "question": " At a restaurant each adult meal costs $7 and kids eat free. If a group of 13 people came in and 9 were kids, how much would it cost for the group to eat? ",
+        "final_ans": "28",
+        "model_response": "Question:  At a restaurant each adult meal costs $7 and kids eat free. If a group of 13 people came in and 9 were kids, how much would it cost for the group to eat? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The total cost for the group to eat at the restaurant would be $7 x 4 = $28 for the adult meals, since there are 4 adults in the group. Since kids eat free, the cost for the 9 kids would be $0. Therefore, the total cost for the group to eat would be $28. The answer is $28.",
+        "model_answer": 28.0
+    },
+    {
+        "question": " Paige had 43 math problems and 12 science problems for homework. If she finished 44 of the problems at school, how many problems did she have to do for homework? ",
+        "final_ans": "11",
+        "model_response": "Question:  Paige had 43 math problems and 12 science problems for homework. If she finished 44 of the problems at school, how many problems did she have to do for homework? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Paige had 43 math problems and 12 science problems for homework. If she finished 44 of the problems at school, then she still has 43 + 12 = 55 problems left to do for homework. The answer is 55.",
+        "model_answer": 55.0
+    },
+    {
+        "question": " Rachel was playing a video game where she scores 9 points for each treasure she finds. If she found 5 treasures on the first level and 2 on the second, what would her score be? ",
+        "final_ans": "63",
+        "model_response": "Question:  Rachel was playing a video game where she scores 9 points for each treasure she finds. If she found 5 treasures on the first level and 2 on the second, what would her score be? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Rachel found 5 treasures on the first level, so her score for that level is 5 x 9 = 45 points. She found 2 treasures on the second level, so her score for that level is 2 x 9 = 18 points. The answer is Rachel's total score is 45 + 18 = 63 points.",
+        "model_answer": null
+    },
+    {
+        "question": " A waiter at 'The Greasy Spoon' restaurant had 26 customers to wait on. During the lunch rush he added another 27 customers. If 27 of the customers didn't leave him a tip, how many customers did leave a tip? ",
+        "final_ans": "26",
+        "model_response": "Question:  A waiter at 'The Greasy Spoon' restaurant had 26 customers to wait on. During the lunch rush he added another 27 customers. If 27 of the customers didn't leave him a tip, how many customers did leave a tip? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The waiter had 26 customers to wait on during the lunch rush, and if 27 of them didn't leave a tip, that means there were 27 - 26 = 1 additional customer who left a tip. The answer is 1 customer left a tip.",
+        "model_answer": 1.0
+    },
+    {
+        "question": " A toy store had 17 giant stuffed bears in stock when they got another shipment with 10 bears in it. The put the bears onto shelves with 9 on each shelf. How many shelves did they use? ",
+        "final_ans": "3",
+        "model_response": "Question:  A toy store had 17 giant stuffed bears in stock when they got another shipment with 10 bears in it. The put the bears onto shelves with 9 on each shelf. How many shelves did they use? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The store used 3 shelves to display the giant stuffed bears, so the answer is 3 shelves.",
+        "model_answer": null
+    },
+    {
+        "question": " Gwen was organizing her book case making sure each of the shelves had exactly 4 books on it. If she had 5 shelves of mystery books and 3 shelves of picture books, how many books did she have total? ",
+        "final_ans": "32",
+        "model_response": "Question:  Gwen was organizing her book case making sure each of the shelves had exactly 4 books on it. If she had 5 shelves of mystery books and 3 shelves of picture books, how many books did she have total? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Gwen had 5 shelves of mystery books, each shelf having 4 books, so the total number of mystery books was 5 x 4 = 20. She also had 3 shelves of picture books, each shelf having 4 books, so the total number of picture books was 3 x 4 = 12. Therefore, the total number of books Gwen had was 20 + 12 = 32. The answer is 32 books.",
+        "model_answer": 32.0
+    },
+    {
+        "question": " Wendy uploaded 79 pictures to Facebook. She put 44 pics into one album and put the rest into 5 different albums. How many pictures were in each album? ",
+        "final_ans": "7",
+        "model_response": "Question:  Wendy uploaded 79 pictures to Facebook. She put 44 pics into one album and put the rest into 5 different albums. How many pictures were in each album? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Wendy uploaded 79 pictures to Facebook. She put 44 pictures into one album, so there are 35 pictures in the remaining 5 albums. The answer is 35 pictures in each of the 5 albums.",
+        "model_answer": 35.0
+    },
+    {
+        "question": " The schools debate team had 5 boys and 40 girls on it. If they were split into groups of 9 how many groups could they make? ",
+        "final_ans": "5",
+        "model_response": "Question:  The schools debate team had 5 boys and 40 girls on it. If they were split into groups of 9 how many groups could they make? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The number of groups of 9 that can be made from the 50 students is 6. To determine this, we need to divide 50 by 9, which gives us 5. Since we cannot have a group of 0 students, we must have at least 6 groups of 9 students. The answer is 6.",
+        "model_answer": 6.0
+    },
+    {
+        "question": " April's discount flowers was having a sale where each rose was 7 dollars. If April started with 9 roses and had 4 roses left, how much money did she earn? ",
+        "final_ans": "35",
+        "model_response": "Question:  April's discount flowers was having a sale where each rose was 7 dollars. If April started with 9 roses and had 4 roses left, how much money did she earn? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: April started with 9 roses and sold 4 roses, so she earned $7 x 4 = $28. The answer is: April earned $28 from the sale of the roses.",
+        "model_answer": null
+    },
+    {
+        "question": " A trivia team had 11 members total, but during a game 6 members didn't show up. If each member that did show up scored 9 points, how many points were scored total? ",
+        "final_ans": "45",
+        "model_response": "Question:  A trivia team had 11 members total, but during a game 6 members didn't show up. If each member that did show up scored 9 points, how many points were scored total? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The trivia team had 11 members total, but during a game 6 members didn't show up. If each member that did show up scored 9 points, the total number of points scored would be 9 x (11 - 6) = 9 x 5 = 45 points. The answer is 45 points.",
+        "model_answer": 45.0
+    },
+    {
+        "question": " A pet store had 13 siamese cats and 5 house cats. During a sale they sold 10 cats. How many cats do they have left? ",
+        "final_ans": "8",
+        "model_response": "Question:  A pet store had 13 siamese cats and 5 house cats. During a sale they sold 10 cats. How many cats do they have left? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The pet store had 13 siamese cats and 5 house cats to start with, so together they had 18 cats. During the sale, 10 cats were sold, leaving the pet store with 8 cats. The answer is 8 cats.",
+        "model_answer": 8.0
+    },
+    {
+        "question": " Victor was working as a sacker at a grocery store where he made 6 dollars an hour. On Monday he worked 5 hours and on Tuesday he worked 5 hours. How much money did Victor make in those two days? ",
+        "final_ans": "60",
+        "model_response": "Question:  Victor was working as a sacker at a grocery store where he made 6 dollars an hour. On Monday he worked 5 hours and on Tuesday he worked 5 hours. How much money did Victor make in those two days? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Victor made $6 x 5 = $30 on Monday, and $6 x 5 = $30 on Tuesday. The answer is $60 for the two days combined.",
+        "model_answer": 60.0
+    },
+    {
+        "question": " Megan baked 71 cupcakes for her school's bake sale. If her brother, Todd, ate 43 of them how many packages could she make if she put 7 cupcake in each package? ",
+        "final_ans": "4",
+        "model_response": "Question:  Megan baked 71 cupcakes for her school's bake sale. If her brother, Todd, ate 43 of them how many packages could she make if she put 7 cupcake in each package? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Megan baked 71 cupcakes, and her brother Todd ate 43 of them. If Megan wanted to package the remaining 28 cupcakes into 7 packages, she would need to put 7 cupcakes in each package. The answer is: 28 cupcakes / 7 packages = 4 cupcakes per package.",
+        "model_answer": null
+    },
+    {
+        "question": " There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+        "final_ans": "24",
+        "model_response": "Question:  There were 2 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The two friends initially had 6 lives each, for a total of 12 lives. When the two new players joined the game, each of them also had 6 lives, bringing the total number of lives to 24. The answer is: 24 lives.",
+        "model_answer": null
+    },
+    {
+        "question": " Sam had 10 socks. If he threw away 3 old ones that didn't fit and bought 36 new ones, how many socks would he have? ",
+        "final_ans": "43",
+        "model_response": "Question:  Sam had 10 socks. If he threw away 3 old ones that didn't fit and bought 36 new ones, how many socks would he have? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Sam had 10 socks to start with, so if he threw away 3 old ones that didn't fit, he would have 10 - 3 = 7 socks left. Then, if he bought 36 new ones, he would have 7 + 36 = 43 socks. The answer is 43 socks.",
+        "model_answer": 43.0
+    },
+    {
+        "question": " Wendy picked 103 flowers for her friend\u2019s wedding. She was making bouquets with 8 flowers in each one. If 47 of the flowers wilted before the wedding, how many bouquets could she still make? ",
+        "final_ans": "7",
+        "model_response": "Question:  Wendy picked 103 flowers for her friend\u2019s wedding. She was making bouquets with 8 flowers in each one. If 47 of the flowers wilted before the wedding, how many bouquets could she still make? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Wendy had 103 flowers to work with, and she wanted to make 8-flower bouquets. So, she could make 103 / 8 = 13 bouquets. However, 47 of the flowers wilted before the wedding, so she could only make 13 - 47 = 34 bouquets. The answer is 34 bouquets.",
+        "model_answer": 34.0
+    },
+    {
+        "question": " Adam had 48 books. If he sold 19 of them and used the money he earned to buy 38 new books, how many books would Adam have? ",
+        "final_ans": "67",
+        "model_response": "Question:  Adam had 48 books. If he sold 19 of them and used the money he earned to buy 38 new books, how many books would Adam have? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Adam had 48 books. If he sold 19 of them, he would have 29 books left. He then used the money he earned from selling those books to buy 38 new books. So, Adam now has 38 + 29 = 67 books. The answer is 67 books.",
+        "model_answer": 67.0
+    },
+    {
+        "question": " Nancy's class is going on a field trip to the zoo. If each van can hold 5 people and there are 12 students and 3 adults going, how many vans will they need? ",
+        "final_ans": "3",
+        "model_response": "Question:  Nancy's class is going on a field trip to the zoo. If each van can hold 5 people and there are 12 students and 3 adults going, how many vans will they need? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The number of vans needed for the field trip to the zoo can be calculated by dividing the total number of people (12 students + 3 adults = 15) by the capacity of each van (5 people). Therefore, the class will need 3 vans to transport all the people comfortably. The answer is 3 vans.",
+        "model_answer": 3.0
+    },
+    {
+        "question": " For a birthday party Tom bought 4 regular sodas and 52 diet sodas. If his fridge would only hold 7 on each shelf, how many shelves would he fill up? ",
+        "final_ans": "8",
+        "model_response": "Question:  For a birthday party Tom bought 4 regular sodas and 52 diet sodas. If his fridge would only hold 7 on each shelf, how many shelves would he fill up? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: To determine how many shelves Tom would fill up, we need to divide the total number of sodas he bought (4 + 52 = 56) by the number of sodas that can fit on each shelf (7). So, Tom would fill up 8 shelves (56 / 7 = 8). The answer is 8 shelves.",
+        "model_answer": 8.0
+    },
+    {
+        "question": " The school cafeteria had 38 apples. If they used 20 to make lunch for the students and then bought 28 more, how many apples would they have? ",
+        "final_ans": "46",
+        "model_response": "Question:  The school cafeteria had 38 apples. If they used 20 to make lunch for the students and then bought 28 more, how many apples would they have? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The school cafeteria had 38 apples. If they used 20 to make lunch for the students, then they had 38 - 20 = 18 apples left. They then bought 28 more apples, so now they have 18 + 28 = 46 apples. The answer is 46 apples.",
+        "model_answer": 46.0
+    },
+    {
+        "question": " Luke was helping the cafeteria workers pick up lunch trays, but he could only carry 4 trays at a time. If he had to pick up 20 trays from one table and 16 trays from another, how many trips will he make? ",
+        "final_ans": "9",
+        "model_response": "Question:  Luke was helping the cafeteria workers pick up lunch trays, but he could only carry 4 trays at a time. If he had to pick up 20 trays from one table and 16 trays from another, how many trips will he make? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: To determine the number of trips Luke will make, we need to divide the total number of trays (36) by the number he can carry at once (4). So, Luke will make 9 trips. The answer is: Luke will make 9 trips to pick up all the lunch trays.",
+        "model_answer": null
+    },
+    {
+        "question": " The cafeteria had 96 apples. For lunch they handed out 42 to students and decided to use the rest to make pies. If each pie takes 6 apples, how many pies could they make? ",
+        "final_ans": "9",
+        "model_response": "Question:  The cafeteria had 96 apples. For lunch they handed out 42 to students and decided to use the rest to make pies. If each pie takes 6 apples, how many pies could they make? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The cafeteria had 96 apples for lunch, and they handed out 42 to students, so they had 96 - 42 = 54 apples left. To make pies, they would need 6 apples per pie, so they could make 54 / 6 = 9 pies. The answer is 9 pies.",
+        "model_answer": 9.0
+    },
+    {
+        "question": " Henry had 3 action figures, but needed 8 total for a complete collection. If each one costs $6, how much money would he need to finish his collection? ",
+        "final_ans": "30",
+        "model_response": "Question:  Henry had 3 action figures, but needed 8 total for a complete collection. If each one costs $6, how much money would he need to finish his collection? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Henry had 3 action figures, but needed 8 total for a complete collection. If each one costs $6, then the total cost of 8 action figures is 8 x $6 = $48. The answer is $48.",
+        "model_answer": 48.0
+    },
+    {
+        "question": " Frank had saved up 3 dollars. If he received another 37 dollars for his allowance, how many 8 dollar toys could he buy? ",
+        "final_ans": "5",
+        "model_response": "Question:  Frank had saved up 3 dollars. If he received another 37 dollars for his allowance, how many 8 dollar toys could he buy? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Frank had saved up 3 dollars, so he has 3 dollars to spend on toys. If he receives another 37 dollars for his allowance, he now has a total of 40 dollars to spend on toys. To find out how many 8 dollar toys he can buy, we need to divide the amount of money he has left (40 dollars) by the cost of each toy (8 dollars). So, the number of 8 dollar toys he can buy is 40 divided by 8, which equals 5. The answer is, Frank can buy 5",
+        "model_answer": null
+    },
+    {
+        "question": " Vanessa and her mom were picking carrots from their garden. Vanessa picked 17 and her mother picked 14. If only 24 of the carrots were good, how many bad carrots did they have? ",
+        "final_ans": "7",
+        "model_response": "Question:  Vanessa and her mom were picking carrots from their garden. Vanessa picked 17 and her mother picked 14. If only 24 of the carrots were good, how many bad carrots did they have? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Vanessa and her mom were picking carrots from their garden. Vanessa picked 17 carrots and her mother picked 14 carrots, so together they picked 31 carrots. If only 24 of the carrots were good, then the number of bad carrots they had is 31 - 24 = 7. The answer is 7 bad carrots.",
+        "model_answer": 7.0
+    },
+    {
+        "question": " At a company picnic 23 managers and 7 employees decided to start a game of volleyball. If they split into 6 teams how many people would be on each team? ",
+        "final_ans": "5",
+        "model_response": "Question:  At a company picnic 23 managers and 7 employees decided to start a game of volleyball. If they split into 6 teams how many people would be on each team? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: To determine the number of people on each team, we need to divide the total number of players (23 managers + 7 employees) by the number of teams (6). So, if we divide 30 by 6, we get 5 per team. The answer is 5 people will be on each team.",
+        "model_answer": 5.0
+    },
+    {
+        "question": " Tiffany baked 8 brownies, but needed 17 total for her party. If she used 8 cups of flour on each one, how much cups of flour does she still need? ",
+        "final_ans": "72",
+        "model_response": "Question:  Tiffany baked 8 brownies, but needed 17 total for her party. If she used 8 cups of flour on each one, how much cups of flour does she still need? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Tiffany needs 9 cups of flour to make the remaining brownies. To determine this, we must subtract the number of cups of flour used for the 8 brownies she already baked from the total amount needed for the party. Therefore, the answer is: Tiffany needs 9 cups of flour to make the remaining brownies.",
+        "model_answer": null
+    },
+    {
+        "question": " Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? ",
+        "final_ans": "7",
+        "model_response": "Question:  Carol and her mom were picking carrots from their garden. Carol picked 29 and her mother picked 16. If only 38 of the carrots were good, how many bad carrots did they have? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Carol and her mother were picking carrots from their garden. Carol picked 29 carrots and her mother picked 16 carrots. If only 38 of the carrots were good, then the number of bad carrots they had is 38 - 38 = 0. The answer is: Carol and her mother did not have any bad carrots.",
+        "model_answer": null
+    },
+    {
+        "question": " A worksheet had 7 problems on it. If a teacher had 17 worksheets to grade and had already graded 8 of them, how many more problems does she have to grade? ",
+        "final_ans": "63",
+        "model_response": "Question:  A worksheet had 7 problems on it. If a teacher had 17 worksheets to grade and had already graded 8 of them, how many more problems does she have to grade? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The teacher has 9 more worksheets to grade, as she has already graded 8 out of the 17 worksheets. Therefore, the teacher has to grade 9 more worksheets. The answer is 9.",
+        "model_answer": 9.0
+    },
+    {
+        "question": " There were 8 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? ",
+        "final_ans": "60",
+        "model_response": "Question:  There were 8 friends playing a video game online when 2 more players joined the game. If each player had 6 lives, how many lives did they have total? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The total number of lives the players had before the new players joined the game was 8 x 6 = 48 lives. When 2 new players joined the game, each with 6 lives, the total number of lives among all 10 players became 48 + 2 x 6 = 60 lives. So, the answer is 60 lives.",
+        "model_answer": null
+    },
+    {
+        "question": " At the arcade Cody won 49 tickets. If he spent 25 tickets on a beanie and later won 6 more tickets, how many would he have? ",
+        "final_ans": "30",
+        "model_response": "Question:  At the arcade Cody won 49 tickets. If he spent 25 tickets on a beanie and later won 6 more tickets, how many would he have? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: At the arcade, Cody won 49 tickets. If he spent 25 tickets on a beanie, he would have 24 tickets left. Later, he won 6 more tickets, so he now has 30 tickets. The answer is 30 tickets.",
+        "model_answer": 30.0
+    },
+    {
+        "question": " For Halloween Bianca received 78 pieces of candy. She ate 30 pieces then placed the rest into piles with 8 in each pile. How many piles could she make? ",
+        "final_ans": "6",
+        "model_response": "Question:  For Halloween Bianca received 78 pieces of candy. She ate 30 pieces then placed the rest into piles with 8 in each pile. How many piles could she make? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Bianca received 78 pieces of candy, and she ate 30 pieces, so she had 78 - 30 = 48 pieces left. To make piles with 8 pieces in each pile, Bianca could make 48 / 8 = 6 piles. The answer is 6 piles.",
+        "model_answer": 6.0
+    },
+    {
+        "question": " There were 5 friends playing a video game online when 2 more players joined the game. If each player had 8 lives, how many lives did they have total? ",
+        "final_ans": "56",
+        "model_response": "Question:  There were 5 friends playing a video game online when 2 more players joined the game. If each player had 8 lives, how many lives did they have total? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The total number of lives the 5 friends had was 40 (8 x 5). When the 2 new players joined, their total number of lives became 48 (8 x 6). So, the answer is 48 lives.",
+        "model_answer": null
+    },
+    {
+        "question": " At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? ",
+        "final_ans": "72",
+        "model_response": "Question:  At a restaurant each adult meal costs $8 and kids eat free. If a group of 11 people came in and 2 were kids, how much would it cost for the group to eat? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The total cost for the group of 11 people to eat at the restaurant would be $8 x 9 = $72, as two of the individuals are children who eat for free. Therefore, the answer is $72.",
+        "model_answer": null
+    },
+    {
+        "question": " Roger had 25 books. If he sold 21 of them and used the money he earned to buy 30 new books, how many books would Roger have? ",
+        "final_ans": "34",
+        "model_response": "Question:  Roger had 25 books. If he sold 21 of them and used the money he earned to buy 30 new books, how many books would Roger have? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Roger had 25 books. If he sold 21 of them, he would have 4 books left. He used the money he earned from selling the books to buy 30 new books. So, Roger now has 30 + 4 = 34 books. The answer is 34 books.",
+        "model_answer": 34.0
+    },
+    {
+        "question": " Wendy was playing a video game and had 10 lives. In a hard part of the game she lost 6 lives. If she got 37 more lives in the next level, how many lives would she have? ",
+        "final_ans": "41",
+        "model_response": "Question:  Wendy was playing a video game and had 10 lives. In a hard part of the game she lost 6 lives. If she got 37 more lives in the next level, how many lives would she have? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Wendy had 10 lives initially, and then she lost 6 lives, so she had 10 - 6 = 4 lives left. If she got 37 more lives in the next level, she would have 37 + 4 = 41 lives. The answer is 41 lives.",
+        "model_answer": 41.0
+    },
+    {
+        "question": " Frank made 19 dollars mowing lawns over the summer. If he spent 11 dollars buying new mower blades, how many 2 dollar games could he buy with the money he had left? ",
+        "final_ans": "4",
+        "model_response": "Question:  Frank made 19 dollars mowing lawns over the summer. If he spent 11 dollars buying new mower blades, how many 2 dollar games could he buy with the money he had left? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Frank made 19 dollars mowing lawns over the summer. If he spent 11 dollars buying new mower blades, he has 8 dollars left. To find out how many 2-dollar games he can buy with the money he has left, we need to divide 8 dollars by 2 dollars. The answer is 4 games.",
+        "model_answer": 4.0
+    },
+    {
+        "question": " There school's baseball team had 48 new players and 6 returning players. If the coach put them into groups with 6 players in each group, how many groups would there be? ",
+        "final_ans": "9",
+        "model_response": "Question:  There school's baseball team had 48 new players and 6 returning players. If the coach put them into groups with 6 players in each group, how many groups would there be? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The number of groups that the coach can make with 48 new players and 6 returning players is 8. To determine this, we need to divide 48 by 6, which gives us 8. Therefore, there would be 8 groups of 6 players each. The answer is 8 groups.",
+        "model_answer": 8.0
+    },
+    {
+        "question": " Nancy had 80 files on her computer. She deleted 31 of them and put the rest into folders with 7 files in each one. How many folders did Nancy end up with? ",
+        "final_ans": "7",
+        "model_response": "Question:  Nancy had 80 files on her computer. She deleted 31 of them and put the rest into folders with 7 files in each one. How many folders did Nancy end up with? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Nancy had 80 files on her computer. She deleted 31 of them, so she had 59 files left. She then put the rest into folders with 7 files in each one, so she ended up with 59 folders. The answer is 59 folders.",
+        "model_answer": 59.0
+    },
+    {
+        "question": " Luke was selling his old games. He started out with 39 but sold 19 of them. He packed the rest up putting 4 games into each box. How many boxes did he have to use? ",
+        "final_ans": "5",
+        "model_response": "Question:  Luke was selling his old games. He started out with 39 but sold 19 of them. He packed the rest up putting 4 games into each box. How many boxes did he have to use? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Luke had 39 games to start with, so he sold 19 of them, which left him with 20 games. Since he wanted to pack 4 games into each box, he needed to divide 20 games by 4, which gave him 5 boxes. The answer is 5 boxes.",
+        "model_answer": 5.0
+    },
+    {
+        "question": " There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? ",
+        "final_ans": "6",
+        "model_response": "Question:  There are 65 students trying out for the school's trivia teams. If 17 of them didn't get picked for the team and the rest were put into 8 groups, how many students would be in each group? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: To find out how many students will be in each group, we need to divide the total number of students who didn't get picked for the team (17) by the total number of groups (8). So, we can divide 17 by 8 to get the number of students in each group, which is 2. The answer is: There will be 2 students in each group.",
+        "model_answer": null
+    },
+    {
+        "question": " Isabel uploaded 25 pictures to Facebook. She put 10 pics into one album and put the rest into 5 different albums. How many pictures were in each album? ",
+        "final_ans": "3",
+        "model_response": "Question:  Isabel uploaded 25 pictures to Facebook. She put 10 pics into one album and put the rest into 5 different albums. How many pictures were in each album? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Isabel uploaded 25 pictures to Facebook. She put 10 pics into one album, so there are 25 - 10 = 15 pictures in the remaining 5 albums. The answer is 15 pictures in each of the 5 albums.",
+        "model_answer": 15.0
+    },
+    {
+        "question": " Mike made 14 dollars mowing lawns and 26 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+        "final_ans": "8",
+        "model_response": "Question:  Mike made 14 dollars mowing lawns and 26 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: To determine how long Mike's money will last, we need to divide the total amount of money he has by the amount he spends each week. In this case, Mike has a total of 30 dollars ($14 from mowing lawns + $26 from weed eating). If he spends 5 dollars per week, the answer is that his money will last him for 6 weeks. The answer is: Mike's money will last him for 6 weeks.",
+        "model_answer": null
+    },
+    {
+        "question": " Vanessa had 16 music files and 48 video files on her flash drive. If she deleted 30 of the files, how many files were still on her flash drive? ",
+        "final_ans": "34",
+        "model_response": "Question:  Vanessa had 16 music files and 48 video files on her flash drive. If she deleted 30 of the files, how many files were still on her flash drive? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Vanessa had 16 music files and 48 video files on her flash drive. If she deleted 30 of the files, she still had 16 music files and 48 video files on her flash drive. The answer is 62 files were still on her flash drive.",
+        "model_answer": 62.0
+    },
+    {
+        "question": " Dave had to wash 9 short sleeve shirts and 27 long sleeve shirts before school. If he had only washed 20 of them by the time school started, how many did he not wash? ",
+        "final_ans": "16",
+        "model_response": "Question:  Dave had to wash 9 short sleeve shirts and 27 long sleeve shirts before school. If he had only washed 20 of them by the time school started, how many did he not wash? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The number of shirts Dave did not wash is 19. To find this out, we need to subtract the number of shirts he had washed by the time school started (20) from the total number of shirts he had to wash (36). Therefore, the answer is: Dave did not wash 19 shirts.",
+        "model_answer": null
+    },
+    {
+        "question": " A chef needs to cook 9 potatoes. He has already cooked 7. If each potato takes 3 minutes to cook, how long will it take him to cook the rest? ",
+        "final_ans": "6",
+        "model_response": "Question:  A chef needs to cook 9 potatoes. He has already cooked 7. If each potato takes 3 minutes to cook, how long will it take him to cook the rest? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The chef has already cooked 7 potatoes, which means he has 2 more potatoes left to cook. Each potato takes 3 minutes to cook, so the total time it will take for the chef to cook the remaining 2 potatoes is 6 minutes (2 x 3 minutes). The answer is 6 minutes.",
+        "model_answer": 6.0
+    },
+    {
+        "question": " While on vacation, Gwen took 41 pictures at the zoo and 29 at the museum. If she later deleted 15 of the pictures, how many pictures from her vacation did she still have? ",
+        "final_ans": "55",
+        "model_response": "Question:  While on vacation, Gwen took 41 pictures at the zoo and 29 at the museum. If she later deleted 15 of the pictures, how many pictures from her vacation did she still have? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: While on vacation, Gwen took 41 pictures at the zoo and 29 at the museum. If she later deleted 15 of the pictures, she still has 41 + 29 = 70 pictures from her vacation. The answer is 70 pictures.",
+        "model_answer": 70.0
+    },
+    {
+        "question": " A pet shelter had 2 puppies when another 34 were brought in. If 4 puppies a day are adopted, how long would it take for all of them to be adopted? ",
+        "final_ans": "9",
+        "model_response": "Question:  A pet shelter had 2 puppies when another 34 were brought in. If 4 puppies a day are adopted, how long would it take for all of them to be adopted? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The shelter had 2 puppies initially and then 34 more were brought in, so the total number of puppies now is 36. If 4 puppies are adopted per day, it will take 9 days for all of them to be adopted, The answer is 9 days.",
+        "model_answer": 9.0
+    },
+    {
+        "question": " Will had 59 pieces of clothing to wash. He put 32 of them in one load, but decided to split the rest into 9 equal loads. How many pieces of clothing could go in each of the small loads? ",
+        "final_ans": "3",
+        "model_response": "Question:  Will had 59 pieces of clothing to wash. He put 32 of them in one load, but decided to split the rest into 9 equal loads. How many pieces of clothing could go in each of the small loads? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Will had 59 pieces of clothing to wash. If he put 32 of them in one load, then he had 59 - 32 = 27 pieces of clothing left to split into 9 equal loads. The answer is 3 pieces of clothing could go in each of the small loads.",
+        "model_answer": 3.0
+    },
+    {
+        "question": " Adam bought 2 boxes of chocolate candy and 5 boxes of caramel candy. If each box has 4 pieces inside it, how much candy did he have total? ",
+        "final_ans": "28",
+        "model_response": "Question:  Adam bought 2 boxes of chocolate candy and 5 boxes of caramel candy. If each box has 4 pieces inside it, how much candy did he have total? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Adam bought 2 boxes of chocolate candy, and each box contains 4 pieces of candy. Therefore, Adam has 2 x 4 = 8 pieces of chocolate candy. He also bought 5 boxes of caramel candy, and each box contains 4 pieces of candy. So, Adam has 5 x 4 = 20 pieces of caramel candy. The answer is: Adam had a total of 8 + 20 = 28 pieces of candy.",
+        "model_answer": null
+    },
+    {
+        "question": " April's discount flowers was having a sale where each flower was 6 dollars. If Katie bought 5 roses and 5 daisies, how much did she spend? ",
+        "final_ans": "60",
+        "model_response": "Question:  April's discount flowers was having a sale where each flower was 6 dollars. If Katie bought 5 roses and 5 daisies, how much did she spend? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Katie spent a total of $30 on flowers. To find out how much she spent on each flower, we need to divide the total cost by the number of flowers she bought. In this case, Katie bought 5 roses, which cost $6 per rose, so she spent $30 / 5 = $6 on roses. She also bought 5 daisies, which cost $6 per daisy, so she spent $6 on daisies as well. The answer is: Katie spent $30 on flowers.",
+        "model_answer": null
+    },
+    {
+        "question": " At the schools book fair Victor bought 32 adventure books and 37 mystery books. If 16 of the books were used, how many new books did he buy? ",
+        "final_ans": "53",
+        "model_response": "Question:  At the schools book fair Victor bought 32 adventure books and 37 mystery books. If 16 of the books were used, how many new books did he buy? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Victor bought 32 adventure books and 37 mystery books, so together he bought 32 + 37 = 69 books. Since 16 of the books were used, the number of new books Victor bought is 69 - 16 = 53 books. The answer is: Victor bought 53 new books at the school book fair.",
+        "model_answer": null
+    },
+    {
+        "question": " Maria picked 48 carrots from her garden. If she threw out 11 of them and then picked 15 more the next day, how many carrots would she have total? ",
+        "final_ans": "52",
+        "model_response": "Question:  Maria picked 48 carrots from her garden. If she threw out 11 of them and then picked 15 more the next day, how many carrots would she have total? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Maria picked 48 carrots from her garden. If she threw out 11 of them, she had 37 carrots left. The next day, she picked 15 more carrots, so she now has a total of 52 carrots. The answer is 52 carrots.",
+        "model_answer": 52.0
+    },
+    {
+        "question": " A florist had 50 roses. If she sold 15 of them and then later picked 21 more, how many roses would she have? ",
+        "final_ans": "56",
+        "model_response": "Question:  A florist had 50 roses. If she sold 15 of them and then later picked 21 more, how many roses would she have? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The florist had 50 roses to start with, so if she sold 15 of them, she would have 50 - 15 = 35 roses left. Then, if she picked 21 more, she would have 35 + 21 = 56 roses in total. So, the answer is 56 roses.",
+        "model_answer": null
+    },
+    {
+        "question": " Isabel had 2 pages of math homework and 4 pages of reading homework. If each page had 5 problems on it, how many problems did she have to complete total? ",
+        "final_ans": "30",
+        "model_response": "Question:  Isabel had 2 pages of math homework and 4 pages of reading homework. If each page had 5 problems on it, how many problems did she have to complete total? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Isabel had 2 pages of math homework, which means she had 10 problems (2 pages x 5 problems per page). She also had 4 pages of reading homework, which means she had 20 problems (4 pages x 5 problems per page). In total, Isabel had to complete 30 problems (10 + 20). The answer is 30.",
+        "model_answer": 30.0
+    },
+    {
+        "question": " There were 4 friends playing a video game online when 5 more players joined the game. If each player had 3 lives, how many lives did they have total? ",
+        "final_ans": "27",
+        "model_response": "Question:  There were 4 friends playing a video game online when 5 more players joined the game. If each player had 3 lives, how many lives did they have total? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The total number of lives the 4 friends had was 12. To find out, we need to multiply the number of lives each friend had by the total number of players in the game. So, if each friend had 3 lives, and 5 more players joined the game, the total number of lives is 3 x 4 = 12. The answer is 12 lives.",
+        "model_answer": 12.0
+    },
+    {
+        "question": " Kaleb had 12 dollars. If he spent 8 bucks on a new game, how many 2 dollar toys could he buy with the money he had left? ",
+        "final_ans": "2",
+        "model_response": "Question:  Kaleb had 12 dollars. If he spent 8 bucks on a new game, how many 2 dollar toys could he buy with the money he had left? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Kaleb had 12 dollars and he spent 8 dollars on a new game, so he has 4 dollars left. To find out how many 2 dollar toys he could buy with the money he had left, we need to divide the amount of money he has left by the cost of each toy. Let's assume that each toy costs 2 dollars. The answer is: Kaleb could buy 2 toys with the 4 dollars he had left.",
+        "model_answer": null
+    },
+    {
+        "question": " Katie had 7 pages of math homework and 3 pages of reading homework. If each page had 9 problems on it, how many problems did she have to complete total? ",
+        "final_ans": "90",
+        "model_response": "Question:  Katie had 7 pages of math homework and 3 pages of reading homework. If each page had 9 problems on it, how many problems did she have to complete total? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Katie had 7 pages of math homework, so she had 7 x 9 = 63 problems to complete in math. She also had 3 pages of reading homework, which means she had 3 x 9 = 27 problems to complete in reading. The answer is 63 + 27 = 90 problems total.",
+        "model_answer": 63.0
+    },
+    {
+        "question": " While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? ",
+        "final_ans": "72",
+        "model_response": "Question:  While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs. How many songs did Janet buy total? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: While shopping for music online, Janet bought 6 country albums and 2 pop albums. Each album came with a lyric sheet and had 9 songs, so the total number of songs Janet bought is 6 x 9 = 54 songs from the country albums + 2 x 9 = 18 songs from the pop albums = 72 songs. The answer is 72 songs.",
+        "model_answer": 72.0
+    },
+    {
+        "question": " Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? ",
+        "final_ans": "9",
+        "model_response": "Question:  Jerry made 14 dollars mowing lawns and 31 dollars weed eating. If he only spent 5 dollar a week, how long would the money last him? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Jerry made $14 mowing lawns and $31 weed eating, so his total earnings were $45. If he only spent $5 per week, the money will last him for 9 weeks, or The answer is 9 weeks.",
+        "model_answer": 9.0
+    },
+    {
+        "question": " Adam had 33 books. If he sold 11 of them and used the money he earned to buy 23 new books, how many books would Adam have? ",
+        "final_ans": "45",
+        "model_response": "Question:  Adam had 33 books. If he sold 11 of them and used the money he earned to buy 23 new books, how many books would Adam have? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Adam had 33 books initially. He sold 11 of them, which means he had 33 - 11 = 22 books left. Then, he used the money he earned from selling the books to buy 23 new books, so he now has 22 + 23 = 45 books. The answer is 45 books.",
+        "model_answer": 45.0
+    },
+    {
+        "question": " Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? ",
+        "final_ans": "40",
+        "model_response": "Question:  Kaleb was collecting cans for recycling. On Saturday he filled 5 bags up and on Sunday he filled 5 more bags. If each bag had 4 cans in it, how many cans did he pick up total? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Kaleb collected 20 cans on Saturday and 20 more cans on Sunday, so the total number of cans he collected is 40 cans. The answer is: 40 cans.",
+        "model_answer": null
+    },
+    {
+        "question": " Nancy was organizing her book case making sure each of the shelves had exactly 6 books on it. If she had 2 shelves of mystery books and 6 shelves of picture books, how many books did she have total? ",
+        "final_ans": "48",
+        "model_response": "Question:  Nancy was organizing her book case making sure each of the shelves had exactly 6 books on it. If she had 2 shelves of mystery books and 6 shelves of picture books, how many books did she have total? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Nancy had 12 shelves of books in total. To find out how many books Nancy had, we need to count the number of books on each shelf and multiply that number by the number of shelves. In this case, there are 2 shelves of mystery books, each with 6 books, so there are 2 x 6 = 12 books on those shelves. And there are 6 shelves of picture books, each with 6 books, so there are 6 x 6 = 36 books on those shelves. Therefore, the total number",
+        "model_answer": null
+    },
+    {
+        "question": " Paul had saved up 3 dollars. If he received another 7 dollars for his allowance, how many 5 dollar toys could he buy? ",
+        "final_ans": "2",
+        "model_response": "Question:  Paul had saved up 3 dollars. If he received another 7 dollars for his allowance, how many 5 dollar toys could he buy? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Paul had saved up 3 dollars, which is equal to 3/10 of the total amount he received for his allowance. To find out how many 5 dollar toys he can buy, we need to divide the remaining amount by the cost of each toy. The answer is: Paul can buy 28 5-dollar toys.",
+        "model_answer": null
+    },
+    {
+        "question": " Wendy was playing a video game and had 43 lives. In a hard part of the game she lost 8 lives. If she got 39 more lives in the next level, how many lives would she have? ",
+        "final_ans": "74",
+        "model_response": "Question:  Wendy was playing a video game and had 43 lives. In a hard part of the game she lost 8 lives. If she got 39 more lives in the next level, how many lives would she have? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Wendy had 43 lives initially, and then she lost 8 lives, so she had 35 lives left. When she reached the next level, she got 39 more lives, which means she now has 74 lives. The answer is 74 lives.",
+        "model_answer": 74.0
+    },
+    {
+        "question": " Katie had 85 files on her computer. She deleted 40 of them and put the rest into folders with 5 files in each one. How many folders did Katie end up with? ",
+        "final_ans": "9",
+        "model_response": "Question:  Katie had 85 files on her computer. She deleted 40 of them and put the rest into folders with 5 files in each one. How many folders did Katie end up with? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Katie had 85 files on her computer, and she deleted 40 of them, leaving 45 files. She then put the remaining files into folders, with 5 files in each folder, so she created 9 folders. The answer is 9 folders.",
+        "model_answer": 9.0
+    },
+    {
+        "question": " Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? ",
+        "final_ans": "80",
+        "model_response": "Question:  Will was working as a sacker at a grocery store where he made 8 dollars an hour. On Monday he worked 8 hours and on Tuesday he worked 2 hours. How much money did Will make in those two days? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Will worked 8 hours on Monday, so he earned $8 x 8 = $64. He worked 2 hours on Tuesday, so he earned $8 x 2 = $16. The total amount of money Will earned in those two days is $64 + $16 = $80. The answer is $80.",
+        "model_answer": 80.0
+    },
+    {
+        "question": " For the school bake sale Carol made 19 cupcakes. If she sold 6 of them and then made 27 more, how many cupcakes would she have? ",
+        "final_ans": "40",
+        "model_response": "Question:  For the school bake sale Carol made 19 cupcakes. If she sold 6 of them and then made 27 more, how many cupcakes would she have? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Carol made 19 cupcakes initially, and then she sold 6 of them, so she had 19 - 6 = 13 cupcakes left. Then, she made 27 more cupcakes, so she had 13 + 27 = 40 cupcakes in total. The answer is 40 cupcakes.",
+        "model_answer": 40.0
+    },
+    {
+        "question": " A trivia team had 14 members total, but during a game 7 members didn't show up. If each member that did show up scored 5 points, how many points were scored total? ",
+        "final_ans": "35",
+        "model_response": "Question:  A trivia team had 14 members total, but during a game 7 members didn't show up. If each member that did show up scored 5 points, how many points were scored total? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The team had 14 members initially, and 7 members did not show up for the game. If each member that did show up scored 5 points, then the total number of points scored by the 7 members who showed up is 7 x 5 = 35 points. Therefore, the total number of points scored in the game is 35 + 0 = 35 points. The answer is 35 points.",
+        "model_answer": 35.0
+    },
+    {
+        "question": " A trivia team had 5 members total, but during a game 2 members didn't show up. If each member that did show up scored 6 points, how many points were scored total? ",
+        "final_ans": "18",
+        "model_response": "Question:  A trivia team had 5 members total, but during a game 2 members didn't show up. If each member that did show up scored 6 points, how many points were scored total? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The team had 5 members initially, so the total score possible for the game was 5 x 6 = 30 points. Since 2 members didn't show up, the total score for the game was 30 - 2 = 28 points. The answer is 28 points.",
+        "model_answer": 28.0
+    },
+    {
+        "question": " Oliver is at the library helping put away books. There are 46 book to put away total but a librarian takes 10 of them and leaves Oliver with the rest. If he can fit 4 books on a shelf, how many shelves will he need? ",
+        "final_ans": "9",
+        "model_response": "Question:  Oliver is at the library helping put away books. There are 46 book to put away total but a librarian takes 10 of them and leaves Oliver with the rest. If he can fit 4 books on a shelf, how many shelves will he need? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Oliver needs 46/4 = 11 shelves to put all the books away. The answer is 11 shelves.",
+        "model_answer": 11.0
+    },
+    {
+        "question": " Luke was putting his spare change into piles. He had 5 piles of quarters and 5 piles of dimes. If each pile had 3 coins in it, how many coins did he have total? ",
+        "final_ans": "30",
+        "model_response": "Question:  Luke was putting his spare change into piles. He had 5 piles of quarters and 5 piles of dimes. If each pile had 3 coins in it, how many coins did he have total? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Luke was putting his spare change into piles. He had 5 piles of quarters and 5 piles of dimes. If each pile had 3 coins in it, then the total number of coins in all the piles is 5 x 3 = 15 coins for the quarters and 5 x 3 = 15 coins for the dimes, for a total of 30 coins. The answer is 30 coins.",
+        "model_answer": 30.0
+    },
+    {
+        "question": " Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? ",
+        "final_ans": "6",
+        "model_response": "Question:  Gwen and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Gwen recycled 5 pounds and her friends recycled 13 pounds, how many points did they earn? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Gwen and her friends recycled a total of 18 pounds of paper, which is equal to 6 points. The answer is: Gwen and her friends earned 6 points for recycling 18 pounds of paper.",
+        "model_answer": null
+    },
+    {
+        "question": " Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? ",
+        "final_ans": "32",
+        "model_response": "Question:  Haley's favorite band was holding a concert where tickets were 4 dollars each. Haley bought 3 tickets for herself and her friends and 5 extra tickets in case anyone else wanted to go. How much did she spend? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Haley spent $12 on tickets for herself and her friends, plus $20 on extra tickets, for a total of $32. The answer is $32.",
+        "model_answer": 32.0
+    },
+    {
+        "question": " George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? ",
+        "final_ans": "8",
+        "model_response": "Question:  George had 30 dollars. For his birthday he got 16 more dollars but spent 38 on a new game. How much money does he have now? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: George had 30 dollars to start with, and then he got 16 more dollars for his birthday, so he now has 30 + 16 = 46 dollars. However, he spent 38 dollars on a new game, which means he has 46 - 38 = 8 dollars left. The answer is 8 dollars.",
+        "model_answer": 8.0
+    },
+    {
+        "question": " A pet store has 4 bird cages. If each cage has 8 parrots and 2 parakeets in it, how many birds does the pet store have total? ",
+        "final_ans": "40",
+        "model_response": "Question:  A pet store has 4 bird cages. If each cage has 8 parrots and 2 parakeets in it, how many birds does the pet store have total? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The pet store has 4 bird cages, and each cage has 8 parrots and 2 parakeets, so the total number of parrots in the store is 4 x 8 = 32, and the total number of parakeets in the store is 4 x 2 = 8. Therefore, the total number of birds in the pet store is 32 + 8 = 40. The answer is 40 birds.",
+        "model_answer": 40.0
+    },
+    {
+        "question": " Kaleb bought 14 boxes of chocolate candy and gave 5 to his little brother. If each box has 6 pieces inside it, how many pieces did Kaleb still have? ",
+        "final_ans": "54",
+        "model_response": "Question:  Kaleb bought 14 boxes of chocolate candy and gave 5 to his little brother. If each box has 6 pieces inside it, how many pieces did Kaleb still have? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Kaleb bought 14 boxes of chocolate candy, which means he had 14 x 6 = 84 pieces of chocolate candy. He gave 5 boxes to his little brother, which means he had 14 - 5 = 9 boxes left. Therefore, Kaleb still had 9 x 6 = 54 pieces of chocolate candy. The answer is 54 pieces of chocolate candy.",
+        "model_answer": 54.0
+    },
+    {
+        "question": " Robin uploaded 31 pictures from her phone and 5 from her camera to facebook. If she sorted the pics into 9 different albums with the same amount of pics in each album, how many pictures were in each of the albums? ",
+        "final_ans": "4",
+        "model_response": "Question:  Robin uploaded 31 pictures from her phone and 5 from her camera to facebook. If she sorted the pics into 9 different albums with the same amount of pics in each album, how many pictures were in each of the albums? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: To find out how many pictures were in each album, we need to divide the total number of pictures (36) by the number of albums (9). So, the number of pictures in each album is 36/9 = 4. The answer is: 4 pictures are in each of the 9 albums that Robin created on Facebook.",
+        "model_answer": null
+    },
+    {
+        "question": " Mike made 69 dollars mowing lawns over the summer. If he spent 24 dollars buying new mower blades, how many 5 dollar games could he buy with the money he had left? ",
+        "final_ans": "9",
+        "model_response": "Question:  Mike made 69 dollars mowing lawns over the summer. If he spent 24 dollars buying new mower blades, how many 5 dollar games could he buy with the money he had left? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The amount of money Mike has left after buying new mower blades is $69 - $24 = $45. To find out how many 5 dollar games Mike can buy with this amount, we need to divide $45 by $5, which gives us 9 games. The answer is 9 games.",
+        "model_answer": 9.0
+    },
+    {
+        "question": " Maria bought 2 new chairs and 2 new tables for her house. If she spent 8 minutes on each piece furniture putting it together, how many minutes did it take her to finish? ",
+        "final_ans": "32",
+        "model_response": "Question:  Maria bought 2 new chairs and 2 new tables for her house. If she spent 8 minutes on each piece furniture putting it together, how many minutes did it take her to finish? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Maria bought 2 new chairs and 2 new tables for her house. If she spent 8 minutes on each piece of furniture putting it together, then the total time it took her to finish assembling all 4 pieces of furniture is 8 minutes per piece x 4 pieces = 32 minutes. The answer is 32 minutes.",
+        "model_answer": 32.0
+    },
+    {
+        "question": " While on vacation, Rachel took 6 pictures at the zoo and 9 at the museum. If she later deleted 11 of the pictures, how many pictures from her vacation did she still have? ",
+        "final_ans": "4",
+        "model_response": "Question:  While on vacation, Rachel took 6 pictures at the zoo and 9 at the museum. If she later deleted 11 of the pictures, how many pictures from her vacation did she still have? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: While on vacation, Rachel took 6 pictures at the zoo and 9 at the museum. If she later deleted 11 of the pictures, she still has 6 pictures from the zoo and 9 pictures from the museum. The answer is 15 pictures from her vacation.",
+        "model_answer": 15.0
+    },
+    {
+        "question": " Maria was making baggies of cookies with 8 cookies in each bag. If she had 5 chocolate chip cookies and 19 oatmeal cookies, how many baggies could she make? ",
+        "final_ans": "3",
+        "model_response": "Question:  Maria was making baggies of cookies with 8 cookies in each bag. If she had 5 chocolate chip cookies and 19 oatmeal cookies, how many baggies could she make? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Maria had 5 chocolate chip cookies and 19 oatmeal cookies, so she could make 5 + 19 = 24 bags of cookies. The answer is 24 baggies of cookies.",
+        "model_answer": 24.0
+    },
+    {
+        "question": " April's discount flowers was having a sale where each flower was 3 dollars. If Zoe bought 8 roses and 2 daisies, how much did she spend? ",
+        "final_ans": "30",
+        "model_response": "Question:  April's discount flowers was having a sale where each flower was 3 dollars. If Zoe bought 8 roses and 2 daisies, how much did she spend? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: April's discount flowers was having a sale where each flower was 3 dollars. Zoe bought 8 roses, which cost $8. The cost of 2 daisies is $6, so Zoe spent a total of $14. The answer is $14.",
+        "model_answer": 14.0
+    },
+    {
+        "question": " Bianca was organizing her book case making sure each of the shelves had exactly 8 books on it. If she had 5 shelves of mystery books and 4 shelves of picture books, how many books did she have total? ",
+        "final_ans": "72",
+        "model_response": "Question:  Bianca was organizing her book case making sure each of the shelves had exactly 8 books on it. If she had 5 shelves of mystery books and 4 shelves of picture books, how many books did she have total? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Bianca had 5 shelves of mystery books, each with 8 books, so she had 5 x 8 = 40 mystery books. She also had 4 shelves of picture books, each with 8 books, so she had 4 x 8 = 32 picture books. In total, Bianca had 40 + 32 = 72 books. The answer is 72 books.",
+        "model_answer": 72.0
+    },
+    {
+        "question": " John was organizing his baseball cards in a binder with 3 on each page. If he had 8 new cards and 16 old cards to put in the binder, how many pages would he use? ",
+        "final_ans": "8",
+        "model_response": "Question:  John was organizing his baseball cards in a binder with 3 on each page. If he had 8 new cards and 16 old cards to put in the binder, how many pages would he use? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: John had 30 cards in total, so he would need 10 pages to organize them all. The first page would have 3 cards, the second page would have 3 cards, and so on until all 30 cards are used up. The answer is 10 pages.",
+        "model_answer": 10.0
+    },
+    {
+        "question": " Isabel baked 3 brownies, but needed 5 total for her party. If she used 5 cups of flour on each one, how much cups of flour does she still need? ",
+        "final_ans": "10",
+        "model_response": "Question:  Isabel baked 3 brownies, but needed 5 total for her party. If she used 5 cups of flour on each one, how much cups of flour does she still need? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Isabel baked 3 brownies, but needed 5 total for her party. If she used 5 cups of flour on each one, she still needs 2 cups of flour to make the remaining 2 brownies. The answer is 2 cups of flour.",
+        "model_answer": 2.0
+    },
+    {
+        "question": " For the school bake sale Maria made 19 cupcakes. If she sold 5 of them and then made 10 more, how many cupcakes would she have? ",
+        "final_ans": "24",
+        "model_response": "Question:  For the school bake sale Maria made 19 cupcakes. If she sold 5 of them and then made 10 more, how many cupcakes would she have? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Maria made 19 cupcakes, so she had 19 cupcakes to start with. She sold 5 of them, so she had 19 - 5 = 14 cupcakes left. Then, she made 10 more cupcakes, so she had 14 + 10 = 24 cupcakes in total. The answer is 24 cupcakes.",
+        "model_answer": 24.0
+    },
+    {
+        "question": " Tom bought 40 tickets at the state fair. He spent 28 tickets at the 'dunk a clown' booth and decided to use the rest on rides. If each ride cost 4 tickets, how many rides could he go on? ",
+        "final_ans": "3",
+        "model_response": "Question:  Tom bought 40 tickets at the state fair. He spent 28 tickets at the 'dunk a clown' booth and decided to use the rest on rides. If each ride cost 4 tickets, how many rides could he go on? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Tom spent 28 tickets at the 'dunk a clown' booth, so he has 40 - 28 = 12 tickets left. Each ride costs 4 tickets, so he can go on 12 / 4 = 3 rides. The answer is 3 rides.",
+        "model_answer": 3.0
+    },
+    {
+        "question": " In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? ",
+        "final_ans": "37",
+        "model_response": "Question:  In fourth grade there were 31 students at the start of the year. During the year 5 students left and 11 new students came to school. How many students were in fourth grade at the end? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: To find out how many students were in fourth grade at the end of the year, we need to subtract the number of students who left from the total number of students at the start of the year. So, we subtract 5 from 31, which gives us 26. Then, we add the number of new students who came to school, which is 11. Therefore, the number of students in fourth grade at the end of the year is 26 + 11 = 37. The answer is 37 students were in fourth grade at the end of the year.",
+        "model_answer": 37.0
+    },
+    {
+        "question": " While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? ",
+        "final_ans": "22",
+        "model_response": "Question:  While shopping, Maria bought 35 green towels and 21 white towels. If she gave her mother 34 of them, how many towels did Maria end up with? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Maria gave her mother 34 towels, so she has 35 - 34 = 1 green towel and 21 - 34 = 8 white towels left. The answer is 1 green towel and 8 white towels.",
+        "model_answer": 1.0
+    },
+    {
+        "question": " While playing a trivia game, Adam answered 8 questions correct in the first half and 2 questions correct in the second half. If each question was worth 8 points, what was his final score? ",
+        "final_ans": "80",
+        "model_response": "Question:  While playing a trivia game, Adam answered 8 questions correct in the first half and 2 questions correct in the second half. If each question was worth 8 points, what was his final score? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: To find Adam's final score, we need to add the number of correct answers he made in the first half to the number of correct answers he made in the second half. So, if Adam answered 8 questions correct in the first half, and 2 questions correct in the second half, then his final score is 8 + 2 = 10 points. The answer is 10 points.",
+        "model_answer": 10.0
+    },
+    {
+        "question": " Paul was collecting cans for recycling. On Saturday he filled 6 bags up and on Sunday he filled 3 more bags. If each bag had 8 cans in it, how many cans did he pick up total? ",
+        "final_ans": "72",
+        "model_response": "Question:  Paul was collecting cans for recycling. On Saturday he filled 6 bags up and on Sunday he filled 3 more bags. If each bag had 8 cans in it, how many cans did he pick up total? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Paul collected 6 bags of cans on Saturday, each containing 8 cans, so he picked up a total of 6 x 8 = 48 cans on Saturday. He then filled 3 more bags on Sunday, each containing 8 cans, so he picked up an additional 3 x 8 = 24 cans on Sunday. The answer is 48 + 24 = 72 cans.",
+        "model_answer": 48.0
+    },
+    {
+        "question": " Bianca and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Bianca recycled 24 pounds and her friends recycled 3 pounds, how many points did they earn? ",
+        "final_ans": "9",
+        "model_response": "Question:  Bianca and her friends were recycling paper for their class. For every 3 pounds they recycled they earned one point. If Bianca recycled 24 pounds and her friends recycled 3 pounds, how many points did they earn? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Bianca and her friends recycled a total of 27 pounds of paper. To find out the number of points they earned, we need to divide the total weight of paper recycled by 3. So, Bianca and her friends earned 9 points for recycling 27 pounds of paper. The answer is: Bianca and her friends earned 9 points for recycling 27 pounds of paper.",
+        "model_answer": null
+    },
+    {
+        "question": " A group of 3 friends went into a restaurant. The chef already had 8 chicken wings cooked but cooked 10 more for the group. If they each got the same amount how many would each person get? ",
+        "final_ans": "6",
+        "model_response": "Question:  A group of 3 friends went into a restaurant. The chef already had 8 chicken wings cooked but cooked 10 more for the group. If they each got the same amount how many would each person get? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The chef already had 8 chicken wings cooked, so if he made 10 more for the group, the total number of chicken wings the group will get is 8 + 10 = 18. Since the group of three friends are getting the same amount, each person will get 18 / 3 = 6 chicken wings. The answer is 6 chicken wings each.",
+        "model_answer": 6.0
+    },
+    {
+        "question": " John had 33 socks. If he threw away 19 old ones that didn't fit and bought 13 new ones, how many socks would he have? ",
+        "final_ans": "27",
+        "model_response": "Question:  John had 33 socks. If he threw away 19 old ones that didn't fit and bought 13 new ones, how many socks would he have? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: John had 33 socks, and he threw away 19 old socks that didn't fit, which means he has 14 socks left. Then, he bought 13 new socks, so the total number of socks he has now is 14 + 13 = 27 socks. The answer is 27 socks.",
+        "model_answer": 27.0
+    },
+    {
+        "question": " There school's baseball team had 2 new players and 6 returning players. If the coach put them into groups with 4 players in each group, how many groups would there be? ",
+        "final_ans": "2",
+        "model_response": "Question:  There school's baseball team had 2 new players and 6 returning players. If the coach put them into groups with 4 players in each group, how many groups would there be? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The number of groups that the coach can make with 2 new players and 6 returning players is 6. To determine this, we can use the fact that the number of players on the team is equal to the number of groups. So, if the team has 2 new players and 6 returning players, there will be 6 groups of 4 players each. The answer is 6 groups.",
+        "model_answer": 6.0
+    },
+    {
+        "question": " A painter needed to paint 6 rooms in a building. Each room takes 5 hours to paint. If he already painted 2 rooms, how much longer will he take to paint the rest? ",
+        "final_ans": "20",
+        "model_response": "Question:  A painter needed to paint 6 rooms in a building. Each room takes 5 hours to paint. If he already painted 2 rooms, how much longer will he take to paint the rest? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The painter has already painted 2 rooms, which means he has 4 rooms left to paint. Each of these 4 rooms will take him 5 hours to complete, so he will need 20 hours (4 rooms x 5 hours per room) to finish painting all 6 rooms. The answer is 20 hours.",
+        "model_answer": 20.0
+    },
+    {
+        "question": " A waiter had 22 customers in his section. If 14 of them left and the rest of his tables had 4 people at each table, how many tables did he have? ",
+        "final_ans": "2",
+        "model_response": "Question:  A waiter had 22 customers in his section. If 14 of them left and the rest of his tables had 4 people at each table, how many tables did he have? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The waiter had 22 customers in his section initially, and 14 of them left, leaving him with 8 customers. Since the remaining tables had 4 people each, he had 3 tables left with 8 customers in total. The answer is 3 tables.",
+        "model_answer": 3.0
+    },
+    {
+        "question": " Roger had 120 pieces of clothing to wash. He put 48 of them in one load, but decided to split the rest into 9 equal loads. How many pieces of clothing could go in each of the small loads? ",
+        "final_ans": "8",
+        "model_response": "Question:  Roger had 120 pieces of clothing to wash. He put 48 of them in one load, but decided to split the rest into 9 equal loads. How many pieces of clothing could go in each of the small loads? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Roger had 120 pieces of clothing to wash. He put 48 of them in one load, but decided to split the rest into 9 equal loads. To find out how many pieces of clothing could go in each of the small loads, we need to divide the total number of pieces of clothing by 9. The answer is 13 pieces of clothing could go in each of the small loads.",
+        "model_answer": 13.0
+    },
+    {
+        "question": " In fourth grade there were 10 students at the start of the year. During the year 4 students left and 42 new students came to school. How many students were in fourth grade at the end? ",
+        "final_ans": "48",
+        "model_response": "Question:  In fourth grade there were 10 students at the start of the year. During the year 4 students left and 42 new students came to school. How many students were in fourth grade at the end? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The number of students in fourth grade at the beginning of the year was 10. Four students left during the year, so the number of students left was 10 - 4 = 6. Forty-two new students entered the class, so the total number of students in the class at the end of the year was 6 + 42 = 48. The answer is 48 students were in fourth grade at the end of the year.",
+        "model_answer": 48.0
+    },
+    {
+        "question": " Roger is at the library helping put away books. There are 14 book to put away total but a librarian takes 2 of them and leaves Roger with the rest. If he can fit 3 books on a shelf, how many shelves will he need? ",
+        "final_ans": "4",
+        "model_response": "Question:  Roger is at the library helping put away books. There are 14 book to put away total but a librarian takes 2 of them and leaves Roger with the rest. If he can fit 3 books on a shelf, how many shelves will he need? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Roger has 12 books left to put away, and if he can fit 3 books on each of the 6 shelves, then he will need 4 shelves to store all of the remaining books. The answer is 4 shelves.",
+        "model_answer": 4.0
+    },
+    {
+        "question": " Bianca picked 39 tulips and 49 roses to make flower bouquets. If she only used 81 of the flowers though, how many extra flowers did Bianca pick? ",
+        "final_ans": "7",
+        "model_response": "Question:  Bianca picked 39 tulips and 49 roses to make flower bouquets. If she only used 81 of the flowers though, how many extra flowers did Bianca pick? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Bianca picked 39 tulips and 49 roses to make flower bouquets. If she only used 81 of the flowers though, the number of extra flowers Bianca picked is 39 + 49 = 88. The answer is: Bianca picked 88 extra flowers.",
+        "model_answer": null
+    },
+    {
+        "question": " Emily bought 4 new chairs and 2 new tables for her house. If she spent 8 minutes on each piece furniture putting it together, how many minutes did it take her to finish? ",
+        "final_ans": "48",
+        "model_response": "Question:  Emily bought 4 new chairs and 2 new tables for her house. If she spent 8 minutes on each piece furniture putting it together, how many minutes did it take her to finish? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Emily bought 4 new chairs and 2 new tables for her house. If she spent 8 minutes on each piece of furniture putting it together, then the total time it took her to finish assembling all the furniture is 8 minutes per chair + 8 minutes per table = 8 minutes x 6 (chairs + tables) = 48 minutes. The answer is 48 minutes.",
+        "model_answer": 48.0
+    },
+    {
+        "question": " A pet store has 6 bird cages. If each cage has 2 parrots and 7 parakeets in it, how many birds does the pet store have total? ",
+        "final_ans": "54",
+        "model_response": "Question:  A pet store has 6 bird cages. If each cage has 2 parrots and 7 parakeets in it, how many birds does the pet store have total? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The pet store has 6 bird cages, and each cage has 2 parrots and 7 parakeets, so the total number of birds in the pet store is 6 x 2 = 12 parrots + 7 x 7 = 49 parakeets = 61 birds. The answer is 61 birds.",
+        "model_answer": 61.0
+    },
+    {
+        "question": " Dave had to wash 9 short sleeve shirts and 27 long sleeve shirts before school. If he had only washed 20 of them by the time school started, how many did he not wash? ",
+        "final_ans": "16",
+        "model_response": "Question:  Dave had to wash 9 short sleeve shirts and 27 long sleeve shirts before school. If he had only washed 20 of them by the time school started, how many did he not wash? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: To find out how many shirts Dave did not wash, we need to subtract the number of shirts he had washed by the time school started from the total number of shirts he had to wash. In this case, Dave had washed 20 shirts by the time school started, so he did not wash 7 short sleeve shirts (9 - 20) and 25 long sleeve shirts (27 - 20). The answer is: Dave did not wash 7 short sleeve shirts and ",
+        "model_answer": null
+    },
+    {
+        "question": " While on vacation, Haley took 50 pictures at the zoo and 8 at the museum. If she later deleted 38 of the pictures, how many pictures from her vacation did she still have? ",
+        "final_ans": "20",
+        "model_response": "Question:  While on vacation, Haley took 50 pictures at the zoo and 8 at the museum. If she later deleted 38 of the pictures, how many pictures from her vacation did she still have? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: While on vacation, Haley took 50 pictures at the zoo and 8 at the museum. If she later deleted 38 of the pictures, she still has 12 pictures from her vacation. The answer is 12 pictures.",
+        "model_answer": 12.0
+    },
+    {
+        "question": " A florist had 5 roses. If she sold 3 of them and then later picked 34 more, how many roses would she have? ",
+        "final_ans": "36",
+        "model_response": "Question:  A florist had 5 roses. If she sold 3 of them and then later picked 34 more, how many roses would she have? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The florist had 5 roses to start with. She sold 3 of them, so she had 5 - 3 = 2 roses left. Later, she picked 34 more roses, so she now had 2 + 34 = 36 roses. The answer is 36 roses.",
+        "model_answer": 36.0
+    },
+    {
+        "question": " For a birthday party Cody bought 4 regular sodas and 44 diet sodas. If his fridge would only hold 6 on each shelf, how many shelves would he fill up? ",
+        "final_ans": "8",
+        "model_response": "Question:  For a birthday party Cody bought 4 regular sodas and 44 diet sodas. If his fridge would only hold 6 on each shelf, how many shelves would he fill up? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: To determine how many shelves Cody would fill up, we need to divide the total number of sodas he bought (58) by the number of sodas that can fit on each shelf (6). This gives us a total of 9.67 shelves. Since we can't have a fraction of a shelf, the answer is 10 shelves. The answer is 10 shelves.",
+        "model_answer": 10.0
+    },
+    {
+        "question": " The schools debate team had 26 boys and 46 girls on it. If they were split into groups of 9 how many groups could they make? ",
+        "final_ans": "8",
+        "model_response": "Question:  The schools debate team had 26 boys and 46 girls on it. If they were split into groups of 9 how many groups could they make? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The number of groups of 9 that can be formed from the 26 boys and 46 girls is equal to the number of ways to select 9 boys or girls from the total number of students, which is 72 (26 + 46). Therefore, the answer is 72 groups of 9.",
+        "model_answer": null
+    },
+    {
+        "question": " The school cafeteria ordered 6 red apples and 15 green apples for students lunches. But, if only 5 students wanted fruit, how many extra did the cafeteria end up with? ",
+        "final_ans": "16",
+        "model_response": "Question:  The school cafeteria ordered 6 red apples and 15 green apples for students lunches. But, if only 5 students wanted fruit, how many extra did the cafeteria end up with? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The cafeteria ordered 6 red apples and 15 green apples for students' lunches, but if only 5 students wanted fruit, the cafeteria ended up with 10 extra apples (6 red apples + 4 green apples). The answer is 10 extra apples.",
+        "model_answer": 10.0
+    },
+    {
+        "question": " At a company picnic 9 managers and 15 employees decided to start a game of volleyball. If they split into 8 teams how many people would be on each team? ",
+        "final_ans": "3",
+        "model_response": "Question:  At a company picnic 9 managers and 15 employees decided to start a game of volleyball. If they split into 8 teams how many people would be on each team? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: To determine how many people will be on each team, we need to divide the total number of players (9 managers + 15 employees) by the number of teams (8). So, if we divide 24 (the total number of players) by 8, we get 3 players per team. The answer is: 3 players per team.",
+        "model_answer": null
+    },
+    {
+        "question": " A book store had 4 books in the bargin bin. If they sold 3 books, but then put 10 more in the bin, how many books would be in the bin? ",
+        "final_ans": "11",
+        "model_response": "Question:  A book store had 4 books in the bargin bin. If they sold 3 books, but then put 10 more in the bin, how many books would be in the bin? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The bookstore initially had 4 books in the bargain bin, and when they sold 3 of them, there were 4 - 3 = 1 book left in the bin. Then, they added 10 more books to the bin, so the total number of books in the bin afterward is 1 + 10 = 11 books. The answer is 11 books in the bargain bin.",
+        "model_answer": 11.0
+    },
+    {
+        "question": " Mike made 42 dollars mowing lawns over the summer. If he spent 10 dollars buying new mower blades, how many 8 dollar games could he buy with the money he had left? ",
+        "final_ans": "4",
+        "model_response": "Question:  Mike made 42 dollars mowing lawns over the summer. If he spent 10 dollars buying new mower blades, how many 8 dollar games could he buy with the money he had left? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: To find out how many 8 dollar games Mike could buy with the money he had left, we need to subtract the amount he spent on new mower blades from the total amount of money he made mowing lawns. Mike made $42 mowing lawns and spent $10 on new mower blades, so he has $32 left. The answer is: Mike could buy 32/8 = 4 games with the money he had left.",
+        "model_answer": null
+    },
+    {
+        "question": " A chef needs to cook 13 potatoes. He has already cooked 5. If each potato takes 6 minutes to cook, how long will it take him to cook the rest? ",
+        "final_ans": "48",
+        "model_response": "Question:  A chef needs to cook 13 potatoes. He has already cooked 5. If each potato takes 6 minutes to cook, how long will it take him to cook the rest? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The chef has already cooked 5 potatoes, so he has 8 more potatoes to cook. If each potato takes 6 minutes to cook, it will take him 48 minutes to cook the remaining 8 potatoes (8 x 6 = 48). The answer is 48 minutes.",
+        "model_answer": 48.0
+    },
+    {
+        "question": " Paige had 43 math problems and 12 science problems for homework. If she finished 44 of the problems at school, how many problems did she have to do for homework? ",
+        "final_ans": "11",
+        "model_response": "Question:  Paige had 43 math problems and 12 science problems for homework. If she finished 44 of the problems at school, how many problems did she have to do for homework? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Paige had 43 math problems and 12 science problems for homework. If she finished 44 of the problems at school, then she still has 43 - 44 = 9 math problems and 12 science problems to do for homework. The answer is 9 math problems and 12 science problems.",
+        "model_answer": 9.0
+    },
+    {
+        "question": " April's discount flowers was having a sale where each flower was 8 dollars. If Vanessa bought 3 roses and 3 daisies, how much did she spend? ",
+        "final_ans": "48",
+        "model_response": "Question:  April's discount flowers was having a sale where each flower was 8 dollars. If Vanessa bought 3 roses and 3 daisies, how much did she spend? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: April's discount flowers was having a sale where each flower was 8 dollars. If Vanessa bought 3 roses and 3 daisies, she spent a total of 24 dollars. The answer is: Vanessa spent $24 on flowers.",
+        "model_answer": null
+    },
+    {
+        "question": " Olivia uploaded 5 pictures from her phone and 35 from her camera to facebook. If she sorted the pics into 8 different albums with the same amount of pics in each album, how many pictures were in each of the albums? ",
+        "final_ans": "5",
+        "model_response": "Question:  Olivia uploaded 5 pictures from her phone and 35 from her camera to facebook. If she sorted the pics into 8 different albums with the same amount of pics in each album, how many pictures were in each of the albums? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Olivia uploaded 5 pictures from her phone and 35 from her camera to facebook. If she sorted the pics into 8 different albums with the same amount of pics in each album, then the number of pictures in each album would be 35/8 = 4. The answer is 4 pictures were in each of the 8 albums.",
+        "model_answer": 4.0
+    },
+    {
+        "question": " Robin was making baggies of cookies with 6 cookies in each bag. If she had 23 chocolate chip cookies and 25 oatmeal cookies, how many baggies could she make? ",
+        "final_ans": "8",
+        "model_response": "Question:  Robin was making baggies of cookies with 6 cookies in each bag. If she had 23 chocolate chip cookies and 25 oatmeal cookies, how many baggies could she make? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Robin could make 3 baggies of chocolate chip cookies and 4 baggies of oatmeal cookies, for a total of 7 baggies. The answer is: 7 baggies of cookies.",
+        "model_answer": null
+    },
+    {
+        "question": " Cody had 45 dollars. For his birthday he got 9 more dollars but spent 19 on a new game. How much money does he have now? ",
+        "final_ans": "35",
+        "model_response": "Question:  Cody had 45 dollars. For his birthday he got 9 more dollars but spent 19 on a new game. How much money does he have now? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Cody had 45 dollars and then he got 9 more dollars, so he has 45 + 9 = 54 dollars. But then he spent 19 dollars on a new game, so he has 54 - 19 = 35 dollars left. The answer is 35 dollars.",
+        "model_answer": 35.0
+    },
+    {
+        "question": " Wendy uploaded 22 pictures from her phone and 2 from her camera to facebook. If she sorted the pics into 4 different albums with the same amount of pics in each album, how many pictures were in each of the albums? ",
+        "final_ans": "6",
+        "model_response": "Question:  Wendy uploaded 22 pictures from her phone and 2 from her camera to facebook. If she sorted the pics into 4 different albums with the same amount of pics in each album, how many pictures were in each of the albums? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Wendy uploaded 22 pictures from her phone and 2 from her camera to Facebook. Since she sorted the pictures into 4 different albums, the total number of pictures in each album is equal. So, if the total number of pictures in each album is x, then the number of pictures in each album is x/4. The answer is: x/4 pictures are in each of the 4 albums.",
+        "model_answer": null
+    },
+    {
+        "question": " For Halloween Katie and her sister combined the candy they received. Katie had 8 pieces of candy while her sister had 23. If they ate 8 pieces the first night, how many pieces do they have left? ",
+        "final_ans": "23",
+        "model_response": "Question:  For Halloween Katie and her sister combined the candy they received. Katie had 8 pieces of candy while her sister had 23. If they ate 8 pieces the first night, how many pieces do they have left? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Katie and her sister combined the candy they received, so together they had 31 pieces of candy (8 + 23). If they ate 8 pieces the first night, then they have 31 - 8 = 23 pieces of candy left. The answer is 23 pieces of candy left.",
+        "model_answer": 23.0
+    },
+    {
+        "question": " A pet store had 88 puppies. In one day they sold 34 of them and put the rest into cages with 6 in each cage. How many cages did they use? ",
+        "final_ans": "9",
+        "model_response": "Question:  A pet store had 88 puppies. In one day they sold 34 of them and put the rest into cages with 6 in each cage. How many cages did they use? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The pet store had 88 puppies, and they sold 34 of them, leaving 54 puppies. Since there are 6 puppies in each cage, the pet store used 9 cages to house the remaining puppies. The answer is 9 cages.",
+        "model_answer": 9.0
+    },
+    {
+        "question": " Jerry was helping the cafeteria workers pick up lunch trays, but he could only carry 8 trays at a time. If he had to pick up 9 trays from one table and 7 trays from another, how many trips will he make? ",
+        "final_ans": "2",
+        "model_response": "Question:  Jerry was helping the cafeteria workers pick up lunch trays, but he could only carry 8 trays at a time. If he had to pick up 9 trays from one table and 7 trays from another, how many trips will he make? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Jerry can carry 8 trays at a time, so he will need to make 9/8 = 1.125 trips to pick up all 9 trays from the first table. He will then have 7 trays left to pick up, which he can do in 7/8 = 0.875 trips. The answer is 1.125 + 0.875 = 1.99 trips.",
+        "model_answer": 1.125
+    },
+    {
+        "question": " Faye was playing a video game where she scores 7 points for each treasure she finds. If she found 2 treasures on the first level and 6 on the second, what would her score be? ",
+        "final_ans": "56",
+        "model_response": "Question:  Faye was playing a video game where she scores 7 points for each treasure she finds. If she found 2 treasures on the first level and 6 on the second, what would her score be? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Faye found 2 treasures on the first level, so her score for that level is 7 + 7 = 14 points. She then found 6 treasures on the second level, so her score for that level is 7 + 6 = 13 points. Therefore, her total score is 14 + 13 = 27 points. The answer is: Faye's total score is 27 points.",
+        "model_answer": null
+    },
+    {
+        "question": " Megan picked 19 carrots from her garden. If she threw out 4 of them and then picked 46 more the next day, how many carrots would she have total? ",
+        "final_ans": "61",
+        "model_response": "Question:  Megan picked 19 carrots from her garden. If she threw out 4 of them and then picked 46 more the next day, how many carrots would she have total? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Megan picked 19 carrots from her garden, so if she threw out 4 of them, she would have 19 - 4 = 15 carrots left. Then, if she picked 46 more carrots the next day, she would have 15 + 46 = 61 carrots total. The answer is 61 carrots.",
+        "model_answer": 61.0
+    },
+    {
+        "question": " Wendy had 82 files on her computer. She deleted 37 of them and put the rest into folders with 5 files in each one. How many folders did Wendy end up with? ",
+        "final_ans": "9",
+        "model_response": "Question:  Wendy had 82 files on her computer. She deleted 37 of them and put the rest into folders with 5 files in each one. How many folders did Wendy end up with? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Wendy had 82 files on her computer, she deleted 37 of them, which means she has 45 files left. She then put the rest into folders with 5 files in each one, so she created 9 folders. The answer is 9 folders.",
+        "model_answer": 9.0
+    },
+    {
+        "question": " There school's baseball team had 12 new players and 44 returning players. If the coach put them into groups with 8 players in each group, how many groups would there be? ",
+        "final_ans": "7",
+        "model_response": "Question:  There school's baseball team had 12 new players and 44 returning players. If the coach put them into groups with 8 players in each group, how many groups would there be? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The number of groups that can be formed with 12 new players and 44 returning players is 12 + 44 = 56. Since there must be at least 8 players in each group, the number of groups that can be formed is 56 / 8 = 7. The answer is 7 groups.",
+        "model_answer": 7.0
+    },
+    {
+        "question": " Will made 104 dollars mowing lawns over the summer. If he spent 41 dollars buying new mower blades, how many 9 dollar games could he buy with the money he had left? ",
+        "final_ans": "7",
+        "model_response": "Question:  Will made 104 dollars mowing lawns over the summer. If he spent 41 dollars buying new mower blades, how many 9 dollar games could he buy with the money he had left? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Will had $104 dollars left after buying new mower blades. He spent $41 on the blades, so he has $63 left. To find out how many $9 games he can buy with the money he has left, we need to divide $63 by $9, which gives us 7 games. The answer is 7 games.",
+        "model_answer": 7.0
+    },
+    {
+        "question": " Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? ",
+        "final_ans": "31",
+        "model_response": "Question:  Nancy picked 12 carrots from her garden. If she threw out 2 of them and then picked 21 more the next day, how many carrots would she have total? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Nancy picked 12 carrots from her garden. If she threw out 2 of them, she had 12 - 2 = 10 carrots left. The next day, she picked 21 more carrots, so now she has 10 + 21 = 31 carrots total. The answer is 31 carrots.",
+        "model_answer": 31.0
+    },
+    {
+        "question": " Roger had 16 dollars. For his birthday he got 28 more dollars but spent 25 on a new game. How much money does he have now? ",
+        "final_ans": "19",
+        "model_response": "Question:  Roger had 16 dollars. For his birthday he got 28 more dollars but spent 25 on a new game. How much money does he have now? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Roger had $16 + $28 = $44 dollars. He spent $25 on a new game, so he has $44 - $25 = $19 dollars left. The answer is $19.",
+        "model_answer": 19.0
+    },
+    {
+        "question": " Sam was collecting cans for recycling. On Saturday he filled 3 bags up and on Sunday he filled 4 more bags. If each bag had 9 cans in it, how many cans did he pick up total? ",
+        "final_ans": "63",
+        "model_response": "Question:  Sam was collecting cans for recycling. On Saturday he filled 3 bags up and on Sunday he filled 4 more bags. If each bag had 9 cans in it, how many cans did he pick up total? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Sam collected 3 bags of cans on Saturday, which means he collected 3 x 9 = 27 cans on that day. He then collected 4 more bags of cans on Sunday, which means he collected 4 x 9 = 36 cans on that day. In total, Sam collected 27 + 36 = 63 cans. The answer is 63 cans.",
+        "model_answer": 63.0
+    },
+    {
+        "question": " A worksheet had 4 problems on it. If a teacher had 16 worksheets to grade and had already graded 8 of them, how many more problems does she have to grade? ",
+        "final_ans": "32",
+        "model_response": "Question:  A worksheet had 4 problems on it. If a teacher had 16 worksheets to grade and had already graded 8 of them, how many more problems does she have to grade? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The teacher has to grade 8 worksheets, each having 4 problems, so the total number of problems the teacher has to grade is 8 x 4 = 32 problems. The answer is 32 problems.",
+        "model_answer": 32.0
+    },
+    {
+        "question": " Paige was unboxing some of her old winter clothes. She found 6 boxes of clothing and inside each box there were 5 scarves and 5 mittens. How many pieces of winter clothing did Paige have total? ",
+        "final_ans": "60",
+        "model_response": "Question:  Paige was unboxing some of her old winter clothes. She found 6 boxes of clothing and inside each box there were 5 scarves and 5 mittens. How many pieces of winter clothing did Paige have total? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Paige had 6 boxes of winter clothes, and each box contained 5 scarves and 5 mittens, so the total number of scarves was 30 (6 x 5 = 30), and the total number of mittens was also 30 (6 x 5 = 30). Therefore, the total number of pieces of winter clothing that Paige had was 60 (30 scarves + 30 mittens). The answer is 60.",
+        "model_answer": 60.0
+    },
+    {
+        "question": " A chef needs to cook 12 potatoes. He has already cooked 6. If each potato takes 6 minutes to cook, how long will it take him to cook the rest? ",
+        "final_ans": "36",
+        "model_response": "Question:  A chef needs to cook 12 potatoes. He has already cooked 6. If each potato takes 6 minutes to cook, how long will it take him to cook the rest? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The chef has already cooked 6 potatoes, which means he has 6 minutes of cooking time left. To determine how long it will take him to cook the remaining 6 potatoes, we can divide the total cooking time by the number of potatoes left to cook. This gives us 6 minutes per potato. The answer is: It will take the chef 6 x 6 = 36 minutes to cook the remaining 6 potatoes.",
+        "model_answer": null
+    },
+    {
+        "question": " Luke was selling his old games. He started out with 57 but sold 39 of them. He packed the rest up putting 2 games into each box. How many boxes did he have to use? ",
+        "final_ans": "9",
+        "model_response": "Question:  Luke was selling his old games. He started out with 57 but sold 39 of them. He packed the rest up putting 2 games into each box. How many boxes did he have to use? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Luke had 18 games left after he sold 39 of them. To pack those games into boxes, he would need to use 18/2 = 9 boxes. The answer is 9 boxes.",
+        "model_answer": 9.0
+    },
+    {
+        "question": " April's discount flowers was having a sale where each flower was 3 dollars. If Emily bought 2 roses and 2 daisies, how much did she spend? ",
+        "final_ans": "12",
+        "model_response": "Question:  April's discount flowers was having a sale where each flower was 3 dollars. If Emily bought 2 roses and 2 daisies, how much did she spend? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: April's discount flowers was having a sale where each flower was 3 dollars. If Emily bought 2 roses and 2 daisies, she spent a total of 6 dollars on flowers. The answer is: Emily spent $6 on flowers.",
+        "model_answer": null
+    },
+    {
+        "question": " A pet store had 13 puppies. In one day they sold 7 of them and put the rest into cages with 2 in each cage. How many cages did they use? ",
+        "final_ans": "3",
+        "model_response": "Question:  A pet store had 13 puppies. In one day they sold 7 of them and put the rest into cages with 2 in each cage. How many cages did they use? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The pet store used 4 cages to hold the remaining 6 puppies. The answer is 4 cages.",
+        "model_answer": 4.0
+    },
+    {
+        "question": " Faye and her mom were picking carrots from their garden. Faye picked 23 and her mother picked 5. If only 12 of the carrots were good, how many bad carrots did they have? ",
+        "final_ans": "16",
+        "model_response": "Question:  Faye and her mom were picking carrots from their garden. Faye picked 23 and her mother picked 5. If only 12 of the carrots were good, how many bad carrots did they have? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Faye picked 23 carrots, and her mother picked 5 carrots. If only 12 of the carrots were good, then the number of bad carrots that Faye picked is 23 - 12 = 11. The answer is: Faye had 11 bad carrots.",
+        "model_answer": null
+    },
+    {
+        "question": " Isabel picked 66 flowers for her friend\u2019s wedding. She was making bouquets with 8 flowers in each one. If 10 of the flowers wilted before the wedding, how many bouquets could she still make? ",
+        "final_ans": "7",
+        "model_response": "Question:  Isabel picked 66 flowers for her friend\u2019s wedding. She was making bouquets with 8 flowers in each one. If 10 of the flowers wilted before the wedding, how many bouquets could she still make? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Isabel had 66 flowers to work with and she wanted to make bouquets with 8 flowers in each one. So, she had 8 x 66 = 528 bouquets she could make. But, 10 of the flowers wilted before the wedding, so she only had 528 - 10 = 518 bouquets she could still make. The answer is: Isabel could still make 518 bouquets for her friend's wedding.",
+        "model_answer": null
+    },
+    {
+        "question": " At the town carnival Oliver rode the ferris wheel 5 times and the bumper cars 4 times. If each ride cost 7 tickets, how many tickets did he use? ",
+        "final_ans": "63",
+        "model_response": "Question:  At the town carnival Oliver rode the ferris wheel 5 times and the bumper cars 4 times. If each ride cost 7 tickets, how many tickets did he use? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Oliver rode the ferris wheel 5 times, so he used 5 x 7 = 35 tickets for that ride. He rode the bumper cars 4 times, so he used 4 x 7 = 28 tickets for that ride. In total, Oliver used 35 + 28 = 63 tickets. The answer is 63 tickets.",
+        "model_answer": 63.0
+    },
+    {
+        "question": " Wendy bought 4 new chairs and 4 new tables for her house. If she spent 6 minutes on each piece furniture putting it together, how many minutes did it take her to finish? ",
+        "final_ans": "48",
+        "model_response": "Question:  Wendy bought 4 new chairs and 4 new tables for her house. If she spent 6 minutes on each piece furniture putting it together, how many minutes did it take her to finish? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Wendy bought 4 new chairs and 4 new tables for her house. If she spent 6 minutes on each piece of furniture putting it together, then the total time it took her to finish assembling all the furniture is 6 minutes per chair + 6 minutes per table = 12 minutes. The answer is 12 minutes.",
+        "model_answer": 12.0
+    },
+    {
+        "question": " Ned was trying to expand his game collection. He bought 50 games from a friend and bought 27 more at a garage sale. If 74 of the games didn't work, how many good games did he end up with? ",
+        "final_ans": "3",
+        "model_response": "Question:  Ned was trying to expand his game collection. He bought 50 games from a friend and bought 27 more at a garage sale. If 74 of the games didn't work, how many good games did he end up with? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Ned bought 50 games from a friend and 27 more at a garage sale. If 74 of the games didn't work, then the number of good games he ended up with is 50 + 27 - 74 = 50 + 27 - 74 = 101 games. The answer is 101 good games.",
+        "model_answer": 101.0
+    },
+    {
+        "question": " A pet store had 38 siamese cats and 25 house cats. During a sale they sold 45 cats. How many cats do they have left? ",
+        "final_ans": "18",
+        "model_response": "Question:  A pet store had 38 siamese cats and 25 house cats. During a sale they sold 45 cats. How many cats do they have left? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The pet store had 38 Siamese cats and 25 house cats to start with, for a total of 63 cats. During the sale, they sold 45 cats, leaving them with 63 - 45 = 18 cats left. The answer is 18 cats.",
+        "model_answer": 18.0
+    },
+    {
+        "question": " Carol was playing a trivia game. In the first round she scored 17 points and in the second round she scored 6 points. In the last round she lost 16 points. How many points did she have at the end of the game? ",
+        "final_ans": "7",
+        "model_response": "Question:  Carol was playing a trivia game. In the first round she scored 17 points and in the second round she scored 6 points. In the last round she lost 16 points. How many points did she have at the end of the game? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Carol's score in the first round was 17 points, so in the second round she had 17 + 6 = 23 points. In the last round, she lost 16 points, so she had 23 - 16 = 7 points at the end of the game. The answer is 7 points.",
+        "model_answer": 7.0
+    },
+    {
+        "question": " Dave bought 12 boxes of chocolate candy and gave 5 to his little brother. If each box has 3 pieces inside it, how many pieces did Dave still have? ",
+        "final_ans": "21",
+        "model_response": "Question:  Dave bought 12 boxes of chocolate candy and gave 5 to his little brother. If each box has 3 pieces inside it, how many pieces did Dave still have? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Dave still had 6 boxes of chocolate candy, each containing 3 pieces, so he had a total of 6 x 3 = 18 pieces of chocolate candy. The answer is: Dave still had 18 pieces of chocolate candy.",
+        "model_answer": null
+    },
+    {
+        "question": " A waiter at 'The Greasy Spoon' restaurant had 39 customers to wait on. During the lunch rush he added another 12 customers. If 49 of the customers didn't leave him a tip, how many customers did leave a tip? ",
+        "final_ans": "2",
+        "model_response": "Question:  A waiter at 'The Greasy Spoon' restaurant had 39 customers to wait on. During the lunch rush he added another 12 customers. If 49 of the customers didn't leave him a tip, how many customers did leave a tip? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The waiter had 39 customers to wait on initially, and during the lunch rush, he added another 12 customers, for a total of 51 customers. If 49 of the customers didn't leave a tip, then 2 customers did leave a tip. The answer is 2.",
+        "model_answer": 2.0
+    },
+    {
+        "question": " The cafeteria had 50 apples. For lunch they handed out 5 to students and decided to use the rest to make pies. If each pie takes 5 apples, how many pies could they make? ",
+        "final_ans": "9",
+        "model_response": "Question:  The cafeteria had 50 apples. For lunch they handed out 5 to students and decided to use the rest to make pies. If each pie takes 5 apples, how many pies could they make? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: 50 apples / 5 apples per pie = 10 pies. The answer is 10 pies.",
+        "model_answer": 10.0
+    },
+    {
+        "question": " Oliver had 33 dollars in January. By March he had spent 4 dollars. If he got another 32 dollars from his mom, how much money would he have? ",
+        "final_ans": "61",
+        "model_response": "Question:  Oliver had 33 dollars in January. By March he had spent 4 dollars. If he got another 32 dollars from his mom, how much money would he have? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Oliver had 33 dollars in January, so by March he had 33 + 4 = 37 dollars. When he got another 32 dollars from his mom, he now has 37 + 32 = 69 dollars. The answer is 69 dollars.",
+        "model_answer": 69.0
+    },
+    {
+        "question": " The school cafeteria had 14 apples. If they used 13 to make lunch for the students and then bought 49 more, how many apples would they have? ",
+        "final_ans": "50",
+        "model_response": "Question:  The school cafeteria had 14 apples. If they used 13 to make lunch for the students and then bought 49 more, how many apples would they have? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The school cafeteria had 14 apples. If they used 13 to make lunch for the students, then they would have 14 - 13 = 1 apple left. The school then bought 49 more apples, so they now have 1 + 49 = 50 apples in total. The answer is 50 apples.",
+        "model_answer": 50.0
+    },
+    {
+        "question": " While playing a trivia game, Frank answered 3 questions correct in the first half and 2 questions correct in the second half. If each question was worth 3 points, what was his final score? ",
+        "final_ans": "15",
+        "model_response": "Question:  While playing a trivia game, Frank answered 3 questions correct in the first half and 2 questions correct in the second half. If each question was worth 3 points, what was his final score? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Frank answered 3 questions correctly in the first half, which means he earned 9 points (3 x 3). In the second half, he answered 2 questions correctly, which means he earned 6 points (3 x 2). Therefore, Frank's final score is 9 + 6 = 15 points. The answer is: Frank's final score is 15 points.",
+        "model_answer": null
+    },
+    {
+        "question": " Zoe was unboxing some of her old winter clothes. She found 8 boxes of clothing and inside each box there were 4 scarves and 6 mittens. How many pieces of winter clothing did Zoe have total? ",
+        "final_ans": "80",
+        "model_response": "Question:  Zoe was unboxing some of her old winter clothes. She found 8 boxes of clothing and inside each box there were 4 scarves and 6 mittens. How many pieces of winter clothing did Zoe have total? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Zoe had 8 boxes of winter clothes, and each box contained 4 scarves and 6 mittens, so the total number of scarves was 8 x 4 = 32, and the total number of mittens was 8 x 6 = 48. The answer is: Zoe had 32 scarves and 48 mittens of winter clothing in total.",
+        "model_answer": null
+    },
+    {
+        "question": " Frank and his friend were buying trick decks from the magic shop for 7 dollars each. How much did they spend if Frank bought 3 decks and his friend bought 2 decks? ",
+        "final_ans": "35",
+        "model_response": "Question:  Frank and his friend were buying trick decks from the magic shop for 7 dollars each. How much did they spend if Frank bought 3 decks and his friend bought 2 decks? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Frank and his friend went to the magic shop to buy some trick decks, and Frank bought 3 decks for $7 each, so he spent a total of $21. His friend bought 2 decks for $7 each, so he spent $14. In total, they spent $35 on the trick decks. The answer is $35.",
+        "model_answer": 35.0
+    },
+    {
+        "question": " Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? ",
+        "final_ans": "34",
+        "model_response": "Question:  Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, how many did he not wash? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: Sam had to wash 40 short sleeve shirts and 23 long sleeve shirts before school. If he had only washed 29 of them by the time school started, then he did not wash 11 short sleeve shirts and 5 long sleeve shirts. The answer is: Sam did not wash 16 shirts in total.",
+        "model_answer": null
+    },
+    {
+        "question": " A waiter had 47 customers to wait on. If 41 customers left and he got another 20 customers, how many customers would he have? ",
+        "final_ans": "26",
+        "model_response": "Question:  A waiter had 47 customers to wait on. If 41 customers left and he got another 20 customers, how many customers would he have? Please answer it in a complete sentence. End your answer with a sentence started with \"The answer is\". Let us think step by step.\nAnswer: The waiter had 47 customers to wait on initially. When 41 customers left, he had 47 - 41 = 6 customers left. When he got another 20 customers, he had 6 + 20 = 26 customers to wait on. So, the answer is 26 customers.",
+        "model_answer": null
+    }
+]

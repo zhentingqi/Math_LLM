@@ -13,6 +13,7 @@ import json
 
 eval_mode = True
 for src in sources:
+    print(src)
     if 'shot' in src:
         # eval mode for the baseline methods
         eval_mode = False
@@ -45,3 +46,4 @@ for src in sources:
             num_tot += 1
 
     print(num_correct / num_tot)
+    print(" ")
