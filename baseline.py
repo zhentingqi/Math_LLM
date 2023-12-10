@@ -19,7 +19,7 @@ def generate(model: str, dataset: Path):
     data = read_json(dataset)
     generated_data = []
     # load prompt template
-    prompt_template = load_prompt_template('./prompts/fewshot_prompt_template.txt')
+    prompt_template = load_prompt_template('./prompts/zeroshot_prompt_template.txt')
     max_tokens = 128
     temperature = 0.2
     # generate
@@ -61,7 +61,7 @@ def one_off(model: str, dataset: Path):
     
     model_name = model.split('/')[-1]
     dataset_name = dataset.stem
-    ans_name = f"./out/result_{dataset_name}_{model_name}_fewshot.json"
+    ans_name = f"./out/result_{dataset_name}_{model_name}_zeroshot.json"
 
     with open(ans_name, 'w') as f:
         json.dump(questions, f, indent=4)

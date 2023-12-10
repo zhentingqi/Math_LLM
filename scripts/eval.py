@@ -26,15 +26,15 @@ for src in sources:
                 out = item["answer"]
             elif eval_mode == False:
                 # gsm8k
-                if src == 'out/result_test_with_ids_llama-2-7b-chat_fewshot.json':
+                if 'result_test_with_ids_llama-2-7b-chat' in src:
                     gt = item['answer']
                     out = item['model_answer']
                 # multiarith
-                elif src == 'out/result_test_llama-2-7b-chat_fewshot.json':
+                elif 'result_test_llama-2-7b-chat_fewshot' in src:
                     gt = item['final_ans']
                     out = item['model_answer']
     
-            if "gsm8k" in src or src == 'out/result_test_with_ids_llama-2-7b-chat_fewshot.json':
+            if "gsm8k" in src or 'result_test_with_ids_llama-2-7b-chat' in src:
                 gt = gt.split("#### ")[-1]
             try:
                 if abs(float(gt) - float(out)) <= 1e-5:
