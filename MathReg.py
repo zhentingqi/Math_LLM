@@ -7,17 +7,19 @@ from tqdm import tqdm
 import statistics
 import re
 
-
+NUM_SAMPLE = float("inf")
 def calibrate(output_text: str):
     """
     use regex to extract the mathematic equation and use python to correct answer 
     """
-    equation_regex = r"([A-Za-z\d\.\%\/\*\+\-\$\s]+) = ([\d\.\$\s]+)(?=[A-Za-z]|\b)"
+    equation_regex = r"([\d\.\%\/\*\+\-\$\s]+) = ([\d\.\$\s]+)(?=[A-Za-z,.;!?]|\b)"
     answer_regex = r"(The answer is [\$\$\$]?)([\d\.\s]+)"
 
     def evaluate_expression(expression):
-        cleaned_expression = expression.replace(' x ', ' * ')
-        cleaned_expression = re.sub(r"[A-Za-z]+", '', cleaned_expression).replace('$', '').replace(' ', '').replace('%', '/100')
+        cleaned_expression = re.sub(r'\s+\.', '.', expression)
+        cleaned_expression = re.sub(r'\.\s+', '.', cleaned_expression)
+        cleaned_expression = cleaned_expression.replace(' x ', ' * ').replace('$', '').replace('%', '/100')
+        cleaned_expression = re.sub(r'\s+', '', cleaned_expression)
         try:
             return eval(cleaned_expression, {}, {})
         except Exception:
@@ -30,11 +32,8 @@ def calibrate(output_text: str):
         correct_answer = evaluate_expression(expression)
         if correct_answer is None:
             return match.group(0)
-        if '.' in current_answer or correct_answer % 1 != 0:
-            correct_answer = f"{correct_answer:.6f}"
-        else:
-            correct_answer = int(correct_answer)
-        return f"{expression.strip()} = {unit}{correct_answer}" if correct_answer is not None else match.group(0)
+        correct_answer = f"{correct_answer:.6f}"
+        return f" {expression.strip()} = {unit}{correct_answer} " if correct_answer is not None else match.group(0)
 
     def update_final_answer(match, correct_answer):
         prefix, existing_answer = match.groups()
@@ -43,8 +42,8 @@ def calibrate(output_text: str):
         return match.group(0)
 
     calibrated_text = re.sub(equation_regex, handle_units, output_text)
-
     match = re.search(equation_regex, output_text)
+
     if match:
         expression, _ = match.groups()
         correct_answer = evaluate_expression(expression)
@@ -52,7 +51,8 @@ def calibrate(output_text: str):
             calibrated_text = re.sub(answer_regex, lambda m: update_final_answer(m, correct_answer), calibrated_text)
 
     calibrated_text = calibrated_text.strip()
-    calibrated_text = re.sub(r"(\d)([A-Za-z])", r"\1 \2", calibrated_text)
+    calibrated_text = re.sub(r"(\d)([A-Za-z,.;!?])", r"\1 \2", calibrated_text)
+    calibrated_text = re.sub(r"(\d)\s+(\.\d+)", r"\1\2", calibrated_text)
 
     return calibrated_text
 
@@ -72,7 +72,8 @@ def generate(model: str, dataset: Path):
     max_tokens = 128
     temperature = 0.2
     # generate
-    for question in tqdm(data):
+    for i in tqdm(range(min(NUM_SAMPLE, len(data)))):
+        question = data[i]
         prompt = prompt_template.format(question=question['question'])
         stop = ['</s>', '\n\n', '\n']
         for i, sub in enumerate(question['sub_questions']):
@@ -94,17 +95,16 @@ def extract(sub_questions_answers: str):
     input: quesitons with decomposed sub-questions
     output: generated subquestions with answers for each question 
     """
-    match = re.search(r"The answer is\s*\$?(\d+(\.\d+)?)", sub_questions_answers)
-    
-    if match:
-        return float(match.group(1))
+    matches = re.findall(r"The answer is\s*\$?(\d+(\.\d+)?)", sub_questions_answers)
+    if matches:
+        return float(matches[-1][0])
     else:
         return None
     
     
 def one_off(model: str, dataset: Path):
     generate_subquestions_answers = generate(model, dataset)
-    questions = read_json(dataset)
+    questions = read_json(dataset)[:len(generate_subquestions_answers)]
     assert len(generate_subquestions_answers) == len(questions)
 
     for q, qa in zip(questions, generate_subquestions_answers):
@@ -113,13 +113,20 @@ def one_off(model: str, dataset: Path):
     for q in questions:
         q['answer'] = extract(q['sub_questions_answers'])
     
-    ans_name = str(dataset).replace('.json', '_with_mathreg.json')
+    model_name = model.split('/')[-1]
+    dataset_name = dataset.stem
+    ans_name = f"./out/result_{dataset_name}_{model_name}_mathreg.json"
+
     with open(ans_name, 'w') as f:
         json.dump(questions, f, indent=4)
 
 
-
 if __name__ == "__main__":
     root = Path("./out")
-    one_off(model = "togethercomputer/llama-2-7b-chat", 
-            dataset=root/'llama-2-7b-chat_multiarith_decomp.json')
+    models = ["togethercomputer/llama-2-7b-chat", "togethercomputer/llama-2-13b-chat"]
+    datasets = [root/'llama-2-7b-chat_gsm8k_decomp.json', root/'llama-2-7b-chat_multiarith_decomp.json',
+                root/'llama-2-13b-chat_gsm8k_decomp.json', root/'llama-2-13b-chat_multiarith_decomp.json']
+    for model in models:
+        for dataset in datasets:
+            one_off(model = model, 
+                    dataset= dataset)

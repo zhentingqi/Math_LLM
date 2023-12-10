@@ -1,4 +1,4 @@
-src = "out/one_off_code13B_gsm8k_no_decomp_with_code_and_answer.json"
+src = "out/result_llama-2-7b-chat_multiarith_decomp_llama-2-7b-chat_mathreg.json"
 
 import json
 
