@@ -68,7 +68,7 @@ Question 4.3: Now we can answer the question: How far did the car travel after t
 
 #! planning cot decomposition
 decompose_prompt_with_planning_cot = """
-Let's tackle each problem by first outlining our plan of action list. Then, we'll proceed step by step, explaining our logic at each stage and formulating a specific subquestion. Once all subproblems are addressed, we'll combine our findings to answer the original question.
+Let's tackle each problem by first outlining our plan of action list. Then, we'll proceed step by step, explaining our logic at each stage and formulating a specific subquestion. Once all subproblems are addressed, we'll combine our findings to answer the original question. When the original question is answerable, please start the subquestion with \"Now we can answer the question: \".
 
 Question 1: Four years ago, Kody was only half as old as Mohamed. If Mohamed is currently twice as 30 years old, how old is Kody?
 
@@ -136,6 +136,7 @@ Question 4.4: Now we can answer the question: How far did the car travel after t
 
 
 def decompose(question: str, model, max_tokens, temperature, top_k, top_p, repetition_penalty, stop, type):
+    count = 0
     def clear_question_marks(text):
         # Regex pattern to find all occurrences of "Question 5.x:"
         # \d+ matches one or more digits
@@ -151,7 +152,7 @@ def decompose(question: str, model, max_tokens, temperature, top_k, top_p, repet
     elif type == "cot":
         prompt = decompose_prompt_with_cot + "\n" + "Question 5: " + question + "\n" + "Let's think step by step. "
     elif type == "planning_cot":
-        prompt = decompose_prompt_with_planning_cot + "\n" + "Question 5: " + question + "\n" + "\nPlan and Reasoning:\n"
+        prompt = decompose_prompt_with_planning_cot + "\n" + "Question 5: " + question.strip() + "\n" + "\nPlan and Reasoning:\n"
     
     output_text = ""
     cnt = 0
@@ -174,8 +175,11 @@ def decompose(question: str, model, max_tokens, temperature, top_k, top_p, repet
         if "Question 5." in line:
             sub_question = clear_question_marks(line)
             subquestions.append(sub_question)
-    assert len(subquestions) > 0, pdb.set_trace()
-
+    
+    if len(subquestions) == 0:
+        count += 1
+        subquestions.append(question.strip())
+    print(count)
     return subquestions
 
 

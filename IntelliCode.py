@@ -161,5 +161,5 @@ def majority_vote(filename: Path, num_votes = 10):
     
 if __name__ == "__main__":
     root = Path("./out")
-    one_off(filename=root/'llama-2-13b-chat_multiarith_decomp_cot.json')
+    one_off(filename=root/'llama-2-7b-chat_multiarith_decomp_planning_cot.json')
     # majority_vote()
