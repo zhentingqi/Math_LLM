@@ -4,8 +4,10 @@
         "final_ans": "10",
         "id": 0,
         "sub_questions": [
-            "How many songs did Paige delete from her mp3 player?",
-            "How many new songs did Paige add to her mp3 player?",
+            "How many songs did Paige have initially?",
+            "How many old songs did she delete?",
+            "After deleting the old songs, how many songs were left on her player?",
+            "How many new songs did she add?",
             "Now we can answer the question: How many songs does Paige have on her mp3 player?"
         ]
     },
@@ -14,8 +16,9 @@
         "final_ans": "17",
         "id": 1,
         "sub_questions": [
-            "How many students tried out for the basketball team?",
-            "How many students got called back?",
+            "How many students were not boys?",
+            "How many students were there in total?",
+            "How many students made the cut?",
             "Now we can answer the question: How many students didn't make the cut?"
         ]
     },
@@ -24,9 +27,11 @@
         "final_ans": "79",
         "id": 2,
         "sub_questions": [
-            "How many coloring books did Faye have when she gave away 3?",
+            "How many coloring books did Faye have at first?",
+            "How many coloring books did Faye give away?",
+            "What was the difference between the number of coloring books Faye had and the number she gave away?",
             "How many coloring books did Faye buy?",
-            "Now we can answer the question: How many coloring books does Faye have total?"
+            "Now we can answer the question: After buying more, how many coloring books does Faye have in total?"
         ]
     },
     {
@@ -34,7 +39,8 @@
         "final_ans": "9",
         "id": 3,
         "sub_questions": [
-            "How many apples did they use to make lunch?",
+            "How many apples were used for lunch?",
+            "How many apples are left after lunch?",
             "How many apples did they buy?",
             "Now we can answer the question: How many apples would they have?"
         ]
@@ -44,9 +50,10 @@
         "final_ans": "72",
         "id": 4,
         "sub_questions": [
-            "How many enemies are there in the level?",
-            "How many enemies do you defeat?",
-            "Now we can answer the question: How many points would you earn?"
+            "What is the total number of points earned by defeating all 11 enemies?",
+            "What are the points earned for defeating 3 enemies?",
+            "How many points are earned for defeating the other 8 enemies?",
+            "Now we can answer the question: How many points do you earn in this level?"
         ]
     },
     {
@@ -54,10 +61,10 @@
         "final_ans": "72",
         "id": 5,
         "sub_questions": [
-            "How many points did Megan earn for the bags she recycled?",
-            "How many bags did Megan recycle?",
-            "How many points did Megan not earn?",
-            "Now we can answer the question: How many points would Megan have earned?"
+            "How many points does Megan earn for each bag of cans she recycles?",
+            "How many bags did Megan recycle if she did not recycle 5 of them?",
+            "How many points would Megan have earned if she had recycled all 14 bags?",
+            "Now we can answer the question: How many points would Megan have earned if she had recycled only 9 bags?"
         ]
     },
     {
@@ -65,8 +72,11 @@
         "final_ans": "36",
         "id": 6,
         "sub_questions": [
-            "How much money did April earn from selling roses?",
-            "Now we can answer the question: How many roses did April start with?"
+            "How many roses did April have at the start?",
+            "How many roses did April have at the end?",
+            "What is the total amount earned by multiplying the cost per rose by the number of roses at the beginning?",
+            "What is the cost of the roses April had at the end?",
+            "Now we can answer the question: How much money did April earn?"
         ]
     },
     {
@@ -74,8 +84,10 @@
         "final_ans": "1",
         "id": 7,
         "sub_questions": [
-            "How many shirts did Ned wash before school?",
-            "How many shirts did Ned not wash by the time school started?",
+            "What is the total number of shirts Ned had to wash?",
+            "How many shirts did Ned wash by the time school started?",
+            "How many more shirts did Ned not wash?",
+            "How many short sleeve shirts did Ned not wash?",
             "Now we can answer the question: How many shirts did Ned not wash?"
         ]
     },
@@ -84,9 +96,9 @@
         "final_ans": "8",
         "id": 8,
         "sub_questions": [
-            "How many people were invited?",
-            "How many people didn't show up?",
-            "How many tables do they need now?",
+            "How many people did not attend the luncheon?",
+            "How many guests attended the luncheon?",
+            "How many people can fit on each table?",
             "Now we can answer the question: How many tables do they need?"
         ]
     },
@@ -95,9 +107,10 @@
         "final_ans": "39",
         "id": 9,
         "sub_questions": [
-            "How many books did Tom sell?",
-            "How many books did Tom buy?",
-            "Now we can answer the question: How many books would Tom have?"
+            "How much money did Tom earn from selling 4 books?",
+            "How much did Tom spend on the 38 new books?",
+            "How many books does Tom have after buying the new books with the money he earned?",
+            "Now we can answer the question: How many books does Tom have?"
         ]
     },
     {
@@ -105,9 +118,10 @@
         "final_ans": "7",
         "id": 10,
         "sub_questions": [
-            "How many shelves would Jerry fill up if he only bought regular soda?",
-            "How many shelves would Jerry fill up if he only bought diet soda?",
-            "Now we can answer the question: How many shelves would Jerry fill up in total?"
+            "How many sodas did Jerry buy in total?",
+            "How many sodas fit on one shelf?",
+            "How many shelves would Jerry need to hold all the sodas?",
+            "Now we can answer the question: How many shelves would Jerry fill up?"
         ]
     },
     {
@@ -117,9 +131,8 @@
         "sub_questions": [
             "How many pieces of candy did Debby have?",
             "How many pieces of candy did her sister have?",
-            "What was the total number of pieces of candy?",
-            "How many pieces of candy did they eat on the first night?",
-            "Now we can answer the question: How many pieces of candy do they have left?"
+            "What is the combined total of the two sisters' candy?",
+            "Now we can answer the question: After eating 35 pieces the first night, how many pieces do they have left?"
         ]
     },
     {
@@ -127,8 +140,9 @@
         "final_ans": "3",
         "id": 12,
         "sub_questions": [
-            "How many small gardens did Emily have?",
-            "Now we can answer the question: How many seeds did Emily plant in her small gardens?"
+            "How many seeds does Emily have left over after planting 29 in the big garden?",
+            "How many small gardens can Emily have if she plants four seeds in each?",
+            "Now we can answer the question: How many small gardens did Emily have?"
         ]
     },
     {
@@ -136,9 +150,10 @@
         "final_ans": "2",
         "id": 13,
         "sub_questions": [
-            "How many pieces of candy did Emily receive in total?",
-            "How many pieces of candy did Emily eat each day?",
-            "Now we can answer the question: How long would the candy last Emily?"
+            "What is the total number of pieces of candy Emily received?",
+            "How many days can Emily enjoy the candy until she runs out?",
+            "How many days can Emily eat the candy if she doesn't consume any more than the daily limit?",
+            "Now we can answer the question: How long will the candy last Emily?"
         ]
     },
     {
@@ -146,9 +161,11 @@
         "final_ans": "8",
         "id": 14,
         "sub_questions": [
-            "How many books are left for Mike to put away?",
-            "How many shelves will Mike need to put the books away?",
-            "Now we can answer the question: How many books can Mike fit on a shelf?"
+            "How many books are there in total?",
+            "How many books does the librarian take?",
+            "What number of books remains for Mike to put away?",
+            "How many books can Mike fit on a shelf?",
+            "Now we can answer the question: How many shelves will Mike need?"
         ]
     },
     {
@@ -158,8 +175,9 @@
         "sub_questions": [
             "How many pictures did Nancy take at the zoo?",
             "How many pictures did Nancy take at the museum?",
+            "What is the total number of pictures taken at both the zoo and the museum?",
             "How many pictures did Nancy delete?",
-            "Now we can answer the question: How many pictures from her vacation did Nancy still have?"
+            "Now we can answer the question: After deleting 38 photos, how many pictures from her vacation did Nancy still have?"
         ]
     },
     {
@@ -167,8 +185,10 @@
         "final_ans": "48",
         "id": 16,
         "sub_questions": [
-            "How many windows are left to install?",
-            "Now we can answer the question: How long will it take him to install the rest?"
+            "How many windows are still left to be installed?",
+            "How long does it take to install one window?",
+            "How many hours will it take to install the rest of the windows?",
+            "Now we can answer the question: How long will it take the builder to install the rest of the windows?"
         ]
     },
     {
@@ -176,10 +196,10 @@
         "final_ans": "36",
         "id": 17,
         "sub_questions": [
-            "How many oranges were in the bin before throwing away any?",
             "How many oranges were thrown away?",
-            "How many oranges were put in the bin after throwing away some?",
-            "Now we can answer the question: How many oranges are in the bin now?"
+            "How many oranges were left in the bin after throwing away the old ones?",
+            "How many new oranges were added to the bin?",
+            "Now we can answer the question: After adding new oranges and throwing away old ones, how many oranges are in the bin?"
         ]
     },
     {
@@ -187,7 +207,8 @@
         "final_ans": "6",
         "id": 18,
         "sub_questions": [
-            "How much money did the waiter earn from the tips?",
+            "How much money did the waiter receive in total?",
+            "How much money did the waiter earn from tips?",
             "Now we can answer the question: How much money did the waiter earn?"
         ]
     },
@@ -196,8 +217,8 @@
         "final_ans": "62",
         "id": 19,
         "sub_questions": [
-            "How many pieces of candy did Faye eat the first night?",
-            "How many pieces of candy does Faye have after her sister gave her 40 more pieces?",
+            "If Faye ate 25 pieces the first night, how many pieces of candy did she have left?",
+            "How many more pieces of candy did Faye get when her sister gave her 40 more?",
             "Now we can answer the question: How many pieces of candy does Faye have now?"
         ]
     },
@@ -206,10 +227,10 @@
         "final_ans": "4",
         "id": 20,
         "sub_questions": [
-            "How many chicken wings were cooked before the group arrived?",
-            "How many chicken wings were cooked for the group?",
-            "How many chicken wings each person got?",
-            "Now we can answer the question: How many chicken wings were cooked before the group arrived?"
+            "How many chicken wings did the chef already have cooked?",
+            "How many additional chicken wings did the chef prepare for the group?",
+            "What is the total number of chicken wings the chef cooked?",
+            "Now we can answer the question: How many chicken wings did each friend get?"
         ]
     },
     {
@@ -217,8 +238,8 @@
         "final_ans": "64",
         "id": 21,
         "sub_questions": [
-            "How much money did John earn for mowing 15 lawns?",
-            "How much money did John forget to earn?",
+            "How much money would John have earned if he had mowed every lawn?",
+            "How much money would John have earned for the 7 lawns he forgot to mow?",
             "Now we can answer the question: How much money did John actually earn?"
         ]
     },
@@ -227,8 +248,9 @@
         "final_ans": "5",
         "id": 22,
         "sub_questions": [
-            "How many puppies are adopted each day?",
-            "Now we can answer the question: How long would it take for all of them to be adopted?"
+            "How many days would it take to adopt the initial 5 puppies at 8 puppies per day?",
+            "How many days would it take to adopt the additional 35 puppies at 8 puppies per day?",
+            "Now we can answer the question: Adding the time needed to adopt both groups, how long would it take for all puppies to be adopted?"
         ]
     },
     {
@@ -236,8 +258,9 @@
         "final_ans": "18",
         "id": 23,
         "sub_questions": [
-            "How long will it take to install the rest of the windows?",
-            "Now we can answer the question: How long will it take to install all the windows?"
+            "What is the total time needed to install all 9 windows?",
+            "How much time is still needed to complete the installation process?",
+            "Now we can answer the question: How long will it take the builder to install the remaining windows?"
         ]
     },
     {
@@ -245,10 +268,11 @@
         "final_ans": "63",
         "id": 24,
         "sub_questions": [
-            "How many worksheets did the teacher grade initially?",
-            "How many worksheets were turned in after the first 7 were graded?",
-            "How many worksheets would the teacher have to grade if she graded the initial 7?",
-            "Now we can answer the question: How many worksheets would the teacher have to grade?"
+            "How many worksheets did the teacher have initially?",
+            "How many worksheets did the teacher grade?",
+            "How many worksheets remain after grading 7?",
+            "How many additional worksheets were turned in?",
+            "Now we can answer the question: After more worksheets were turned in, how many worksheets does the teacher have to grade?"
         ]
     },
     {
@@ -256,10 +280,11 @@
         "final_ans": "7",
         "id": 25,
         "sub_questions": [
-            "How many tickets did Frank win playing 'whack a mole'?",
-            "How many tickets did Frank win playing 'skee ball'?",
-            "How many candy could Frank buy?",
-            "Now we can answer the question: How many tickets did Frank have left after buying candy?"
+            "How many tickets did Frank win playing whack a mole?",
+            "How many tickets did Frank win playing skee ball?",
+            "What is the total number of tickets Frank has?",
+            "How many pieces of candy can Frank buy if he spends 6 tickets per piece?",
+            "Now we can answer the question: How many pieces of candy can Frank buy?"
         ]
     },
     {
@@ -267,9 +292,10 @@
         "final_ans": "28",
         "id": 26,
         "sub_questions": [
-            "How much will it cost for the adults to eat?",
-            "How much will it cost for the kids to eat?",
-            "Now we can answer the question: How much will it cost for the whole group to eat?"
+            "How much does each adult meal cost?",
+            "How many adult meals will be served?",
+            "How much is the total cost of adult meals?",
+            "Now we can answer the question: How much would it cost for the group to eat?"
         ]
     },
     {
@@ -277,8 +303,9 @@
         "final_ans": "11",
         "id": 27,
         "sub_questions": [
-            "How many math problems did Paige have to do for homework?",
-            "How many science problems did Paige have to do for homework?",
+            "What is 43 + 44?",
+            "How many math problems does Paige have to complete for homework?",
+            "How many science problems does Paige have to complete for homework?",
             "Now we can answer the question: How many problems did Paige have to do for homework?"
         ]
     },
@@ -287,8 +314,11 @@
         "final_ans": "63",
         "id": 28,
         "sub_questions": [
-            "What are the scores for each level?",
-            "Now we can answer the question: What is Rachel's total score?"
+            "How many treasures did Rachel find on the first level?",
+            "How many treasures did Rachel find on the second level?",
+            "What is the total score for the first level?",
+            "What is the total score for the second level?",
+            "Now we can answer the question: What is Rachel's final score?"
         ]
     },
     {
@@ -296,8 +326,9 @@
         "final_ans": "26",
         "id": 29,
         "sub_questions": [
-            "How many customers left a tip?",
-            "Now we can answer the question: How many customers didn't leave a tip?"
+            "How many customers did the waiter have to serve during the lunch rush by adding the initial 26 to the additional 27?",
+            "How many customers didn't leave a tip?",
+            "Now we can answer the question: How many customers did leave a tip?"
         ]
     },
     {
@@ -305,10 +336,10 @@
         "final_ans": "3",
         "id": 30,
         "sub_questions": [
-            "How many bears are in the first shelf?",
-            "How many bears are in the second shelf?",
-            "How many shelves do they use?",
-            "Now we can answer the question: How many bears are in total?"
+            "How many bears do they have in total if they have 17 initially and receive an additional 10?",
+            "If they put 9 bears on each shelf, how many shelves can they fit on?",
+            "How many shelves do they need to store all the bears?",
+            "Now we can answer the question: How many shelves did they use to store the bears?"
         ]
     },
     {
@@ -317,8 +348,9 @@
         "id": 31,
         "sub_questions": [
             "How many shelves of mystery books does Gwen have?",
+            "How many books are on each shelf of mystery books?",
             "How many shelves of picture books does Gwen have?",
-            "How many books does Gwen have total?",
+            "How many books are on each shelf of picture books?",
             "Now we can answer the question: How many books does Gwen have total?"
         ]
     },
@@ -327,12 +359,9 @@
         "final_ans": "7",
         "id": 32,
         "sub_questions": [
-            "How many pictures are in the first album?",
-            "How many pictures are in the second album?",
-            "How many pictures are in the third album?",
-            "How many pictures are in the fourth album?",
-            "How many pictures are in the fifth album?",
-            "Now we can answer the question: How many pictures were in each album?"
+            "How many pictures were in each album if she put 44 pics into one album and the rest into five different albums?",
+            "What is the number of photos in each album if there are five albums?",
+            "Now we can answer the question: How many photos were in each album?"
         ]
     },
     {
@@ -340,9 +369,9 @@
         "final_ans": "5",
         "id": 33,
         "sub_questions": [
-            "How many groups of 9 could they make with 5 boys?",
-            "How many groups of 9 could they make with 40 girls?",
-            "Now we can answer the question: How many groups of 9 could they make in total?"
+            "What is the total number of students on the debate team?",
+            "How many groups of 9 students can be made if we divide the total number of students by 9?",
+            "Now we can answer the question: How many groups could they make?"
         ]
     },
     {
@@ -350,9 +379,10 @@
         "final_ans": "35",
         "id": 34,
         "sub_questions": [
-            "How many roses did April start with?",
-            "How much money did April earn from selling roses?",
-            "Now we can answer the question: How many roses did April have left?"
+            "How much did each rose cost?",
+            "What was the total cost of all the roses April had?",
+            "How much did April have left after selling all the roses?",
+            "Now we can answer the question: How much money did April earn?"
         ]
     },
     {
@@ -360,8 +390,9 @@
         "final_ans": "45",
         "id": 35,
         "sub_questions": [
-            "How many members showed up to play the game?",
-            "How many points did each member that showed up score?",
+            "How many members didn't show up?",
+            "How many points did each member who showed up score?",
+            "What is the sum of the points scored by those present?",
             "Now we can answer the question: How many points were scored total?"
         ]
     },
@@ -370,9 +401,10 @@
         "final_ans": "8",
         "id": 36,
         "sub_questions": [
-            "How many siamese cats do they have left?",
-            "How many house cats do they have left?",
-            "How many cats do they have left in total?",
+            "How many cats did the store have before the sale?",
+            "How many Siamese cats were sold during the sale?",
+            "How many cats did the store have after the sale?",
+            "How many house cats were not sold during the sale?",
             "Now we can answer the question: How many cats do they have left?"
         ]
     },
@@ -381,8 +413,9 @@
         "final_ans": "60",
         "id": 37,
         "sub_questions": [
-            "How much money did Victor make in total on Monday?",
-            "How much money did Victor make in total on Tuesday?",
+            "How much did Victor earn in total over the two days?",
+            "How much did Victor earn on Monday?",
+            "How much did Victor earn on Tuesday?",
             "Now we can answer the question: How much money did Victor make in those two days?"
         ]
     },
@@ -391,8 +424,9 @@
         "final_ans": "4",
         "id": 38,
         "sub_questions": [
-            "How many cupcakes did Todd eat?",
-            "Now we can answer the question: How many packages could Megan make if she put 7 cupcakes in each package?"
+            "How many cupcakes does Megan have left after Todd eats 43?",
+            "How many packages can Megan make if she puts 7 cupcakes in each package?",
+            "Now we can answer the question: After Todd eats 43, how many packages can Megan make?"
         ]
     },
     {
@@ -400,9 +434,9 @@
         "final_ans": "24",
         "id": 39,
         "sub_questions": [
-            "How many lives did the first 2 players have?",
-            "How many lives did the 2 new players have?",
-            "Now we can answer the question: How many lives did they have total?"
+            "If each player had 6 lives, how many lives did they have in total before the two more players joined?",
+            "If two more players join, how many lives do they have in total?",
+            "Now we can answer the question: How many lives do they have total after the two more players joined?"
         ]
     },
     {
@@ -411,8 +445,9 @@
         "id": 40,
         "sub_questions": [
             "How many socks did Sam throw away?",
+            "How many socks does Sam have left after throwing away the old ones?",
             "How many new socks did Sam buy?",
-            "Now we can answer the question: How many socks would Sam have?"
+            "Now we can answer the question: How many socks does Sam have in total?"
         ]
     },
     {
@@ -420,9 +455,10 @@
         "final_ans": "7",
         "id": 41,
         "sub_questions": [
-            "How many bouquets could Wendy make initially?",
-            "How many bouquets could Wendy make after 47 flowers wilted?",
-            "Now we can answer the question: How many bouquets could Wendy still make?"
+            "How many bouquets could Wendy make with the remaining flowers?",
+            "How many flowers did Wendy have to start with?",
+            "How many flowers wilted before the wedding?",
+            "Now we can answer the question: How many bouquets could Wendy still make if 47 flowers wilted before the wedding?"
         ]
     },
     {
@@ -430,9 +466,11 @@
         "final_ans": "67",
         "id": 42,
         "sub_questions": [
-            "How many books did Adam sell?",
-            "How many books did Adam buy?",
-            "Now we can answer the question:  How many books would Adam have?"
+            "How much money did Adam earn when he sold 19 books?",
+            "How many books did Adam buy using the money he earned?",
+            "What is the total number of books Adam had initially?",
+            "How many books does Adam have left after buying new books and selling some of his old ones?",
+            "Now we can answer the question: After buying new books and selling some old ones, how many books does Adam have?"
         ]
     },
     {
@@ -440,8 +478,9 @@
         "final_ans": "3",
         "id": 43,
         "sub_questions": [
-            "How many students are going on the field trip?",
-            "How many adults are going on the field trip?",
+            "How many students will be going on the field trip?",
+            "How many adults will be going on the field trip?",
+            "What is the total number of people going on the field trip?",
             "Now we can answer the question: How many vans will they need?"
         ]
     },
@@ -450,10 +489,10 @@
         "final_ans": "8",
         "id": 44,
         "sub_questions": [
-            "How many regular soda bottles did Tom purchase?",
-            "How many diet soda bottles did Tom purchase?",
-            "How many shelves would be filled if Tom filled up each shelf with 7 bottles?",
-            "Now we can answer the question: How many shelves would Tom fill up?"
+            "How many sodas did Tom buy in total?",
+            "What is the number of sodas that fit on each shelf?",
+            "What is the total number of shelves needed to store all sodas?",
+            "Now we can answer the question: How many shelves will Tom fill?"
         ]
     },
     {
@@ -461,9 +500,10 @@
         "final_ans": "46",
         "id": 45,
         "sub_questions": [
-            "How many apples were used to make lunch?",
-            "How many apples were bought?",
-            "Now we can answer the question: How many apples would they have?"
+            "How many apples were used to make lunch for the students?",
+            "How many apples remain after using 20 to make lunch?",
+            "How many apples did they purchase?",
+            "Now we can answer the question: How many apples do they have?"
         ]
     },
     {
@@ -471,10 +511,10 @@
         "final_ans": "9",
         "id": 46,
         "sub_questions": [
-            "How many trays does Luke need to pick up from the first table?",
-            "How many trays does Luke need to pick up from the second table?",
-            "How many trips will Luke make?",
-            "Now we can answer the question: How many trays will Luke carry at once?"
+            "How many trays can Luke carry at once?",
+            "How many trays does Luke need to pick up in total?",
+            "How many trips does Luke need to make to pick up all the trays?",
+            "Now we can answer the question: How many trips will Luke make?"
         ]
     },
     {
@@ -482,8 +522,9 @@
         "final_ans": "9",
         "id": 47,
         "sub_questions": [
-            "How many apples were left after making pies?",
-            "Now we can answer the question: How many pies could they make?"
+            "How many pies can they make if they use all the remaining apples?",
+            "How many apples are used for each pie?",
+            "Now we can answer the question: How many pies can they make?"
         ]
     },
     {
@@ -491,9 +532,10 @@
         "final_ans": "30",
         "id": 48,
         "sub_questions": [
-            "How much money does Henry have now?",
-            "How much money will Henry need to finish his collection?",
-            "Now we can answer the question: How much money will Henry need to finish his collection?"
+            "How much does each action figure cost?",
+            "What is the total cost of 8 action figures?",
+            "How much money does Henry already have?",
+            "Now we can answer the question: How much money does Henry need to finish his collection?"
         ]
     },
     {
@@ -501,9 +543,10 @@
         "final_ans": "5",
         "id": 49,
         "sub_questions": [
-            "How much money does Frank have in total?",
-            "How many 8 dollar toys could Frank buy?",
-            "Now we can answer the question: How many 8 dollar toys could Frank buy?"
+            "How much money does Frank receive for his allowance?",
+            "How much money does Frank have in total after receiving his allowance?",
+            "How many 8 dollar toys can Frank buy if he spends all the money he has?",
+            "Now we can answer the question: How many 8 dollar toys can Frank buy with his allowance?"
         ]
     },
     {
@@ -512,8 +555,9 @@
         "id": 50,
         "sub_questions": [
             "How many carrots did Vanessa pick?",
-            "How many carrots did her mom pick?",
-            "How many good carrots did they have?",
+            "How many carrots did her mother pick?",
+            "How many carrots did they pick together?",
+            "How many carrots were good?",
             "Now we can answer the question: How many bad carrots did they have?"
         ]
     },
@@ -522,10 +566,11 @@
         "final_ans": "5",
         "id": 51,
         "sub_questions": [
-            "How many managers are there?",
-            "How many employees are there?",
-            "How many teams will be formed?",
-            "Now we can answer the question: How many people will be on each team?"
+            "If there are 23 managers and 7 employees, how many people are in the total group?",
+            "If they split into 6 teams, how many people would be in each group of 6?",
+            "How many managers and employees are in each group of 6?",
+            "If there are 23 managers and 7 employees, how many managers and employees are left over after assigning everyone to teams?",
+            "Now we can answer the question: If they split into 6 teams, how many people would be on each team?"
         ]
     },
     {
@@ -533,8 +578,10 @@
         "final_ans": "72",
         "id": 52,
         "sub_questions": [
-            "How many cups of flour did Tiffany use?",
-            "Now we can answer the question: How much cups of flour does Tiffany still need?"
+            "How many more brownies does Tiffany need to bake compared to the 8 she already made?",
+            "If Tiffany uses 8 cups of flour per batch, how much flour does she need for the additional brownies?",
+            "How much flour did Tiffany already use for the first batch of 8 brownies?",
+            "Now we can answer the question: How much flour does Tiffany still need to buy?"
         ]
     },
     {
@@ -543,8 +590,9 @@
         "id": 53,
         "sub_questions": [
             "How many carrots did Carol pick?",
-            "How many carrots did Carol's mom pick?",
-            "How many good carrots did Carol and her mom pick?",
+            "How many carrots did her mother pick?",
+            "What is the total number of carrots picked?",
+            "What is the number of good carrots?",
             "Now we can answer the question: How many bad carrots did they have?"
         ]
     },
@@ -553,8 +601,9 @@
         "final_ans": "63",
         "id": 54,
         "sub_questions": [
-            "How many worksheets does the teacher have to grade?",
-            "Now we can answer the question: How many more problems does she have to grade?"
+            "If a worksheet has 7 problems, how many problems does the teacher still have to grade if she has already graded 8 worksheets?",
+            "If the teacher has 17 worksheets to grade and has already graded 8, how many worksheets does she have to grade?",
+            "Now we can answer the question: How many more problems does the teacher have to grade?"
         ]
     },
     {
@@ -562,10 +611,10 @@
         "final_ans": "60",
         "id": 55,
         "sub_questions": [
-            "How many players were there initially?",
-            "How many lives did each player have initially?",
-            "How many lives did the new players have?",
-            "Now we can answer the question: How many lives did they have total?"
+            "How many lives did each of the 8 friends have before the two new players joined?",
+            "How many lives did each of the 2 new players have?",
+            "How many lives did the 8 friends have after the two new players joined?",
+            "Now we can answer the question: How many lives did the 8 friends have together?"
         ]
     },
     {
@@ -573,10 +622,10 @@
         "final_ans": "30",
         "id": 56,
         "sub_questions": [
-            "How many tickets did Cody win in total?",
-            "How many tickets did Cody spend on a beanie?",
-            "How many tickets does Cody have after winning 6 more tickets?",
-            "Now we can answer the question: How many tickets would Cody have?"
+            "How many tickets did Cody use to buy the beanie?",
+            "How many tickets did Cody have left after buying the beanie?",
+            "How many additional tickets did Cody win later?",
+            "Now we can answer the question: After winning more tickets, how many tickets does Cody have?"
         ]
     },
     {
@@ -584,9 +633,10 @@
         "final_ans": "6",
         "id": 57,
         "sub_questions": [
-            "How many pieces of candy did Bianca eat?",
-            "How many piles could Bianca make?",
-            "Now we can answer the question: How many piles could she make?"
+            "How many pieces of candy does Bianca have after eating 30?",
+            "What is the total number of pieces of candy remaining?",
+            "How many piles could Bianca make if she divides the remaining candy equally?",
+            "Now we can answer the question: How many piles could Bianca make?"
         ]
     },
     {
@@ -594,10 +644,9 @@
         "final_ans": "56",
         "id": 58,
         "sub_questions": [
-            "How many lives did each player have initially?",
-            "How many players joined the game?",
-            "How many lives do the players have total now?",
-            "Now we can answer the question: How many lives did they have total?"
+            "How many lives do the initial five players have?",
+            "How many lives do the two additional players have?",
+            "Now we can answer the question: How many lives do the five players and the two additional players have in total?"
         ]
     },
     {
@@ -605,7 +654,10 @@
         "final_ans": "72",
         "id": 59,
         "sub_questions": [
-            "How much would it cost for the adults to eat?",
+            "How many adult meals will be ordered?",
+            "What is the cost of all adult meals?",
+            "How many kids are in the group?",
+            "What is the cost of the kids' meals?",
             "Now we can answer the question: How much would it cost for the group to eat?"
         ]
     },
@@ -614,9 +666,9 @@
         "final_ans": "34",
         "id": 60,
         "sub_questions": [
-            "How many books did Roger sell?",
-            "How many books did Roger buy?",
-            "Now we can answer the question: How many books would Roger have?"
+            "How much money did Roger earn from selling the 21 books?",
+            "How many new books did Roger buy using the money he earned?",
+            "Now we can answer the question: How many books does Roger have now?"
         ]
     },
     {
@@ -624,8 +676,10 @@
         "final_ans": "41",
         "id": 61,
         "sub_questions": [
-            "How many lives did Wendy have left before getting 37 more lives?",
-            "Now we can answer the question: How many lives would Wendy have?"
+            "How many lives did Wendy lose in the previous level?",
+            "How many lives does Wendy have left after losing lives in the previous level?",
+            "How many lives did Wendy gain in the next level?",
+            "Now we can answer the question: After getting more lives in the next level, how many lives does Wendy have?"
         ]
     },
     {
@@ -633,8 +687,8 @@
         "final_ans": "4",
         "id": 62,
         "sub_questions": [
-            "How much money did Frank spend on new mower blades?",
-            "How much money did Frank have left?",
+            "How much money did Frank have left after spending $11 dollars on new mower blades?",
+            "How many games could Frank buy with this remaining money, assuming each game costs $2?",
             "Now we can answer the question: How many 2 dollar games could Frank buy with the money he had left?"
         ]
     },
@@ -643,10 +697,9 @@
         "final_ans": "9",
         "id": 63,
         "sub_questions": [
-            "How many new players are there?",
-            "How many returning players are there?",
-            "How many groups would there be if the coach put all the players into groups with 6 players in each group?",
-            "Now we can answer the question: How many groups would there be if the coach put them into groups with 6 players in each group?"
+            "How many players does the school's baseball team have in total?",
+            "How many groups should the coach divide the players into if each group consists of 6 players?",
+            "Now we can answer the question: How many groups will there be?"
         ]
     },
     {
@@ -654,9 +707,9 @@
         "final_ans": "7",
         "id": 64,
         "sub_questions": [
-            "How many files did Nancy delete?",
-            "How many files did Nancy put into folders?",
-            "How many folders did Nancy end up with?",
+            "How many files does Nancy have after deleting 31?",
+            "How many folders does Nancy need to hold the remaining 49 files?",
+            "What is the number of folders Nancy ends up with?",
             "Now we can answer the question: How many folders did Nancy end up with?"
         ]
     },
@@ -665,9 +718,10 @@
         "final_ans": "5",
         "id": 65,
         "sub_questions": [
+            "What is the total number of games Luke had initially?",
             "How many games did Luke sell?",
-            "How many boxes did Luke have to use?",
-            "Now we can answer the question: How many games did Luke have left?"
+            "How many games remain after selling some?",
+            "Now we can answer the question: How many boxes did Luke need to use?"
         ]
     },
     {
@@ -676,7 +730,8 @@
         "id": 66,
         "sub_questions": [
             "How many students didn't make the team?",
-            "How many groups can be formed with the remaining students?",
+            "How many students are available for grouping?",
+            "How many groups can be formed with 8 students each?",
             "Now we can answer the question: How many students would be in each group?"
         ]
     },
@@ -685,10 +740,13 @@
         "final_ans": "3",
         "id": 67,
         "sub_questions": [
-            "How many photos are in the first album?",
-            "How many photos are in the second album?",
-            "How many photos are in the third album?",
-            "How many photos are in the fourth album?",
+            "How many pictures were in each album?",
+            "What is the total number of pictures in each album?",
+            "How many pictures were in the first album?",
+            "How many pictures were in the second album?",
+            "How many pictures were in the third album?",
+            "How many pictures were in the fourth album?",
+            "How many pictures were in the fifth album?",
             "Now we can answer the question: How many pictures were in each album?"
         ]
     },
@@ -697,9 +755,10 @@
         "final_ans": "8",
         "id": 68,
         "sub_questions": [
-            "How much money did Mike make in total?",
-            "How much money did Mike spend per week?",
-            "Now we can answer the question: How long would the money last Mike?"
+            "What is the total amount of money Mike earned?",
+            "How much does Mike spend every week?",
+            "How many weeks will the money last?",
+            "Now we can answer the question: How many days will the money last?"
         ]
     },
     {
@@ -707,10 +766,10 @@
         "final_ans": "34",
         "id": 69,
         "sub_questions": [
-            "How many music files did Vanessa have?",
-            "How many video files did Vanessa have?",
-            "How many files did Vanessa delete?",
-            "Now we can answer the question: How many files were still on Vanessa's flash drive?"
+            "How many music files did Vanessa have on her flash drive?",
+            "How many video files did Vanessa have on her flash drive?",
+            "If Vanessa deletes 30 files, how many files remain?",
+            "Now we can answer the question: After deleting 30 files, how many files are still on Vanessa's flash drive?"
         ]
     },
     {
@@ -718,7 +777,9 @@
         "final_ans": "16",
         "id": 70,
         "sub_questions": [
-            "How many shirts did Dave wash by the time school started?",
+            "What is the total number of shirts Dave had to wash?",
+            "How many short sleeve shirts did Dave wash by the time school started?",
+            "How many long sleeve shirts did Dave wash by the time school started?",
             "Now we can answer the question: How many shirts did Dave not wash?"
         ]
     },
@@ -727,7 +788,9 @@
         "final_ans": "6",
         "id": 71,
         "sub_questions": [
-            "How many potatoes are left to be cooked?",
+            "How long did it take the chef to cook the first 7 potatoes?",
+            "How long does it take the chef to cook one potato?",
+            "What is the remaining time to cook the last 2 potatoes?",
             "Now we can answer the question: How long will it take the chef to cook the rest of the potatoes?"
         ]
     },
@@ -747,9 +810,10 @@
         "final_ans": "9",
         "id": 73,
         "sub_questions": [
-            "How many puppies are in the shelter now?",
-            "How many puppies are adopted per day?",
-            "Now we can answer the question: How long would it take for all of them to be adopted?"
+            "How many puppies are there in total at the shelter?",
+            "How many puppies do you adopt daily?",
+            "How many days are needed to adopt all the puppies?",
+            "Now we can answer the question: How long would it take for all the puppies to be adopted?"
         ]
     },
     {
@@ -757,9 +821,9 @@
         "final_ans": "3",
         "id": 74,
         "sub_questions": [
-            "How many pieces of clothing were in the first load?",
-            "How many pieces of clothing were in each of the small loads?",
-            "Now we can answer the question: How many pieces of clothing could go in each of the small loads?"
+            "How many loads do we need to divide the remaining 27 pieces of clothing?",
+            "How many pieces of clothing can fit into each load?",
+            "Now we can answer the question: How many pieces of clothing can go in each of the small loads?"
         ]
     },
     {
@@ -768,8 +832,8 @@
         "id": 75,
         "sub_questions": [
             "How many pieces of candy are in each box?",
-            "How many boxes of chocolate candy did Adam buy?",
-            "How many boxes of caramel candy did Adam buy?",
+            "How many pieces of candy do the 2 boxes of chocolate candy contain?",
+            "How many pieces of candy do the 5 boxes of caramel candy contain?",
             "Now we can answer the question: How much candy did Adam have total?"
         ]
     },
@@ -778,8 +842,8 @@
         "final_ans": "60",
         "id": 76,
         "sub_questions": [
-            "How much did Katie pay for each rose?",
-            "How much did Katie pay for each daisy?",
+            "How much did each rose cost?",
+            "How much did each daisy cost?",
             "Now we can answer the question: How much did Katie spend?"
         ]
     },
@@ -789,7 +853,8 @@
         "id": 77,
         "sub_questions": [
             "How many books did Victor buy in total?",
-            "How many books were used?",
+            "How many books did Victor use?",
+            "How many books did Victor purchase that day?",
             "Now we can answer the question: How many new books did Victor buy?"
         ]
     },
@@ -798,10 +863,10 @@
         "final_ans": "52",
         "id": 78,
         "sub_questions": [
-            "How many carrots did Maria pick on the first day?",
-            "How many carrots did Maria throw out?",
-            "How many carrots did Maria pick on the second day?",
-            "Now we can answer the question: How many carrots would Maria have total?"
+            "How many carrots did Maria pick originally?",
+            "How many carrots did Maria throw away?",
+            "How many carrots did Maria pick the next day?",
+            "Now we can answer the question: How many carrots do Maria have in total?"
         ]
     },
     {
@@ -810,7 +875,8 @@
         "id": 79,
         "sub_questions": [
             "How many roses did the florist sell?",
-            "How many roses did the florist pick?",
+            "How many roses did the florist have left after selling?",
+            "How many roses did the florist pick up?",
             "Now we can answer the question: How many roses would the florist have?"
         ]
     },
@@ -819,10 +885,9 @@
         "final_ans": "30",
         "id": 80,
         "sub_questions": [
-            "How many pages of math homework did Isabel have?",
-            "How many problems were there on each page of reading homework?",
-            "How many problems did Isabel have to complete total?",
-            "Now we can answer the question: How many problems did Isabel have to complete total?"
+            "How many math problems did Isabel have?",
+            "How many reading problems did Isabel have?",
+            "Now we can answer the question: Adding the math and reading problems together, how many problems did Isabel have to complete?"
         ]
     },
     {
@@ -830,9 +895,12 @@
         "final_ans": "27",
         "id": 81,
         "sub_questions": [
-            "How many lives did each player have initially?",
-            "How many players joined the game?",
-            "Now we can answer the question: How many lives did they have total?"
+            "How many lives did each of the original four players have?",
+            "How many lives did each of the five new players have?",
+            "What is the total number of lives all players had?",
+            "How many lives did the original four players have in total?",
+            "How many lives did the five new players have in total?",
+            "Now we can answer the question: How many lives did all players have in total?"
         ]
     },
     {
@@ -840,9 +908,10 @@
         "final_ans": "2",
         "id": 82,
         "sub_questions": [
-            "How much money did Kaleb have after buying the game?",
-            "How many toys could Kaleb buy with the money he had left?",
-            "Now we can answer the question: How many 2 dollar toys could Kaleb buy with the money he had left?"
+            "How much money did Kaleb spend on the new game?",
+            "How much money does Kaleb have left?",
+            "How many 2-dollar toys can Kaleb buy with the money he has left?",
+            "Now we can answer the question: How many 2-dollar toys can Kaleb buy with the money he has left?"
         ]
     },
     {
@@ -850,9 +919,9 @@
         "final_ans": "90",
         "id": 83,
         "sub_questions": [
-            "How many pages of math homework did Katie have?",
-            "How many problems were on each page of math homework?",
-            "How many problems did Katie have to complete in total?",
+            "What is 7 x 9?",
+            "What is 3 x 9?",
+            "What is the sum of the total math and reading problems?",
             "Now we can answer the question: How many problems did Katie have to complete total?"
         ]
     },
@@ -861,10 +930,10 @@
         "final_ans": "72",
         "id": 84,
         "sub_questions": [
-            "How many country albums did Janet buy?",
-            "How many pop albums did Janet buy?",
-            "How many songs did each country album come with?",
-            "How many songs did each pop album come with?",
+            "How many songs are in each country album?",
+            "How many songs are in each pop album?",
+            "What is the total number of songs in the country albums?",
+            "What is the total number of songs in the pop albums?",
             "Now we can answer the question: How many songs did Janet buy total?"
         ]
     },
@@ -873,9 +942,10 @@
         "final_ans": "9",
         "id": 85,
         "sub_questions": [
-            "How much money did Jerry make in total?",
-            "How much money did Jerry spend?",
-            "Now we can answer the question: How long would the money last Jerry?"
+            "How much money has Jerry earned in total?",
+            "What is the amount Jerry spends weekly?",
+            "How much money does Jerry have after subtracting the amount he spends weekly?",
+            "Now we can answer the question: How long will Jerry's money last?"
         ]
     },
     {
@@ -883,10 +953,9 @@
         "final_ans": "45",
         "id": 86,
         "sub_questions": [
-            "How many books does Adam have before selling any?",
-            "How many books does Adam sell?",
-            "How many books does Adam buy?",
-            "Now we can answer the question: How many books would Adam have?"
+            "How much money did Adam earn selling 11 books?",
+            "How much money did Adam spend buying 23 new books?",
+            "Now we can answer the question: How many books does Adam have?"
         ]
     },
     {
@@ -894,10 +963,10 @@
         "final_ans": "40",
         "id": 87,
         "sub_questions": [
-            "How many bags did Kaleb fill up on Saturday?",
-            "How many bags did Kaleb fill up on Sunday?",
-            "How many cans did Kaleb pick up in total?",
-            "Now we can answer the question: How many cans did Kaleb pick up in total?"
+            "If Kaleb collected 5 bags on Saturday, how many cans were in each bag?",
+            "How many cans did Kaleb collect on Sunday?",
+            "What is the sum of the number of cans collected on Saturday and Sunday?",
+            "Now we can answer the question: How many cans did Kaleb collect total?"
         ]
     },
     {
@@ -905,9 +974,10 @@
         "final_ans": "48",
         "id": 88,
         "sub_questions": [
-            "What is the number of mystery books Nancy has?",
-            "What is the number of picture books Nancy has?",
-            "Now we can answer the question:  How many books did Nancy have total?"
+            "If Nancy has 2 shelves of mystery books, how many books does she have on each shelf?",
+            "How many books does Nancy have in total from the mystery books?",
+            "If Nancy has 6 shelves of picture books, how many books does she have on each shelf?",
+            "Now we can answer the question: How many books does Nancy have in total?"
         ]
     },
     {
@@ -915,8 +985,9 @@
         "final_ans": "2",
         "id": 89,
         "sub_questions": [
-            "How many 5 dollar toys could Paul buy if he had 10 dollars?",
-            "Now we can answer the question: How many 5 dollar toys could Paul buy with the money he had?"
+            "How much money does Paul have in total?",
+            "If Paul has 7 dollars more than his original 3 dollars, how much is his total amount?",
+            "Now we can answer the question: How many 5 dollar toys can Paul buy?"
         ]
     },
     {
@@ -924,8 +995,9 @@
         "final_ans": "74",
         "id": 90,
         "sub_questions": [
-            "How many lives did Wendy have when she entered the next level?",
-            "Now we can answer the question: How many lives would Wendy have?"
+            "If Wendy had 43 lives and lost 8 lives, how many lives would she have left?",
+            "If Wendy gained 39 more lives in the next level, how many lives would she have in total?",
+            "Now we can answer the question: After gaining 39 more lives, how many lives does Wendy have?"
         ]
     },
     {
@@ -933,8 +1005,8 @@
         "final_ans": "9",
         "id": 91,
         "sub_questions": [
-            "How many files did Katie delete?",
-            "How many files did Katie put into folders?",
+            "If Katie deletes 40 files, how many files does she have left?",
+            "How many folders does Katie need to create to store the remaining files?",
             "Now we can answer the question: How many folders did Katie end up with?"
         ]
     },
@@ -943,8 +1015,8 @@
         "final_ans": "80",
         "id": 92,
         "sub_questions": [
-            "How much money did Will make on Monday?",
-            "How much money did Will make on Tuesday?",
+            "How much money did Will earn on Monday working 8 hours?",
+            "How much money did Will earn on Tuesday working 2 hours?",
             "Now we can answer the question: How much money did Will make in those two days?"
         ]
     },
@@ -954,8 +1026,9 @@
         "id": 93,
         "sub_questions": [
             "How many cupcakes did Carol sell?",
+            "How many cupcakes does Carol have left after selling 6?",
             "How many cupcakes did Carol make after selling some?",
-            "Now we can answer the question: How many cupcakes would Carol have?"
+            "Now we can answer the question: How many cupcakes does Carol have in total?"
         ]
     },
     {
@@ -963,9 +1036,9 @@
         "final_ans": "35",
         "id": 94,
         "sub_questions": [
-            "How many members of the trivia team showed up?",
-            "How many points did each member that showed up score?",
-            "Now we can answer the question: How many points were scored total?"
+            "If each member who showed up scored 5 points, how many points were scored by them?",
+            "How many points would be scored if the 7 members who didn't show up each scored 5 points?",
+            "Now we can answer the question: Adding the points scored by the members who showed up to the points scored by the members who didn't show up, how many points were scored total?"
         ]
     },
     {
@@ -973,9 +1046,10 @@
         "final_ans": "18",
         "id": 95,
         "sub_questions": [
-            "How many members showed up to play?",
-            "How many points did each member that showed up score?",
-            "Now we can answer the question: How many points were scored total?"
+            "How many points could be scored if all five members were present?",
+            "How many points were scored by those who didn't show up?",
+            "How many points were scored by the three members who showed up?",
+            "Now we can answer the question: What was the total score?"
         ]
     },
     {
@@ -983,9 +1057,10 @@
         "final_ans": "9",
         "id": 96,
         "sub_questions": [
-            "How many book does Oliver take?",
-            "How many shelves will Oliver need?",
-            "Now we can answer the question: How many book does Oliver have left?"
+            "How many books can Oliver fit on one shelf?",
+            "How many shelves will Oliver need to put away the total of 46 books?",
+            "How many shelves will Oliver need if he puts ten books on each shelf?",
+            "Now we can answer the question: After the librarian takes ten books, how many shelves will Oliver need to put away the remaining books?"
         ]
     },
     {
@@ -993,9 +1068,9 @@
         "final_ans": "30",
         "id": 97,
         "sub_questions": [
-            "How many coins did Luke have in each pile of quarters?",
-            "How many coins did Luke have in each pile of dimes?",
-            "Now we can answer the question: How many coins did Luke have total?"
+            "If each quarter pile has 3 coins, how many coins are in all the quarter piles?",
+            "If each dime pile has 3 coins, how many coins are in all the dime piles?",
+            "Now we can answer the question: How many coins does Luke have in total?"
         ]
     },
     {
@@ -1003,10 +1078,11 @@
         "final_ans": "6",
         "id": 98,
         "sub_questions": [
-            "How many pounds of paper did Gwen recycle?",
-            "How many pounds of paper did Gwen's friends recycle?",
-            "How many points did Gwen and her friends earn?",
-            "Now we can answer the question: How many points did they earn?"
+            "How much did Gwen recycle?",
+            "How much did her friends recycle?",
+            "How many points did Gwen earn?",
+            "How many points did her friends earn?",
+            "Now we can answer the question: How many points did Gwen and her friends earn?"
         ]
     },
     {
@@ -1014,8 +1090,9 @@
         "final_ans": "32",
         "id": 99,
         "sub_questions": [
-            "How much did Haley spend on tickets?",
-            "Now we can answer the question: How much did Haley spend in total?"
+            "How much does one ticket cost if Haley bought 3 tickets for herself and her friends?",
+            "How much does one extra ticket cost if Haley bought 5 extra tickets?",
+            "Now we can answer the question: How much did Haley spend?"
         ]
     },
     {
@@ -1023,9 +1100,9 @@
         "final_ans": "8",
         "id": 100,
         "sub_questions": [
-            "How much money did George get for his birthday?",
-            "How much money did George spend on the new game?",
-            "Now we can answer the question: How much money does George have now?"
+            "What is $30 + $16?",
+            "How much did George spend on the new game?",
+            "Now we can answer the question: After spending $38 on the new game, how much money does George have now?"
         ]
     },
     {
@@ -1033,8 +1110,8 @@
         "final_ans": "40",
         "id": 101,
         "sub_questions": [
-            "How many parrots are in each cage?",
-            "How many parakeets are in each cage?",
+            "How many parrots do the cages contain in total?",
+            "How many parakeets do the cages contain in total?",
             "Now we can answer the question: How many birds does the pet store have total?"
         ]
     },
@@ -1043,8 +1120,9 @@
         "final_ans": "54",
         "id": 102,
         "sub_questions": [
-            "How many boxes of chocolate candy did Kaleb give to his little brother?",
-            "Now we can answer the question: How many pieces did Kaleb still have?"
+            "If Kaleb has 14 boxes of chocolate candy and each box has 6 pieces, how many pieces does he have initially?",
+            "How many pieces did Kaleb give to his brother?",
+            "Now we can answer the question: After giving pieces to his brother, how many pieces does Kaleb have left?"
         ]
     },
     {
@@ -1052,11 +1130,10 @@
         "final_ans": "4",
         "id": 103,
         "sub_questions": [
-            "How many pictures did Robin upload from her phone?",
-            "How many pictures did Robin upload from her camera?",
-            "How many albums did Robin sort the pictures into?",
-            "How many pictures are in each of the albums?",
-            "Now we can answer the question: How many pictures were in each of the albums?"
+            "How many pictures did Robin upload in total?",
+            "How many albums did Robin create?",
+            "How many pictures are in each album if there are the same amount of pictures in each album?",
+            "Now we can answer the question: How many pictures are in each of the nine albums?"
         ]
     },
     {
@@ -1066,6 +1143,7 @@
         "sub_questions": [
             "How much money did Mike spend on new mower blades?",
             "How much money did Mike have left after buying new mower blades?",
+            "How many 5 dollar games could Mike buy with the money he had left?",
             "Now we can answer the question: How many 5 dollar games could Mike buy with the money he had left?"
         ]
     },
@@ -1074,8 +1152,9 @@
         "final_ans": "32",
         "id": 105,
         "sub_questions": [
-            "How long did it take Maria to put together each chair?",
-            "Now we can answer the question: How many minutes did it take Maria to finish?"
+            "How long did it take Maria to assemble one chair?",
+            "How long did it take Maria to assemble one table?",
+            "Now we can answer the question: How many minutes did it take Maria to finish putting everything together?"
         ]
     },
     {
@@ -1086,7 +1165,7 @@
             "How many pictures did Rachel take at the zoo?",
             "How many pictures did Rachel take at the museum?",
             "How many pictures did Rachel delete?",
-            "Now we can answer the question: How many pictures from her vacation did Rachel still have?"
+            "Now we can answer the question: After deleting 11 pictures, how many pictures from her vacation did Rachel still have?"
         ]
     },
     {
@@ -1094,9 +1173,12 @@
         "final_ans": "3",
         "id": 107,
         "sub_questions": [
-            "How many bags of cookies could Maria make with 5 chocolate chip cookies?",
-            "How many bags of cookies could Maria make with 19 oatmeal cookies?",
-            "Now we can answer the question: How many baggies could Maria make?"
+            "How many cookies does Maria have in total?",
+            "How many chocolate chip cookies does Maria have?",
+            "How many oatmeal cookies does Maria have?",
+            "How many bags can Maria make with her chocolate chip cookies?",
+            "How many bags can Maria make with her oatmeal cookies?",
+            "Now we can answer the question: How many baggies can Maria make in total?"
         ]
     },
     {
@@ -1104,9 +1186,11 @@
         "final_ans": "30",
         "id": 108,
         "sub_questions": [
-            "How much did Zoe spend on roses?",
-            "How much did Zoe spend on daisies?",
-            "Now we can answer the question: How much did Zoe spend?"
+            "How much did each rose cost?",
+            "How much did Zoe pay for the 8 roses?",
+            "How much did each daisy cost?",
+            "How much did Zoe pay for the 2 daisies?",
+            "Now we can answer the question: How much did Zoe spend on flowers?"
         ]
     },
     {
@@ -1114,9 +1198,9 @@
         "final_ans": "72",
         "id": 109,
         "sub_questions": [
-            "How many shelves did Bianca have of mystery books?",
-            "How many shelves did Bianca have of picture books?",
-            "Now we can answer the question: How many books did Bianca have total?"
+            "How many books do Bianca have on her mystery shelves?",
+            "How many books do Bianca have on her picture book shelves?",
+            "Now we can answer the question: How many books does Bianca have in total?"
         ]
     },
     {
@@ -1124,10 +1208,10 @@
         "final_ans": "8",
         "id": 110,
         "sub_questions": [
-            "How many new cards does John have?",
-            "How many old cards does John have?",
-            "How many pages does John need to put all the cards in the binder?",
-            "Now we can answer the question: How many pages would John use?"
+            "What is the total number of cards John needs to place in the binder?",
+            "How many cards can fit on one page?",
+            "How many pages will be needed if we divide the total number of cards by the number of cards per page?",
+            "Now we can answer the question: How many pages will John use when placing all the cards in the binder?"
         ]
     },
     {
@@ -1135,9 +1219,10 @@
         "final_ans": "10",
         "id": 111,
         "sub_questions": [
-            "How many brownies did Isabel bake?",
-            "How many cups of flour did Isabel use on each brownie?",
-            "Now we can answer the question: How much cups of flour does Isabel still need?"
+            "How many cups of flour are required to make 5 brownies?",
+            "How much flour does Isabel use for each brownie?",
+            "How much flour is left for the remaining two brownies?",
+            "Now we can answer the question: How much flour does Isabel still need?"
         ]
     },
     {
@@ -1145,10 +1230,10 @@
         "final_ans": "24",
         "id": 112,
         "sub_questions": [
-            "How many cupcakes did Maria make at first?",
             "How many cupcakes did Maria sell?",
+            "How many cupcakes does Maria have left after selling some?",
             "How many cupcakes did Maria make after selling some?",
-            "Now we can answer the question: How many cupcakes would Maria have?"
+            "Now we can answer the question: How many cupcakes does Maria have in total after making 10 more?"
         ]
     },
     {
@@ -1156,9 +1241,10 @@
         "final_ans": "3",
         "id": 113,
         "sub_questions": [
-            "How many tickets did Tom spend at the dunk a clown booth?",
-            "How many tickets did Tom have left after spending at the dunk a clown booth?",
-            "Now we can answer the question: How many rides could Tom go on?"
+            "How many tickets does Tom have left after spending 28 at the dunk a clown booth?",
+            "How many tickets does each ride cost?",
+            "How many rides can Tom go on with the remaining tickets?",
+            "Now we can answer the question: How many rides can Tom go on if he spent 28 tickets at the dunk a clown booth?"
         ]
     },
     {
@@ -1166,9 +1252,9 @@
         "final_ans": "37",
         "id": 114,
         "sub_questions": [
-            "How many students left during the year?",
-            "How many students came to school during the year?",
-            "Now we can answer the question: How many students were in fourth grade at the end?"
+            "What is the difference between the initial number of students and the number of students who left?",
+            "How many new students entered the class?",
+            "Now we can answer the question: How many students were in fourth grade at the end of the year?"
         ]
     },
     {
@@ -1176,8 +1262,9 @@
         "final_ans": "22",
         "id": 115,
         "sub_questions": [
-            "How many towels did Maria buy?",
-            "How many towels did Maria give her mother?",
+            "How many towels did Maria buy in total?",
+            "How many towels did Maria give to her mother?",
+            "How many towels does Maria have left after giving towels to her mother?",
             "Now we can answer the question: How many towels did Maria end up with?"
         ]
     },
@@ -1186,8 +1273,8 @@
         "final_ans": "80",
         "id": 116,
         "sub_questions": [
-            "How many questions did Adam answer correctly in the first half?",
-            "How many questions did Adam answer correctly in the second half?",
+            "How many points did Adam earn during the first half?",
+            "How many points did Adam earn during the second half?",
             "Now we can answer the question: What was Adam's final score?"
         ]
     },
@@ -1196,10 +1283,11 @@
         "final_ans": "72",
         "id": 117,
         "sub_questions": [
-            "How many cans did Paul fill on Saturday?",
-            "How many cans did Paul fill on Sunday?",
-            "How many cans did Paul pick up total?",
-            "Now we can answer the question: How many cans did Paul pick up total?"
+            "How many cans were in each bag on Saturday?",
+            "How many bags did Paul fill on Saturday?",
+            "How many cans did Paul collect on Sunday?",
+            "How many bags did Paul fill on Sunday?",
+            "Now we can answer the question: How many cans did Paul collect in total?"
         ]
     },
     {
@@ -1207,10 +1295,9 @@
         "final_ans": "9",
         "id": 118,
         "sub_questions": [
-            "How many pounds did Bianca recycle?",
-            "How many pounds did Bianca's friends recycle?",
-            "How many points did Bianca and her friends earn?",
-            "Now we can answer the question: How many points did they earn?"
+            "If Bianca recycled 24 pounds and earned one point for every 3 pounds, how many points did she earn?",
+            "If her friends recycled 3 pounds and earned one point for every 3 pounds, how many points did they earn?",
+            "Now we can answer the question: How many points did Bianca and her friends earn in total?"
         ]
     },
     {
@@ -1218,10 +1305,10 @@
         "final_ans": "6",
         "id": 119,
         "sub_questions": [
-            "How many chicken wings were cooked initially?",
-            "How many chicken wings were cooked in total?",
-            "How many chicken wings were given to the group?",
-            "Now we can answer the question: How many would each person get?"
+            "How many chicken wings did the chef already prepare?",
+            "How many more chicken wings did the chef cook for the group?",
+            "What is the total number of chicken wings cooked?",
+            "Now we can answer the question: If they each got the same amount, how many wings would each person get?"
         ]
     },
     {
@@ -1229,9 +1316,9 @@
         "final_ans": "27",
         "id": 120,
         "sub_questions": [
-            "How many socks did John throw away?",
-            "How many socks did John buy?",
-            "Now we can answer the question: How many socks would John have?"
+            "If John throws away 19 socks, how many socks does he still have?",
+            "How many new socks does John purchase?",
+            "Now we can answer the question: How many socks does John have now?"
         ]
     },
     {
@@ -1239,10 +1326,8 @@
         "final_ans": "2",
         "id": 121,
         "sub_questions": [
-            "How many new players are there?",
-            "How many returning players are there?",
-            "How many groups would there be if the coach puts them into groups with 4 players in each group?",
-            "Now we can answer the question: How many groups would there be?"
+            "How many players do the school's baseball team have in total?",
+            "If the coach puts the players into groups with 4 players in each group, how many groups will there be?"
         ]
     },
     {
@@ -1250,8 +1335,10 @@
         "final_ans": "20",
         "id": 122,
         "sub_questions": [
-            "How long will it take to paint each additional room?",
-            "Now we can answer the question: How much longer will he take to paint the rest?"
+            "How long would it take the painter to paint all 6 rooms if he worked continuously?",
+            "How much time did he spend painting the first two rooms?",
+            "What is the remaining time to complete the rest of the rooms?",
+            "Now we can answer the question: How much longer will he take to paint the rest of the rooms?"
         ]
     },
     {
@@ -1260,8 +1347,9 @@
         "id": 123,
         "sub_questions": [
             "How many customers left?",
-            "How many tables did the waiter have before the customers left?",
-            "Now we can answer the question: How many tables does the waiter have after the customers left?"
+            "How many customers remained after they left?",
+            "How many tables can be formed using 4 people at each table with 22 customers remaining?",
+            "Now we can answer the question: How many tables did the waiter have?"
         ]
     },
     {
@@ -1269,8 +1357,9 @@
         "final_ans": "8",
         "id": 124,
         "sub_questions": [
-            "How many pieces of clothing could go in each of the small loads?",
-            "Now we can answer the question: How many pieces of clothing could Roger put in each of the small loads?"
+            "How many loads does Roger have to do?",
+            "How many pieces of clothing are in each load?",
+            "Now we can answer the question: How many pieces of clothing could go in each of the small loads?"
         ]
     },
     {
@@ -1278,10 +1367,10 @@
         "final_ans": "48",
         "id": 125,
         "sub_questions": [
-            "How many students left during the year?",
-            "How many students came to school during the year?",
-            "How many students were in fourth grade at the end?",
-            "Now we can answer the question: How many students were in fourth grade at the end?"
+            "How many students left the school during the year?",
+            "What was the initial number of students at the beginning of the year?",
+            "How many new students joined the school during the year?",
+            "Now we can answer the question: How many students were in fourth grade at the end of the year?"
         ]
     },
     {
@@ -1289,9 +1378,9 @@
         "final_ans": "4",
         "id": 126,
         "sub_questions": [
-            "How many books are left to put away?",
-            "How many shelves will Roger need?",
-            "Now we can answer the question: How many books can Roger fit on one shelf?"
+            "How many books does Roger need to put away?",
+            "How many books fit on one shelf?",
+            "Now we can answer the question: How many shelves will Roger need?"
         ]
     },
     {
@@ -1299,8 +1388,9 @@
         "final_ans": "7",
         "id": 127,
         "sub_questions": [
-            "How many tulips did Bianca pick?",
-            "How many roses did Bianca pick?",
+            "How many tulips did Bianca pick if she picked 39 in total?",
+            "How many roses did Bianca pick if she picked 49 in total?",
+            "What is the total number of flowers Bianca picked?",
             "How many flowers did Bianca use?",
             "Now we can answer the question: How many extra flowers did Bianca pick?"
         ]
@@ -1310,10 +1400,11 @@
         "final_ans": "48",
         "id": 128,
         "sub_questions": [
-            "How long did it take Emily to put the chairs together?",
-            "How long did it take Emily to put the tables together?",
-            "How many minutes did it take Emily to finish assembling all the furniture?",
-            "Now we can answer the question: How long did it take Emily to finish assembling all the furniture?"
+            "How long did it take Emily to assemble each chair?",
+            "How long did it take Emily to assemble each table?",
+            "What is the total time Emily spent assembling all four chairs?",
+            "What is the total time Emily spent assembling both tables?",
+            "Now we can answer the question: How many minutes did it take Emily to finish?"
         ]
     },
     {
@@ -1321,9 +1412,11 @@
         "final_ans": "54",
         "id": 129,
         "sub_questions": [
-            "How many parrots are there in total?",
-            "How many parakeets are there in total?",
-            "Now we can answer the question: How many birds does the pet store have total?"
+            "How many parrots does each cage contain?",
+            "How many parakeets does each cage contain?",
+            "What is the total number of parrots if we multiply the number of cages times the number of parrots per cage?",
+            "What is the total number of parakeets if we multiply the number of cages times the number of parakeets per cage?",
+            "Now we can answer the question: What is the total number of birds in the pet store?"
         ]
     },
     {
@@ -1331,7 +1424,9 @@
         "final_ans": "16",
         "id": 130,
         "sub_questions": [
-            "How many shirts did Dave wash by the time school started?",
+            "How many short sleeve shirts did Dave wash?",
+            "How many long sleeve shirts did Dave wash?",
+            "What is the total number of shirts Dave washed?",
             "Now we can answer the question: How many shirts did Dave not wash?"
         ]
     },
@@ -1343,7 +1438,7 @@
             "How many pictures did Haley take at the zoo?",
             "How many pictures did Haley take at the museum?",
             "How many pictures did Haley delete?",
-            "Now we can answer the question: How many pictures from her vacation did Haley still have?"
+            "Now we can answer the question: After deleting pictures, how many pictures from her vacation did Haley still have?"
         ]
     },
     {
@@ -1351,9 +1446,9 @@
         "final_ans": "36",
         "id": 132,
         "sub_questions": [
-            "How many roses did the florist sell?",
-            "How many roses did the florist pick up later?",
-            "Now we can answer the question: How many roses does the florist have?"
+            "How many roses does the florist have after selling 3?",
+            "How many more roses does the florist have if she picks up 34?",
+            "Now we can answer the question: After picking up 34 roses, how many roses does the florist have?"
         ]
     },
     {
@@ -1361,9 +1456,9 @@
         "final_ans": "8",
         "id": 133,
         "sub_questions": [
-            "How many shelves would he fill up with regular soda?",
-            "How many shelves would he fill up with diet soda?",
-            "Now we can answer the question: How many shelves would Cody fill up with both regular and diet soda?"
+            "How many sodas did Cody buy in total?",
+            "What is the total number of sodas divided by 6?",
+            "Now we can answer the question: How many shelves will Cody fill?"
         ]
     },
     {
@@ -1371,10 +1466,9 @@
         "final_ans": "8",
         "id": 134,
         "sub_questions": [
-            "How many boys are there in total?",
-            "How many girls are there in total?",
-            "How many groups can they make?",
-            "Now we can answer the question: How many groups could they make?"
+            "What is the total number of students (boys + girls)?",
+            "How many groups of 9 can be formed with 72 students?",
+            "Now we can answer the question: If they were split into groups of 9, how many groups could they make?"
         ]
     },
     {
@@ -1382,8 +1476,10 @@
         "final_ans": "16",
         "id": 135,
         "sub_questions": [
-            "How many students wanted fruit?",
-            "Now we can answer the question: How many extra apples did the cafeteria end up with?"
+            "How many apples did the school cafeteria order in total?",
+            "How many apples do 5 students want?",
+            "How many apples are needed to fulfill the request of 5 students?",
+            "Now we can answer the question: After fulfilling the request, how many extra apples does the cafeteria have?"
         ]
     },
     {
@@ -1391,11 +1487,10 @@
         "final_ans": "3",
         "id": 136,
         "sub_questions": [
-            "How many managers are there?",
-            "How many employees are there?",
-            "How many teams will be formed?",
-            "How many people will be on each team?",
-            "Now we can answer the question: How many people will be on each team?"
+            "How many people are participating in the volleyball game?",
+            "If there are 9 managers and 15 employees, how many people are in total?",
+            "If there are 8 teams, how many people are on each team?",
+            "Now we can answer the question: If they split into 8 teams, how many people would be on each team?"
         ]
     },
     {
@@ -1403,9 +1498,11 @@
         "final_ans": "11",
         "id": 137,
         "sub_questions": [
-            "How many books were in the bin before the sale?",
-            "How many books were sold?",
-            "Now we can answer the question: How many books are in the bin now?"
+            "How many books were in the bin initially?",
+            "What is the number of books that were sold?",
+            "How many books do you have after selling?",
+            "How many books do you add to your remaining books?",
+            "Now we can answer the question: How many books are in the bargain bin?"
         ]
     },
     {
@@ -1413,9 +1510,10 @@
         "final_ans": "4",
         "id": 138,
         "sub_questions": [
-            "How much money did Mike spend on new mower blades?",
-            "How much money did Mike have left after buying the new mower blades?",
-            "Now we can answer the question: How many 8 dollar games could Mike buy with the money he had left?"
+            "How many dollars did Mike spend on new mower blades?",
+            "How much money did Mike have left after buying new mower blades?",
+            "How many games could Mike buy with the money he had left if each game costs 8 dollars?",
+            "Now we can answer the question: How many games could Mike buy with the money he had left?"
         ]
     },
     {
@@ -1423,10 +1521,11 @@
         "final_ans": "48",
         "id": 139,
         "sub_questions": [
+            "How long does it take to cook one potato?",
             "How many potatoes has the chef already cooked?",
-            "How many minutes has the chef taken to cook the potatoes he has already cooked?",
-            "How long will it take the chef to cook the rest of the potatoes?",
-            "Now we can answer the question: How long will it take the chef to cook all the potatoes?"
+            "How many potatoes are left to be cooked?",
+            "How long does it take to cook the remaining potatoes?",
+            "Now we can answer the question: How long will it take the chef to cook the rest of the potatoes?"
         ]
     },
     {
@@ -1434,7 +1533,8 @@
         "final_ans": "11",
         "id": 140,
         "sub_questions": [
-            "How many questions did Paige finish at school?",
+            "If Paige completed 44 problems at school, how many math problems did she have to do for homework?",
+            "How many science problems did Paige have to do for homework?",
             "Now we can answer the question: How many problems did Paige have to do for homework?"
         ]
     },
@@ -1443,8 +1543,9 @@
         "final_ans": "48",
         "id": 141,
         "sub_questions": [
-            "How much did Vanessa spend on roses?",
-            "How much did Vanessa spend on daisies?",
+            "What is the total cost of the roses?",
+            "What is the total cost of the daisies?",
+            "How much did Vanessa spend on each item individually?",
             "Now we can answer the question: How much did Vanessa spend in total?"
         ]
     },
@@ -1453,10 +1554,10 @@
         "final_ans": "5",
         "id": 142,
         "sub_questions": [
-            "How many pictures did Olivia upload from her phone?",
-            "How many pictures did Olivia upload from her camera?",
-            "How many albums did Olivia create?",
-            "Now we can answer the question: How many pictures were in each of the albums?"
+            "If Olivia has 5 pictures from her phone and 35 from her camera, how many pictures does she have in total?",
+            "If she sorts the pictures into 8 different albums, how many albums will she have?",
+            "If she wants each album to have the same number of pictures, how many pictures should be in each album?",
+            "Now we can answer the question: How many pictures are in each album?"
         ]
     },
     {
@@ -1464,10 +1565,11 @@
         "final_ans": "8",
         "id": 143,
         "sub_questions": [
-            "How many chocolate chip cookies does Robin have?",
-            "How many oatmeal cookies does Robin have?",
-            "How many baggies could Robin make?",
-            "Now we can answer the question: How many baggies could Robin make?"
+            "How many cookies does Robin have in total?",
+            "How many cookies are there in each bag?",
+            "How many bags can Robin make with chocolate chip cookies?",
+            "How many bags can Robin make with oatmeal cookies?",
+            "Now we can answer the question: How many baggies can Robin make in total?"
         ]
     },
     {
@@ -1475,9 +1577,10 @@
         "final_ans": "35",
         "id": 144,
         "sub_questions": [
-            "How much money did Cody get for his birthday?",
-            "How much money did Cody spend on the new game?",
-            "Now we can answer the question: How much money does Cody have now?"
+            "How much money did Cody have before his birthday?",
+            "How much money did Cody receive as a gift?",
+            "How much did Cody spend on the new game?",
+            "Now we can answer the question: After spending money on the new game, how much money does Cody have now?"
         ]
     },
     {
@@ -1485,10 +1588,10 @@
         "final_ans": "6",
         "id": 145,
         "sub_questions": [
-            "How many pictures did Wendy upload from her phone?",
-            "How many pictures did Wendy upload from her camera?",
-            "How many photos are in each of the 4 albums?",
-            "Now we can answer the question: How many pictures were in each of the albums?"
+            "How many pictures were there in total?",
+            "What fraction of the total pictures should be in each album?",
+            "How many pictures should be in each album?",
+            "Now we can answer the question: How many pictures were in each album?"
         ]
     },
     {
@@ -1498,8 +1601,8 @@
         "sub_questions": [
             "How many pieces of candy did Katie have?",
             "How many pieces of candy did her sister have?",
-            "How many pieces of candy did they eat the first night?",
-            "Now we can answer the question: How many pieces of candy do they have left?"
+            "How many pieces of candy do they have in total?",
+            "Now we can answer the question: After eating 8 pieces the first night, how many pieces of candy do they have left?"
         ]
     },
     {
@@ -1507,10 +1610,10 @@
         "final_ans": "9",
         "id": 147,
         "sub_questions": [
-            "How many cages did they use before selling any puppies?",
-            "How many puppies did they sell in one day?",
-            "How many puppies are left in the store now?",
-            "Now we can answer the question: How many cages did they use?"
+            "How many puppies were left after selling 34?",
+            "How many puppies can be placed in each cage?",
+            "How many cages can be used to hold the remaining puppies?",
+            "Now we can answer the question: How many cages did the pet store use?"
         ]
     },
     {
@@ -1518,9 +1621,9 @@
         "final_ans": "2",
         "id": 148,
         "sub_questions": [
-            "How many trays are there in total?",
-            "How many trays does Jerry take from the first table?",
-            "How many trays does Jerry take from the second table?",
+            "What is the maximum number of trays Jerry can carry at once?",
+            "What is the total number of trays Jerry needs to pick up from both tables?",
+            "How many trips does Jerry need to make to pick up the trays?",
             "Now we can answer the question: How many trips will Jerry make?"
         ]
     },
@@ -1529,10 +1632,9 @@
         "final_ans": "56",
         "id": 149,
         "sub_questions": [
-            "How many points does Faye score when she finds a treasure on the first level?",
-            "How many points does Faye score when she finds a treasure on the second level?",
-            "What is Faye's total score?",
-            "Now we can answer the question: What would Faye's score be if she found 2 treasures on the first level and 6 on the second?"
+            "How many points did Faye score on the first level?",
+            "How many points did Faye score on the second level?",
+            "Now we can answer the question: Add the points Faye scored on both levels to get her final score."
         ]
     },
     {
@@ -1540,9 +1642,11 @@
         "final_ans": "61",
         "id": 150,
         "sub_questions": [
+            "How many carrots did Megan have in total?",
             "How many carrots did Megan throw out?",
+            "What is the number of carrots Megan had after throwing some out?",
             "How many carrots did Megan pick the next day?",
-            "Now we can answer the question: How many carrots would Megan have total?"
+            "Now we can answer the question: How many carrots does Megan have in total?"
         ]
     },
     {
@@ -1550,9 +1654,9 @@
         "final_ans": "9",
         "id": 151,
         "sub_questions": [
-            "How many files did Wendy delete?",
-            "How many files are left on Wendy's computer?",
-            "Now we can answer the question: How many folders did Wendy end up with?"
+            "How many folders does Wendy need if she has 82 files left after deleting 37?",
+            "How many groups of five files do we get when dividing the remaining 82 files?",
+            "Now we can answer the question: How many folders does Wendy end up with?"
         ]
     },
     {
@@ -1560,10 +1664,9 @@
         "final_ans": "7",
         "id": 152,
         "sub_questions": [
-            "How many new players are there?",
-            "How many returning players are there?",
-            "How many groups would there be if the coach puts them into groups with 8 players in each group?",
-            "Now we can answer the question: How many groups would there be?"
+            "What is the total number of players if we add 12 new players and 44 returning players together?",
+            "If we divide the total number of players by 8, how many groups would there be?",
+            "Now we can answer the question: How many groups would there be if the coach divided the players into groups of 8?"
         ]
     },
     {
@@ -1572,9 +1675,9 @@
         "id": 153,
         "sub_questions": [
             "How much money did Will spend on new mower blades?",
-            "How much money did Will make mowing lawns?",
-            "How many 9 dollar games could Will buy with the money he had left?",
-            "Now we can answer the question: How many games could Will buy with the money he had left?"
+            "How much money does Will have left after buying the new mower blades?",
+            "How much is each 9-dollar game?",
+            "Now we can answer the question: How many 9-dollar games could Will buy with the money he had left?"
         ]
     },
     {
@@ -1582,8 +1685,10 @@
         "final_ans": "31",
         "id": 154,
         "sub_questions": [
-            "How many carrots did Nancy pick on the first day?",
-            "Now we can answer the question: How many carrots would Nancy have total?"
+            "How many carrots did Nancy have in her garden?",
+            "What is the number of carrots Nancy threw out?",
+            "How many carrots did Nancy pick the next day?",
+            "Now we can answer the question: How many carrots does Nancy have in total?"
         ]
     },
     {
@@ -1591,8 +1696,9 @@
         "final_ans": "19",
         "id": 155,
         "sub_questions": [
-            "How much money did Roger get for his birthday?",
+            "How much money did Roger receive for his birthday?",
             "How much money did Roger spend on a new game?",
+            "How much money does Roger have left after spending the money?",
             "Now we can answer the question: How much money does Roger have now?"
         ]
     },
@@ -1603,9 +1709,8 @@
         "sub_questions": [
             "How many bags did Sam fill on Saturday?",
             "How many bags did Sam fill on Sunday?",
-            "How many cans did Sam pick up on Saturday?",
-            "How many cans did Sam pick up on Sunday?",
-            "Now we can answer the question: How many cans did Sam pick up total?"
+            "How many cans are in each bag?",
+            "Now we can answer the question: How many cans did Sam collect in total?"
         ]
     },
     {
@@ -1613,7 +1718,10 @@
         "final_ans": "32",
         "id": 157,
         "sub_questions": [
-            "How many worksheets does the teacher have to grade?",
+            "How many worksheets did the teacher have in total?",
+            "How many worksheets had the teacher already graded?",
+            "How many problems are there on each worksheet?",
+            "How many problems has the teacher already graded?",
             "Now we can answer the question: How many more problems does the teacher have to grade?"
         ]
     },
@@ -1622,9 +1730,9 @@
         "final_ans": "60",
         "id": 158,
         "sub_questions": [
-            "How many boxes of clothing did Paige find?",
-            "How many scarves were in each box?",
-            "How many mittens were in each box?",
+            "How many scarves does each box contain?",
+            "How many mittens does each box contain?",
+            "How many scarves and mittens do all the boxes contain in total?",
             "Now we can answer the question: How many pieces of winter clothing did Paige have total?"
         ]
     },
@@ -1633,8 +1741,9 @@
         "final_ans": "36",
         "id": 159,
         "sub_questions": [
-            "How long will it take him to cook the remaining potatoes?",
-            "Now we can answer the question: How long will it take him to cook the rest?"
+            "How long does it take to cook 6 potatoes?",
+            "How long does it take to cook the remaining 6 potatoes?",
+            "Now we can answer the question: How long will it take the chef to cook the rest of the potatoes?"
         ]
     },
     {
@@ -1642,7 +1751,8 @@
         "final_ans": "9",
         "id": 160,
         "sub_questions": [
-            "How many games did Luke sell?",
+            "How many games does Luke have after selling 39?",
+            "How many boxes of two games each can Luke use to pack the remaining games?",
             "Now we can answer the question: How many boxes did Luke have to use?"
         ]
     },
@@ -1651,9 +1761,11 @@
         "final_ans": "12",
         "id": 161,
         "sub_questions": [
-            "How much did each rose cost?",
-            "How much did each daisy cost?",
-            "Now we can answer the question: How much did Emily spend?"
+            "How much did 2 roses cost?",
+            "How much did 2 daisies cost?",
+            "What is the total amount Emily spent on roses?",
+            "What is the total amount Emily spent on daisies?",
+            "Now we can answer the question: How much did Emily spend on flowers in total?"
         ]
     },
     {
@@ -1661,9 +1773,10 @@
         "final_ans": "3",
         "id": 162,
         "sub_questions": [
-            "How many puppies are there in all?",
-            "How many puppies are left in the store?",
-            "Now we can answer the question: How many cages did they use?"
+            "How many puppies did the pet store sell?",
+            "How many puppies remain after selling some?",
+            "How many cages can be made using the remaining puppies?",
+            "Now we can answer the question: After putting the remaining puppies into cages, how many cages did the pet store use?"
         ]
     },
     {
@@ -1671,9 +1784,8 @@
         "final_ans": "16",
         "id": 163,
         "sub_questions": [
-            "How many carrots did Faye pick?",
-            "How many carrots did her mom pick?",
-            "What percentage of the carrots were good?",
+            "What is the sum of Faye's and her mother's carrot pickings?",
+            "How many carrots were good?",
             "Now we can answer the question: How many bad carrots did they have?"
         ]
     },
@@ -1682,9 +1794,10 @@
         "final_ans": "7",
         "id": 164,
         "sub_questions": [
-            "How many flowers did Isabel have left?",
-            "How many bouquets could Isabel make with 8 flowers in each one?",
-            "Now we can answer the question: How many bouquets could she still make?"
+            "How many bouquets can Isabel make if she has 66 flowers and 8 flowers in each bouquet?",
+            "How many flowers wilted before the wedding?",
+            "How many flowers remain after subtracting the number of wilted flowers from the total?",
+            "Now we can answer the question: After 10 flowers wilted, how many bouquets can Isabel still make?"
         ]
     },
     {
@@ -1692,9 +1805,8 @@
         "final_ans": "63",
         "id": 165,
         "sub_questions": [
-            "How many times did Oliver ride the ferris wheel?",
-            "How many times did Oliver ride the bumper cars?",
-            "How many tickets did Oliver use for each ride?",
+            "How many rides did Oliver take in total?",
+            "How many tickets does each ride cost?",
             "Now we can answer the question: How many tickets did Oliver use?"
         ]
     },
@@ -1703,10 +1815,10 @@
         "final_ans": "48",
         "id": 166,
         "sub_questions": [
-            "How many chairs did Wendy buy?",
-            "How many tables did Wendy buy?",
-            "How long did it take Wendy to put each chair and table together?",
-            "Now we can answer the question: How many minutes did it take Wendy to finish?"
+            "How long does it take to put together one chair?",
+            "How long does it take to put together one table?",
+            "How many minutes does it take to put together 4 chairs and 4 tables?",
+            "Now we can answer the question: How many minutes did it take Wendy to finish assembling all the furniture?"
         ]
     },
     {
@@ -1714,10 +1826,9 @@
         "final_ans": "3",
         "id": 167,
         "sub_questions": [
-            "How many games did Ned buy from his friend?",
-            "How many games did Ned buy at the garage sale?",
-            "How many good games did Ned end up with?",
-            "Now we can answer the question: How many games didn't work?"
+            "How many games did Ned buy in total?",
+            "How many games didn't work?",
+            "Now we can answer the question: After removing the games that didn't work, how many good games did Ned end up with?"
         ]
     },
     {
@@ -1725,8 +1836,8 @@
         "final_ans": "18",
         "id": 168,
         "sub_questions": [
-            "How many siamese cats were sold during the sale?",
-            "How many house cats were sold during the sale?",
+            "How many cats were sold during the sale?",
+            "How many cats remain after subtracting the number of cats sold from the initial total?",
             "Now we can answer the question: How many cats do they have left?"
         ]
     },
@@ -1735,10 +1846,11 @@
         "final_ans": "7",
         "id": 169,
         "sub_questions": [
-            "What are Carol's points in the first round?",
-            "What are Carol's points in the second round?",
-            "What are Carol's points in the last round?",
-            "Now we can answer the question: How many points did Carol have at the end of the game?"
+            "How many points did Carol earn in the first round?",
+            "How many points did Carol earn in the second round?",
+            "What is the total number of points Carol earned in the first two rounds?",
+            "How many points did Carol lose in the final round?",
+            "Now we can answer the question: After losing 16 points in the last round, how many points did Carol have at the end of the game?"
         ]
     },
     {
@@ -1746,9 +1858,10 @@
         "final_ans": "21",
         "id": 170,
         "sub_questions": [
-            "How many pieces of chocolate are in each box?",
-            "How many boxes did Dave buy?",
-            "Now we can answer the question: How many pieces of chocolate did Dave still have?"
+            "How many pieces of candy did Dave have in total?",
+            "How many pieces did Dave's brother receive?",
+            "How many pieces of candy did Dave still have?",
+            "Now we can answer the question: How many boxes of candy did Dave still have?"
         ]
     },
     {
@@ -1756,9 +1869,9 @@
         "final_ans": "2",
         "id": 171,
         "sub_questions": [
-            "How many customers did the waiter have during the lunch rush?",
-            "How many customers left a tip?",
-            "Now we can answer the question: How many customers didn't leave a tip?"
+            "If the waiter had 39 customers and 12 more during the lunch rush, how many customers did he have in total?",
+            "If 49 customers didn't leave a tip, how many customers did leave a tip?",
+            "Now we can answer the question: How many customers left a tip?"
         ]
     },
     {
@@ -1766,7 +1879,9 @@
         "final_ans": "9",
         "id": 172,
         "sub_questions": [
-            "How many apples do they have left?",
+            "How many apples were given to students?",
+            "How many apples do they have left over?",
+            "How many apples are needed for one pie?",
             "Now we can answer the question: How many pies could they make?"
         ]
     },
@@ -1776,9 +1891,10 @@
         "id": 173,
         "sub_questions": [
             "How much money did Oliver have in January?",
-            "How much money did Oliver spend by March?",
-            "How much money did Oliver get from his mom?",
-            "Now we can answer the question: How much money would Oliver have?"
+            "How much money did Oliver spend?",
+            "How much money does Oliver have left?",
+            "How much money did Oliver receive from his mom?",
+            "Now we can answer the question: How much money does Oliver have?"
         ]
     },
     {
@@ -1786,9 +1902,9 @@
         "final_ans": "50",
         "id": 174,
         "sub_questions": [
-            "How many apples were used to make lunch?",
-            "How many apples were bought?",
-            "Now we can answer the question: How many apples would they have?"
+            "If they used 13 apples to make lunch, how many apples are left?",
+            "How many apples did they buy?",
+            "Now we can answer the question: How many apples do they have in total?"
         ]
     },
     {
@@ -1796,9 +1912,8 @@
         "final_ans": "15",
         "id": 175,
         "sub_questions": [
-            "How many points did Frank score in the first half?",
-            "How many points did Frank score in the second half?",
-            "What was Frank's final score?",
+            "How many points did Frank receive in the first half?",
+            "How many points did Frank receive in the second half?",
             "Now we can answer the question: What was Frank's final score?"
         ]
     },
@@ -1807,10 +1922,9 @@
         "final_ans": "80",
         "id": 176,
         "sub_questions": [
-            "How many boxes of clothing did Zoe find?",
-            "How many scarves are inside each box?",
-            "How many mitten are inside each box?",
-            "Now we can answer the question: How many pieces of winter clothing did Zoe have total?"
+            "How many scarves and mittens does Zoe have in total?",
+            "What is the total number of scarves and mittens she has in each box?",
+            "Now we can answer the question: How many winter items does Zoe have total?"
         ]
     },
     {
@@ -1818,9 +1932,10 @@
         "final_ans": "35",
         "id": 177,
         "sub_questions": [
-            "How much did Frank buy?",
-            "How much did his friend buy?",
-            "Now we can answer the question: How much did they spend?"
+            "How much does one deck cost?",
+            "How much does two decks cost?",
+            "How much does three decks cost?",
+            "Now we can answer the question: How much did they spend if Frank bought 3 decks and his friend bought 2 decks?"
         ]
     },
     {
@@ -1828,8 +1943,10 @@
         "final_ans": "34",
         "id": 178,
         "sub_questions": [
-            "How many shirts did Sam wash by the time school started?",
-            "How many shirts did Sam not wash by the time school started?",
+            "How many short sleeve shirts did Sam have to wash?",
+            "How many long sleeve shirts did Sam have to wash?",
+            "What is the total number of shirts Sam had to wash?",
+            "What is the number of shirts Sam had already washed?",
             "Now we can answer the question: How many shirts did Sam not wash?"
         ]
     },
@@ -1839,8 +1956,9 @@
         "id": 179,
         "sub_questions": [
             "How many customers left?",
-            "How many customers came in?",
-            "Now we can answer the question: How many customers would he have?"
+            "How many new customers arrived?",
+            "What is the total number of customers after the new ones arrived?",
+            "Now we can answer the question: How many customers does the waiter have?"
         ]
     }
 ]
