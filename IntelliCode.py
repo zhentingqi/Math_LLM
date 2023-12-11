@@ -152,7 +152,7 @@ def majority_vote(filename: Path, num_votes = 10):
     # get majority voted answer
     for i, (q, answer) in enumerate(zip(questions, generated_answer)):
         q['answer_votes'] = answer
-        q['answer'] = statistics.mode(answer)
+        q['model_answer'] = statistics.mode(answer)
     # save to file
     ans_name = str(filename).replace('.json', '_with_code_and_answer.json')
     with open(ans_name, 'w') as f:
@@ -161,5 +161,5 @@ def majority_vote(filename: Path, num_votes = 10):
     
 if __name__ == "__main__":
     root = Path("./out")
-    one_off(filename=root/'llama-2-7b-chat_multiarith_decomp_planning_cot.json')
+    one_off(filename=root/'llama-2-13b-chat_gsm8k_decomp_planning_cot.json')
     # majority_vote()
