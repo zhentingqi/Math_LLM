@@ -1,3 +1,3 @@
-Now, give you a Question below. Please give your answer. Let us think step by step.
+Now, given a question below, please give your answer. 
 Question: {question}
-Answer: 
+Answer: Let's think step by step. 

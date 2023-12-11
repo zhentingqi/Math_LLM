@@ -35,7 +35,7 @@ def generate(filename: Path = 'decomposition_result.json'):
     # load prompt template
     prompt_template = load_prompt_template('./prompts/code_prompt_template.txt')
     max_tokens = 128
-    temperature = 0.2
+    temperature = 0
     # generate
     for question in tqdm(data):
         # print("Generating code for question: ", question['id'])

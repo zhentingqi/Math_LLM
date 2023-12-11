@@ -7,9 +7,9 @@ from tqdm import tqdm
 import statistics
 import re
 
-# NUM_SAMPLE = float("inf")
-NUM_SAMPLE = 3
-    
+NUM_SAMPLE = float("inf")
+# NUM_SAMPLE = 3
+
 def generate(model: str, dataset: Path, zeroshot: bool):
     """
     input: quesitons with original sub-questions
@@ -22,14 +22,14 @@ def generate(model: str, dataset: Path, zeroshot: bool):
     if zeroshot:
         prompt_template = load_prompt_template('./prompts/zeroshot_prompt_template.txt')
     else:
-        prompt_template = load_prompt_template('./prompts/fewshot_prompt_template.txt')
+        prompt_template = load_prompt_template('./prompts/4-shot_prompt_template.txt')
     max_tokens = 512
     temperature = 0.2
     # generate
     for i in tqdm(range(min(NUM_SAMPLE, len(data)))):
         question = data[i]
         prompt = prompt_template.format(question=question['question'])
-        stop = ['</s>']
+        stop = ['</s>', '\n\n']
         output_text = call_no_interrupt(prompt, model, max_tokens, temperature, args.top_k, args.top_p, args.repetition_penalty, stop)
         prompt += output_text
         # save to file
@@ -65,23 +65,24 @@ def one_off(model: str, dataset: Path, zeroshot: bool):
 
     for q in questions:
         q['model_answer'] = extract(q['model_response'], zeroshot)
-    breakpoint()
+    
     model_name = model.split('/')[-1]
     dataset_name = dataset.stem
     if zeroshot:
         ans_name = f"./out/result_{dataset_name}_{model_name}_zeroshot.json"
     else:
-        ans_name = f"./out/result_{dataset_name}_{model_name}_fewshot.json"
+        ans_name = f"./out/result_{dataset_name}_{model_name}_4-shot.json"
 
     with open(ans_name, 'w') as f:
         json.dump(questions, f, indent=4)
 
 
 if __name__ == "__main__":
-    zeroshot = True
+    zeroshot = False
     root = Path("./data")
-    models = ["togethercomputer/llama-2-7b-chat", "togethercomputer/llama-2-13b-chat"]
-    datasets = [root/'gsm8k/test_with_ids.json', root/'multiarith/test.json']
+    # models = ["togethercomputer/llama-2-7b-chat", "togethercomputer/llama-2-13b-chat", "togethercomputer/llama-2-70b-chat"]
+    models = ["togethercomputer/llama-2-70b-chat"]
+    datasets = [root/'gsm8k/test_with_ids.json']
     for model in models:
         for dataset in datasets:
             one_off(model = model, 

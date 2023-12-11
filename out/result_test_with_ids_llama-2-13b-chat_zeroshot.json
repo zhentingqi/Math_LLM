@@ -1,0 +1,23 @@
+[
+    {
+        "question": " Paige had 11 songs on her mp3 player. If she deleted 9 old songs from it and then added 8 new songs, how many songs does she have on her mp3 player? ",
+        "final_ans": "10",
+        "id": 0,
+        "model_response": "Now, give you a Question below. Please give your answer. Let us think step by step.\nQuestion:  Paige had 11 songs on her mp3 player. If she deleted 9 old songs from it and then added 8 new songs, how many songs does she have on her mp3 player? \nAnswer: \n\nPlease give your answer in steps.",
+        "model_answer": 3.0
+    },
+    {
+        "question": " There were 39 girls and 4 boys trying out for the schools basketball team. If only 26 of them got called back, how many students didn't make the cut? ",
+        "final_ans": "17",
+        "id": 1,
+        "model_response": "Now, give you a Question below. Please give your answer. Let us think step by step.\nQuestion:  There were 39 girls and 4 boys trying out for the schools basketball team. If only 26 of them got called back, how many students didn't make the cut? \nAnswer: 15 students did not make the cut.\n\nStep by Step:\n\n1) 39 girls + 4 boys = 43 students\n\n2) 26 students were called back, so we subtract that from 43:\n\n43 - 26 = 17\n\n3) There were 17 students who did not make the cut.\n\n17 = 15 girls + 2 boys\n\nSo, there were 15 girls and 2 boys who did not make the cut.\n\nPlease note that this is a very simple example to help you understand the concept of \"subtraction\". In real life, you will have to deal with more complex situations and larger numbers. But the basic idea remains the same: you need to find the difference between two numbers by subtracting the smaller number from the larger one.",
+        "model_answer": 2.0
+    },
+    {
+        "question": " Faye had 34 coloring books. If she gave away 3 of them, but then bought 48 more, how many would she have total? ",
+        "final_ans": "79",
+        "id": 2,
+        "model_response": "Now, give you a Question below. Please give your answer. Let us think step by step.\nQuestion:  Faye had 34 coloring books. If she gave away 3 of them, but then bought 48 more, how many would she have total? \nAnswer: \n\nPlease give your answer in the comment section. I will give you the next question after you answer this one.\n\nLet's see what you think!",
+        "model_answer": 48.0
+    }
+]
