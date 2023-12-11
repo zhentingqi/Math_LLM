@@ -1,22 +1,22 @@
 # src = "out/result_llama-2-7b-chat_multiarith_decomp_llama-2-7b-chat_direct.json"
 # src = "out/result_llama-2-7b-chat_gsm8k_decomp_llama-2-7b-chat_direct.json"
 
-# sources = ["out/result_llama-2-7b-chat_gsm8k_decomp_llama-2-7b-chat_mathreg.json",
-#            "out/result_llama-2-7b-chat_multiarith_decomp_llama-2-7b-chat_mathreg.json",
-#            "out/result_llama-2-7b-chat_gsm8k_decomp_llama-2-13b-chat_mathreg.json",
-#            "out/result_llama-2-7b-chat_multiarith_decomp_llama-2-13b-chat_mathreg.json",
-#            "out/result_llama-2-13b-chat_gsm8k_decomp_llama-2-7b-chat_mathreg.json",
-#            "out/result_llama-2-13b-chat_multiarith_decomp_llama-2-7b-chat_mathreg.json",
-#            "out/result_llama-2-13b-chat_gsm8k_decomp_llama-2-13b-chat_mathreg.json",
-#            "out/result_llama-2-13b-chat_multiarith_decomp_llama-2-13b-chat_mathreg.json"]
+sources = ["out/result_llama-2-7b-chat_gsm8k_decomp_llama-2-7b-chat_mathreg.json",
+           "out/result_llama-2-7b-chat_multiarith_decomp_llama-2-7b-chat_mathreg.json",
+           "out/result_llama-2-7b-chat_gsm8k_decomp_llama-2-13b-chat_mathreg.json",
+           "out/result_llama-2-7b-chat_multiarith_decomp_llama-2-13b-chat_mathreg.json",
+           "out/result_llama-2-13b-chat_gsm8k_decomp_llama-2-7b-chat_mathreg.json",
+           "out/result_llama-2-13b-chat_multiarith_decomp_llama-2-7b-chat_mathreg.json",
+           "out/result_llama-2-13b-chat_gsm8k_decomp_llama-2-13b-chat_mathreg.json",
+           "out/result_llama-2-13b-chat_multiarith_decomp_llama-2-13b-chat_mathreg.json"]
 
-sources = ["out/result_test_llama-2-7b-chat_fewshot.json",
-           "out/result_test_llama-2-7b-chat_zeroshot.json",
-           "out/result_test_llama-2-13b-chat_fewshot.json",
-           "out/result_test_llama-2-13b-chat_zeroshot.json",
-           "out/result_test_with_ids_llama-2-7b-chat_fewshot.json",
-           "out/result_test_with_ids_llama-2-7b-chat_zeroshot.json",
-           "out/result_test_with_ids_llama-2-13b-chat_fewshot.json"]
+# sources = ["out/result_test_llama-2-7b-chat_fewshot.json",
+#            "out/result_test_llama-2-7b-chat_zeroshot.json",
+#            "out/result_test_llama-2-13b-chat_fewshot.json",
+#            "out/result_test_llama-2-13b-chat_zeroshot.json",
+#            "out/result_test_with_ids_llama-2-7b-chat_fewshot.json",
+#            "out/result_test_with_ids_llama-2-7b-chat_zeroshot.json",
+#            "out/result_test_with_ids_llama-2-13b-chat_fewshot.json"]
 import json
 
 eval_mode = True

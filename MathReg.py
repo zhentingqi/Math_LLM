@@ -58,8 +58,8 @@ def generate(model: str, dataset: Path):
     generated_data = []
     # load prompt template
     prompt_template = load_prompt_template('./prompts/mathreg_prompt_template.txt')
-    max_tokens = 128
-    temperature = 0.2
+    max_tokens = 256
+    temperature = 0
     # generate
     for i in tqdm(range(min(NUM_SAMPLE, len(data)))):
         question = data[i]
@@ -69,8 +69,8 @@ def generate(model: str, dataset: Path):
             prompt += f"\nQuestion 5.{i+1}: " + sub + f"\nAnswer 5.{i+1}: "
             output_text = call_no_interrupt(prompt, model, max_tokens, temperature, args.top_k, args.top_p, args.repetition_penalty, stop)
             # use regex + python to correct the mathematic calculation 
-            corrected_output_text = calibrate(output_text)
-            # corrected_output_text = output_text
+            # corrected_output_text = calibrate(output_text)
+            corrected_output_text = output_text
             
             prompt += corrected_output_text
         # save to file
@@ -105,7 +105,7 @@ def one_off(model: str, dataset: Path):
     
     model_name = model.split('/')[-1]
     dataset_name = dataset.stem
-    ans_name = f"./out/result_{dataset_name}_{model_name}_mathreg.json"
+    ans_name = f"./out/result_{dataset_name}_{model_name}_direct_t0.json"
 
     with open(ans_name, 'w') as f:
         json.dump(questions, f, indent=4)

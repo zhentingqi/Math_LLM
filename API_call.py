@@ -9,6 +9,7 @@ keys = [
     '3668e80e292c32d8a23ed01bddc8d4efabc786ede0ea7d40d2de3c8ca49d6015',
     '7b1925f49e33f63f6d64c26a6bbf78ec4373e8d5df205ac785573311a4acd491',
     'd16049df3f5732d9bf180f9b0d79947d6c20471bc9d9277166c5b6e180cef5cf',
+    '1d328918b6c9af31dfafc1c6751890e52481c75866448c9db364a7e58c666814'
 ]
 together.api_key = keys[0]
 model_list = [d['name'] for d in together.Models.list()]
