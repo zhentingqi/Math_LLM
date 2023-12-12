@@ -21,19 +21,17 @@ def post_process(output_text: str, stop: list):
     return "\n".join(processed_text)    
 
 
-def generate(filename: Path = 'decomposition_result.json'):
+def generate(model: str, filename: Path = 'decomposition_result.json'):
     """
     generate code for each decomposed subquestion using IntelliCode approach
     input: quesitons with decomposed sub-questions
     output: generated Python code for all the quesitons
     """
-    model = "togethercomputer/CodeLlama-34b-Python"
-
     # read data
     data = read_json(filename)
     generated_data = []
     # load prompt template
-    prompt_template = load_prompt_template('./prompts/code_prompt_template.txt')
+    prompt_template = load_prompt_template('./prompts/4-shot_code_prompt_template.txt')
     max_tokens = 128
     temperature = 0
     # generate
@@ -53,7 +51,7 @@ def generate(filename: Path = 'decomposition_result.json'):
             if 'return' in processed_output_text:
                 break
         
-        code = prompt[prompt.index('def q3():'):]
+        code = prompt[prompt.index('def q5():'):]
 
         # save to file
         generated_data.append(code)
@@ -96,8 +94,8 @@ def execute(filename: Path = 'decomposition_result_with_code.json'):
         try:
             local = {}
             exec(code, globals(), local)
-            q3 = local['q3']
-            return q3()
+            q5 = local['q5']
+            return q5()
         except:
             return 0
     for question in tqdm(data):
@@ -114,52 +112,60 @@ def execute(filename: Path = 'decomposition_result_with_code.json'):
     return generated_data
     
 
-def one_off(filename: Path):
-    generated_code = generate(filename)
-    questions = read_json(filename)
+def one_off(model: str, dataset: Path):
+    generated_code = generate(model, dataset)
+    questions = read_json(dataset)
     for q, code in zip(questions, generated_code):
         q['code'] = code
     
-    code_name = str(filename).replace('.json', '_with_code.json')
+    filename = str(dataset).split('/')
+    code_model_name_mapping = {
+        "togethercomputer/CodeLlama-34b-Python": "code34B",
+        "togethercomputer/CodeLlama-13b-Python": "code13B",
+    }
+    model_name = code_model_name_mapping[model]
+    mid = filename[1].replace(".json", "")
+    code_name = f"./{filename[0]}/one_off_{mid}_{model_name}_with_code.json"
+    
     with open(code_name, 'w') as f:
         json.dump(questions, f, indent=4)
     
     generated_answer = execute(code_name)
     for q, answer in zip(questions, generated_answer):
-        q['answer'] = answer
+        q['model_answer'] = answer
 
     # save to file
-    ans_name = str(filename).replace('.json', '_with_code_and_answer.json')
+    ans_name = f"./{filename[0]}/one_off_{mid}_{model_name}_with_code_and_answer.json"
     with open(ans_name, 'w') as f:
         json.dump(questions, f, indent=4)
 
 
-def majority_vote(filename: Path, num_votes = 10):
-    agg_codes = []
-    for i in range(num_votes):
-        generated_code = generate(filename)
-        agg_codes.append(generated_code)
-    questions = read_json(filename)
-    for i, (q, code) in enumerate(zip(questions, agg_codes)):
-        q['code'] = [code[i] for code in agg_codes]
+# def majority_vote(filename: Path, num_votes = 10):
+#     agg_codes = []
+#     for i in range(num_votes):
+#         generated_code = generate(filename)
+#         agg_codes.append(generated_code)
+#     questions = read_json(filename)
+#     for i, (q, code) in enumerate(zip(questions, agg_codes)):
+#         q['code'] = [code[i] for code in agg_codes]
     
-    code_name = str(filename).replace('.json', '_with_code.json')
-    with open(code_name, 'w') as f:
-        json.dump(questions, f, indent=4)
+#     code_name = str(filename).replace('.json', '_with_code.json')
+#     with open(code_name, 'w') as f:
+#         json.dump(questions, f, indent=4)
     
-    generated_answer = execute(code_name)
+#     generated_answer = execute(code_name)
 
-    # get majority voted answer
-    for i, (q, answer) in enumerate(zip(questions, generated_answer)):
-        q['answer_votes'] = answer
-        q['model_answer'] = statistics.mode(answer)
-    # save to file
-    ans_name = str(filename).replace('.json', '_with_code_and_answer.json')
-    with open(ans_name, 'w') as f:
-        json.dump(questions, f, indent=4)
+#     # get majority voted answer
+#     for i, (q, answer) in enumerate(zip(questions, generated_answer)):
+#         q['answer_votes'] = answer
+#         q['model_answer'] = statistics.mode(answer)
+#     # save to file
+#     ans_name = str(filename).replace('.json', '_with_code_and_answer.json')
+#     with open(ans_name, 'w') as f:
+#         json.dump(questions, f, indent=4)
     
     
 if __name__ == "__main__":
     root = Path("./out")
-    one_off(filename=root/'llama-2-13b-chat_gsm8k_decomp_planning_cot.json')
+    one_off(model = "togethercomputer/CodeLlama-34b-Python", dataset=root/'llama-2-7b-chat_multiarith_decomp_planning_cot.json')
     # majority_vote()

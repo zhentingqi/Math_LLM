@@ -55,7 +55,7 @@ def extract(sub_questions_answers: str, zeroshot: bool):
         return float(numbers[-1]) if numbers else None
     
     
-def one_off(model: str, dataset: Path, zeroshot: bool):
+def one_off(model: str, dataset: Path, zeroshot: bool, dataset_name):
     generate_answers = generate(model, dataset, zeroshot)
     questions = read_json(dataset)[:len(generate_answers)]
     assert len(generate_answers) == len(questions)
@@ -67,7 +67,6 @@ def one_off(model: str, dataset: Path, zeroshot: bool):
         q['model_answer'] = extract(q['model_response'], zeroshot)
     
     model_name = model.split('/')[-1]
-    dataset_name = dataset.stem
     if zeroshot:
         ans_name = f"./out/result_{dataset_name}_{model_name}_zeroshot.json"
     else:
@@ -81,10 +80,12 @@ if __name__ == "__main__":
     zeroshot = False
     root = Path("./data")
     # models = ["togethercomputer/llama-2-7b-chat", "togethercomputer/llama-2-13b-chat", "togethercomputer/llama-2-70b-chat"]
-    models = ["togethercomputer/llama-2-70b-chat"]
+    models = ["togethercomputer/llama-2-7b-chat", "togethercomputer/llama-2-13b-chat"]
+    dataset_name = "gsm8k"
     datasets = [root/'gsm8k/test_with_ids.json']
     for model in models:
         for dataset in datasets:
             one_off(model = model, 
                     dataset= dataset,
-                    zeroshot = zeroshot)
+                    zeroshot = zeroshot,
+                    dataset_name=dataset_name)

@@ -1,4 +1,6 @@
-sources = ['out/llama-2-7b-chat_gsm8k_decomp_cot_with_code_and_answer.json']
+sources = [
+           'out/llama-2-7b-chat_gsm8k_decomp_planning_cot_with_code_and_answer.json',
+           ]
 
 import json
 
@@ -9,7 +11,7 @@ for src in sources:
     with open(src, "r") as f:
         res = json.load(f)
         for item in res:
-            gt = item['answer']
+            gt = item['final_ans'] if 'multiarith' in src else item['answer']
             out = item['model_answer']
     
             if "gsm8k" in src or 'result_test_with_ids_llama' in src:
