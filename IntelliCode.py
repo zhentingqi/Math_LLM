@@ -167,5 +167,5 @@ def one_off(model: str, dataset: Path):
     
 if __name__ == "__main__":
     root = Path("./out")
-    one_off(model = "togethercomputer/CodeLlama-34b-Python", dataset=root/'llama-2-7b-chat_multiarith_decomp_planning_cot.json')
+    one_off(model = "togethercomputer/CodeLlama-13b-Python", dataset=root/'llama-2-13b-chat_SVAMP_decomp_naive.json')
     # majority_vote()

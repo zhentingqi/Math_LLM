@@ -16,7 +16,8 @@ keys = [
     "045d2cf90a4ebca1997ee66acd5ea0d0fc83c99b281429ca21af42e486fe4be0",
     "d3a3fd41900ad88e52855d0100e128a089eec5fa4e65818453ec9a41077fcf01",
     "380775a5d7ac61cce84c5aefad7f0b28ec83bebb94632ad01e227ec1f0a3c34e",
-    "1ef5fdc7f7e072f3280886dcb9b7883187cee93a87dd40a37cf6602ee39850d4"
+    "1ef5fdc7f7e072f3280886dcb9b7883187cee93a87dd40a37cf6602ee39850d4",
+    "acc82a8f44d765ce1462a2e047e5e6d1c434a4f5974d12e1aa526320cf552969"
 ]
 together.api_key = keys[0]
 model_list = [d['name'] for d in together.Models.list()]

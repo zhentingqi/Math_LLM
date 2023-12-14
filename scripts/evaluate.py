@@ -1,5 +1,5 @@
 sources = [
-           'out/llama-2-7b-chat_gsm8k_decomp_planning_cot_with_code_and_answer.json',
+           'out/one_off_llama-2-7b-chat_SVAMP_decomp_naive_code13B_with_code_and_answer.json',
            ]
 
 import json

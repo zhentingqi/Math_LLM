@@ -136,6 +136,7 @@ Question 4.4: Now we can answer the question: How far did the car travel after t
 
 
 def decompose(question: str, model, max_tokens, temperature, top_k, top_p, repetition_penalty, stop, type):
+    count = 0
     def clear_question_marks(text):
         # Regex pattern to find all occurrences of "Question 5.x:"
         # \d+ matches one or more digits
@@ -167,11 +168,7 @@ def decompose(question: str, model, max_tokens, temperature, top_k, top_p, repet
         try:
             truncated_output_text = output_text.split("Subproblems:")[1].split("\n\n")[0]
         except:
-            try:
-                truncated_output_text = output_text.split("Subproblem:")[1].split("\n\n")[0]
-            except:
-                truncated_output_text = ''
-
+            truncated_output_text = output_text.split("Subproblem:")[1].split("\n\n")[0]
 
     subquestions = []
     for line in truncated_output_text.split("\n"):
@@ -180,8 +177,9 @@ def decompose(question: str, model, max_tokens, temperature, top_k, top_p, repet
             subquestions.append(sub_question)
     
     if len(subquestions) == 0:
-        print(output_text)
+        count += 1
         subquestions.append(question.strip())
+    print(count)
     return subquestions
 
 
@@ -217,4 +215,13 @@ def decompose_all(model, dataset, type):
         json.dump(all_items, output_file)
 
 if __name__ == "__main__":
-    decompose_all(model="togethercomputer/llama-2-13b-chat", dataset="gsm8k", type="cot")
+    # decompose_all(model="togethercomputer/llama-2-7b-chat", dataset="SVAMP", type="naive")
+    # decompose_all(model="togethercomputer/llama-2-7b-chat", dataset="SVAMP", type="cot")
+
+    # TODO
+    # decompose_all(model="togethercomputer/llama-2-7b-chat", dataset="SVAMP", type="planning_cot")
+    decompose_all(model="togethercomputer/llama-2-13b-chat", dataset="SVAMP", type="naive")
+    decompose_all(model="togethercomputer/llama-2-13b-chat", dataset="SVAMP", type="cot")
+
+    # TODO
+    # decompose_all(model="togethercomputer/llama-2-13b-chat", dataset="SVAMP", type="planning_cot")

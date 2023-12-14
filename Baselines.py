@@ -10,6 +10,44 @@ import re
 NUM_SAMPLE = float("inf")
 # NUM_SAMPLE = 3
 
+def calibrate(output_text: str):
+    """
+    use regex to extract the mathematic equation and use python to correct answer 
+    """
+    equation_regex = r"([\d\.\%\/\*\+\-\$\s]+) = ([\d\.\$\s]+)(?=[A-Za-z,.;!?]|\b)"
+
+    def evaluate_expression(expression):
+        cleaned_expression = re.sub(r'\s+\.', '.', expression)
+        cleaned_expression = re.sub(r'\.\s+', '.', cleaned_expression)
+        cleaned_expression = cleaned_expression.replace(' x ', ' * ').replace('$', '').replace('%', '/100')
+        cleaned_expression = re.sub(r'\s+', '', cleaned_expression)
+        try:
+            return eval(cleaned_expression, {}, {})
+        except Exception:
+            return None
+
+    def handle_units(match):
+        expression, current_answer = match.groups()
+        unit = re.findall(r"[\$\$\$]", current_answer)
+        unit = unit[0] if unit else ''
+        correct_answer = evaluate_expression(expression)
+        if correct_answer is None:
+            return match.group(0)
+        if '.' in current_answer or correct_answer % 1 != 0:
+            correct_answer = f"{correct_answer:.6f}"
+        else:
+            correct_answer = int(correct_answer)
+        return f" {expression.strip()} = {unit}{correct_answer} " if correct_answer is not None else match.group(0)
+
+    calibrated_text = re.sub(equation_regex, handle_units, output_text)
+    calibrated_text = calibrated_text.strip()
+
+    calibrated_text = re.sub(r"(\d)([A-Za-z,.;!?])", r"\1 \2", calibrated_text)
+    calibrated_text = re.sub(r"(\d)\s+(\.\d+)", r"\1\2", calibrated_text)
+
+    return calibrated_text
+
+
 def generate(model: str, dataset: Path, zeroshot: bool):
     """
     input: quesitons with original sub-questions
@@ -31,6 +69,7 @@ def generate(model: str, dataset: Path, zeroshot: bool):
         prompt = prompt_template.format(question=question['question'])
         stop = ['</s>', '\n\n']
         output_text = call_no_interrupt(prompt, model, max_tokens, temperature, args.top_k, args.top_p, args.repetition_penalty, stop)
+        # output_text = calibrate(output_text)
         prompt += output_text
         # save to file
         generated_data.append(prompt)
@@ -80,9 +119,10 @@ if __name__ == "__main__":
     zeroshot = False
     root = Path("./data")
     # models = ["togethercomputer/llama-2-7b-chat", "togethercomputer/llama-2-13b-chat", "togethercomputer/llama-2-70b-chat"]
-    models = ["togethercomputer/llama-2-7b-chat", "togethercomputer/llama-2-13b-chat"]
-    dataset_name = "gsm8k"
-    datasets = [root/'gsm8k/test_with_ids.json']
+    # models = ["togethercomputer/llama-2-70b-chat",]
+    models = ["mistralai/Mixtral-8x7B-Instruct-v0.1",]
+    dataset_name = "multiarith"
+    datasets = [root/f'{dataset_name}/test_with_ids.json']
     for model in models:
         for dataset in datasets:
             one_off(model = model, 
