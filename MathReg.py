@@ -105,7 +105,7 @@ def one_off(model: str, dataset: Path):
     
     model_name = model.split('/')[-1]
     dataset_name = dataset.stem
-    ans_name = f"./out/result_{dataset_name}_{model_name}_direct_t0.json"
+    ans_name = f"./out/MathReg/result_{dataset_name}_{model_name}_direct_t0.json"
 
     with open(ans_name, 'w') as f:
         json.dump(questions, f, indent=4)
@@ -114,8 +114,8 @@ def one_off(model: str, dataset: Path):
 if __name__ == "__main__":
     root = Path("./out")
     models = ["togethercomputer/llama-2-7b-chat", "togethercomputer/llama-2-13b-chat"]
-    datasets = [root/'llama-2-7b-chat_multiarith_decomp.json', root/'llama-2-7b-chat_gsm8k_decomp.json', 
-                root/'llama-2-13b-chat_multiarith_decomp.json', root/'llama-2-13b-chat_gsm8k_decomp.json']
+    datasets = [root/ 'decomp_result' / 'llama-2-7b-chat_multiarith_decomp.json', root / 'decomp_result' / 'llama-2-7b-chat_gsm8k_decomp.json', 
+                root/ 'decomp_result' / 'llama-2-13b-chat_multiarith_decomp.json', root/ 'decomp_result' / 'llama-2-13b-chat_gsm8k_decomp.json']
     for model in models:
         for dataset in datasets:
             one_off(model = model, 

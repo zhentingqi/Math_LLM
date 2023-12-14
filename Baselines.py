@@ -107,9 +107,9 @@ def one_off(model: str, dataset: Path, zeroshot: bool, dataset_name):
     
     model_name = model.split('/')[-1]
     if zeroshot:
-        ans_name = f"./out/result_{dataset_name}_{model_name}_zeroshot.json"
+        ans_name = f"./out/baselines/result_{dataset_name}_{model_name}_zeroshot.json"
     else:
-        ans_name = f"./out/result_{dataset_name}_{model_name}_4-shot.json"
+        ans_name = f"./out/baselines/result_{dataset_name}_{model_name}_4-shot.json"
 
     with open(ans_name, 'w') as f:
         json.dump(questions, f, indent=4)

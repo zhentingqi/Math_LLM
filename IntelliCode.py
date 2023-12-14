@@ -55,6 +55,7 @@ def generate(model: str, filename: Path = 'decomposition_result.json'):
 
         # save to file
         generated_data.append(code)
+        
     return generated_data
     
 # def generate_no_decomp(filename: Path = 'decomposition_result.json'):
@@ -124,8 +125,9 @@ def one_off(model: str, dataset: Path):
         "togethercomputer/CodeLlama-13b-Python": "code13B",
     }
     model_name = code_model_name_mapping[model]
-    mid = filename[1].replace(".json", "")
-    code_name = f"./{filename[0]}/one_off_{mid}_{model_name}_with_code.json"
+    print(filename)
+    mid = filename[-1].replace(".json", "")
+    code_name = f"./{filename[0]}/IntelliCode/one_off_{mid}_{model_name}_with_code.json"
     
     with open(code_name, 'w') as f:
         json.dump(questions, f, indent=4)
@@ -135,7 +137,7 @@ def one_off(model: str, dataset: Path):
         q['model_answer'] = answer
 
     # save to file
-    ans_name = f"./{filename[0]}/one_off_{mid}_{model_name}_with_code_and_answer.json"
+    ans_name = f"./{filename[0]}/IntelliCode/one_off_{mid}_{model_name}_with_code_and_answer.json"
     with open(ans_name, 'w') as f:
         json.dump(questions, f, indent=4)
 
@@ -167,6 +169,9 @@ def one_off(model: str, dataset: Path):
     
 if __name__ == "__main__":
     root = Path("./out/decomp_result")
-    one_off(model = "togethercomputer/CodeLlama-34b-Python", dataset=root/'llama-2-13b-chat_SVAMP_decomp_naive.json')
+    one_off(
+        model = "togethercomputer/CodeLlama-34b-Python",
+        dataset=root/'llama-2-13b-chat_multiarith_decomp_naive.json',
+    )
     # majority_vote()
 
