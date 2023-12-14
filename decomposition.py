@@ -190,7 +190,7 @@ def decompose_all(model, dataset, type):
     model_name = model.split("/")[-1]   # e.g. model: togethercomputer/llama-2-70b-chat
 
     src = f"./data/{dataset}/test_with_ids.json"
-    tgt = f"./out/{model_name}_{dataset}_decomp_{type}.json"
+    tgt = f"./out/decomp_result/{model_name}_{dataset}_decomp_{type}.json"
 
     with open(src, "r") as input_file, open(tgt, "w") as output_file:
         test_data = json.load(input_file)
@@ -218,11 +218,35 @@ def decompose_all(model, dataset, type):
 if __name__ == "__main__":
     # decompose_all(model="togethercomputer/llama-2-7b-chat", dataset="SVAMP", type="naive")
     # decompose_all(model="togethercomputer/llama-2-7b-chat", dataset="SVAMP", type="cot")
+    try:
+        decompose_all(model="togethercomputer/llama-2-13b-chat", dataset="SVAMP", type="planning_cot")
+    except:
+        print("error in 13b + planning_cot")
 
-    # TODO
-    # decompose_all(model="togethercomputer/llama-2-7b-chat", dataset="SVAMP", type="planning_cot")
-    decompose_all(model="togethercomputer/llama-2-13b-chat", dataset="SVAMP", type="naive")
-    decompose_all(model="togethercomputer/llama-2-13b-chat", dataset="SVAMP", type="cot")
+    try:
+        decompose_all(model="togethercomputer/llama-2-13b-chat", dataset="SVAMP", type="cot")
+    except:
+        print("error in 13b + cot")    
 
-    # TODO
-    # decompose_all(model="togethercomputer/llama-2-13b-chat", dataset="SVAMP", type="planning_cot")
+    try:
+        decompose_all(model="togethercomputer/llama-2-13b-chat", dataset="SVAMP", type="naive")
+    except:
+        print("error in 13b + naive")
+
+
+
+
+    try:
+        decompose_all(model="togethercomputer/llama-2-7b-chat", dataset="SVAMP", type="planning_cot")
+    except:
+        print("error in 7b + planning_cot")
+
+    try:
+        decompose_all(model="togethercomputer/llama-2-7b-chat", dataset="SVAMP", type="cot")
+    except:
+        print("error in 7b + cot")    
+
+    try:
+        decompose_all(model="togethercomputer/llama-2-7b-chat", dataset="SVAMP", type="naive")
+    except:
+        print("error in 7b + naive")

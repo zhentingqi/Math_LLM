@@ -31,8 +31,8 @@ def generate(model: str, filename: Path = 'decomposition_result.json'):
     data = read_json(filename)
     generated_data = []
     # load prompt template
-    prompt_template = load_prompt_template('./prompts/code_prompt_template.txt')
-    max_tokens = 256
+    prompt_template = load_prompt_template('./prompts/4-shot_code_prompt_template.txt')
+    max_tokens = 128
     temperature = 0
     # generate
     for question in tqdm(data):
@@ -166,7 +166,7 @@ def one_off(model: str, dataset: Path):
     
     
 if __name__ == "__main__":
-    root = Path("./out")
-    one_off(filename=root/'llama-2-13b-chat_gsm8k_decomp_cot.json')
+    root = Path("./out/decomp_result")
+    one_off(model = "togethercomputer/CodeLlama-13b-Python", dataset=root/'llama-2-13b-chat_SVAMP_decomp_naive.json')
     # majority_vote()
 
