@@ -1,4 +1,3 @@
-
 import pdb
 from API_call import call, call_no_interrupt
 import re
@@ -180,8 +179,8 @@ def decompose(question: str, model, max_tokens, temperature, top_k, top_p, repet
     if len(subquestions) == 0:
         count += 1
         subquestions.append(question.strip())
-    print(count)
-    return subquestions
+
+    return subquestions, count
 
 
 def decompose_all(model, dataset, type):
