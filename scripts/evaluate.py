@@ -1,5 +1,5 @@
 sources = [
-           'out/result_SVAMP_llama-2-70b-chat_4-shot.json',
+           'out/result_SVAMP_llama-2-13b-chat_4-shot.json',
            ]
 
 import json
