@@ -1,6 +1,10 @@
 sources = [
-           'out/IntelliCode/one_off_llama-2-13b-chat_SVAMP_decomp_naive_code13B_with_code_and_answer.json',
-           'out/IntelliCode/one_off_llama-2-13b-chat_SVAMP_decomp_naive_code34B_with_code_and_answer.json',
+           'out/IntelliCode_no_decomp/one_off_llama-2-7b-chat_gsm8k_decomp_naive_no_decomp_code13B_with_code_and_answer.json',
+           'out/IntelliCode_no_decomp/one_off_llama-2-7b-chat_multiarith_decomp_naive_no_decomp_code13B_with_code_and_answer.json',
+           'out/IntelliCode_no_decomp/one_off_llama-2-7b-chat_SVAMP_decomp_naive_no_decomp_code13B_with_code_and_answer.json',
+           'out/IntelliCode_no_decomp/one_off_llama-2-7b-chat_gsm8k_decomp_naive_no_decomp_code34B_with_code_and_answer.json',
+           'out/IntelliCode_no_decomp/one_off_llama-2-7b-chat_multiarith_decomp_naive_no_decomp_code34B_with_code_and_answer.json',
+           'out/IntelliCode_no_decomp/one_off_llama-2-7b-chat_SVAMP_decomp_naive_no_decomp_code34B_with_code_and_answer.json',
            ]
 
 import json
@@ -12,7 +16,7 @@ for src in sources:
     with open(src, "r") as f:
         res = json.load(f)
         for item in res:
-            gt = item['final_ans'] if 'multiarith' in src else item['answer']
+            gt = item['final_ans'] if 'SVAMP' not in src else item['answer']
             out = item['model_answer']
     
             if "gsm8k" in src or 'result_test_with_ids_llama' in src:

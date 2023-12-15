@@ -31,8 +31,8 @@ def generate(model: str, filename: Path = 'decomposition_result.json'):
     data = read_json(filename)
     generated_data = []
     # load prompt template
-    prompt_template = load_prompt_template('./prompts/4-shot_code_prompt_template.txt')
-    max_tokens = 128
+    prompt_template = load_prompt_template('./prompts/2-shot_code_prompt_template.txt')
+    max_tokens = 256
     temperature = 0
     # generate
     for question in tqdm(data):
@@ -51,41 +51,41 @@ def generate(model: str, filename: Path = 'decomposition_result.json'):
             if 'return' in processed_output_text:
                 break
         
-        code = prompt[prompt.index('def q5():'):]
+        code = prompt[prompt.index('def q3():'):]
 
         # save to file
         generated_data.append(code)
         
     return generated_data
-    
-# def generate_no_decomp(filename: Path = 'decomposition_result.json'):
+
+# def generate_no_decomp(model: str, filename: Path = 'decomposition_result.json'):
 #     """
-#     generate code for each question using IntelliCode approach
-#     input: quesitons
+#     generate code for each decomposed subquestion using IntelliCode approach
+#     input: quesitons with decomposed sub-questions
 #     output: generated Python code for all the quesitons
 #     """
-#     model = "togethercomputer/CodeLlama-13b-Python"
-
 #     # read data
 #     data = read_json(filename)
 #     generated_data = []
 #     # load prompt template
 #     prompt_template = load_prompt_template('./prompts/code_no_decomp.txt')
 #     max_tokens = 256
-#     temperature = 0.2
+#     temperature = 0
 #     # generate
 #     for question in tqdm(data):
 #         # print("Generating code for question: ", question['id'])
 #         prompt = prompt_template.format(question=question['question'])
-#         stop = ['</s>', 'def']
-        
+#         stop = ['</s>', 'def', '#', '\n\n']
 #         output_text = call_no_interrupt(prompt, model, max_tokens, temperature, args.top_k, args.top_p, args.repetition_penalty, stop)
+            
+#         # post-process output text for each step
 #         processed_output_text = post_process(output_text, stop)
 #         prompt += processed_output_text
 #         code = prompt[prompt.index('def q3():'):]
 
 #         # save to file
 #         generated_data.append(code)
+        
 #     return generated_data
 
 def execute(filename: Path = 'decomposition_result_with_code.json'):
@@ -95,8 +95,8 @@ def execute(filename: Path = 'decomposition_result_with_code.json'):
         try:
             local = {}
             exec(code, globals(), local)
-            q5 = local['q5']
-            return q5()
+            q3 = local['q3']
+            return q3()
         except:
             return 0
     for question in tqdm(data):
@@ -169,9 +169,25 @@ def one_off(model: str, dataset: Path):
     
 if __name__ == "__main__":
     root = Path("./out/decomp_result")
-    one_off(
-        model = "togethercomputer/CodeLlama-34b-Python",
-        dataset=root/'llama-2-13b-chat_multiarith_decomp_naive.json',
-    )
+    datasets = [
+                root/'llama-2-7b-chat_multiarith_decomp_naive.json',
+                root/'llama-2-7b-chat_SVAMP_decomp_naive.json',
+                root/'llama-2-7b-chat_gsm8k_decomp_naive.json',
+                ]
+    # datasets = [
+    #             root/'llama-2-7b-chat_gsm8k_decomp_naive.json',
+    #             root/'llama-2-13b-chat_gsm8k_decomp_naive.json']
+    models = [
+                "togethercomputer/CodeLlama-34b-Python",
+                "togethercomputer/CodeLlama-13b-Python",
+                ]
+    for dataset in datasets:
+        for m in models:
+            one_off(
+                model = m,
+                dataset=dataset,
+            )
+
+    
     # majority_vote()
 
