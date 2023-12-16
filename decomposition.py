@@ -3,7 +3,7 @@ from API_call import call, call_no_interrupt
 import re
 import json
 from tqdm import tqdm
-
+from argparse import ArgumentParser
 
 #! naive decomposition
 decompose_prompt = """
@@ -185,8 +185,7 @@ def decompose(question: str, model, max_tokens, temperature, top_k, top_p, repet
     return subquestions
 
 
-def decompose_all(model, dataset, type):
-    from main import args
+def decompose_all(args, model, dataset, type):
     model_name = model.split("/")[-1]   # e.g. model: togethercomputer/llama-2-70b-chat
 
     src = f"./data/{dataset}/test_with_ids.json"
@@ -215,11 +214,16 @@ def decompose_all(model, dataset, type):
             all_items.append(qa_pair)
         json.dump(all_items, output_file)
 
-if __name__ == "__main__":
-    # decompose_all(model="togethercomputer/llama-2-7b-chat", dataset="SVAMP", type="naive")
-    # decompose_all(model="togethercomputer/llama-2-7b-chat", dataset="SVAMP", type="cot")
 
-    try:
-        decompose_all(model="togethercomputer/llama-2-7b-chat", dataset="SVAMP", type="planning_cot")
-    except:
-        print("error in 7b + planning_cot")
+if __name__ == "__main__":
+    from utils import get_args
+    args = get_args()
+
+    parser = ArgumentParser()
+    parser.add_argument('--model', type=str, default="togethercomputer/llama-2-7b-chat", help='model used to generate subquestions')
+    parser.add_argument('--dataset', type=str, default="SVAMP", help='dataset used to generate subquestions')
+    parser.add_argument('--type', type=str, default="naive", help='type of decomposition')
+
+    exec_args = parser.parse_args()
+
+    decompose_all(args, model=exec_args.model, dataset=exec_args.dataset, type=exec_args.type)

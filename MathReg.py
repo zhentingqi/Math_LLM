@@ -1,11 +1,12 @@
 import json
 from utils import read_json, load_prompt_template
-from main import args
+from utils import get_args
 from pathlib import Path
 from API_call import call, call_no_interrupt
 from tqdm import tqdm
-import statistics
 import re
+from argparse import ArgumentParser
+
 
 NUM_SAMPLE = float("inf")
 def calibrate(output_text: str):
@@ -45,9 +46,8 @@ def calibrate(output_text: str):
 
     return calibrated_text
 
-
     
-def generate(model: str, dataset: Path):
+def generate(args, model: str, dataset: Path):
     """
     generate answer using MathReg approach
     input: quesitons with decomposed sub-questions
@@ -92,8 +92,8 @@ def extract(sub_questions_answers: str):
         return None
     
     
-def one_off(model: str, dataset: Path):
-    generate_subquestions_answers = generate(model, dataset)
+def one_off(args, model: str, dataset: Path):
+    generate_subquestions_answers = generate(args, model, dataset)
     questions = read_json(dataset)[:len(generate_subquestions_answers)]
     assert len(generate_subquestions_answers) == len(questions)
 
@@ -112,11 +112,16 @@ def one_off(model: str, dataset: Path):
 
 
 if __name__ == "__main__":
+    args = get_args()
     root = Path("./out")
-    models = ["togethercomputer/llama-2-7b-chat", "togethercomputer/llama-2-13b-chat"]
-    datasets = [root/ 'decomp_result' / 'llama-2-7b-chat_multiarith_decomp.json', root / 'decomp_result' / 'llama-2-7b-chat_gsm8k_decomp.json', 
-                root/ 'decomp_result' / 'llama-2-13b-chat_multiarith_decomp.json', root/ 'decomp_result' / 'llama-2-13b-chat_gsm8k_decomp.json']
-    for model in models:
-        for dataset in datasets:
-            one_off(model = model, 
-                    dataset= dataset)
+    parser = ArgumentParser()
+    # add model argument
+    parser.add_argument('--analyst_model', type=str, default="togethercomputer/llama-2-7b-chat", help='analyst model')
+    parser.add_argument('--solver_model', type=str, default="togethercomputer/llama-2-7b-chat", help='solver model')
+    parser.add_argument('--dataset', type=str, default="multiarith",
+                        choices=['multiarith', 'gsm8k', 'SVAMP'] , help='dataset')
+
+    exec_args = parser.parse_args()
+    dataset = root / "decomp_result" / (exec_args.analyst_model.split('/')[-1] + '_' + exec_args.dataset + '_decomp_naive.json')
+
+    one_off(args, model = exec_args.solver_model, dataset= dataset)

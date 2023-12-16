@@ -1,13 +1,12 @@
+import json
+
+
 sources = [
-           'out/IntelliCode_no_decomp/one_off_llama-2-7b-chat_gsm8k_decomp_naive_no_decomp_code13B_with_code_and_answer.json',
-           'out/IntelliCode_no_decomp/one_off_llama-2-7b-chat_multiarith_decomp_naive_no_decomp_code13B_with_code_and_answer.json',
-           'out/IntelliCode_no_decomp/one_off_llama-2-7b-chat_SVAMP_decomp_naive_no_decomp_code13B_with_code_and_answer.json',
-           'out/IntelliCode_no_decomp/one_off_llama-2-7b-chat_gsm8k_decomp_naive_no_decomp_code34B_with_code_and_answer.json',
-           'out/IntelliCode_no_decomp/one_off_llama-2-7b-chat_multiarith_decomp_naive_no_decomp_code34B_with_code_and_answer.json',
-           'out/IntelliCode_no_decomp/one_off_llama-2-7b-chat_SVAMP_decomp_naive_no_decomp_code34B_with_code_and_answer.json',
+           'out/IntelliCode/one_off_llama-2-13b-chat_SVAMP_decomp_naive_code13B_with_code_and_answer.json',
+           'out/IntelliCode/one_off_llama-2-13b-chat_gsm8k_decomp_naive_code34B_with_code_and_answer.json',
+           'out/IntelliCode/one_off_llama-2-7b-chat_SVAMP_decomp_cot_code34B_with_code_and_answer.json'
            ]
 
-import json
 
 for src in sources:
     print(src)
