@@ -9,6 +9,8 @@ from argparse import ArgumentParser
 
 
 NUM_SAMPLE = float("inf")
+
+
 def calibrate(output_text: str):
     """
     use regex to extract the mathematic equation and use python to correct answer 
@@ -18,7 +20,8 @@ def calibrate(output_text: str):
     def evaluate_expression(expression):
         cleaned_expression = re.sub(r'\s+\.', '.', expression)
         cleaned_expression = re.sub(r'\.\s+', '.', cleaned_expression)
-        cleaned_expression = cleaned_expression.replace(' x ', ' * ').replace('$', '').replace('%', '/100')
+        cleaned_expression = cleaned_expression.replace(
+            ' x ', ' * ').replace('$', '').replace('%', '/100')
         cleaned_expression = re.sub(r'\s+', '', cleaned_expression)
         try:
             return eval(cleaned_expression, {}, {})
@@ -46,7 +49,7 @@ def calibrate(output_text: str):
 
     return calibrated_text
 
-    
+
 def generate(args, model: str, dataset: Path):
     """
     generate answer using MathReg approach
@@ -57,7 +60,8 @@ def generate(args, model: str, dataset: Path):
     data = read_json(dataset)
     generated_data = []
     # load prompt template
-    prompt_template = load_prompt_template('./prompts/mathreg_prompt_template.txt')
+    prompt_template = load_prompt_template(
+        './prompts/mathreg_prompt_template.txt')
     max_tokens = 256
     temperature = 0
     # generate
@@ -67,11 +71,12 @@ def generate(args, model: str, dataset: Path):
         stop = ['</s>', '\n\n', '\n']
         for i, sub in enumerate(question['sub_questions']):
             prompt += f"\nQuestion 5.{i+1}: " + sub + f"\nAnswer 5.{i+1}: "
-            output_text = call_no_interrupt(prompt, model, max_tokens, temperature, args.top_k, args.top_p, args.repetition_penalty, stop)
-            # use regex + python to correct the mathematic calculation 
+            output_text = call_no_interrupt(
+                prompt, model, max_tokens, temperature, args.top_k, args.top_p, args.repetition_penalty, stop)
+            # use regex + python to correct the mathematic calculation
             # corrected_output_text = calibrate(output_text)
             corrected_output_text = output_text
-            
+
             prompt += corrected_output_text
         # save to file
         generated_data.append(prompt)
@@ -85,13 +90,14 @@ def extract(sub_questions_answers: str):
     input: quesitons with decomposed sub-questions
     output: generated subquestions with answers for each question 
     """
-    matches = re.findall(r"The answer is\s*\$?(\d+(\.\d+)?)", sub_questions_answers)
+    matches = re.findall(
+        r"The answer is\s*\$?(\d+(\.\d+)?)", sub_questions_answers)
     if matches:
         return float(matches[-1][0])
     else:
         return None
-    
-    
+
+
 def one_off(args, model: str, dataset: Path):
     generate_subquestions_answers = generate(args, model, dataset)
     questions = read_json(dataset)[:len(generate_subquestions_answers)]
@@ -102,7 +108,7 @@ def one_off(args, model: str, dataset: Path):
 
     for q in questions:
         q['answer'] = extract(q['sub_questions_answers'])
-    
+
     model_name = model.split('/')[-1]
     dataset_name = dataset.stem
     ans_name = f"./out/MathReg/result_{dataset_name}_{model_name}_direct_t0.json"
@@ -116,12 +122,16 @@ if __name__ == "__main__":
     root = Path("./out")
     parser = ArgumentParser()
     # add model argument
-    parser.add_argument('--analyst_model', type=str, default="togethercomputer/llama-2-7b-chat", help='analyst model')
-    parser.add_argument('--solver_model', type=str, default="togethercomputer/llama-2-7b-chat", help='solver model')
+    parser.add_argument('--analyst_model', type=str,
+                        default="togethercomputer/llama-2-7b-chat", help='analyst model')
+    parser.add_argument('--solver_model', type=str,
+                        default="togethercomputer/llama-2-7b-chat", help='solver model')
     parser.add_argument('--dataset', type=str, default="multiarith",
-                        choices=['multiarith', 'gsm8k', 'SVAMP'] , help='dataset')
+                        choices=['multiarith', 'gsm8k', 'SVAMP'], help='dataset')
 
     exec_args = parser.parse_args()
-    dataset = root / "decomp_result" / (exec_args.analyst_model.split('/')[-1] + '_' + exec_args.dataset + '_decomp_naive.json')
+    dataset = root / "decomp_result" / \
+        (exec_args.analyst_model.split('/')
+         [-1] + '_' + exec_args.dataset + '_decomp_naive.json')
 
-    one_off(args, model = exec_args.solver_model, dataset= dataset)
+    one_off(args, model=exec_args.solver_model, dataset=dataset)

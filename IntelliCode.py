@@ -1,5 +1,5 @@
 import json
-from utils import read_json,load_prompt_template
+from utils import read_json, load_prompt_template
 from utils import get_args
 from pathlib import Path
 from API_call import call, call_no_interrupt
@@ -18,7 +18,7 @@ def post_process(output_text: str, stop: list):
                 break
         if not contains_stop:
             processed_text.append(line)
-    return "\n".join(processed_text)    
+    return "\n".join(processed_text)
 
 
 def generate(args, model: str, filename: Path = 'decomposition_result.json'):
@@ -31,7 +31,8 @@ def generate(args, model: str, filename: Path = 'decomposition_result.json'):
     data = read_json(filename)
     generated_data = []
     # load prompt template
-    prompt_template = load_prompt_template('./prompts/2-shot_code_prompt_template.txt')
+    prompt_template = load_prompt_template(
+        './prompts/2-shot_code_prompt_template.txt')
     max_tokens = 256
     temperature = 0
     # generate
@@ -41,8 +42,9 @@ def generate(args, model: str, filename: Path = 'decomposition_result.json'):
         stop = ['</s>', 'def', '#', '\n\n']
         for i, sub in enumerate(question['sub_questions']):
             prompt += f"\n    # Q.{i+1}: " + sub
-            output_text = call_no_interrupt(prompt, model, max_tokens, temperature, args.top_k, args.top_p, args.repetition_penalty, stop)
-            
+            output_text = call_no_interrupt(
+                prompt, model, max_tokens, temperature, args.top_k, args.top_p, args.repetition_penalty, stop)
+
             # post-process output text for each step
             processed_output_text = post_process(output_text, stop)
             prompt += processed_output_text
@@ -50,18 +52,19 @@ def generate(args, model: str, filename: Path = 'decomposition_result.json'):
             # early stop
             if 'return' in processed_output_text:
                 break
-        
+
         code = prompt[prompt.index('def q3():'):]
 
         # save to file
         generated_data.append(code)
-        
+
     return generated_data
 
 
 def execute(filename: Path = 'decomposition_result_with_code.json'):
     data = read_json(filename)
     generated_data = []
+
     def get_result(code):
         try:
             local = {}
@@ -80,16 +83,16 @@ def execute(filename: Path = 'decomposition_result_with_code.json'):
             for code in question['code']:
                 answer.append(get_result(code))
         generated_data.append(answer)
-    
+
     return generated_data
-    
+
 
 def one_off(args, model: str, dataset: Path):
     generated_code = generate(args, model, dataset)
     questions = read_json(dataset)
     for q, code in zip(questions, generated_code):
         q['code'] = code
-    
+
     filename = str(dataset).split('/')
     code_model_name_mapping = {
         "togethercomputer/CodeLlama-34b-Python": "code34B",
@@ -99,10 +102,10 @@ def one_off(args, model: str, dataset: Path):
     print(filename)
     mid = filename[-1].replace(".json", "")
     code_name = f"./{filename[0]}/IntelliCode/one_off_{mid}_{model_name}_with_code.json"
-    
+
     with open(code_name, 'w') as f:
         json.dump(questions, f, indent=4)
-    
+
     generated_answer = execute(code_name)
     for q, answer in zip(questions, generated_answer):
         q['model_answer'] = answer
@@ -111,23 +114,23 @@ def one_off(args, model: str, dataset: Path):
     ans_name = f"./{filename[0]}/IntelliCode/one_off_{mid}_{model_name}_with_code_and_answer.json"
     with open(ans_name, 'w') as f:
         json.dump(questions, f, indent=4)
-    
-    
+
+
 if __name__ == "__main__":
     args = get_args()
     root = Path("./out/decomp_result")
     parser = ArgumentParser()
-    
+
     # add model argument
-    parser.add_argument('--analyst_model', type=str, default="togethercomputer/llama-2-7b-chat", help='analyst model')
-    parser.add_argument('--solver_model', type=str, default="togethercomputer/CodeLlama-34b-Python", help='solver model')
+    parser.add_argument('--analyst_model', type=str,
+                        default="togethercomputer/llama-2-7b-chat", help='analyst model')
+    parser.add_argument('--solver_model', type=str,
+                        default="togethercomputer/CodeLlama-34b-Python", help='solver model')
     parser.add_argument('--dataset', type=str, default="multiarith",
-                        choices=['multiarith', 'gsm8k', 'SVAMP'] , help='dataset')
+                        choices=['multiarith', 'gsm8k', 'SVAMP'], help='dataset')
 
     exec_args = parser.parse_args()
-    dataset = root / (exec_args.analyst_model.split('/')[-1] + '_' + exec_args.dataset + '_decomp_cot.json')
+    dataset = root / (exec_args.analyst_model.split('/')
+                      [-1] + '_' + exec_args.dataset + '_decomp_cot.json')
 
     one_off(args=args, model=exec_args.solver_model, dataset=dataset)
-
-    
-

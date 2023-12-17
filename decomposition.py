@@ -134,29 +134,32 @@ Question 4.4: Now we can answer the question: How far did the car travel after t
 """
 
 
-
 def decompose(question: str, model, max_tokens, temperature, top_k, top_p, repetition_penalty, stop, type):
     def clear_question_marks(text):
         # Regex pattern to find all occurrences of "Question 5.x:"
         # \d+ matches one or more digits
         pattern = r'Question 5\.\d+:'
-        
+
         # Using re.sub() to replace the matched patterns with an empty string
         cleaned_text = re.sub(pattern, '', text)
-        
+
         return cleaned_text.strip()
-    
+
     if type == "naive":
-        prompt = decompose_prompt + "\n" + "Question 5: " + question + "\n" + "Question 5.1: "
+        prompt = decompose_prompt + "\n" + "Question 5: " + \
+            question + "\n" + "Question 5.1: "
     elif type == "cot":
-        prompt = decompose_prompt_with_cot + "\n" + "Question 5: " + question + "\n" + "Let's think step by step. "
+        prompt = decompose_prompt_with_cot + "\n" + "Question 5: " + \
+            question + "\n" + "Let's think step by step. "
     elif type == "planning_cot":
-        prompt = decompose_prompt_with_planning_cot + "\n" + "Question 5: " + question.strip() + "\n" + "\nPlan and Reasoning:\n"
-    
+        prompt = decompose_prompt_with_planning_cot + "\n" + "Question 5: " + \
+            question.strip() + "\n" + "\nPlan and Reasoning:\n"
+
     output_text = ""
     cnt = 0
     while "Now we can answer the question" not in output_text and cnt <= 10:
-        output_text = call_no_interrupt(prompt, model, max_tokens, temperature, top_k, top_p, repetition_penalty, stop)
+        output_text = call_no_interrupt(
+            prompt, model, max_tokens, temperature, top_k, top_p, repetition_penalty, stop)
         cnt += 1
 
     if type == 'naive':
@@ -165,10 +168,12 @@ def decompose(question: str, model, max_tokens, temperature, top_k, top_p, repet
         truncated_output_text = output_text.split("Question 6")[0]
     elif type == "planning_cot":
         try:
-            truncated_output_text = output_text.split("Subproblems:")[1].split("\n\n")[0]
+            truncated_output_text = output_text.split(
+                "Subproblems:")[1].split("\n\n")[0]
         except:
             try:
-                truncated_output_text = output_text.split("Subproblem:")[1].split("\n\n")[0]
+                truncated_output_text = output_text.split(
+                    "Subproblem:")[1].split("\n\n")[0]
             except:
                 truncated_output_text = ""
 
@@ -177,7 +182,7 @@ def decompose(question: str, model, max_tokens, temperature, top_k, top_p, repet
         if "Question 5." in line:
             sub_question = clear_question_marks(line)
             subquestions.append(sub_question)
-    
+
     if len(subquestions) == 0:
         print(output_text)
         subquestions.append(question.strip())
@@ -186,7 +191,8 @@ def decompose(question: str, model, max_tokens, temperature, top_k, top_p, repet
 
 
 def decompose_all(args, model, dataset, type):
-    model_name = model.split("/")[-1]   # e.g. model: togethercomputer/llama-2-70b-chat
+    # e.g. model: togethercomputer/llama-2-70b-chat
+    model_name = model.split("/")[-1]
 
     src = f"./data/{dataset}/test_with_ids.json"
     tgt = f"./out/decomp_result/{model_name}_{dataset}_decomp_{type}.json"
@@ -220,10 +226,14 @@ if __name__ == "__main__":
     args = get_args()
 
     parser = ArgumentParser()
-    parser.add_argument('--model', type=str, default="togethercomputer/llama-2-7b-chat", help='model used to generate subquestions')
-    parser.add_argument('--dataset', type=str, default="SVAMP", help='dataset used to generate subquestions')
-    parser.add_argument('--type', type=str, default="naive", help='type of decomposition')
+    parser.add_argument('--model', type=str, default="togethercomputer/llama-2-7b-chat",
+                        help='model used to generate subquestions')
+    parser.add_argument('--dataset', type=str, default="SVAMP",
+                        help='dataset used to generate subquestions')
+    parser.add_argument('--type', type=str, default="naive",
+                        help='type of decomposition')
 
     exec_args = parser.parse_args()
 
-    decompose_all(args, model=exec_args.model, dataset=exec_args.dataset, type=exec_args.type)
+    decompose_all(args, model=exec_args.model,
+                  dataset=exec_args.dataset, type=exec_args.type)

@@ -2,10 +2,10 @@ import json
 
 
 sources = [
-           'out/IntelliCode/one_off_llama-2-13b-chat_SVAMP_decomp_naive_code13B_with_code_and_answer.json',
-           'out/IntelliCode/one_off_llama-2-13b-chat_gsm8k_decomp_naive_code34B_with_code_and_answer.json',
-           'out/IntelliCode/one_off_llama-2-7b-chat_SVAMP_decomp_cot_code34B_with_code_and_answer.json'
-           ]
+    'out/IntelliCode/one_off_llama-2-13b-chat_SVAMP_decomp_naive_code13B_with_code_and_answer.json',
+    'out/IntelliCode/one_off_llama-2-13b-chat_gsm8k_decomp_naive_code34B_with_code_and_answer.json',
+    'out/IntelliCode/one_off_llama-2-7b-chat_SVAMP_decomp_cot_code34B_with_code_and_answer.json'
+]
 
 
 for src in sources:
@@ -17,7 +17,7 @@ for src in sources:
         for item in res:
             gt = item['final_ans'] if 'SVAMP' not in src else item['answer']
             out = item['model_answer']
-    
+
             if "gsm8k" in src or 'result_test_with_ids_llama' in src:
                 gt = gt.split("#### ")[-1]
             try:
@@ -25,7 +25,7 @@ for src in sources:
                     num_correct += 1
             except:
                 num_correct += 0
-            
+
             num_tot += 1
 
     print(num_correct / num_tot)
