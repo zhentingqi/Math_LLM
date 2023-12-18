@@ -124,9 +124,7 @@ if __name__ == "__main__":
     args = get_args()
     zeroshot = False
     root = Path("./data")
-    # models = ["togethercomputer/llama-2-7b-chat", "togethercomputer/llama-2-13b-chat", "togethercomputer/llama-2-70b-chat"]
     models = ["togethercomputer/llama-2-7b-chat",]
-    # models = ["mistralai/Mixtral-8x7B-Instruct-v0.1",]
     dataset_name = "SVAMP"
     datasets = [root/f'{dataset_name}/test_with_ids.json']
     for model in models:
