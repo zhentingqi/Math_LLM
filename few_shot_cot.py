@@ -71,6 +71,7 @@ def generate(args, model: str, dataset: Path):
         stop = ['</s>', '\n\n']
         output_text = call_no_interrupt(prompt, model, max_tokens, temperature, args.top_k, args.top_p, args.repetition_penalty, stop)
         # output_text = regex_calibrate(output_text)
+        
         prompt += output_text
         # save to file
         generated_data.append(prompt)
